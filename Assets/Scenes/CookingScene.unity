@@ -773,7 +773,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: 537ee24d18529ad4485f454ed26696cd, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 597ff1525335ba548aa680ede5aa05c2, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -1660,11 +1660,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ea23faabc3f5cd149a35b1095c4c264b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Width: 1920
-  Height: 1080
-  FPS: 30
-  webcamTexture: {fileID: 0}
-  color32: []
 --- !u!64 &1478187231
 MeshCollider:
   m_ObjectHideFlags: 0
