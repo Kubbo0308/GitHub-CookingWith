@@ -10,7 +10,7 @@ using Debug = UnityEngine.Debug;
 public class ButtonManager : MonoBehaviour
 {
     public RawImage RawImage;
-    public GameObject Text;
+    public Image Image;
     //カメラボタン
     public GameObject buttonCamera;
     //下のボタン達
@@ -22,6 +22,9 @@ public class ButtonManager : MonoBehaviour
     //撮影時に現れるボタン
     public GameObject buttonShot;
     public GameObject buttonCancel;
+
+    //撮影後に現れるボタン
+    public GameObject buttonSelect;
 
     //待たせるテキスト
     public GameObject waitText;
@@ -37,6 +40,8 @@ public class ButtonManager : MonoBehaviour
         //RawImageのテクスチャにWebCamTextureのインスタンスを設定
         RawImage.texture = webCam;
 
+        //Imageを最初は非表示
+        Image.enabled = false;
 
         //縦横のサイズを要求
         webCam.requestedWidth = 3024;
@@ -54,6 +59,7 @@ public class ButtonManager : MonoBehaviour
     public void OnCameraClick()
     {
         RawImage.enabled = true;
+        Image.enabled = false;
         //カメラ表示開始
         webCam.Play();
 
@@ -64,6 +70,8 @@ public class ButtonManager : MonoBehaviour
         buttonCooking.SetActive(false);
         buttonCharacter.SetActive(false);
         buttonFreindship.SetActive(false);
+        buttonSelect.SetActive(false);
+        waitText.SetActive(false);
 
         //撮影、キャンセルボタン表示
         buttonShot.SetActive(true);
@@ -120,11 +128,11 @@ public class ButtonManager : MonoBehaviour
 
         Debug.Log("撮影成功");
 
-#if UNITY_ANDROID
-        File.WriteAllBytes(Application.persistentDataPath + "/test.jpg", bin);
-#else
-        File.WriteAllBytes(Application.dataPath + "/cooktest.jpg", bin);
-#endif
+//#if UNITY_ANDROID
+    //    File.WriteAllBytes(Application.persistentDataPath + "/test.jpg", bin);
+//#else
+        File.WriteAllBytes(Application.dataPath + "/Resources/cooktest.jpg", bin);
+//#endif
 
         StartCoroutine("ExitCamera");
 
@@ -159,7 +167,10 @@ public class ButtonManager : MonoBehaviour
         buttonCooking.SetActive(true);
         buttonCharacter.SetActive(true);
         buttonFreindship.SetActive(true);
+        buttonSelect.SetActive(true);
+
         RawImage.enabled = false;
+        Image.enabled = true;
 
         //撮影、キャンセルボタン表示
         buttonShot.SetActive(false);
