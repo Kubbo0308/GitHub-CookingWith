@@ -3,35 +3,36 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
 
-public class TitleUIManager : MonoBehaviour
+public class ItemUIManager : MonoBehaviour
 {
     //2つのPanelを格納する変数
     //インスペクターウィンドウからゲームオブジェクトを設定する
-    [SerializeField] GameObject TitlePanel;
-    [SerializeField] GameObject MenuPanel;
+    [SerializeField] GameObject AccessoryPanel;
+    [SerializeField] GameObject FurniturePanel;
 
 
     // Start is called before the first frame update
     void Start()
     {
         //BackToMenuメソッドを呼び出す
-        BackToMenu();
+        AccessFurniture();
     }
 
     //TitlePanelでButtonが押されたときの処理
     //MenuPanelをアクティブにする
-    public void SelectMenuDescription()
+    public void SelectAccessoryDescription()
     {
-        TitlePanel.SetActive(false);
-        MenuPanel.SetActive(true);
+        AccessoryPanel.SetActive(true);
+        FurniturePanel.SetActive(false);
     }
 
     //MenuPanelでBackButtonが押されたときの処理
     //TitlePanelをアクティブにする
-    public void BackToMenu()
+    public void AccessFurniture()
     {
-        TitlePanel.SetActive(true);
-        MenuPanel.SetActive(false);
+        AccessoryPanel.SetActive(false);
+        FurniturePanel.SetActive(true);
     }
 
 }
+
