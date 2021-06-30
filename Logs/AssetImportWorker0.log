@@ -502,3 +502,39 @@ System memory in use after: 90.5 MB.
 Unloading 7 unused Assets to reduce memory usage. Loaded Objects now: 2331.
 Total: 2.647100 ms (FindLiveObjects: 0.245100 ms CreateObjectMapping: 0.150900 ms MarkObjects: 2.228900 ms  DeleteObjects: 0.021000 ms)
 
+========================================================================
+Received Import Request.
+  Time since last request: 158.134907 seconds.
+  path: Assets/Resources/cooktest.jpg
+  artifactKey: Guid(6627021e375aadd44a9d3691a97f3b5d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/cooktest.jpg using Guid(6627021e375aadd44a9d3691a97f3b5d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '961cfc0a5c20d2cc24808921a0d32934') in 0.070608 seconds
+  Import took 0.077806 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 9.973158 seconds.
+  path: Assets/Resources/Image/背景.jpg
+  artifactKey: Guid(da74148bc8f2e6a4d9776d22f8e27472) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Image/背景.jpg using Guid(da74148bc8f2e6a4d9776d22f8e27472) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b2bac99d78f27e57953626a4d69f9d85') in 0.028608 seconds
+  Import took 0.034694 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.002685 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.43 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.063 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.45 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1800 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 90.4 MB.
+System memory in use after: 90.5 MB.
+
+Unloading 7 unused Assets to reduce memory usage. Loaded Objects now: 2336.
+Total: 2.391900 ms (FindLiveObjects: 0.227700 ms CreateObjectMapping: 0.090900 ms MarkObjects: 2.049900 ms  DeleteObjects: 0.021900 ms)
+
