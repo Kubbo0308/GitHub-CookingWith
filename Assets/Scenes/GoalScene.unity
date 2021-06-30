@@ -679,7 +679,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   RawImage: {fileID: 0}
-  Text: {fileID: 0}
+  Image: {fileID: 0}
   buttonCamera: {fileID: 0}
   buttonHome: {fileID: 0}
   buttonGoal: {fileID: 0}
@@ -688,6 +688,7 @@ MonoBehaviour:
   buttonFreindship: {fileID: 0}
   buttonShot: {fileID: 0}
   buttonCancel: {fileID: 0}
+  buttonSelect: {fileID: 0}
   waitText: {fileID: 0}
 --- !u!4 &1033140058
 Transform:
@@ -852,7 +853,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 1
     m_VerticalOverflow: 1
     m_LineSpacing: 1
-  m_Text: "\u76EE\u6A19\u753B\u9762"
+  m_Text: "\u30A2\u30A4\u30C6\u30E0\u753B\u9762\n"
 --- !u!222 &1207158693
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -1632,7 +1633,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: e2b1d82b4e1f2eb4c874b9cbea7c7716, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 789ca06015501fa47a0c4701c1e3f745, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
