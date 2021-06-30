@@ -18,7 +18,6 @@ public class ButtonManager : MonoBehaviour
     public GameObject buttonGoal;
     public GameObject buttonCooking;
     public GameObject buttonCharacter;
-    public GameObject buttonFreindship;
     //撮影時に現れるボタン
     public GameObject buttonShot;
     public GameObject buttonCancel;
@@ -69,7 +68,6 @@ public class ButtonManager : MonoBehaviour
         buttonGoal.SetActive(false);
         buttonCooking.SetActive(false);
         buttonCharacter.SetActive(false);
-        buttonFreindship.SetActive(false);
         buttonSelect.SetActive(false);
         waitText.SetActive(false);
 
@@ -146,7 +144,6 @@ public class ButtonManager : MonoBehaviour
         buttonGoal.SetActive(true);
         buttonCooking.SetActive(true);
         buttonCharacter.SetActive(true);
-        buttonFreindship.SetActive(true);
         RawImage.enabled = false;
 
         //撮影、キャンセルボタン表示
@@ -166,7 +163,6 @@ public class ButtonManager : MonoBehaviour
         buttonGoal.SetActive(true);
         buttonCooking.SetActive(true);
         buttonCharacter.SetActive(true);
-        buttonFreindship.SetActive(true);
         buttonSelect.SetActive(true);
 
         RawImage.enabled = false;

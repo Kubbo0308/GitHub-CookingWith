@@ -14,20 +14,20 @@ public class ItemUIManager : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        //BackToMenuメソッドを呼び出す
+        //AccessFurnitureメソッドを呼び出す
         AccessFurniture();
     }
 
-    //TitlePanelでButtonが押されたときの処理
-    //MenuPanelをアクティブにする
+    //AccessoryButtonが押されたときの処理
+    //AccessoryPanelをアクティブにする
     public void SelectAccessoryDescription()
     {
         AccessoryPanel.SetActive(true);
         FurniturePanel.SetActive(false);
     }
 
-    //MenuPanelでBackButtonが押されたときの処理
-    //TitlePanelをアクティブにする
+    //FurnitureButtonが押されたときの処理
+    //FurniturePanelをアクティブにする
     public void AccessFurniture()
     {
         AccessoryPanel.SetActive(false);

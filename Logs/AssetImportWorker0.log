@@ -542,3 +542,860 @@ System memory in use after: 90.6 MB.
 Unloading 7 unused Assets to reduce memory usage. Loaded Objects now: 2337.
 Total: 4.958200 ms (FindLiveObjects: 0.778200 ms CreateObjectMapping: 0.158100 ms MarkObjects: 3.964200 ms  DeleteObjects: 0.053900 ms)
 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.002992 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 1.39 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  3.234 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.72 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1802 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 90.5 MB.
+System memory in use after: 90.6 MB.
+
+Unloading 7 unused Assets to reduce memory usage. Loaded Objects now: 2341.
+Total: 4.557400 ms (FindLiveObjects: 0.409000 ms CreateObjectMapping: 0.152600 ms MarkObjects: 3.959500 ms  DeleteObjects: 0.033200 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.005280 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.92 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  2.606 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 1.49 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1802 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 90.5 MB.
+System memory in use after: 90.6 MB.
+
+Unloading 7 unused Assets to reduce memory usage. Loaded Objects now: 2345.
+Total: 7.345600 ms (FindLiveObjects: 0.396700 ms CreateObjectMapping: 0.480500 ms MarkObjects: 6.432700 ms  DeleteObjects: 0.033000 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.004970 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.96 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  3.398 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 1.00 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1802 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 90.5 MB.
+System memory in use after: 90.6 MB.
+
+Unloading 7 unused Assets to reduce memory usage. Loaded Objects now: 2349.
+Total: 4.561000 ms (FindLiveObjects: 0.415500 ms CreateObjectMapping: 0.129700 ms MarkObjects: 3.981000 ms  DeleteObjects: 0.032900 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.003231 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.78 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  3.223 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 1.04 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1802 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 90.5 MB.
+System memory in use after: 90.6 MB.
+
+Unloading 7 unused Assets to reduce memory usage. Loaded Objects now: 2353.
+Total: 8.630200 ms (FindLiveObjects: 0.626300 ms CreateObjectMapping: 0.429700 ms MarkObjects: 7.506300 ms  DeleteObjects: 0.062900 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.004260 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.48 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.775 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 1.65 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1802 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 90.5 MB.
+System memory in use after: 90.6 MB.
+
+Unloading 7 unused Assets to reduce memory usage. Loaded Objects now: 2357.
+Total: 9.970000 ms (FindLiveObjects: 1.041900 ms CreateObjectMapping: 0.556200 ms MarkObjects: 8.278600 ms  DeleteObjects: 0.087300 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.007420 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.76 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  2.054 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 1.13 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1802 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 90.5 MB.
+System memory in use after: 90.7 MB.
+
+Unloading 7 unused Assets to reduce memory usage. Loaded Objects now: 2361.
+Total: 9.775400 ms (FindLiveObjects: 0.761300 ms CreateObjectMapping: 0.689400 ms MarkObjects: 8.251400 ms  DeleteObjects: 0.066800 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.005215 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.83 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.846 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.86 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1802 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 90.5 MB.
+System memory in use after: 90.7 MB.
+
+Unloading 7 unused Assets to reduce memory usage. Loaded Objects now: 2365.
+Total: 4.533400 ms (FindLiveObjects: 0.479100 ms CreateObjectMapping: 0.221700 ms MarkObjects: 3.705900 ms  DeleteObjects: 0.123900 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.006600 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 1.29 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  4.514 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.56 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1802 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 90.6 MB.
+System memory in use after: 90.7 MB.
+
+Unloading 7 unused Assets to reduce memory usage. Loaded Objects now: 2369.
+Total: 6.407000 ms (FindLiveObjects: 0.981300 ms CreateObjectMapping: 0.448800 ms MarkObjects: 4.929200 ms  DeleteObjects: 0.044000 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 1621.539975 seconds.
+  path: Assets/Scenes/GoalScene.unity
+  artifactKey: Guid(e738e5863a2b5a143ae901fe275fb05e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/GoalScene.unity using Guid(e738e5863a2b5a143ae901fe275fb05e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '846a9e89014e41d73a69727c4370cd5f') in 0.076083 seconds
+  Import took 0.089715 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 28.437167 seconds.
+  path: Assets/Scenes/TrueTitleScene.unity
+  artifactKey: Guid(2718492a1a572fa488976a6b9cb8cf82) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/TrueTitleScene.unity using Guid(2718492a1a572fa488976a6b9cb8cf82) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cfa99b22b563066140e7ad8bab89ca4a') in 0.130126 seconds
+  Import took 0.144964 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.008375 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 1.24 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  3.406 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 1.03 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1802 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 90.6 MB.
+System memory in use after: 90.7 MB.
+
+Unloading 7 unused Assets to reduce memory usage. Loaded Objects now: 2373.
+Total: 7.136700 ms (FindLiveObjects: 0.635000 ms CreateObjectMapping: 0.304400 ms MarkObjects: 6.129900 ms  DeleteObjects: 0.062900 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.002716 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.76 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  2.956 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 1.02 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1802 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 90.6 MB.
+System memory in use after: 90.7 MB.
+
+Unloading 7 unused Assets to reduce memory usage. Loaded Objects now: 2377.
+Total: 4.025100 ms (FindLiveObjects: 0.396100 ms CreateObjectMapping: 0.142200 ms MarkObjects: 3.449100 ms  DeleteObjects: 0.035600 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.008284 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 1.06 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  3.373 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.52 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1802 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 90.6 MB.
+System memory in use after: 90.7 MB.
+
+Unloading 7 unused Assets to reduce memory usage. Loaded Objects now: 2381.
+Total: 3.825700 ms (FindLiveObjects: 0.352000 ms CreateObjectMapping: 0.152300 ms MarkObjects: 3.282100 ms  DeleteObjects: 0.036500 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 441.031774 seconds.
+  path: Assets/Scenes/GoalScene.unity
+  artifactKey: Guid(e738e5863a2b5a143ae901fe275fb05e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/GoalScene.unity using Guid(e738e5863a2b5a143ae901fe275fb05e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c2b16a19ffa23ba09f95c07b30ab9830') in 0.046595 seconds
+  Import took 0.057571 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.006399 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.87 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  4.083 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 1.31 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1802 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 90.6 MB.
+System memory in use after: 90.7 MB.
+
+Unloading 7 unused Assets to reduce memory usage. Loaded Objects now: 2385.
+Total: 6.641400 ms (FindLiveObjects: 0.750500 ms CreateObjectMapping: 0.243300 ms MarkObjects: 5.596400 ms  DeleteObjects: 0.042900 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.004206 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.73 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.737 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.55 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1802 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 90.6 MB.
+System memory in use after: 90.7 MB.
+
+Unloading 7 unused Assets to reduce memory usage. Loaded Objects now: 2389.
+Total: 4.281200 ms (FindLiveObjects: 0.377500 ms CreateObjectMapping: 0.337700 ms MarkObjects: 3.534300 ms  DeleteObjects: 0.029200 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.009457 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.70 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.954 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 1.33 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1802 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 90.6 MB.
+System memory in use after: 90.7 MB.
+
+Unloading 7 unused Assets to reduce memory usage. Loaded Objects now: 2393.
+Total: 11.544700 ms (FindLiveObjects: 0.743100 ms CreateObjectMapping: 0.422400 ms MarkObjects: 10.294000 ms  DeleteObjects: 0.080000 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.006260 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.75 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  3.164 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 1.31 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1802 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 90.6 MB.
+System memory in use after: 90.7 MB.
+
+Unloading 7 unused Assets to reduce memory usage. Loaded Objects now: 2397.
+Total: 6.807900 ms (FindLiveObjects: 0.543100 ms CreateObjectMapping: 0.222300 ms MarkObjects: 5.987500 ms  DeleteObjects: 0.051300 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.004998 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 1.18 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  3.054 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.75 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1802 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 90.6 MB.
+System memory in use after: 90.8 MB.
+
+Unloading 7 unused Assets to reduce memory usage. Loaded Objects now: 2401.
+Total: 6.023700 ms (FindLiveObjects: 0.619700 ms CreateObjectMapping: 0.142600 ms MarkObjects: 5.217000 ms  DeleteObjects: 0.042500 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.004036 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.61 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  2.739 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 1.29 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1802 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 90.6 MB.
+System memory in use after: 90.8 MB.
+
+Unloading 7 unused Assets to reduce memory usage. Loaded Objects now: 2405.
+Total: 10.108600 ms (FindLiveObjects: 0.773900 ms CreateObjectMapping: 0.511200 ms MarkObjects: 8.716000 ms  DeleteObjects: 0.101400 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.006782 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.73 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.967 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.80 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1802 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 90.7 MB.
+System memory in use after: 90.8 MB.
+
+Unloading 7 unused Assets to reduce memory usage. Loaded Objects now: 2409.
+Total: 7.379800 ms (FindLiveObjects: 0.750500 ms CreateObjectMapping: 0.477500 ms MarkObjects: 6.108500 ms  DeleteObjects: 0.039100 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.007474 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 1.28 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  2.895 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 1.02 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1802 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 90.7 MB.
+System memory in use after: 90.8 MB.
+
+Unloading 7 unused Assets to reduce memory usage. Loaded Objects now: 2413.
+Total: 6.270800 ms (FindLiveObjects: 0.403600 ms CreateObjectMapping: 0.144000 ms MarkObjects: 5.661600 ms  DeleteObjects: 0.058800 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 692.809459 seconds.
+  path: Assets/Resources/cooktest.jpg
+  artifactKey: Guid(6627021e375aadd44a9d3691a97f3b5d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/cooktest.jpg using Guid(6627021e375aadd44a9d3691a97f3b5d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.284380 seconds
+  ERROR: Build asset version error: assets/resources/cooktest.jpg in SourceAssetDB has modification time of '2021-06-30T15:19:20.5814517Z' while content on disk has modification time of '2021-06-30T15:25:32.3673553Z'
+  Import took 0.299199 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.055324 seconds.
+  path: Assets/Resources/cooktest.jpg
+  artifactKey: Guid(6627021e375aadd44a9d3691a97f3b5d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/cooktest.jpg using Guid(6627021e375aadd44a9d3691a97f3b5d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.044698 seconds
+  ERROR: Build asset version error: assets/resources/cooktest.jpg in SourceAssetDB has modification time of '2021-06-30T15:19:20.5814517Z' while content on disk has modification time of '2021-06-30T15:25:32.3673553Z'
+  Import took 0.059414 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.058189 seconds.
+  path: Assets/Resources/cooktest.jpg
+  artifactKey: Guid(6627021e375aadd44a9d3691a97f3b5d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/cooktest.jpg using Guid(6627021e375aadd44a9d3691a97f3b5d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.054642 seconds
+  ERROR: Build asset version error: assets/resources/cooktest.jpg in SourceAssetDB has modification time of '2021-06-30T15:19:20.5814517Z' while content on disk has modification time of '2021-06-30T15:25:32.3673553Z'
+  Import took 0.073547 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.055862 seconds.
+  path: Assets/Resources/cooktest.jpg
+  artifactKey: Guid(6627021e375aadd44a9d3691a97f3b5d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/cooktest.jpg using Guid(6627021e375aadd44a9d3691a97f3b5d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.050380 seconds
+  ERROR: Build asset version error: assets/resources/cooktest.jpg in SourceAssetDB has modification time of '2021-06-30T15:19:20.5814517Z' while content on disk has modification time of '2021-06-30T15:25:32.3673553Z'
+  Import took 0.068244 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.062118 seconds.
+  path: Assets/Resources/cooktest.jpg
+  artifactKey: Guid(6627021e375aadd44a9d3691a97f3b5d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/cooktest.jpg using Guid(6627021e375aadd44a9d3691a97f3b5d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.049262 seconds
+  ERROR: Build asset version error: assets/resources/cooktest.jpg in SourceAssetDB has modification time of '2021-06-30T15:19:20.5814517Z' while content on disk has modification time of '2021-06-30T15:25:32.3673553Z'
+  Import took 0.063427 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.058143 seconds.
+  path: Assets/Resources/cooktest.jpg
+  artifactKey: Guid(6627021e375aadd44a9d3691a97f3b5d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/cooktest.jpg using Guid(6627021e375aadd44a9d3691a97f3b5d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.047618 seconds
+  ERROR: Build asset version error: assets/resources/cooktest.jpg in SourceAssetDB has modification time of '2021-06-30T15:19:20.5814517Z' while content on disk has modification time of '2021-06-30T15:25:32.3673553Z'
+  Import took 0.060475 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.054295 seconds.
+  path: Assets/Resources/cooktest.jpg
+  artifactKey: Guid(6627021e375aadd44a9d3691a97f3b5d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/cooktest.jpg using Guid(6627021e375aadd44a9d3691a97f3b5d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.044124 seconds
+  ERROR: Build asset version error: assets/resources/cooktest.jpg in SourceAssetDB has modification time of '2021-06-30T15:19:20.5814517Z' while content on disk has modification time of '2021-06-30T15:25:32.3673553Z'
+  Import took 0.057115 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.066503 seconds.
+  path: Assets/Resources/cooktest.jpg
+  artifactKey: Guid(6627021e375aadd44a9d3691a97f3b5d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/cooktest.jpg using Guid(6627021e375aadd44a9d3691a97f3b5d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.050733 seconds
+  ERROR: Build asset version error: assets/resources/cooktest.jpg in SourceAssetDB has modification time of '2021-06-30T15:19:20.5814517Z' while content on disk has modification time of '2021-06-30T15:25:32.3673553Z'
+  Import took 0.063272 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.052206 seconds.
+  path: Assets/Resources/cooktest.jpg
+  artifactKey: Guid(6627021e375aadd44a9d3691a97f3b5d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/cooktest.jpg using Guid(6627021e375aadd44a9d3691a97f3b5d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.047173 seconds
+  ERROR: Build asset version error: assets/resources/cooktest.jpg in SourceAssetDB has modification time of '2021-06-30T15:19:20.5814517Z' while content on disk has modification time of '2021-06-30T15:25:32.3673553Z'
+  Import took 0.061117 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.054603 seconds.
+  path: Assets/Resources/cooktest.jpg
+  artifactKey: Guid(6627021e375aadd44a9d3691a97f3b5d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/cooktest.jpg using Guid(6627021e375aadd44a9d3691a97f3b5d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.043600 seconds
+  ERROR: Build asset version error: assets/resources/cooktest.jpg in SourceAssetDB has modification time of '2021-06-30T15:19:20.5814517Z' while content on disk has modification time of '2021-06-30T15:25:32.3673553Z'
+  Import took 0.057268 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.069926 seconds.
+  path: Assets/Resources/cooktest.jpg
+  artifactKey: Guid(6627021e375aadd44a9d3691a97f3b5d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/cooktest.jpg using Guid(6627021e375aadd44a9d3691a97f3b5d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.047497 seconds
+  ERROR: Build asset version error: assets/resources/cooktest.jpg in SourceAssetDB has modification time of '2021-06-30T15:19:20.5814517Z' while content on disk has modification time of '2021-06-30T15:25:32.3673553Z'
+  Import took 0.058704 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.053519 seconds.
+  path: Assets/Resources/cooktest.jpg
+  artifactKey: Guid(6627021e375aadd44a9d3691a97f3b5d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/cooktest.jpg using Guid(6627021e375aadd44a9d3691a97f3b5d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.046896 seconds
+  ERROR: Build asset version error: assets/resources/cooktest.jpg in SourceAssetDB has modification time of '2021-06-30T15:19:20.5814517Z' while content on disk has modification time of '2021-06-30T15:25:32.3673553Z'
+  Import took 0.059121 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.052184 seconds.
+  path: Assets/Resources/cooktest.jpg
+  artifactKey: Guid(6627021e375aadd44a9d3691a97f3b5d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/cooktest.jpg using Guid(6627021e375aadd44a9d3691a97f3b5d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.056456 seconds
+  ERROR: Build asset version error: assets/resources/cooktest.jpg in SourceAssetDB has modification time of '2021-06-30T15:19:20.5814517Z' while content on disk has modification time of '2021-06-30T15:25:32.3673553Z'
+  Import took 0.071009 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.050742 seconds.
+  path: Assets/Resources/cooktest.jpg
+  artifactKey: Guid(6627021e375aadd44a9d3691a97f3b5d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/cooktest.jpg using Guid(6627021e375aadd44a9d3691a97f3b5d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.055670 seconds
+  ERROR: Build asset version error: assets/resources/cooktest.jpg in SourceAssetDB has modification time of '2021-06-30T15:19:20.5814517Z' while content on disk has modification time of '2021-06-30T15:25:32.3673553Z'
+  Import took 0.070510 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.052545 seconds.
+  path: Assets/Resources/cooktest.jpg
+  artifactKey: Guid(6627021e375aadd44a9d3691a97f3b5d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/cooktest.jpg using Guid(6627021e375aadd44a9d3691a97f3b5d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.047153 seconds
+  ERROR: Build asset version error: assets/resources/cooktest.jpg in SourceAssetDB has modification time of '2021-06-30T15:19:20.5814517Z' while content on disk has modification time of '2021-06-30T15:25:32.3673553Z'
+  Import took 0.061268 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.051918 seconds.
+  path: Assets/Resources/cooktest.jpg
+  artifactKey: Guid(6627021e375aadd44a9d3691a97f3b5d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/cooktest.jpg using Guid(6627021e375aadd44a9d3691a97f3b5d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.044142 seconds
+  ERROR: Build asset version error: assets/resources/cooktest.jpg in SourceAssetDB has modification time of '2021-06-30T15:19:20.5814517Z' while content on disk has modification time of '2021-06-30T15:25:32.3673553Z'
+  Import took 0.056995 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.262722 seconds.
+  path: Assets/Resources/cooktest.jpg
+  artifactKey: Guid(6627021e375aadd44a9d3691a97f3b5d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/cooktest.jpg using Guid(6627021e375aadd44a9d3691a97f3b5d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.023272 seconds
+  ERROR: Build asset version error: assets/resources/cooktest.jpg in SourceAssetDB has modification time of '2021-06-30T15:19:20.5814517Z' while content on disk has modification time of '2021-06-30T15:25:32.3673553Z'
+  Import took 0.030942 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.022328 seconds.
+  path: Assets/Resources/cooktest.jpg
+  artifactKey: Guid(6627021e375aadd44a9d3691a97f3b5d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/cooktest.jpg using Guid(6627021e375aadd44a9d3691a97f3b5d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.026227 seconds
+  ERROR: Build asset version error: assets/resources/cooktest.jpg in SourceAssetDB has modification time of '2021-06-30T15:19:20.5814517Z' while content on disk has modification time of '2021-06-30T15:25:32.3673553Z'
+  Import took 0.032783 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.132298 seconds.
+  path: Assets/Resources/cooktest.jpg
+  artifactKey: Guid(6627021e375aadd44a9d3691a97f3b5d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/cooktest.jpg using Guid(6627021e375aadd44a9d3691a97f3b5d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.023872 seconds
+  ERROR: Build asset version error: assets/resources/cooktest.jpg in SourceAssetDB has modification time of '2021-06-30T15:19:20.5814517Z' while content on disk has modification time of '2021-06-30T15:25:32.3673553Z'
+  Import took 0.032055 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.042819 seconds.
+  path: Assets/Resources/cooktest.jpg
+  artifactKey: Guid(6627021e375aadd44a9d3691a97f3b5d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/cooktest.jpg using Guid(6627021e375aadd44a9d3691a97f3b5d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.024345 seconds
+  ERROR: Build asset version error: assets/resources/cooktest.jpg in SourceAssetDB has modification time of '2021-06-30T15:19:20.5814517Z' while content on disk has modification time of '2021-06-30T15:25:32.3673553Z'
+  Import took 0.032248 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.042339 seconds.
+  path: Assets/Resources/cooktest.jpg
+  artifactKey: Guid(6627021e375aadd44a9d3691a97f3b5d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/cooktest.jpg using Guid(6627021e375aadd44a9d3691a97f3b5d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.023577 seconds
+  ERROR: Build asset version error: assets/resources/cooktest.jpg in SourceAssetDB has modification time of '2021-06-30T15:19:20.5814517Z' while content on disk has modification time of '2021-06-30T15:25:32.3673553Z'
+  Import took 0.030660 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.028651 seconds.
+  path: Assets/Resources/cooktest.jpg
+  artifactKey: Guid(6627021e375aadd44a9d3691a97f3b5d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/cooktest.jpg using Guid(6627021e375aadd44a9d3691a97f3b5d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.019069 seconds
+  ERROR: Build asset version error: assets/resources/cooktest.jpg in SourceAssetDB has modification time of '2021-06-30T15:19:20.5814517Z' while content on disk has modification time of '2021-06-30T15:25:32.3673553Z'
+  Import took 0.024187 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.017639 seconds.
+  path: Assets/Resources/cooktest.jpg
+  artifactKey: Guid(6627021e375aadd44a9d3691a97f3b5d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/cooktest.jpg using Guid(6627021e375aadd44a9d3691a97f3b5d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.017855 seconds
+  ERROR: Build asset version error: assets/resources/cooktest.jpg in SourceAssetDB has modification time of '2021-06-30T15:19:20.5814517Z' while content on disk has modification time of '2021-06-30T15:25:32.3673553Z'
+  Import took 0.022597 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.025100 seconds.
+  path: Assets/Resources/cooktest.jpg
+  artifactKey: Guid(6627021e375aadd44a9d3691a97f3b5d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/cooktest.jpg using Guid(6627021e375aadd44a9d3691a97f3b5d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.019001 seconds
+  ERROR: Build asset version error: assets/resources/cooktest.jpg in SourceAssetDB has modification time of '2021-06-30T15:19:20.5814517Z' while content on disk has modification time of '2021-06-30T15:25:32.3673553Z'
+  Import took 0.024737 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.021898 seconds.
+  path: Assets/Resources/cooktest.jpg
+  artifactKey: Guid(6627021e375aadd44a9d3691a97f3b5d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/cooktest.jpg using Guid(6627021e375aadd44a9d3691a97f3b5d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.021356 seconds
+  ERROR: Build asset version error: assets/resources/cooktest.jpg in SourceAssetDB has modification time of '2021-06-30T15:19:20.5814517Z' while content on disk has modification time of '2021-06-30T15:25:32.3673553Z'
+  Import took 0.027314 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.021751 seconds.
+  path: Assets/Resources/cooktest.jpg
+  artifactKey: Guid(6627021e375aadd44a9d3691a97f3b5d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/cooktest.jpg using Guid(6627021e375aadd44a9d3691a97f3b5d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.021849 seconds
+  ERROR: Build asset version error: assets/resources/cooktest.jpg in SourceAssetDB has modification time of '2021-06-30T15:19:20.5814517Z' while content on disk has modification time of '2021-06-30T15:25:32.3673553Z'
+  Import took 0.028441 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.032848 seconds.
+  path: Assets/Resources/cooktest.jpg
+  artifactKey: Guid(6627021e375aadd44a9d3691a97f3b5d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/cooktest.jpg using Guid(6627021e375aadd44a9d3691a97f3b5d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.028279 seconds
+  ERROR: Build asset version error: assets/resources/cooktest.jpg in SourceAssetDB has modification time of '2021-06-30T15:19:20.5814517Z' while content on disk has modification time of '2021-06-30T15:25:32.3673553Z'
+  Import took 0.035164 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.028129 seconds.
+  path: Assets/Resources/cooktest.jpg
+  artifactKey: Guid(6627021e375aadd44a9d3691a97f3b5d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/cooktest.jpg using Guid(6627021e375aadd44a9d3691a97f3b5d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.028558 seconds
+  ERROR: Build asset version error: assets/resources/cooktest.jpg in SourceAssetDB has modification time of '2021-06-30T15:19:20.5814517Z' while content on disk has modification time of '2021-06-30T15:25:32.3673553Z'
+  Import took 0.036292 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.029292 seconds.
+  path: Assets/Resources/cooktest.jpg
+  artifactKey: Guid(6627021e375aadd44a9d3691a97f3b5d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/cooktest.jpg using Guid(6627021e375aadd44a9d3691a97f3b5d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.027024 seconds
+  ERROR: Build asset version error: assets/resources/cooktest.jpg in SourceAssetDB has modification time of '2021-06-30T15:19:20.5814517Z' while content on disk has modification time of '2021-06-30T15:25:32.3673553Z'
+  Import took 0.034169 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.027286 seconds.
+  path: Assets/Resources/cooktest.jpg
+  artifactKey: Guid(6627021e375aadd44a9d3691a97f3b5d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/cooktest.jpg using Guid(6627021e375aadd44a9d3691a97f3b5d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.024957 seconds
+  ERROR: Build asset version error: assets/resources/cooktest.jpg in SourceAssetDB has modification time of '2021-06-30T15:19:20.5814517Z' while content on disk has modification time of '2021-06-30T15:25:32.3673553Z'
+  Import took 0.032393 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.027756 seconds.
+  path: Assets/Resources/cooktest.jpg
+  artifactKey: Guid(6627021e375aadd44a9d3691a97f3b5d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/cooktest.jpg using Guid(6627021e375aadd44a9d3691a97f3b5d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.024633 seconds
+  ERROR: Build asset version error: assets/resources/cooktest.jpg in SourceAssetDB has modification time of '2021-06-30T15:19:20.5814517Z' while content on disk has modification time of '2021-06-30T15:25:32.3673553Z'
+  Import took 0.032721 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.037598 seconds.
+  path: Assets/Resources/cooktest.jpg
+  artifactKey: Guid(6627021e375aadd44a9d3691a97f3b5d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/cooktest.jpg using Guid(6627021e375aadd44a9d3691a97f3b5d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.026613 seconds
+  ERROR: Build asset version error: assets/resources/cooktest.jpg in SourceAssetDB has modification time of '2021-06-30T15:19:20.5814517Z' while content on disk has modification time of '2021-06-30T15:25:32.3673553Z'
+  Import took 0.034239 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.027889 seconds.
+  path: Assets/Resources/cooktest.jpg
+  artifactKey: Guid(6627021e375aadd44a9d3691a97f3b5d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/cooktest.jpg using Guid(6627021e375aadd44a9d3691a97f3b5d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.028159 seconds
+  ERROR: Build asset version error: assets/resources/cooktest.jpg in SourceAssetDB has modification time of '2021-06-30T15:19:20.5814517Z' while content on disk has modification time of '2021-06-30T15:25:32.3673553Z'
+  Import took 0.037897 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.026059 seconds.
+  path: Assets/Resources/cooktest.jpg
+  artifactKey: Guid(6627021e375aadd44a9d3691a97f3b5d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/cooktest.jpg using Guid(6627021e375aadd44a9d3691a97f3b5d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.024887 seconds
+  ERROR: Build asset version error: assets/resources/cooktest.jpg in SourceAssetDB has modification time of '2021-06-30T15:19:20.5814517Z' while content on disk has modification time of '2021-06-30T15:25:32.3673553Z'
+  Import took 0.031946 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.041131 seconds.
+  path: Assets/Resources/cooktest.jpg
+  artifactKey: Guid(6627021e375aadd44a9d3691a97f3b5d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/cooktest.jpg using Guid(6627021e375aadd44a9d3691a97f3b5d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.034027 seconds
+  ERROR: Build asset version error: assets/resources/cooktest.jpg in SourceAssetDB has modification time of '2021-06-30T15:19:20.5814517Z' while content on disk has modification time of '2021-06-30T15:25:32.3673553Z'
+  Import took 0.042469 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.026108 seconds.
+  path: Assets/Resources/cooktest.jpg
+  artifactKey: Guid(6627021e375aadd44a9d3691a97f3b5d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/cooktest.jpg using Guid(6627021e375aadd44a9d3691a97f3b5d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.025460 seconds
+  ERROR: Build asset version error: assets/resources/cooktest.jpg in SourceAssetDB has modification time of '2021-06-30T15:19:20.5814517Z' while content on disk has modification time of '2021-06-30T15:25:32.3673553Z'
+  Import took 0.033440 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.025738 seconds.
+  path: Assets/Resources/cooktest.jpg
+  artifactKey: Guid(6627021e375aadd44a9d3691a97f3b5d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/cooktest.jpg using Guid(6627021e375aadd44a9d3691a97f3b5d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.024369 seconds
+  ERROR: Build asset version error: assets/resources/cooktest.jpg in SourceAssetDB has modification time of '2021-06-30T15:19:20.5814517Z' while content on disk has modification time of '2021-06-30T15:25:32.3673553Z'
+  Import took 0.033898 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.036284 seconds.
+  path: Assets/Resources/cooktest.jpg
+  artifactKey: Guid(6627021e375aadd44a9d3691a97f3b5d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/cooktest.jpg using Guid(6627021e375aadd44a9d3691a97f3b5d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.025162 seconds
+  ERROR: Build asset version error: assets/resources/cooktest.jpg in SourceAssetDB has modification time of '2021-06-30T15:19:20.5814517Z' while content on disk has modification time of '2021-06-30T15:25:32.3673553Z'
+  Import took 0.032096 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.026217 seconds.
+  path: Assets/Resources/cooktest.jpg
+  artifactKey: Guid(6627021e375aadd44a9d3691a97f3b5d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/cooktest.jpg using Guid(6627021e375aadd44a9d3691a97f3b5d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.024881 seconds
+  ERROR: Build asset version error: assets/resources/cooktest.jpg in SourceAssetDB has modification time of '2021-06-30T15:19:20.5814517Z' while content on disk has modification time of '2021-06-30T15:25:32.3673553Z'
+  Import took 0.031240 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.025833 seconds.
+  path: Assets/Resources/cooktest.jpg
+  artifactKey: Guid(6627021e375aadd44a9d3691a97f3b5d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/cooktest.jpg using Guid(6627021e375aadd44a9d3691a97f3b5d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.029770 seconds
+  ERROR: Build asset version error: assets/resources/cooktest.jpg in SourceAssetDB has modification time of '2021-06-30T15:19:20.5814517Z' while content on disk has modification time of '2021-06-30T15:25:32.3673553Z'
+  Import took 0.038218 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.039811 seconds.
+  path: Assets/Resources/cooktest.jpg
+  artifactKey: Guid(6627021e375aadd44a9d3691a97f3b5d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/cooktest.jpg using Guid(6627021e375aadd44a9d3691a97f3b5d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.029811 seconds
+  ERROR: Build asset version error: assets/resources/cooktest.jpg in SourceAssetDB has modification time of '2021-06-30T15:19:20.5814517Z' while content on disk has modification time of '2021-06-30T15:25:32.3673553Z'
+  Import took 0.037227 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.026327 seconds.
+  path: Assets/Resources/cooktest.jpg
+  artifactKey: Guid(6627021e375aadd44a9d3691a97f3b5d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/cooktest.jpg using Guid(6627021e375aadd44a9d3691a97f3b5d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.025465 seconds
+  ERROR: Build asset version error: assets/resources/cooktest.jpg in SourceAssetDB has modification time of '2021-06-30T15:19:20.5814517Z' while content on disk has modification time of '2021-06-30T15:25:32.3673553Z'
+  Import took 0.032278 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.026085 seconds.
+  path: Assets/Resources/cooktest.jpg
+  artifactKey: Guid(6627021e375aadd44a9d3691a97f3b5d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/cooktest.jpg using Guid(6627021e375aadd44a9d3691a97f3b5d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.050225 seconds
+  ERROR: Build asset version error: assets/resources/cooktest.jpg in SourceAssetDB has modification time of '2021-06-30T15:19:20.5814517Z' while content on disk has modification time of '2021-06-30T15:25:32.3673553Z'
+  Import took 0.060742 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.006998 seconds.
+  path: Assets/Resources/cooktest.jpg
+  artifactKey: Guid(6627021e375aadd44a9d3691a97f3b5d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/cooktest.jpg using Guid(6627021e375aadd44a9d3691a97f3b5d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.026695 seconds
+  ERROR: Build asset version error: assets/resources/cooktest.jpg in SourceAssetDB has modification time of '2021-06-30T15:19:20.5814517Z' while content on disk has modification time of '2021-06-30T15:25:32.3673553Z'
+  Import took 0.034120 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.046313 seconds.
+  path: Assets/Resources/cooktest.jpg
+  artifactKey: Guid(6627021e375aadd44a9d3691a97f3b5d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/cooktest.jpg using Guid(6627021e375aadd44a9d3691a97f3b5d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.025376 seconds
+  ERROR: Build asset version error: assets/resources/cooktest.jpg in SourceAssetDB has modification time of '2021-06-30T15:19:20.5814517Z' while content on disk has modification time of '2021-06-30T15:25:32.3673553Z'
+  Import took 0.033010 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.004775 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 1.17 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  3.242 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 1.26 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1802 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 90.7 MB.
+System memory in use after: 90.8 MB.
+
+Unloading 7 unused Assets to reduce memory usage. Loaded Objects now: 2420.
+Total: 9.010100 ms (FindLiveObjects: 0.750400 ms CreateObjectMapping: 0.406200 ms MarkObjects: 7.791300 ms  DeleteObjects: 0.057200 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.005156 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.78 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  2.828 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 1.11 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1802 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 90.7 MB.
+System memory in use after: 90.8 MB.
+
+Unloading 7 unused Assets to reduce memory usage. Loaded Objects now: 2424.
+Total: 7.016500 ms (FindLiveObjects: 0.597700 ms CreateObjectMapping: 0.291800 ms MarkObjects: 6.062400 ms  DeleteObjects: 0.060700 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 156.857350 seconds.
+  path: Assets/Resources/cooktest.jpg
+  artifactKey: Guid(6627021e375aadd44a9d3691a97f3b5d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/cooktest.jpg using Guid(6627021e375aadd44a9d3691a97f3b5d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'eee5955ec167a4a0735e435eef180f16') in 0.225532 seconds
+  Import took 0.242217 seconds .
+
