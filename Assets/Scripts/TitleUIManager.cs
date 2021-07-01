@@ -18,16 +18,16 @@ public class TitleUIManager : MonoBehaviour
         BackToMenu();
     }
 
-    //mainPanelでsetteiButtonが押されたときの処理
-    //menuPanelをアクティブにする
+    //TitlePanelでButtonが押されたときの処理
+    //MenuPanelをアクティブにする
     public void SelectMenuDescription()
     {
         TitlePanel.SetActive(false);
         MenuPanel.SetActive(true);
     }
 
-    //2つのDescriptionPanelでBackButtonが押されたときの処理
-    //MenuPanelをアクティブにする
+    //MenuPanelでBackButtonが押されたときの処理
+    //TitlePanelをアクティブにする
     public void BackToMenu()
     {
         TitlePanel.SetActive(true);
