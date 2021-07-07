@@ -493,6 +493,60 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 77796389}
   m_CullTransparentMesh: 1
+--- !u!1 &185434356
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 185434358}
+  - component: {fileID: 185434357}
+  m_Layer: 0
+  m_Name: CameraManager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &185434357
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 185434356}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7d73de097b516e64b9c72876fb66db7b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  RawImage: {fileID: 28169192}
+  Image: {fileID: 1082859138}
+  buttonCamera: {fileID: 1872717161}
+  buttonHome: {fileID: 293768060}
+  buttonGoal: {fileID: 77796389}
+  buttonCooking: {fileID: 21897982}
+  buttonCharacter: {fileID: 246005289}
+  buttonShot: {fileID: 943577297}
+  buttonCancel: {fileID: 2121626705}
+  buttonSelect: {fileID: 739625628}
+  waitText: {fileID: 1757642194}
+--- !u!4 &185434358
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 185434356}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 90}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 4
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &246005289
 GameObject:
   m_ObjectHideFlags: 0
@@ -1111,18 +1165,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f5007ddb0113d0b4cac7c8b635dc8f6c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  RawImage: {fileID: 28169192}
-  Image: {fileID: 1082859138}
-  buttonCamera: {fileID: 1872717161}
   buttonHome: {fileID: 293768060}
   buttonGoal: {fileID: 77796389}
   buttonCooking: {fileID: 21897982}
   buttonCharacter: {fileID: 246005289}
-  buttonFreindship: {fileID: 0}
-  buttonShot: {fileID: 943577297}
-  buttonCancel: {fileID: 2121626705}
-  buttonSelect: {fileID: 739625628}
-  waitText: {fileID: 1757642194}
 --- !u!4 &743988273
 Transform:
   m_ObjectHideFlags: 0
@@ -1378,8 +1424,8 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 743988272}
-        m_TargetAssemblyTypeName: ButtonManager, Assembly-CSharp
+      - m_Target: {fileID: 185434357}
+        m_TargetAssemblyTypeName: CameraManager, Assembly-CSharp
         m_MethodName: OnSaveClick
         m_Mode: 1
         m_Arguments:
@@ -2333,8 +2379,8 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 743988272}
-        m_TargetAssemblyTypeName: ButtonManager, Assembly-CSharp
+      - m_Target: {fileID: 185434357}
+        m_TargetAssemblyTypeName: CameraManager, Assembly-CSharp
         m_MethodName: OnCameraClick
         m_Mode: 1
         m_Arguments:
@@ -2466,8 +2512,8 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 743988272}
-        m_TargetAssemblyTypeName: ButtonManager, Assembly-CSharp
+      - m_Target: {fileID: 185434357}
+        m_TargetAssemblyTypeName: CameraManager, Assembly-CSharp
         m_MethodName: OnCancelClick
         m_Mode: 1
         m_Arguments:

@@ -11,8 +11,8 @@ TagManager:
   - 
   - Water
   - UI
-  - 
-  - 
+  - Interior
+  - character
   - 
   - 
   - 
@@ -40,4 +40,10 @@ TagManager:
   m_SortingLayers:
   - name: Default
     uniqueID: 0
+    locked: 0
+  - name: Interior
+    uniqueID: 3787627221
+    locked: 0
+  - name: Character
+    uniqueID: 1366577233
     locked: 0
