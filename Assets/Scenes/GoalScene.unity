@@ -1365,18 +1365,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f5007ddb0113d0b4cac7c8b635dc8f6c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  RawImage: {fileID: 0}
-  Image: {fileID: 0}
-  buttonCamera: {fileID: 0}
-  buttonHome: {fileID: 0}
-  buttonGoal: {fileID: 0}
-  buttonCooking: {fileID: 0}
-  buttonCharacter: {fileID: 0}
-  buttonFreindship: {fileID: 0}
-  buttonShot: {fileID: 0}
-  buttonCancel: {fileID: 0}
-  buttonSelect: {fileID: 0}
-  waitText: {fileID: 0}
+  buttonHome: {fileID: 1384361526}
+  buttonGoal: {fileID: 843761972}
+  buttonCooking: {fileID: 1998091647}
+  buttonCharacter: {fileID: 994603840}
 --- !u!4 &1033140058
 Transform:
   m_ObjectHideFlags: 0
