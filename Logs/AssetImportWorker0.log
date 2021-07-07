@@ -469,3 +469,251 @@ Received Import Request.
 Start importing Assets/Resources/Animation/BardAnim/BardAnimCon.controller using Guid(4fdb18a1642879244a582c6c3251bbdb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5e6254d98b68051aac192f152d819822') in 0.013056 seconds
   Import took 0.018125 seconds .
 
+========================================================================
+Received Import Request.
+  Time since last request: 374.124744 seconds.
+  path: Assets/Resources/Animation/DogAnim/Normal.anim
+  artifactKey: Guid(2235832c29835b1438d142145aa32488) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Animation/DogAnim/Normal.anim using Guid(2235832c29835b1438d142145aa32488) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '09231bf4fcfbbf87e117d6123e5ab320') in 0.016189 seconds
+  Import took 0.022560 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 15.535152 seconds.
+  path: Assets/Resources/Animation/DogAnim/DogNormal.anim
+  artifactKey: Guid(2235832c29835b1438d142145aa32488) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Animation/DogAnim/DogNormal.anim using Guid(2235832c29835b1438d142145aa32488) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '10148aaf023d93277d736f1c897a668d') in 0.011480 seconds
+  Import took 0.017960 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 8.858116 seconds.
+  path: Assets/Resources/Animation/DogAnim/DogGood.anim
+  artifactKey: Guid(ab2a6035caec830489a0df33910e05d1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Animation/DogAnim/DogGood.anim using Guid(ab2a6035caec830489a0df33910e05d1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'aaf9451b81fb137e111cbe59a3d34192') in 0.010003 seconds
+  Import took 0.016540 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 17.446413 seconds.
+  path: Assets/Resources/Animation/DogAnim/DogBad.anim
+  artifactKey: Guid(c473d2330c116e140b2045533569dd83) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Animation/DogAnim/DogBad.anim using Guid(c473d2330c116e140b2045533569dd83) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '56e572ce9bcb0ebbbf38862363b9ca40') in 0.011664 seconds
+  Import took 0.016546 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 9.514571 seconds.
+  path: Assets/Resources/Animation/DogAnim/Dog.anim
+  artifactKey: Guid(273730a457797be4282b26887880f93a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Animation/DogAnim/Dog.anim using Guid(273730a457797be4282b26887880f93a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c5d5f36838baf27d7074e5a68a6be0ef') in 0.010579 seconds
+  Import took 0.017298 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 28.889388 seconds.
+  path: Assets/Resources/Animation/DogAnim/DogCarbo.anim
+  artifactKey: Guid(273730a457797be4282b26887880f93a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Animation/DogAnim/DogCarbo.anim using Guid(273730a457797be4282b26887880f93a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3ca79b2dd5c6a1eb1fbbd777571b28ce') in 0.013288 seconds
+  Import took 0.019822 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 41.347148 seconds.
+  path: Assets/Resources/Animation/DogAnim/DogMeat.anim
+  artifactKey: Guid(8f91d2ae7554f804e8d32e3f5622730b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Animation/DogAnim/DogMeat.anim using Guid(8f91d2ae7554f804e8d32e3f5622730b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bb6afaf2c854a3ba6a14385aeb1704cf') in 0.012039 seconds
+  Import took 0.018518 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 14.956050 seconds.
+  path: Assets/Resources/Animation/DogAnim/Dog.anim
+  artifactKey: Guid(eb7f9e3b4c63e8c41848b1c41f406f19) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Animation/DogAnim/Dog.anim using Guid(eb7f9e3b4c63e8c41848b1c41f406f19) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'eb3d6d0d5febf825d68099fc3047b971') in 0.007209 seconds
+  Import took 0.016358 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 48.972276 seconds.
+  path: Assets/Resources/Animation/DogAnim/DogVegetable.anim
+  artifactKey: Guid(eb7f9e3b4c63e8c41848b1c41f406f19) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Animation/DogAnim/DogVegetable.anim using Guid(eb7f9e3b4c63e8c41848b1c41f406f19) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ec9d079a5c7d395f7dd6a8ca2ceb2758') in 0.011170 seconds
+  Import took 0.017603 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 34.323849 seconds.
+  path: Assets/Resources/Animation/CatAnim/CatNormal.anim
+  artifactKey: Guid(d34855a4872bd874984d53a049eda986) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Animation/CatAnim/CatNormal.anim using Guid(d34855a4872bd874984d53a049eda986) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '423249de129e92275fe415fd55036208') in 0.012800 seconds
+  Import took 0.017517 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 19.421778 seconds.
+  path: Assets/Resources/Animation/CatAnim/CatGood.anim
+  artifactKey: Guid(a199f332718e9e64cbc31f8e485f60d1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Animation/CatAnim/CatGood.anim using Guid(a199f332718e9e64cbc31f8e485f60d1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ee99051cc37548c2113a33dd6c96b364') in 0.010573 seconds
+  Import took 0.017435 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 10.284413 seconds.
+  path: Assets/Resources/Animation/CatAnim/CatBad.anim
+  artifactKey: Guid(67ddb8e0b1f3b224db4424a445bf3234) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Animation/CatAnim/CatBad.anim using Guid(67ddb8e0b1f3b224db4424a445bf3234) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2fa58ca5346add431daf4ec29d07e561') in 0.012377 seconds
+  Import took 0.018202 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 15.664089 seconds.
+  path: Assets/Resources/Animation/CatAnim/CatCarbo.anim
+  artifactKey: Guid(c334e232d5b3d624695fd73370745a10) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Animation/CatAnim/CatCarbo.anim using Guid(c334e232d5b3d624695fd73370745a10) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '60a097ebbec9e9f9d73905526991d919') in 0.011643 seconds
+  Import took 0.017085 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.001636 seconds.
+  path: Assets/Resources/Animation/CatAnim/CatCarbo.anim
+  artifactKey: Guid(c334e232d5b3d624695fd73370745a10) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Animation/CatAnim/CatCarbo.anim using Guid(c334e232d5b3d624695fd73370745a10) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '60a097ebbec9e9f9d73905526991d919') in 0.005804 seconds
+  Import took 0.010514 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 9.967523 seconds.
+  path: Assets/Resources/Animation/CatAnim/CatMeat.anim
+  artifactKey: Guid(b3292a0941181e448806badb991ee5f3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Animation/CatAnim/CatMeat.anim using Guid(b3292a0941181e448806badb991ee5f3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '85b3e6e44228bbe8eeb9e302860d9688') in 0.011426 seconds
+  Import took 0.017300 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 6.304857 seconds.
+  path: Assets/Resources/Animation/CatAnim/Cat.anim
+  artifactKey: Guid(6e12f8ade13131242a016862e6c8f2ae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Animation/CatAnim/Cat.anim using Guid(6e12f8ade13131242a016862e6c8f2ae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a4ed186495cd1cbdad13fadff5992fb2') in 0.013746 seconds
+  Import took 0.018900 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 45.048551 seconds.
+  path: Assets/Resources/Animation/CatAnim/CatVegetables.anim
+  artifactKey: Guid(6e12f8ade13131242a016862e6c8f2ae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Animation/CatAnim/CatVegetables.anim using Guid(6e12f8ade13131242a016862e6c8f2ae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '63f725c30e5b4c3e5b7f44bb3fb80176') in 0.011165 seconds
+  Import took 0.015751 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 9.909725 seconds.
+  path: Assets/Resources/Animation/CatAnim/CatVegetable.anim
+  artifactKey: Guid(6e12f8ade13131242a016862e6c8f2ae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Animation/CatAnim/CatVegetable.anim using Guid(6e12f8ade13131242a016862e6c8f2ae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '43d94ee0db1dc7c7ad7a852a69bd4457') in 0.011030 seconds
+  Import took 0.015757 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 5.942160 seconds.
+  path: Assets/Resources/Animation/BardAnim/New Animation.anim
+  artifactKey: Guid(812dbbc9db8a6e443a25031a1cb6bf32) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Animation/BardAnim/New Animation.anim using Guid(812dbbc9db8a6e443a25031a1cb6bf32) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ca39f2d4096bd10923aceb679bf157ba') in 0.011636 seconds
+  Import took 0.016862 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 11.984555 seconds.
+  path: Assets/Resources/Animation/BardAnim/BardNormal.anim
+  artifactKey: Guid(812dbbc9db8a6e443a25031a1cb6bf32) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Animation/BardAnim/BardNormal.anim using Guid(812dbbc9db8a6e443a25031a1cb6bf32) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd77f2f42f2951f725739e2321c38817a') in 0.011956 seconds
+  Import took 0.018695 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 10.276679 seconds.
+  path: Assets/Resources/Animation/BardAnim/BardGood.anim
+  artifactKey: Guid(f7084b817ab73854e8f5ad8036919a68) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Animation/BardAnim/BardGood.anim using Guid(f7084b817ab73854e8f5ad8036919a68) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4c50135f1be2e5cb6e8a2367f33eda7e') in 0.011928 seconds
+  Import took 0.016046 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 10.922089 seconds.
+  path: Assets/Resources/Animation/BardAnim/BardBad.anim
+  artifactKey: Guid(9a43553dc1a1a87458f2dc091da707b0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Animation/BardAnim/BardBad.anim using Guid(9a43553dc1a1a87458f2dc091da707b0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e427ed4f48db684b84f121c25cc68dce') in 0.012933 seconds
+  Import took 0.018207 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 17.366688 seconds.
+  path: Assets/Resources/Animation/BardAnim/BardCarbo.anim
+  artifactKey: Guid(8a173139315d20641882d76abde312d9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Animation/BardAnim/BardCarbo.anim using Guid(8a173139315d20641882d76abde312d9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9a226d2a3241b52db56948e6223b278e') in 0.011450 seconds
+  Import took 0.018252 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 8.214445 seconds.
+  path: Assets/Resources/Animation/BardAnim/BardMeat.anim
+  artifactKey: Guid(6b93fb90adeb8094e9e71928a6f65fdc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Animation/BardAnim/BardMeat.anim using Guid(6b93fb90adeb8094e9e71928a6f65fdc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9806574232b8fdd2c76049e2cbcb08e3') in 0.012521 seconds
+  Import took 0.016716 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 11.958435 seconds.
+  path: Assets/Resources/Animation/BardAnim/BardVegetable.anim
+  artifactKey: Guid(da02a3f82b406ee47b9c130e782f7ec3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Animation/BardAnim/BardVegetable.anim using Guid(da02a3f82b406ee47b9c130e782f7ec3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4db3b39570ef7a7372738fd7254bbf48') in 0.011037 seconds
+  Import took 0.016889 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 13.910011 seconds.
+  path: Assets/Resources/Animation/RabbitAnim/RabbitNormal.anim
+  artifactKey: Guid(2318259dda8ec75459f8e3c78a546ceb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Animation/RabbitAnim/RabbitNormal.anim using Guid(2318259dda8ec75459f8e3c78a546ceb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1b2b97cfc7712b0de3ac388d6054f075') in 0.014518 seconds
+  Import took 0.019043 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 8.456083 seconds.
+  path: Assets/Resources/Animation/RabbitAnim/RabbitGood.anim
+  artifactKey: Guid(818fe68c2838e8444876295f617e1994) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Animation/RabbitAnim/RabbitGood.anim using Guid(818fe68c2838e8444876295f617e1994) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '10cb114d39fd11b0e54191966c0d44f3') in 0.011194 seconds
+  Import took 0.015228 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 9.888313 seconds.
+  path: Assets/Resources/Animation/RabbitAnim/RabbitBad.anim
+  artifactKey: Guid(af70b10e4d2592b4db207b8051e73b5d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Animation/RabbitAnim/RabbitBad.anim using Guid(af70b10e4d2592b4db207b8051e73b5d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '75f7a393fc51fc22ea83a8492c26e7b3') in 0.010280 seconds
+  Import took 0.014713 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 10.653174 seconds.
+  path: Assets/Resources/Animation/RabbitAnim/RabbitCarbo.anim
+  artifactKey: Guid(e464790f847f7e64a99f8a3cc29b48c6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Animation/RabbitAnim/RabbitCarbo.anim using Guid(e464790f847f7e64a99f8a3cc29b48c6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5a641fbfc669f2404d3901f621de0c51') in 0.012591 seconds
+  Import took 0.018517 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 8.645538 seconds.
+  path: Assets/Resources/Animation/RabbitAnim/RabbitMeat.anim
+  artifactKey: Guid(949ee943c54713346ab2d32c67b0c675) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Animation/RabbitAnim/RabbitMeat.anim using Guid(949ee943c54713346ab2d32c67b0c675) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3fd35f1e0c0feb81910d4555b078ed5b') in 0.010717 seconds
+  Import took 0.014925 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 9.898509 seconds.
+  path: Assets/Resources/Animation/RabbitAnim/RabbitVegetable.anim
+  artifactKey: Guid(44d582d9c43e50149a4a615f1d656cb0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Animation/RabbitAnim/RabbitVegetable.anim using Guid(44d582d9c43e50149a4a615f1d656cb0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dea2009f7f5664c220d04affd14b6856') in 0.011045 seconds
+  Import took 0.016183 seconds .
+
