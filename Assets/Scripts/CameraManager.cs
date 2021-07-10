@@ -29,6 +29,14 @@ public class CameraManager : MonoBehaviour
     //待たせるテキスト
     public GameObject waitText;
 
+    //コメント入力テキスト＆保存ボタン
+    public GameObject inputFieldGameObject;
+    public GameObject buttonsave;
+
+    //料理日記ボタン&過去の料理日記ボタン
+    public GameObject buttonNowCooking;
+    public GameObject buttonPastCooking;
+
     WebCamTexture webCam;
 
     // Start is called before the first frame update
@@ -71,6 +79,10 @@ public class CameraManager : MonoBehaviour
         buttonCharacter.SetActive(false);
         buttonSelect.SetActive(false);
         waitText.SetActive(false);
+        buttonsave.SetActive(false);
+        inputFieldGameObject.SetActive(false);
+        buttonNowCooking.SetActive(false);
+        buttonPastCooking.SetActive(false);
 
         //撮影、キャンセルボタン表示
         buttonShot.SetActive(true);
@@ -117,6 +129,11 @@ public class CameraManager : MonoBehaviour
         buttonCharacter.SetActive(true);
         RawImage.enabled = false;
 
+        inputFieldGameObject.SetActive(true);
+        buttonsave.SetActive(true);
+        buttonNowCooking.SetActive(true);
+        buttonPastCooking.SetActive(true);
+
         //撮影、キャンセルボタン表示
         buttonShot.SetActive(false);
         buttonCancel.SetActive(false);
@@ -135,6 +152,11 @@ public class CameraManager : MonoBehaviour
         buttonCooking.SetActive(true);
         buttonCharacter.SetActive(true);
         buttonSelect.SetActive(true);
+
+        inputFieldGameObject.SetActive(true);
+        buttonsave.SetActive(true);
+        buttonNowCooking.SetActive(true);
+        buttonPastCooking.SetActive(true);
 
         RawImage.enabled = false;
         Image.enabled = true;
