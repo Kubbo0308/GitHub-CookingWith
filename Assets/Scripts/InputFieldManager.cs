@@ -25,12 +25,15 @@ public class InputFieldManager : MonoBehaviour
         string filePath = Application.dataPath + "/" + "DiaryFile.csv";
 
         //CSVÉtÉ@ÉCÉãì«Ç›çûÇ›
-        using (StreamReader streamReader = new StreamReader(filePath, Encoding.UTF8))
+        if (System.IO.File.Exists(filePath))
         {
-            while (!streamReader.EndOfStream)
+            using (StreamReader streamReader = new StreamReader(filePath, Encoding.UTF8))
             {
-                text.text += streamReader.ReadLine();
-                Debug.Log("StreamReader Completed");
+                while (!streamReader.EndOfStream)
+                {
+                    text.text += streamReader.ReadLine() + "\n";
+                    Debug.Log("StreamReader Completed");
+                }
             }
         }
     }
