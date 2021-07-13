@@ -31,7 +31,7 @@ public class InputFieldManager : MonoBehaviour
             {
                 while (!streamReader.EndOfStream)
                 {
-                    text.text += streamReader.ReadLine() + "\n";
+                    text.text += streamReader.ReadLine() + "\n\n";
                     Debug.Log("StreamReader Completed");
                 }
             }
@@ -43,14 +43,18 @@ public class InputFieldManager : MonoBehaviour
         //InputFieldのTextコンポーネントを取得
         inputText = GameObject.Find("InputField/Text").GetComponent<Text>();
 
+        //時刻を取得
+        DateTime TodayNow = DateTime.Now;
+
         //Text型をstring型に変換
-        String diarytext = inputText.text;
+        //日付・時刻も一緒に表示
+        String diarytext = TodayNow.Year.ToString() + "年" + TodayNow.Month.ToString() + "月" + TodayNow.Day.ToString() + "日" + DateTime.Now.ToLongTimeString() + "\n" + inputText.text;
 
         //CSVに保存する
         CSVSave(diarytext, "DiaryFile");
 
         //もともとCSVに書かれていた内容に加えて今回のコメントを反映させる
-        text.text += inputField.text;
+        text.text += TodayNow.Year.ToString() + "年" + TodayNow.Month.ToString() + "月" + TodayNow.Day.ToString() + "日" + DateTime.Now.ToLongTimeString() + "\n" + inputField.text;
 
         //保存ボタンを押すと入力している文字が消える
         InputField form = GameObject.Find("InputField").GetComponent<InputField>();
