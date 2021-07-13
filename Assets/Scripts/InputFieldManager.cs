@@ -52,6 +52,10 @@ public class InputFieldManager : MonoBehaviour
         //もともとCSVに書かれていた内容に加えて今回のコメントを反映させる
         text.text += inputField.text;
 
+        //保存ボタンを押すと入力している文字が消える
+        InputField form = GameObject.Find("InputField").GetComponent<InputField>();
+        form.text = "";
+
     }
 
     // CSV形式で保存するための関数
