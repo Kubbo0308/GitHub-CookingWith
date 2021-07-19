@@ -13,10 +13,12 @@ public class InputFieldManager : MonoBehaviour
     public Text text;
     public Text inputText;
     private GameObject SaveFunction;
+    public int ItemPoint;
 
     // Start is called before the first frame update
     void Start()
     {
+
         //Component‚ğˆµ‚¦‚é‚æ‚¤‚É‚·‚é
         inputField = inputField.GetComponent<InputField>();
         text = text.GetComponent<Text>();
@@ -59,6 +61,11 @@ public class InputFieldManager : MonoBehaviour
         //•Û‘¶ƒ{ƒ^ƒ“‚ğ‰Ÿ‚·‚Æ“ü—Í‚µ‚Ä‚¢‚é•¶š‚ªÁ‚¦‚é
         InputField form = GameObject.Find("InputField").GetComponent<InputField>();
         form.text = "";
+        int ItemPoint = PlayerPrefs.GetInt("SCORE");
+        ItemPoint++;
+        Debug.Log(ItemPoint);
+        PlayerPrefs.SetInt("SCORE", ItemPoint);
+        PlayerPrefs.Save();
 
     }
 

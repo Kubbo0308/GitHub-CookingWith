@@ -17,12 +17,16 @@ public class ItemManager : MonoBehaviour
         buttonComplete_f.SetActive(false);
         ItemPanel_a.SetActive(false);
         buttonComplete_a.SetActive(false);
+
+        //「SCORE」というキーで保存されているInt値を読み込み
+        int score = PlayerPrefs.GetInt("SCORE");
+        Debug.Log(" 料理日記を書いた回数は" + score);
     }
 
     // Update is called once per frame
     void Update()
     {
-        
+
     }
     //Buttonが押されたときの処理
     //ItemPanelをアクティブにする
