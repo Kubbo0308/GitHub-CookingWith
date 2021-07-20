@@ -1,6 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.UI;
 
 public class ItemManager : MonoBehaviour
 {
@@ -9,6 +10,16 @@ public class ItemManager : MonoBehaviour
     public GameObject buttonComplete_f; //家具の方の完了ボタン
     [SerializeField] GameObject ItemPanel_a; //アクセの方のアイテムパネル
     public GameObject buttonComplete_a; //アクセの方の完了ボタン
+
+    // publicで宣言し、inspectorで設定可能にする
+    //この画像に変更する
+    public Sprite Sprite_f1;
+    public Sprite Sprite_f2;
+
+    //どのボタンの画像か
+    public Image image_f1;
+    public Image image_f2;
+
 
     // Start is called before the first frame update
     void Start()
@@ -21,6 +32,16 @@ public class ItemManager : MonoBehaviour
         //「SCORE」というキーで保存されているInt値を読み込み
         int score = PlayerPrefs.GetInt("SCORE");
         Debug.Log(" 料理日記を書いた回数は" + score);
+
+        if (score >= 1)
+        {
+            // SpriteRenderのspriteを設定済みの他のspriteに変更
+            image_f1.sprite = Sprite_f1;
+        }
+        if (score >= 5)
+        {
+            image_f2.sprite = Sprite_f2;
+        }
     }
 
     // Update is called once per frame
@@ -69,4 +90,5 @@ public class ItemManager : MonoBehaviour
     {
         buttonComplete_a.SetActive(false);
     }
+
 }
