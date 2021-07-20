@@ -5,38 +5,68 @@ using UnityEngine;
 public class ItemManager : MonoBehaviour
 {
     //インスペクターウィンドウからゲームオブジェクトを設定する
-    [SerializeField] GameObject ItemPanel;
-    public GameObject buttonComplete;
+    [SerializeField] GameObject ItemPanel_f; //家具の方のアイテムパネル
+    public GameObject buttonComplete_f; //家具の方の完了ボタン
+    [SerializeField] GameObject ItemPanel_a; //アクセの方のアイテムパネル
+    public GameObject buttonComplete_a; //アクセの方の完了ボタン
 
     // Start is called before the first frame update
     void Start()
     {
-        ItemPanel.SetActive(false);
-        buttonComplete.SetActive(false);
+        ItemPanel_f.SetActive(false);
+        buttonComplete_f.SetActive(false);
+        ItemPanel_a.SetActive(false);
+        buttonComplete_a.SetActive(false);
+
+        //「SCORE」というキーで保存されているInt値を読み込み
+        int score = PlayerPrefs.GetInt("SCORE");
+        Debug.Log(" 料理日記を書いた回数は" + score);
     }
 
     // Update is called once per frame
     void Update()
     {
-        
+
     }
     //Buttonが押されたときの処理
     //ItemPanelをアクティブにする
-    public void AccessItem()
+    //家具パネルの方
+    public void AccessItem_f()
     {
-        ItemPanel.SetActive(true);
+        ItemPanel_f.SetActive(true);
     }
-    public void back()
+    public void back_f()
     {
-        ItemPanel.SetActive(false);
+        ItemPanel_f.SetActive(false);
     }
-    public void directItem()
+    public void directItem_f()
     {
-        buttonComplete.SetActive(true);
-        ItemPanel.SetActive(false);
+        buttonComplete_f.SetActive(true);
+        ItemPanel_f.SetActive(false);
     }
-    public void back2()
+    public void back2_f()
     {
-        buttonComplete.SetActive(false);
+        buttonComplete_f.SetActive(false);
+    }
+
+    //Buttonが押されたときの処理
+    //ItemPanelをアクティブにする
+    //アクセパネルの方
+    public void AccessItem_a()
+    {
+        ItemPanel_a.SetActive(true);
+    }
+    public void back_a()
+    {
+        ItemPanel_a.SetActive(false);
+    }
+    public void directItem_a()
+    {
+        buttonComplete_a.SetActive(true);
+        ItemPanel_a.SetActive(false);
+    }
+    public void back2_a()
+    {
+        buttonComplete_a.SetActive(false);
     }
 }
