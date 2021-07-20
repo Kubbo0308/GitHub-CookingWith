@@ -13,12 +13,18 @@ public class ItemManager : MonoBehaviour
 
     // publicで宣言し、inspectorで設定可能にする
     //この画像に変更する
-    public Sprite Sprite_f1;
-    public Sprite Sprite_f2;
+    public Sprite Sprite_f1, Sprite_f2, Sprite_f3, Sprite_f4, Sprite_f5;
+    public Sprite Sprite_f6, Sprite_f7, Sprite_f8, Sprite_f9, Sprite_f10;
+    public Sprite Sprite_f11, Sprite_f12, Sprite_f13, Sprite_f14, Sprite_f15;
+    public Sprite Sprite_f16,Sprite_f17,Sprite_f18, Sprite_f19, Sprite_f20;
+    public Sprite Sprite_f21, Sprite_f22, Sprite_f23, Sprite_f24;
 
     //どのボタンの画像か
-    public Image image_f1;
-    public Image image_f2;
+    public Image image_f1, image_f2, image_f3, image_f4, image_f5;
+    public Image image_f6, image_f7, image_f8, image_f9, image_f10;
+    public Image image_f11, image_f12, image_f13, image_f14, image_f15;
+    public Image image_f16, image_f17, image_f18, image_f19, image_f20;
+    public Image image_f21, image_f22, image_f23, image_f24;
 
 
     // Start is called before the first frame update

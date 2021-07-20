@@ -16685,6 +16685,54 @@ MonoBehaviour:
   buttonComplete_f: {fileID: 257794481}
   ItemPanel_a: {fileID: 679155731}
   buttonComplete_a: {fileID: 1630598714}
+  Sprite_f1: {fileID: 21300000, guid: 537ee24d18529ad4485f454ed26696cd, type: 3}
+  Sprite_f2: {fileID: 21300000, guid: 8b5de950e2aec4d418ada4203c950ef1, type: 3}
+  Sprite_f3: {fileID: 21300000, guid: 0b34a72b76ecdcd46b5cbe30c3f25e1e, type: 3}
+  Sprite_f4: {fileID: 21300000, guid: 597ff1525335ba548aa680ede5aa05c2, type: 3}
+  Sprite_f5: {fileID: 21300000, guid: 537ee24d18529ad4485f454ed26696cd, type: 3}
+  Sprite_f6: {fileID: 21300000, guid: 8b5de950e2aec4d418ada4203c950ef1, type: 3}
+  Sprite_f7: {fileID: 21300000, guid: 0b34a72b76ecdcd46b5cbe30c3f25e1e, type: 3}
+  Sprite_f8: {fileID: 21300000, guid: 597ff1525335ba548aa680ede5aa05c2, type: 3}
+  Sprite_f9: {fileID: 21300000, guid: 789ca06015501fa47a0c4701c1e3f745, type: 3}
+  Sprite_f10: {fileID: 21300000, guid: e2b1d82b4e1f2eb4c874b9cbea7c7716, type: 3}
+  Sprite_f11: {fileID: 21300000, guid: 597ff1525335ba548aa680ede5aa05c2, type: 3}
+  Sprite_f12: {fileID: 21300000, guid: 0b34a72b76ecdcd46b5cbe30c3f25e1e, type: 3}
+  Sprite_f13: {fileID: 21300000, guid: 8b5de950e2aec4d418ada4203c950ef1, type: 3}
+  Sprite_f14: {fileID: 21300000, guid: 537ee24d18529ad4485f454ed26696cd, type: 3}
+  Sprite_f15: {fileID: 21300000, guid: 789ca06015501fa47a0c4701c1e3f745, type: 3}
+  Sprite_f16: {fileID: 21300000, guid: e2b1d82b4e1f2eb4c874b9cbea7c7716, type: 3}
+  Sprite_f17: {fileID: 21300000, guid: 597ff1525335ba548aa680ede5aa05c2, type: 3}
+  Sprite_f18: {fileID: 21300000, guid: 0b34a72b76ecdcd46b5cbe30c3f25e1e, type: 3}
+  Sprite_f19: {fileID: 21300000, guid: 8b5de950e2aec4d418ada4203c950ef1, type: 3}
+  Sprite_f20: {fileID: 21300000, guid: 537ee24d18529ad4485f454ed26696cd, type: 3}
+  Sprite_f21: {fileID: 21300000, guid: 789ca06015501fa47a0c4701c1e3f745, type: 3}
+  Sprite_f22: {fileID: 21300000, guid: e2b1d82b4e1f2eb4c874b9cbea7c7716, type: 3}
+  Sprite_f23: {fileID: 21300000, guid: 0b34a72b76ecdcd46b5cbe30c3f25e1e, type: 3}
+  Sprite_f24: {fileID: 21300000, guid: 537ee24d18529ad4485f454ed26696cd, type: 3}
+  image_f1: {fileID: 2050861366}
+  image_f2: {fileID: 1931747614}
+  image_f3: {fileID: 417855516}
+  image_f4: {fileID: 470795257}
+  image_f5: {fileID: 56048482}
+  image_f6: {fileID: 2120566328}
+  image_f7: {fileID: 1551261254}
+  image_f8: {fileID: 326175020}
+  image_f9: {fileID: 1007069624}
+  image_f10: {fileID: 1708587605}
+  image_f11: {fileID: 1626367173}
+  image_f12: {fileID: 1518768138}
+  image_f13: {fileID: 1769846143}
+  image_f14: {fileID: 1252146002}
+  image_f15: {fileID: 637802700}
+  image_f16: {fileID: 443167449}
+  image_f17: {fileID: 2098710174}
+  image_f18: {fileID: 1761146208}
+  image_f19: {fileID: 1322913835}
+  image_f20: {fileID: 291977603}
+  image_f21: {fileID: 2143824407}
+  image_f22: {fileID: 1067483933}
+  image_f23: {fileID: 601038594}
+  image_f24: {fileID: 227318417}
 --- !u!4 &1873387478
 Transform:
   m_ObjectHideFlags: 0
