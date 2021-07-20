@@ -11,6 +11,11 @@ public class ItemManager : MonoBehaviour
     [SerializeField] GameObject ItemPanel_a; //アクセの方のアイテムパネル
     public GameObject buttonComplete_a; //アクセの方の完了ボタン
 
+    public GameObject bkbutton_f; //アクセの方の戻るボタン
+    public GameObject drbutton_f; //アクセの方の配置ボタン
+    public GameObject bkbutton_a; //アクセの方の戻るボタン
+    public GameObject drbutton_a; //アクセの方の配置ボタン
+
     // publicで宣言し、inspectorで設定可能にする
     //この画像に変更する
     public Sprite Sprite_f1, Sprite_f2, Sprite_f3, Sprite_f4, Sprite_f5;
@@ -87,6 +92,9 @@ public class ItemManager : MonoBehaviour
     public void AccessItem_f()
     {
         ItemPanel_f.SetActive(true);
+        bkbutton_f.SetActive(true);
+        drbutton_f.SetActive(false);
+
     }
     public void back_f()
     {
@@ -108,6 +116,8 @@ public class ItemManager : MonoBehaviour
     public void AccessItem_a()
     {
         ItemPanel_a.SetActive(true);
+        bkbutton_a.SetActive(true);
+        drbutton_a.SetActive(false);
     }
     public void back_a()
     {
