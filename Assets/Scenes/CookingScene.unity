@@ -2532,6 +2532,42 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
+      - m_Target: {fileID: 607991643}
+        m_TargetAssemblyTypeName: MeatParameter, Assembly-CSharp
+        m_MethodName: Meat
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+      - m_Target: {fileID: 859053521}
+        m_TargetAssemblyTypeName: VegetableParameter, Assembly-CSharp
+        m_MethodName: Vegetable
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+      - m_Target: {fileID: 1045238666}
+        m_TargetAssemblyTypeName: CarboParameter, Assembly-CSharp
+        m_MethodName: Carbo
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &830899524
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2616,6 +2652,7 @@ GameObject:
   m_Component:
   - component: {fileID: 859053519}
   - component: {fileID: 859053520}
+  - component: {fileID: 859053521}
   m_Layer: 5
   m_Name: SliderVegetables
   m_TagString: Untagged
@@ -2696,6 +2733,18 @@ MonoBehaviour:
   m_OnValueChanged:
     m_PersistentCalls:
       m_Calls: []
+--- !u!114 &859053521
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 859053518}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b9e22089b0f896d4887381b6c9acd99d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &865107405
 GameObject:
   m_ObjectHideFlags: 0
@@ -3821,6 +3870,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1045238664}
   - component: {fileID: 1045238665}
+  - component: {fileID: 1045238666}
   m_Layer: 5
   m_Name: SliderCarbo
   m_TagString: Untagged
@@ -3901,6 +3951,18 @@ MonoBehaviour:
   m_OnValueChanged:
     m_PersistentCalls:
       m_Calls: []
+--- !u!114 &1045238666
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1045238663}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 285a203c44f6b6847b92908a6833b224, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1050683378
 GameObject:
   m_ObjectHideFlags: 0
