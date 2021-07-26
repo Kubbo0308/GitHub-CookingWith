@@ -26,7 +26,7 @@ public class VegetableParameter : MonoBehaviour
     public void Vegetable()
     {
         vegetableValue = vegetableSlider.value;
-        Debug.Log("��ؗނ̒l" + vegetableValue);
+        Debug.Log("野菜類の値" + vegetableValue);
     }
 
 }

@@ -24,11 +24,11 @@ public class MeatParameter : MonoBehaviour
         
     }
 
-    //“÷E‹›—Ş‚Ìƒpƒ‰ƒ[ƒ^‚Ì’l‚ğŒˆ’è‚·‚é
+    //è‚‰ãƒ»é­šé¡ã®ãƒ‘ãƒ©ãƒ¡ãƒ¼ã‚¿ãƒ¼ã‚’æ±ºå®šã™ã‚‹
     public void Meat()
     {
         meatValue = meatSlider.value;
-        Debug.Log("“÷E‹›—Ş‚Ì’l" + meatValue);
+        Debug.Log("è‚‰ãƒ»é­šé¡ã®å€¤" + meatValue);
     }
 
 }
