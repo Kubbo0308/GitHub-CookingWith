@@ -26,7 +26,7 @@ public class CarboParameter : MonoBehaviour
     public void Carbo()
     {
         carboValue = carboSlider.value;
-        Debug.Log("’Y…‰»•¨‚Ì’l" + carboValue);
+        Debug.Log("ç‚­æ°´åŒ–ç‰©ã®å€¤" + carboValue);
     }
 
 }

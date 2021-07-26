@@ -2,6 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
+using System;
 using System.IO;
 using UnityEngine.SceneManagement;
 using System.Diagnostics;
@@ -9,12 +10,14 @@ using Debug = UnityEngine.Debug;
 
 public class ButtonManager : MonoBehaviour
 {
-    //‰º‚Ìƒ{ƒ^ƒ“’B
+    //ï¿½ï¿½ï¿½Ìƒ{ï¿½^ï¿½ï¿½ï¿½B
     public GameObject buttonHome;
     public GameObject buttonGoal;
     public GameObject buttonCooking;
     public GameObject buttonCharacter;
-    //B‰e‚ÉŒ»‚ê‚éƒ{ƒ^ƒ“
+    public static string lastDay;
+
+    //ï¿½Bï¿½eï¿½ï¿½ï¿½ÉŒï¿½ï¿½ï¿½ï¿½{ï¿½^ï¿½ï¿½
 
     // Start is called before the first frame update
     void Start()
@@ -31,32 +34,40 @@ public class ButtonManager : MonoBehaviour
 
     public void GoTitleButton()
     {
-        //ƒ^ƒCƒgƒ‹‰æ–Ê‚Ö
+        //ï¿½^ï¿½Cï¿½gï¿½ï¿½ï¿½ï¿½Ê‚ï¿½
         SceneManager.LoadScene("TitleScene");
     }
 
     public void GoGoalButton()
     {
-        //–Ú•W‰æ–Ê‚Ö
+        //ï¿½Ú•Wï¿½ï¿½Ê‚ï¿½
         SceneManager.LoadScene("GoalScene");
     }
 
     public void GoCookingButton()
     {
-        //—¿—“ú‹L‰æ–Ê‚Ö
+        //ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Lï¿½ï¿½Ê‚ï¿½
         SceneManager.LoadScene("CookingScene");
     }
 
     public void GoCharacterButton()
     {
-        //ƒLƒƒƒ‰‰æ–Ê‚Ö
+        //ï¿½Lï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ê‚ï¿½
         SceneManager.LoadScene("CharacterScene");
     }
 
     public void GoFriendButton()
     {
-        //‚Ó‚ê‚ ‚¢‰æ–Ê‚Ö
+        //ï¿½Ó‚ê‚ ï¿½ï¿½ï¿½ï¿½Ê‚ï¿½
         SceneManager.LoadScene("FriendScene");
     }
+
+    public void SaveButton() //ä¿å­˜ãƒœã‚¿ãƒ³æŠ¼ã•ã‚ŒãŸã¨ãã®æ—¥ä»˜å–å¾—
+    {
+        DateTime TodayNow = DateTime.Now;
+        lastDay = TodayNow.Day.ToString();
+        Debug.Log("ç¾åœ¨ã®æ—¥ä»˜" + lastDay);
+    }
+
 
 }
