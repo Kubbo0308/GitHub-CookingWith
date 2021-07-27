@@ -7,19 +7,34 @@ public class ItemManager : MonoBehaviour
 {
     //インスペクターウィンドウからゲームオブジェクトを設定する
     //家具の方のアイテムパネル
-    [SerializeField] GameObject ItemPanel_f1,ItemPanel_f2,ItemPanel_f3,ItemPanel_f4;
-    [SerializeField] GameObject ItemPanel_f5,ItemPanel_f6,ItemPanel_f7,ItemPanel_f8;
-    [SerializeField] GameObject ItemPanel_f9,ItemPanel_f10,ItemPanel_f11,ItemPanel_f12;
-    [SerializeField] GameObject ItemPanel_f13,ItemPanel_f14,ItemPanel_f15,ItemPanel_f16;
-    [SerializeField] GameObject ItemPanel_f17,ItemPanel_f18,ItemPanel_f19,ItemPanel_f20;
-    [SerializeField] GameObject ItemPanel_f21,ItemPanel_f22,ItemPanel_f23,ItemPanel_f24;
+    [SerializeField] GameObject ItemPanel_f1, ItemPanel_f2, ItemPanel_f3, ItemPanel_f4;
+    [SerializeField] GameObject ItemPanel_f5, ItemPanel_f6, ItemPanel_f7, ItemPanel_f8;
+    [SerializeField] GameObject ItemPanel_f9, ItemPanel_f10, ItemPanel_f11, ItemPanel_f12;
+    [SerializeField] GameObject ItemPanel_f13, ItemPanel_f14, ItemPanel_f15, ItemPanel_f16;
+    [SerializeField] GameObject ItemPanel_f17, ItemPanel_f18, ItemPanel_f19, ItemPanel_f20;
+    [SerializeField] GameObject ItemPanel_f21, ItemPanel_f22, ItemPanel_f23, ItemPanel_f24;
 
     public GameObject buttonComplete_f; //家具の方の完了ボタン
     [SerializeField] GameObject ItemPanel_a; //アクセの方のアイテムパネル
     public GameObject buttonComplete_a; //アクセの方の完了ボタン
 
-    public GameObject bkbutton_f; //アクセの方の戻るボタン
-    public GameObject drbutton_f; //アクセの方の配置ボタン
+    //家具の方の戻るボタン
+    public GameObject bkbutton_f1, bkbutton_f2, bkbutton_f3, bkbutton_f4;
+    public GameObject bkbutton_f5, bkbutton_f6, bkbutton_f7, bkbutton_f8;
+    public GameObject bkbutton_f9, bkbutton_f10, bkbutton_f11, bkbutton_f12;
+    public GameObject bkbutton_f13, bkbutton_f14, bkbutton_f15, bkbutton_f16;
+    public GameObject bkbutton_f17, bkbutton_f18, bkbutton_f19, bkbutton_f20;
+    public GameObject bkbutton_f21, bkbutton_f22, bkbutton_f23, bkbutton_f24;
+
+
+    //家具の方の配置ボタン
+    public GameObject drbutton_f1, drbutton_f2, drbutton_f3, drbutton_f4;
+    public GameObject drbutton_f5, drbutton_f6, drbutton_f7, drbutton_f8;
+    public GameObject drbutton_f9, drbutton_f10, drbutton_f11, drbutton_f12;
+    public GameObject drbutton_f13, drbutton_f14, drbutton_f15, drbutton_f16;
+    public GameObject drbutton_f17, drbutton_f18, drbutton_f19, drbutton_f20;
+    public GameObject drbutton_f21, drbutton_f22, drbutton_f23, drbutton_f24;
+
     public GameObject bkbutton_a; //アクセの方の戻るボタン
     public GameObject drbutton_a; //アクセの方の配置ボタン
 
@@ -28,7 +43,7 @@ public class ItemManager : MonoBehaviour
     public Sprite Sprite_f1, Sprite_f2, Sprite_f3, Sprite_f4, Sprite_f5;
     public Sprite Sprite_f6, Sprite_f7, Sprite_f8, Sprite_f9, Sprite_f10;
     public Sprite Sprite_f11, Sprite_f12, Sprite_f13, Sprite_f14, Sprite_f15;
-    public Sprite Sprite_f16,Sprite_f17,Sprite_f18, Sprite_f19, Sprite_f20;
+    public Sprite Sprite_f16, Sprite_f17, Sprite_f18, Sprite_f19, Sprite_f20;
     public Sprite Sprite_f21, Sprite_f22, Sprite_f23, Sprite_f24;
 
     public Sprite Sprite_a1, Sprite_a2, Sprite_a3, Sprite_a4, Sprite_a5;
@@ -120,21 +135,188 @@ public class ItemManager : MonoBehaviour
     //Buttonが押されたときの処理
     //ItemPanelをアクティブにする
     //家具パネルの方
-    public void AccessItem_f()
+    public void AccessItem_f(int number)
     {
-        ItemPanel_f1.SetActive(true);
-        bkbutton_f.SetActive(true);
-        drbutton_f.SetActive(true);
+        switch (number)
+        {
+            case 0:
+                ItemPanel_f1.SetActive(true);
+                bkbutton_f1.SetActive(true);
+                drbutton_f1.SetActive(true);
+                break;
+            case 1:
+                ItemPanel_f2.SetActive(true);
+                bkbutton_f2.SetActive(true);
+                drbutton_f2.SetActive(true);
+                break;
+            case 2:
+                ItemPanel_f3.SetActive(true);
+                bkbutton_f3.SetActive(true);
+                drbutton_f3.SetActive(true);
+                break;
+            case 3:
+                ItemPanel_f4.SetActive(true);
+                bkbutton_f4.SetActive(true);
+                drbutton_f4.SetActive(true);
+                break;
+            case 4:
+                ItemPanel_f5.SetActive(true);
+                bkbutton_f5.SetActive(true);
+                drbutton_f5.SetActive(true);
+                break;
+            case 5:
+                ItemPanel_f6.SetActive(true);
+                bkbutton_f6.SetActive(true);
+                drbutton_f6.SetActive(true);
+                break;
+            case 6:
+                ItemPanel_f7.SetActive(true);
+                bkbutton_f7.SetActive(true);
+                drbutton_f7.SetActive(true);
+                break;
+            case 7:
+                ItemPanel_f8.SetActive(true);
+                bkbutton_f8.SetActive(true);
+                drbutton_f8.SetActive(true);
+                break;
+            case 8:
+                ItemPanel_f9.SetActive(true);
+                bkbutton_f9.SetActive(true);
+                drbutton_f9.SetActive(true);
+                break;
+            case 9:
+                ItemPanel_f10.SetActive(true);
+                bkbutton_f10.SetActive(true);
+                drbutton_f10.SetActive(true);
+                break;
+            case 10:
+                ItemPanel_f11.SetActive(true);
+                bkbutton_f11.SetActive(true);
+                drbutton_f11.SetActive(true);
+                break;
+            case 11:
+                ItemPanel_f12.SetActive(true);
+                bkbutton_f12.SetActive(true);
+                drbutton_f12.SetActive(true);
+                break;
+            case 12:
+                ItemPanel_f13.SetActive(true);
+                bkbutton_f13.SetActive(true);
+                drbutton_f13.SetActive(true);
+                break;
+            case 13:
+                ItemPanel_f14.SetActive(true);
+                bkbutton_f14.SetActive(true);
+                drbutton_f14.SetActive(true);
+                break;
+            case 14:
+                ItemPanel_f15.SetActive(true);
+                bkbutton_f15.SetActive(true);
+                drbutton_f15.SetActive(true);
+                break;
+            case 15:
+                ItemPanel_f16.SetActive(true);
+                bkbutton_f16.SetActive(true);
+                drbutton_f16.SetActive(true);
+                break;
+            case 16:
+                ItemPanel_f17.SetActive(true);
+                bkbutton_f17.SetActive(true);
+                drbutton_f17.SetActive(true);
+                break;
+            case 17:
+                ItemPanel_f18.SetActive(true);
+                bkbutton_f18.SetActive(true);
+                drbutton_f18.SetActive(true);
+                break;
+            case 18:
+                ItemPanel_f19.SetActive(true);
+                bkbutton_f19.SetActive(true);
+                drbutton_f19.SetActive(true);
+                break;
+            case 19:
+                ItemPanel_f20.SetActive(true);
+                bkbutton_f20.SetActive(true);
+                drbutton_f20.SetActive(true);
+                break;
+            case 20:
+                ItemPanel_f21.SetActive(true);
+                bkbutton_f21.SetActive(true);
+                drbutton_f21.SetActive(true);
+                break;
+            case 21:
+                ItemPanel_f22.SetActive(true);
+                bkbutton_f22.SetActive(true);
+                drbutton_f22.SetActive(true);
+                break;
+            case 22:
+                ItemPanel_f23.SetActive(true);
+                bkbutton_f23.SetActive(true);
+                drbutton_f23.SetActive(true);
+                break;
+            case 23:
+                ItemPanel_f24.SetActive(true);
+                bkbutton_f24.SetActive(true);
+                drbutton_f24.SetActive(true);
+                break;
+
+        }
 
     }
     public void back_f()
     {
         ItemPanel_f1.SetActive(false);
+        ItemPanel_f2.SetActive(false);
+        ItemPanel_f3.SetActive(false);
+        ItemPanel_f4.SetActive(false);
+        ItemPanel_f5.SetActive(false);
+        ItemPanel_f6.SetActive(false);
+        ItemPanel_f7.SetActive(false);
+        ItemPanel_f8.SetActive(false);
+        ItemPanel_f9.SetActive(false);
+        ItemPanel_f10.SetActive(false);
+        ItemPanel_f11.SetActive(false);
+        ItemPanel_f12.SetActive(false);
+        ItemPanel_f13.SetActive(false);
+        ItemPanel_f14.SetActive(false);
+        ItemPanel_f15.SetActive(false);
+        ItemPanel_f16.SetActive(false);
+        ItemPanel_f17.SetActive(false);
+        ItemPanel_f18.SetActive(false);
+        ItemPanel_f19.SetActive(false);
+        ItemPanel_f20.SetActive(false);
+        ItemPanel_f21.SetActive(false);
+        ItemPanel_f22.SetActive(false);
+        ItemPanel_f23.SetActive(false);
+        ItemPanel_f24.SetActive(false);
     }
     public void directItem_f()
     {
-        buttonComplete_f.SetActive(true);
+        buttonComplete_f.SetActive(true); //配置しましたメッセージ
         ItemPanel_f1.SetActive(false);
+        ItemPanel_f2.SetActive(false);
+        ItemPanel_f3.SetActive(false);
+        ItemPanel_f4.SetActive(false);
+        ItemPanel_f5.SetActive(false);
+        ItemPanel_f6.SetActive(false);
+        ItemPanel_f7.SetActive(false);
+        ItemPanel_f8.SetActive(false);
+        ItemPanel_f9.SetActive(false);
+        ItemPanel_f10.SetActive(false);
+        ItemPanel_f11.SetActive(false);
+        ItemPanel_f12.SetActive(false);
+        ItemPanel_f13.SetActive(false);
+        ItemPanel_f14.SetActive(false);
+        ItemPanel_f15.SetActive(false);
+        ItemPanel_f16.SetActive(false);
+        ItemPanel_f17.SetActive(false);
+        ItemPanel_f18.SetActive(false);
+        ItemPanel_f19.SetActive(false);
+        ItemPanel_f20.SetActive(false);
+        ItemPanel_f21.SetActive(false);
+        ItemPanel_f22.SetActive(false);
+        ItemPanel_f23.SetActive(false);
+        ItemPanel_f24.SetActive(false);
     }
     public void back2_f()
     {

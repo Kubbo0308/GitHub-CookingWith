@@ -427,7 +427,7 @@ GameObject:
   - component: {fileID: 30210974}
   - component: {fileID: 30210973}
   m_Layer: 5
-  m_Name: Button (1)
+  m_Name: dr24
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -793,7 +793,7 @@ GameObject:
   - component: {fileID: 52520329}
   - component: {fileID: 52520328}
   m_Layer: 5
-  m_Name: Button (1)
+  m_Name: dr12
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1138,7 +1138,7 @@ GameObject:
   - component: {fileID: 55772984}
   - component: {fileID: 55772983}
   m_Layer: 5
-  m_Name: Button (2)
+  m_Name: bk10
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1404,7 +1404,7 @@ GameObject:
   - component: {fileID: 61524491}
   - component: {fileID: 61524490}
   m_Layer: 5
-  m_Name: Button (2)
+  m_Name: bk16
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -3648,7 +3648,7 @@ GameObject:
   - component: {fileID: 256242855}
   - component: {fileID: 256242854}
   m_Layer: 5
-  m_Name: Button (2)
+  m_Name: bk22
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -3914,7 +3914,7 @@ GameObject:
   - component: {fileID: 267493053}
   - component: {fileID: 267493052}
   m_Layer: 5
-  m_Name: Button (2)
+  m_Name: bk9
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -5344,7 +5344,7 @@ GameObject:
   - component: {fileID: 381977828}
   - component: {fileID: 381977827}
   m_Layer: 5
-  m_Name: Button (2)
+  m_Name: bk11
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -5706,7 +5706,7 @@ GameObject:
   - component: {fileID: 409975523}
   - component: {fileID: 409975522}
   m_Layer: 5
-  m_Name: Button (2)
+  m_Name: bk21
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -6342,7 +6342,7 @@ GameObject:
   - component: {fileID: 431066484}
   - component: {fileID: 431066483}
   m_Layer: 5
-  m_Name: Button (2)
+  m_Name: bk2
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -6475,7 +6475,7 @@ GameObject:
   - component: {fileID: 431591381}
   - component: {fileID: 431591380}
   m_Layer: 5
-  m_Name: Button (1)
+  m_Name: dr15
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -7498,7 +7498,7 @@ GameObject:
   - component: {fileID: 502980397}
   - component: {fileID: 502980396}
   m_Layer: 5
-  m_Name: Button (2)
+  m_Name: bk15
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -7631,7 +7631,7 @@ GameObject:
   - component: {fileID: 506173091}
   - component: {fileID: 506173090}
   m_Layer: 5
-  m_Name: Button (2)
+  m_Name: bk23
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -8954,7 +8954,7 @@ GameObject:
   - component: {fileID: 606570460}
   - component: {fileID: 606570459}
   m_Layer: 5
-  m_Name: Button (2)
+  m_Name: bk7
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -11652,7 +11652,7 @@ GameObject:
   - component: {fileID: 764525801}
   - component: {fileID: 764525800}
   m_Layer: 5
-  m_Name: Button (1)
+  m_Name: dr16
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -11934,7 +11934,7 @@ GameObject:
   - component: {fileID: 767636754}
   - component: {fileID: 767636753}
   m_Layer: 5
-  m_Name: Button (1)
+  m_Name: dr10
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -12225,7 +12225,7 @@ GameObject:
   - component: {fileID: 781610939}
   - component: {fileID: 781610938}
   m_Layer: 5
-  m_Name: Button (1)
+  m_Name: dr21
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -12728,7 +12728,7 @@ GameObject:
   - component: {fileID: 840188702}
   - component: {fileID: 840188701}
   m_Layer: 5
-  m_Name: Button (2)
+  m_Name: bk19
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -12861,7 +12861,7 @@ GameObject:
   - component: {fileID: 841116276}
   - component: {fileID: 841116275}
   m_Layer: 5
-  m_Name: Button (1)
+  m_Name: dr14
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -12994,7 +12994,7 @@ GameObject:
   - component: {fileID: 841407285}
   - component: {fileID: 841407284}
   m_Layer: 5
-  m_Name: Button (1)
+  m_Name: dr11
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -13567,7 +13567,7 @@ GameObject:
   - component: {fileID: 855869472}
   - component: {fileID: 855869471}
   m_Layer: 5
-  m_Name: Button (1)
+  m_Name: dr9
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -14140,7 +14140,7 @@ GameObject:
   - component: {fileID: 896240369}
   - component: {fileID: 896240368}
   m_Layer: 5
-  m_Name: Button (1)
+  m_Name: dr18
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -15970,7 +15970,7 @@ GameObject:
   - component: {fileID: 1034430471}
   - component: {fileID: 1034430470}
   m_Layer: 5
-  m_Name: Button (2)
+  m_Name: bk3
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -16353,7 +16353,7 @@ GameObject:
   - component: {fileID: 1043636850}
   - component: {fileID: 1043636849}
   m_Layer: 5
-  m_Name: Button (1)
+  m_Name: dr23
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -17882,7 +17882,7 @@ GameObject:
   - component: {fileID: 1149786360}
   - component: {fileID: 1149786359}
   m_Layer: 5
-  m_Name: Button (2)
+  m_Name: bk1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -18015,7 +18015,7 @@ GameObject:
   - component: {fileID: 1153432867}
   - component: {fileID: 1153432866}
   m_Layer: 5
-  m_Name: Button (2)
+  m_Name: bk14
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -18148,7 +18148,7 @@ GameObject:
   - component: {fileID: 1159596105}
   - component: {fileID: 1159596104}
   m_Layer: 5
-  m_Name: Button (1)
+  m_Name: dr3
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -18608,7 +18608,7 @@ GameObject:
   - component: {fileID: 1199852129}
   - component: {fileID: 1199852128}
   m_Layer: 5
-  m_Name: Button (2)
+  m_Name: bk24
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -18953,7 +18953,7 @@ GameObject:
   - component: {fileID: 1206703765}
   - component: {fileID: 1206703764}
   m_Layer: 5
-  m_Name: Button (1)
+  m_Name: dr22
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -19086,7 +19086,7 @@ GameObject:
   - component: {fileID: 1223285952}
   - component: {fileID: 1223285951}
   m_Layer: 5
-  m_Name: Button (2)
+  m_Name: bk4
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -19888,7 +19888,7 @@ GameObject:
   - component: {fileID: 1252047253}
   - component: {fileID: 1252047252}
   m_Layer: 5
-  m_Name: Button (1)
+  m_Name: dr19
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -20154,7 +20154,7 @@ GameObject:
   - component: {fileID: 1254753231}
   - component: {fileID: 1254753230}
   m_Layer: 5
-  m_Name: Button (2)
+  m_Name: bk5
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -20287,7 +20287,7 @@ GameObject:
   - component: {fileID: 1255597508}
   - component: {fileID: 1255597507}
   m_Layer: 5
-  m_Name: Button (1)
+  m_Name: dr8
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -22039,7 +22039,7 @@ GameObject:
   - component: {fileID: 1322212744}
   - component: {fileID: 1322212743}
   m_Layer: 5
-  m_Name: Button (2)
+  m_Name: bk20
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -22770,7 +22770,7 @@ GameObject:
   - component: {fileID: 1368431955}
   - component: {fileID: 1368431954}
   m_Layer: 5
-  m_Name: Button (1)
+  m_Name: dr2
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -23210,7 +23210,7 @@ GameObject:
   - component: {fileID: 1385230124}
   - component: {fileID: 1385230123}
   m_Layer: 5
-  m_Name: Button (2)
+  m_Name: bk12
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -24836,7 +24836,7 @@ GameObject:
   - component: {fileID: 1529208828}
   - component: {fileID: 1529208827}
   m_Layer: 5
-  m_Name: Button (2)
+  m_Name: bk8
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -25957,7 +25957,7 @@ GameObject:
   - component: {fileID: 1597751787}
   - component: {fileID: 1597751786}
   m_Layer: 5
-  m_Name: Button (1)
+  m_Name: dr20
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -26323,7 +26323,7 @@ GameObject:
   - component: {fileID: 1612403019}
   - component: {fileID: 1612403018}
   m_Layer: 5
-  m_Name: Button (2)
+  m_Name: bk6
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -26668,7 +26668,7 @@ GameObject:
   - component: {fileID: 1628855672}
   - component: {fileID: 1628855671}
   m_Layer: 5
-  m_Name: Button (1)
+  m_Name: dr7
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -28248,7 +28248,7 @@ GameObject:
   - component: {fileID: 1724520168}
   - component: {fileID: 1724520167}
   m_Layer: 5
-  m_Name: Button (1)
+  m_Name: dr4
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -28381,7 +28381,7 @@ GameObject:
   - component: {fileID: 1736475177}
   - component: {fileID: 1736475176}
   m_Layer: 5
-  m_Name: Button (1)
+  m_Name: dr6
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -28514,7 +28514,7 @@ GameObject:
   - component: {fileID: 1741883210}
   - component: {fileID: 1741883209}
   m_Layer: 5
-  m_Name: Button (2)
+  m_Name: bk18
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -28647,7 +28647,7 @@ GameObject:
   - component: {fileID: 1745226660}
   - component: {fileID: 1745226659}
   m_Layer: 5
-  m_Name: Button (1)
+  m_Name: dr13
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -29200,7 +29200,7 @@ GameObject:
   - component: {fileID: 1791330096}
   - component: {fileID: 1791330095}
   m_Layer: 5
-  m_Name: Button (2)
+  m_Name: bk17
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -29969,7 +29969,7 @@ GameObject:
   - component: {fileID: 1849540160}
   - component: {fileID: 1849540159}
   m_Layer: 5
-  m_Name: Button (1)
+  m_Name: dr1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -30432,8 +30432,54 @@ MonoBehaviour:
   buttonComplete_f: {fileID: 257794481}
   ItemPanel_a: {fileID: 679155731}
   buttonComplete_a: {fileID: 1630598714}
-  bkbutton_f: {fileID: 1149786357}
-  drbutton_f: {fileID: 1849540157}
+  bkbutton_f1: {fileID: 1149786357}
+  bkbutton_f2: {fileID: 431066481}
+  bkbutton_f3: {fileID: 1034430468}
+  bkbutton_f4: {fileID: 1223285949}
+  bkbutton_f5: {fileID: 1254753228}
+  bkbutton_f6: {fileID: 1612403016}
+  bkbutton_f7: {fileID: 606570457}
+  bkbutton_f8: {fileID: 1529208825}
+  bkbutton_f9: {fileID: 267493050}
+  bkbutton_f10: {fileID: 55772981}
+  bkbutton_f11: {fileID: 381977825}
+  bkbutton_f12: {fileID: 1385230121}
+  bkbutton_f13: {fileID: 2078859789}
+  bkbutton_f14: {fileID: 1153432864}
+  bkbutton_f15: {fileID: 502980394}
+  bkbutton_f16: {fileID: 61524488}
+  bkbutton_f17: {fileID: 1791330093}
+  bkbutton_f18: {fileID: 1741883207}
+  bkbutton_f19: {fileID: 840188699}
+  bkbutton_f20: {fileID: 1322212741}
+  bkbutton_f21: {fileID: 409975520}
+  bkbutton_f22: {fileID: 256242852}
+  bkbutton_f23: {fileID: 506173088}
+  bkbutton_f24: {fileID: 1199852126}
+  drbutton_f1: {fileID: 1849540157}
+  drbutton_f2: {fileID: 1368431952}
+  drbutton_f3: {fileID: 1159596102}
+  drbutton_f4: {fileID: 1724520165}
+  drbutton_f5: {fileID: 2141621065}
+  drbutton_f6: {fileID: 1736475174}
+  drbutton_f7: {fileID: 1628855669}
+  drbutton_f8: {fileID: 1255597505}
+  drbutton_f9: {fileID: 855869469}
+  drbutton_f10: {fileID: 767636751}
+  drbutton_f11: {fileID: 841407282}
+  drbutton_f12: {fileID: 52520326}
+  drbutton_f13: {fileID: 1745226657}
+  drbutton_f14: {fileID: 841116273}
+  drbutton_f15: {fileID: 431591378}
+  drbutton_f16: {fileID: 764525798}
+  drbutton_f17: {fileID: 1995226697}
+  drbutton_f18: {fileID: 896240366}
+  drbutton_f19: {fileID: 1252047250}
+  drbutton_f20: {fileID: 1597751784}
+  drbutton_f21: {fileID: 781610936}
+  drbutton_f22: {fileID: 1206703762}
+  drbutton_f23: {fileID: 1043636847}
+  drbutton_f24: {fileID: 30210971}
   bkbutton_a: {fileID: 1831184540}
   drbutton_a: {fileID: 1265025011}
   Sprite_f1: {fileID: 21300000, guid: e72d056a90e0ea24499dfb3084161ee2, type: 3}
@@ -32378,7 +32424,7 @@ GameObject:
   - component: {fileID: 1995226700}
   - component: {fileID: 1995226699}
   m_Layer: 5
-  m_Name: Button (1)
+  m_Name: dr17
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -33823,7 +33869,7 @@ GameObject:
   - component: {fileID: 2078859792}
   - component: {fileID: 2078859791}
   m_Layer: 5
-  m_Name: Button (2)
+  m_Name: bk13
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -34900,7 +34946,7 @@ GameObject:
   - component: {fileID: 2141621068}
   - component: {fileID: 2141621067}
   m_Layer: 5
-  m_Name: Button (1)
+  m_Name: dr5
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
