@@ -192,6 +192,162 @@ public class ItemManager : MonoBehaviour
             image_f4.sprite = Sprite_f4;
             image_a2.sprite = Sprite_a1;
         }
+        if (score >= 10)
+        {
+            image_f5.sprite = Sprite_f2;
+            image_a3.sprite = Sprite_a1;
+        }
+        if (score >= 12)
+        {
+            image_f6.sprite = Sprite_f3;
+            image_a4.sprite = Sprite_a1;
+        }
+        if (score >= 15)
+        {
+            image_f7.sprite = Sprite_f4;
+            image_a5.sprite = Sprite_a1;
+        }
+        if (score >= 17)
+        {
+            image_f8.sprite = Sprite_f2;
+            image_a6.sprite = Sprite_a1;
+        }
+        if (score >= 20)
+        {
+            image_f9.sprite = Sprite_f3;
+            image_a7.sprite = Sprite_a1;
+        }
+        if (score >= 22)
+        {
+            image_f10.sprite = Sprite_f4;
+            image_a8.sprite = Sprite_a1;
+        }
+        if (score >= 25)
+        {
+            image_f11.sprite = Sprite_f2;
+            image_a9.sprite = Sprite_a1;
+        }
+        if (score >= 27)
+        {
+            image_f12.sprite = Sprite_f3;
+            image_a10.sprite = Sprite_a1;
+        }
+        if (score >= 30)
+        {
+            image_f13.sprite = Sprite_f4;
+            image_a11.sprite = Sprite_a1;
+        }
+        if (score >= 32)
+        {
+            image_f14.sprite = Sprite_f2;
+            image_a12.sprite = Sprite_a1;
+        }
+        if (score >= 35)
+        {
+            image_f15.sprite = Sprite_f3;
+            image_a13.sprite = Sprite_a1;
+        }
+        if (score >= 37)
+        {
+            image_f16.sprite = Sprite_f4;
+            image_a14.sprite = Sprite_a1;
+        }
+        if (score >= 40)
+        {
+            image_f17.sprite = Sprite_f2;
+            image_a15.sprite = Sprite_a1;
+        }
+        if (score >= 42)
+        {
+            image_f18.sprite = Sprite_f3;
+            image_a16.sprite = Sprite_a1;
+        }
+        if (score >= 45)
+        {
+            image_f19.sprite = Sprite_f4;
+            image_a17.sprite = Sprite_a1;
+        }
+        if (score >= 47)
+        {
+            image_f20.sprite = Sprite_f2;
+            image_a18.sprite = Sprite_a1;
+        }
+        if (score >= 50)
+        {
+            image_f21.sprite = Sprite_f3;
+            image_a19.sprite = Sprite_a1;
+        }
+        if (score >= 52)
+        {
+            image_f22.sprite = Sprite_f4;
+            image_a20.sprite = Sprite_a1;
+        }
+        if (score >= 55)
+        {
+            image_f23.sprite = Sprite_f3;
+            image_a21.sprite = Sprite_a1;
+        }
+        if (score >= 57)
+        {
+            image_f24.sprite = Sprite_f4;
+            image_a22.sprite = Sprite_a1;
+        }
+        if (score >= 60)
+        {
+            image_a23.sprite = Sprite_f2;
+        }
+        if (score >= 62)
+        {
+            image_a24.sprite = Sprite_a1;
+        }
+        if (score >= 65)
+        {
+            image_a25.sprite = Sprite_a1;
+        }
+        if (score >= 67)
+        {
+            image_a26.sprite = Sprite_f2;
+        }
+        if (score >= 70)
+        {
+            image_a27.sprite = Sprite_a1;
+        }
+        if (score >= 72)
+        {
+            image_a28.sprite = Sprite_a1;
+        }
+        if (score >= 75)
+        {
+            image_a29.sprite = Sprite_a1;
+        }
+        if (score >= 77)
+        {
+            image_a30.sprite = Sprite_a1;
+        }
+        if (score >= 80)
+        {
+            image_a31.sprite = Sprite_f2;
+        }
+        if (score >= 82)
+        {
+            image_a32.sprite = Sprite_a1;
+        }
+        if (score >= 85)
+        {
+            image_a33.sprite = Sprite_a1;
+        }
+        if (score >= 87)
+        {
+            image_a34.sprite = Sprite_f2;
+        }
+        if (score >= 90)
+        {
+            image_a35.sprite = Sprite_a1;
+        }
+        if (score >= 92)
+        {
+            image_a36.sprite = Sprite_a1;
+        }
     }
 
     // Update is called once per frame
@@ -669,105 +825,97 @@ public class ItemManager : MonoBehaviour
             case 24:
                 if (score >= 65)
                 {
-                    ItemPanel_a23.SetActive(true);
-                    bkbutton_a23.SetActive(true);
-                    drbutton_a23.SetActive(true);
-                }
-                break;
-            case 25:
-                if (score >= 67)
-                {
-                    ItemPanel_a24.SetActive(true);
-                    bkbutton_a24.SetActive(true);
-                    drbutton_a24.SetActive(true);
-                }
-                break;
-            case 26:
-                if (score >= 70)
-                {
                     ItemPanel_a25.SetActive(true);
                     bkbutton_a25.SetActive(true);
                     drbutton_a25.SetActive(true);
                 }
                 break;
-            case 27:
-                if (score >= 72)
+            case 25:
+                if (score >= 67)
                 {
                     ItemPanel_a26.SetActive(true);
                     bkbutton_a26.SetActive(true);
                     drbutton_a26.SetActive(true);
                 }
                 break;
-            case 28:
-                if (score >= 75)
+            case 26:
+                if (score >= 70)
                 {
                     ItemPanel_a27.SetActive(true);
                     bkbutton_a27.SetActive(true);
                     drbutton_a27.SetActive(true);
                 }
                 break;
-            case 29:
-                if (score >= 77)
+            case 27:
+                if (score >= 72)
                 {
                     ItemPanel_a28.SetActive(true);
                     bkbutton_a28.SetActive(true);
                     drbutton_a28.SetActive(true);
                 }
                 break;
-            case 30:
-                if (score >= 80)
+            case 28:
+                if (score >= 75)
                 {
                     ItemPanel_a29.SetActive(true);
                     bkbutton_a29.SetActive(true);
                     drbutton_a29.SetActive(true);
                 }
                 break;
-            case 31:
-                if (score >= 82)
+            case 29:
+                if (score >= 77)
                 {
                     ItemPanel_a30.SetActive(true);
                     bkbutton_a30.SetActive(true);
                     drbutton_a30.SetActive(true);
                 }
                 break;
-            case 32:
-                if (score >= 85)
+            case 30:
+                if (score >= 80)
                 {
                     ItemPanel_a31.SetActive(true);
                     bkbutton_a31.SetActive(true);
                     drbutton_a31.SetActive(true);
                 }
                 break;
-            case 33:
-                if (score >= 87)
+            case 31:
+                if (score >= 82)
                 {
                     ItemPanel_a32.SetActive(true);
                     bkbutton_a32.SetActive(true);
                     drbutton_a32.SetActive(true);
                 }
                 break;
-            case 34:
-                if (score >= 90)
+            case 32:
+                if (score >= 85)
                 {
                     ItemPanel_a33.SetActive(true);
                     bkbutton_a33.SetActive(true);
                     drbutton_a33.SetActive(true);
                 }
                 break;
-            case 35:
-                if (score >= 92)
+            case 33:
+                if (score >= 87)
                 {
                     ItemPanel_a34.SetActive(true);
                     bkbutton_a34.SetActive(true);
                     drbutton_a34.SetActive(true);
                 }
                 break;
-            case 36:
-                if (score >= 95)
+            case 34:
+                if (score >= 90)
                 {
                     ItemPanel_a35.SetActive(true);
                     bkbutton_a35.SetActive(true);
                     drbutton_a35.SetActive(true);
+                }
+                break;
+            case 35:
+                if (score >= 92)
+                {
+                    ItemPanel_a36.SetActive(true);
+                    bkbutton_a36.SetActive(true);
+                    drbutton_a36.SetActive(true);
                 }
                 break;
         }
