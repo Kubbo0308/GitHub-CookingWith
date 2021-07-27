@@ -190,6 +190,7 @@ public class ItemManager : MonoBehaviour
         if (score >= 7)
         {
             image_f4.sprite = Sprite_f4;
+            image_a2.sprite = Sprite_a1;
         }
     }
 
@@ -203,129 +204,203 @@ public class ItemManager : MonoBehaviour
     //家具パネルの方
     public void AccessItem_f(int number)
     {
+        //「SCORE」というキーで保存されているInt値を読み込み
+        int score = PlayerPrefs.GetInt("SCORE");
+
         switch (number)
         {
             case 0:
-                ItemPanel_f1.SetActive(true);
-                bkbutton_f1.SetActive(true);
-                drbutton_f1.SetActive(true);
+                if (score >= 1)
+                {
+                    ItemPanel_f1.SetActive(true);
+                    bkbutton_f1.SetActive(true);
+                    drbutton_f1.SetActive(true);
+                }
                 break;
             case 1:
-                ItemPanel_f2.SetActive(true);
-                bkbutton_f2.SetActive(true);
-                drbutton_f2.SetActive(true);
+                if (score >= 3)
+                {
+                    ItemPanel_f2.SetActive(true);
+                    bkbutton_f2.SetActive(true);
+                    drbutton_f2.SetActive(true);
+                }
                 break;
             case 2:
-                ItemPanel_f3.SetActive(true);
-                bkbutton_f3.SetActive(true);
-                drbutton_f3.SetActive(true);
+                if (score >= 5)
+                {
+                    ItemPanel_f3.SetActive(true);
+                    bkbutton_f3.SetActive(true);
+                    drbutton_f3.SetActive(true);
+                }
                 break;
             case 3:
-                ItemPanel_f4.SetActive(true);
-                bkbutton_f4.SetActive(true);
-                drbutton_f4.SetActive(true);
+                if (score >= 7)
+                {
+                    ItemPanel_f4.SetActive(true);
+                    bkbutton_f4.SetActive(true);
+                    drbutton_f4.SetActive(true);
+                }
                 break;
             case 4:
-                ItemPanel_f5.SetActive(true);
-                bkbutton_f5.SetActive(true);
-                drbutton_f5.SetActive(true);
+                if (score >= 10)
+                {
+                    ItemPanel_f5.SetActive(true);
+                    bkbutton_f5.SetActive(true);
+                    drbutton_f5.SetActive(true);
+                }
                 break;
             case 5:
-                ItemPanel_f6.SetActive(true);
-                bkbutton_f6.SetActive(true);
-                drbutton_f6.SetActive(true);
+                if (score >= 12)
+                {
+                    ItemPanel_f6.SetActive(true);
+                    bkbutton_f6.SetActive(true);
+                    drbutton_f6.SetActive(true);
+                }
                 break;
             case 6:
-                ItemPanel_f7.SetActive(true);
-                bkbutton_f7.SetActive(true);
-                drbutton_f7.SetActive(true);
+                if (score >= 15)
+                {
+                    ItemPanel_f7.SetActive(true);
+                    bkbutton_f7.SetActive(true);
+                    drbutton_f7.SetActive(true);
+                }
                 break;
             case 7:
-                ItemPanel_f8.SetActive(true);
-                bkbutton_f8.SetActive(true);
-                drbutton_f8.SetActive(true);
+                if (score >= 17)
+                {
+                    ItemPanel_f8.SetActive(true);
+                    bkbutton_f8.SetActive(true);
+                    drbutton_f8.SetActive(true);
+                }
                 break;
             case 8:
-                ItemPanel_f9.SetActive(true);
-                bkbutton_f9.SetActive(true);
-                drbutton_f9.SetActive(true);
+                if (score >= 20)
+                {
+                    ItemPanel_f9.SetActive(true);
+                    bkbutton_f9.SetActive(true);
+                    drbutton_f9.SetActive(true);
+                }
                 break;
             case 9:
-                ItemPanel_f10.SetActive(true);
-                bkbutton_f10.SetActive(true);
-                drbutton_f10.SetActive(true);
+                if (score >= 22)
+                {
+                    ItemPanel_f10.SetActive(true);
+                    bkbutton_f10.SetActive(true);
+                    drbutton_f10.SetActive(true);
+                }
                 break;
             case 10:
-                ItemPanel_f11.SetActive(true);
-                bkbutton_f11.SetActive(true);
-                drbutton_f11.SetActive(true);
+                if (score >= 25)
+                {
+                    ItemPanel_f11.SetActive(true);
+                    bkbutton_f11.SetActive(true);
+                    drbutton_f11.SetActive(true);
+                }
                 break;
             case 11:
-                ItemPanel_f12.SetActive(true);
-                bkbutton_f12.SetActive(true);
-                drbutton_f12.SetActive(true);
+                if (score >= 27)
+                {
+                    ItemPanel_f12.SetActive(true);
+                    bkbutton_f12.SetActive(true);
+                    drbutton_f12.SetActive(true);
+                }
                 break;
             case 12:
-                ItemPanel_f13.SetActive(true);
-                bkbutton_f13.SetActive(true);
-                drbutton_f13.SetActive(true);
+                if (score >= 30)
+                {
+                    ItemPanel_f13.SetActive(true);
+                    bkbutton_f13.SetActive(true);
+                    drbutton_f13.SetActive(true);
+                }
                 break;
             case 13:
-                ItemPanel_f14.SetActive(true);
-                bkbutton_f14.SetActive(true);
-                drbutton_f14.SetActive(true);
+                if (score >= 32)
+                {
+                    ItemPanel_f14.SetActive(true);
+                    bkbutton_f14.SetActive(true);
+                    drbutton_f14.SetActive(true);
+                }
                 break;
             case 14:
-                ItemPanel_f15.SetActive(true);
-                bkbutton_f15.SetActive(true);
-                drbutton_f15.SetActive(true);
+                if (score >= 35)
+                {
+                    ItemPanel_f15.SetActive(true);
+                    bkbutton_f15.SetActive(true);
+                    drbutton_f15.SetActive(true);
+                }
                 break;
             case 15:
-                ItemPanel_f16.SetActive(true);
-                bkbutton_f16.SetActive(true);
-                drbutton_f16.SetActive(true);
+                if (score >= 37)
+                {
+                    ItemPanel_f16.SetActive(true);
+                    bkbutton_f16.SetActive(true);
+                    drbutton_f16.SetActive(true);
+                }
                 break;
             case 16:
-                ItemPanel_f17.SetActive(true);
-                bkbutton_f17.SetActive(true);
-                drbutton_f17.SetActive(true);
+                if (score >= 40)
+                {
+                    ItemPanel_f17.SetActive(true);
+                    bkbutton_f17.SetActive(true);
+                    drbutton_f17.SetActive(true);
+                }
                 break;
             case 17:
-                ItemPanel_f18.SetActive(true);
-                bkbutton_f18.SetActive(true);
-                drbutton_f18.SetActive(true);
+                if (score >= 42)
+                {
+                    ItemPanel_f18.SetActive(true);
+                    bkbutton_f18.SetActive(true);
+                    drbutton_f18.SetActive(true);
+                }
                 break;
             case 18:
-                ItemPanel_f19.SetActive(true);
-                bkbutton_f19.SetActive(true);
-                drbutton_f19.SetActive(true);
+                if (score >= 45)
+                {
+                    ItemPanel_f19.SetActive(true);
+                    bkbutton_f19.SetActive(true);
+                    drbutton_f19.SetActive(true);
+                }
                 break;
             case 19:
-                ItemPanel_f20.SetActive(true);
-                bkbutton_f20.SetActive(true);
-                drbutton_f20.SetActive(true);
+                if (score >= 47)
+                {
+                    ItemPanel_f20.SetActive(true);
+                    bkbutton_f20.SetActive(true);
+                    drbutton_f20.SetActive(true);
+                }
                 break;
             case 20:
-                ItemPanel_f21.SetActive(true);
-                bkbutton_f21.SetActive(true);
-                drbutton_f21.SetActive(true);
+                if (score >= 50)
+                {
+                    ItemPanel_f21.SetActive(true);
+                    bkbutton_f21.SetActive(true);
+                    drbutton_f21.SetActive(true);
+                }
                 break;
             case 21:
-                ItemPanel_f22.SetActive(true);
-                bkbutton_f22.SetActive(true);
-                drbutton_f22.SetActive(true);
+                if (score >= 52)
+                {
+                    ItemPanel_f22.SetActive(true);
+                    bkbutton_f22.SetActive(true);
+                    drbutton_f22.SetActive(true);
+                }
                 break;
             case 22:
-                ItemPanel_f23.SetActive(true);
-                bkbutton_f23.SetActive(true);
-                drbutton_f23.SetActive(true);
+                if (score >= 55)
+                {
+                    ItemPanel_f23.SetActive(true);
+                    bkbutton_f23.SetActive(true);
+                    drbutton_f23.SetActive(true);
+                }
                 break;
             case 23:
-                ItemPanel_f24.SetActive(true);
-                bkbutton_f24.SetActive(true);
-                drbutton_f24.SetActive(true);
+                if (score >= 57)
+                {
+                    ItemPanel_f24.SetActive(true);
+                    bkbutton_f24.SetActive(true);
+                    drbutton_f24.SetActive(true);
+                }
                 break;
-
         }
 
     }
@@ -394,192 +469,306 @@ public class ItemManager : MonoBehaviour
     //アクセパネルの方
     public void AccessItem_a(int number2)
     {
+        //「SCORE」というキーで保存されているInt値を読み込み
+        int score = PlayerPrefs.GetInt("SCORE");
+
         switch (number2)
         {
             case 0:
-                ItemPanel_a1.SetActive(true);
-                bkbutton_a1.SetActive(true);
-                drbutton_a1.SetActive(true);
+                if (score >= 5)
+                {
+                    ItemPanel_a1.SetActive(true);
+                    bkbutton_a1.SetActive(true);
+                    drbutton_a1.SetActive(true);
+                }
                 break;
             case 1:
-                ItemPanel_a2.SetActive(true);
-                bkbutton_a2.SetActive(true);
-                drbutton_a2.SetActive(true);
+                if (score >= 7)
+                {
+                    ItemPanel_a2.SetActive(true);
+                    bkbutton_a2.SetActive(true);
+                    drbutton_a2.SetActive(true);
+                }
                 break;
             case 2:
-                ItemPanel_a3.SetActive(true);
-                bkbutton_a3.SetActive(true);
-                drbutton_a3.SetActive(true);
+                if (score >= 10)
+                {
+                    ItemPanel_a3.SetActive(true);
+                    bkbutton_a3.SetActive(true);
+                    drbutton_a3.SetActive(true);
+                }
                 break;
             case 3:
-                ItemPanel_a4.SetActive(true);
-                bkbutton_a4.SetActive(true);
-                drbutton_a4.SetActive(true);
+                if (score >= 12)
+                {
+                    ItemPanel_a4.SetActive(true);
+                    bkbutton_a4.SetActive(true);
+                    drbutton_a4.SetActive(true);
+                }
                 break;
             case 4:
-                ItemPanel_a5.SetActive(true);
-                bkbutton_a5.SetActive(true);
-                drbutton_a5.SetActive(true);
+                if (score >= 15)
+                {
+                    ItemPanel_a5.SetActive(true);
+                    bkbutton_a5.SetActive(true);
+                    drbutton_a5.SetActive(true);
+                }
                 break;
             case 5:
-                ItemPanel_a6.SetActive(true);
-                bkbutton_a6.SetActive(true);
-                drbutton_a6.SetActive(true);
+                if (score >= 17)
+                {
+                    ItemPanel_a6.SetActive(true);
+                    bkbutton_a6.SetActive(true);
+                    drbutton_a6.SetActive(true);
+                }
                 break;
             case 6:
-                ItemPanel_a7.SetActive(true);
-                bkbutton_a7.SetActive(true);
-                drbutton_a7.SetActive(true);
+                if (score >= 20)
+                {
+                    ItemPanel_a7.SetActive(true);
+                    bkbutton_a7.SetActive(true);
+                    drbutton_a7.SetActive(true);
+                }
                 break;
             case 7:
-                ItemPanel_a8.SetActive(true);
-                bkbutton_a8.SetActive(true);
-                drbutton_a8.SetActive(true);
+                if (score >= 22)
+                {
+                    ItemPanel_a8.SetActive(true);
+                    bkbutton_a8.SetActive(true);
+                    drbutton_a8.SetActive(true);
+                }
                 break;
             case 8:
-                ItemPanel_a9.SetActive(true);
-                bkbutton_a9.SetActive(true);
-                drbutton_a9.SetActive(true);
+                if (score >= 25)
+                {
+                    ItemPanel_a9.SetActive(true);
+                    bkbutton_a9.SetActive(true);
+                    drbutton_a9.SetActive(true);
+                }
                 break;
             case 9:
-                ItemPanel_a10.SetActive(true);
-                bkbutton_a10.SetActive(true);
-                drbutton_a10.SetActive(true);
+                if (score >= 27)
+                {
+                    ItemPanel_a10.SetActive(true);
+                    bkbutton_a10.SetActive(true);
+                    drbutton_a10.SetActive(true);
+                }
                 break;
             case 10:
-                ItemPanel_a11.SetActive(true);
-                bkbutton_a11.SetActive(true);
-                drbutton_a11.SetActive(true);
+                if (score >= 30)
+                {
+                    ItemPanel_a11.SetActive(true);
+                    bkbutton_a11.SetActive(true);
+                    drbutton_a11.SetActive(true);
+                }
                 break;
             case 11:
-                ItemPanel_a12.SetActive(true);
-                bkbutton_a12.SetActive(true);
-                drbutton_a12.SetActive(true);
+                if (score >= 32)
+                {
+                    ItemPanel_a12.SetActive(true);
+                    bkbutton_a12.SetActive(true);
+                    drbutton_a12.SetActive(true);
+                }
                 break;
             case 12:
-                ItemPanel_a13.SetActive(true);
-                bkbutton_a13.SetActive(true);
-                drbutton_a13.SetActive(true);
+                if (score >= 35)
+                {
+                    ItemPanel_a13.SetActive(true);
+                    bkbutton_a13.SetActive(true);
+                    drbutton_a13.SetActive(true);
+                }
                 break;
             case 13:
-                ItemPanel_a14.SetActive(true);
-                bkbutton_a14.SetActive(true);
-                drbutton_a14.SetActive(true);
+                if (score >= 37)
+                {
+                    ItemPanel_a14.SetActive(true);
+                    bkbutton_a14.SetActive(true);
+                    drbutton_a14.SetActive(true);
+                }
                 break;
             case 14:
-                ItemPanel_a15.SetActive(true);
-                bkbutton_a15.SetActive(true);
-                drbutton_a15.SetActive(true);
+                if (score >= 40)
+                {
+                    ItemPanel_a15.SetActive(true);
+                    bkbutton_a15.SetActive(true);
+                    drbutton_a15.SetActive(true);
+                }
                 break;
             case 15:
-                ItemPanel_a16.SetActive(true);
-                bkbutton_a16.SetActive(true);
-                drbutton_a16.SetActive(true);
+                if (score >= 42)
+                {
+                    ItemPanel_a16.SetActive(true);
+                    bkbutton_a16.SetActive(true);
+                    drbutton_a16.SetActive(true);
+                }
                 break;
             case 16:
-                ItemPanel_a17.SetActive(true);
-                bkbutton_a17.SetActive(true);
-                drbutton_a17.SetActive(true);
+                if (score >= 45)
+                {
+                    ItemPanel_a17.SetActive(true);
+                    bkbutton_a17.SetActive(true);
+                    drbutton_a17.SetActive(true);
+                }
                 break;
             case 17:
-                ItemPanel_a18.SetActive(true);
-                bkbutton_a18.SetActive(true);
-                drbutton_a18.SetActive(true);
+                if (score >= 47)
+                {
+                    ItemPanel_a18.SetActive(true);
+                    bkbutton_a18.SetActive(true);
+                    drbutton_a18.SetActive(true);
+                }
                 break;
             case 18:
-                ItemPanel_a19.SetActive(true);
-                bkbutton_a19.SetActive(true);
-                drbutton_a19.SetActive(true);
+                if (score >= 50)
+                {
+                    ItemPanel_a19.SetActive(true);
+                    bkbutton_a19.SetActive(true);
+                    drbutton_a19.SetActive(true);
+                }
                 break;
             case 19:
-                ItemPanel_a20.SetActive(true);
-                bkbutton_a20.SetActive(true);
-                drbutton_a20.SetActive(true);
+                if (score >= 52)
+                {
+                    ItemPanel_a20.SetActive(true);
+                    bkbutton_a20.SetActive(true);
+                    drbutton_a20.SetActive(true);
+                }
                 break;
             case 20:
-                ItemPanel_a21.SetActive(true);
-                bkbutton_a21.SetActive(true);
-                drbutton_a21.SetActive(true);
+                if (score >= 55)
+                {
+                    ItemPanel_a21.SetActive(true);
+                    bkbutton_a21.SetActive(true);
+                    drbutton_a21.SetActive(true);
+                }
                 break;
             case 21:
-                ItemPanel_a22.SetActive(true);
-                bkbutton_a22.SetActive(true);
-                drbutton_a22.SetActive(true);
+                if (score >= 57)
+                {
+                    ItemPanel_a22.SetActive(true);
+                    bkbutton_a22.SetActive(true);
+                    drbutton_a22.SetActive(true);
+                }
                 break;
             case 22:
-                ItemPanel_a23.SetActive(true);
-                bkbutton_a23.SetActive(true);
-                drbutton_a23.SetActive(true);
+                if (score >= 60)
+                {
+                    ItemPanel_a23.SetActive(true);
+                    bkbutton_a23.SetActive(true);
+                    drbutton_a23.SetActive(true);
+                }
                 break;
             case 23:
-                ItemPanel_a24.SetActive(true);
-                bkbutton_a24.SetActive(true);
-                drbutton_a24.SetActive(true);
+                if (score >= 62)
+                {
+                    ItemPanel_a24.SetActive(true);
+                    bkbutton_a24.SetActive(true);
+                    drbutton_a24.SetActive(true);
+                }
                 break;
             case 24:
-                ItemPanel_a23.SetActive(true);
-                bkbutton_a23.SetActive(true);
-                drbutton_a23.SetActive(true);
+                if (score >= 65)
+                {
+                    ItemPanel_a23.SetActive(true);
+                    bkbutton_a23.SetActive(true);
+                    drbutton_a23.SetActive(true);
+                }
                 break;
             case 25:
-                ItemPanel_a24.SetActive(true);
-                bkbutton_a24.SetActive(true);
-                drbutton_a24.SetActive(true);
+                if (score >= 67)
+                {
+                    ItemPanel_a24.SetActive(true);
+                    bkbutton_a24.SetActive(true);
+                    drbutton_a24.SetActive(true);
+                }
                 break;
             case 26:
-                ItemPanel_a25.SetActive(true);
-                bkbutton_a25.SetActive(true);
-                drbutton_a25.SetActive(true);
+                if (score >= 70)
+                {
+                    ItemPanel_a25.SetActive(true);
+                    bkbutton_a25.SetActive(true);
+                    drbutton_a25.SetActive(true);
+                }
                 break;
             case 27:
-                ItemPanel_a26.SetActive(true);
-                bkbutton_a26.SetActive(true);
-                drbutton_a26.SetActive(true);
+                if (score >= 72)
+                {
+                    ItemPanel_a26.SetActive(true);
+                    bkbutton_a26.SetActive(true);
+                    drbutton_a26.SetActive(true);
+                }
                 break;
             case 28:
-                ItemPanel_a27.SetActive(true);
-                bkbutton_a27.SetActive(true);
-                drbutton_a27.SetActive(true);
+                if (score >= 75)
+                {
+                    ItemPanel_a27.SetActive(true);
+                    bkbutton_a27.SetActive(true);
+                    drbutton_a27.SetActive(true);
+                }
                 break;
             case 29:
-                ItemPanel_a28.SetActive(true);
-                bkbutton_a28.SetActive(true);
-                drbutton_a28.SetActive(true);
+                if (score >= 77)
+                {
+                    ItemPanel_a28.SetActive(true);
+                    bkbutton_a28.SetActive(true);
+                    drbutton_a28.SetActive(true);
+                }
                 break;
             case 30:
-                ItemPanel_a29.SetActive(true);
-                bkbutton_a29.SetActive(true);
-                drbutton_a29.SetActive(true);
+                if (score >= 80)
+                {
+                    ItemPanel_a29.SetActive(true);
+                    bkbutton_a29.SetActive(true);
+                    drbutton_a29.SetActive(true);
+                }
                 break;
             case 31:
-                ItemPanel_a30.SetActive(true);
-                bkbutton_a30.SetActive(true);
-                drbutton_a30.SetActive(true);
+                if (score >= 82)
+                {
+                    ItemPanel_a30.SetActive(true);
+                    bkbutton_a30.SetActive(true);
+                    drbutton_a30.SetActive(true);
+                }
                 break;
             case 32:
-                ItemPanel_a31.SetActive(true);
-                bkbutton_a31.SetActive(true);
-                drbutton_a31.SetActive(true);
+                if (score >= 85)
+                {
+                    ItemPanel_a31.SetActive(true);
+                    bkbutton_a31.SetActive(true);
+                    drbutton_a31.SetActive(true);
+                }
                 break;
             case 33:
-                ItemPanel_a32.SetActive(true);
-                bkbutton_a32.SetActive(true);
-                drbutton_a32.SetActive(true);
+                if (score >= 87)
+                {
+                    ItemPanel_a32.SetActive(true);
+                    bkbutton_a32.SetActive(true);
+                    drbutton_a32.SetActive(true);
+                }
                 break;
             case 34:
-                ItemPanel_a33.SetActive(true);
-                bkbutton_a33.SetActive(true);
-                drbutton_a33.SetActive(true);
+                if (score >= 90)
+                {
+                    ItemPanel_a33.SetActive(true);
+                    bkbutton_a33.SetActive(true);
+                    drbutton_a33.SetActive(true);
+                }
                 break;
             case 35:
-                ItemPanel_a34.SetActive(true);
-                bkbutton_a34.SetActive(true);
-                drbutton_a34.SetActive(true);
+                if (score >= 92)
+                {
+                    ItemPanel_a34.SetActive(true);
+                    bkbutton_a34.SetActive(true);
+                    drbutton_a34.SetActive(true);
+                }
                 break;
             case 36:
-                ItemPanel_a35.SetActive(true);
-                bkbutton_a35.SetActive(true);
-                drbutton_a35.SetActive(true);
+                if (score >= 95)
+                {
+                    ItemPanel_a35.SetActive(true);
+                    bkbutton_a35.SetActive(true);
+                    drbutton_a35.SetActive(true);
+                }
                 break;
         }
     }
