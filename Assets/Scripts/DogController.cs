@@ -16,6 +16,10 @@ public class DogController : MonoBehaviour
 
     private int day;
 
+    private float meat;
+    private float vegetable;
+    private float carbo;
+
     // Start is called before the first frame update
     void Start()
     {
@@ -45,5 +49,14 @@ public class DogController : MonoBehaviour
             animator.SetBool("isBad", true);
         }
 
+
     }
+
+    public void OnClick(){
+        //パラメーターを受け取る
+        meat += MeatParameter.meatValue;
+        vegetable += VegetableParameter.vegetableValue;
+        carbo += CarboParameter.carboValue;
+    } 
+
 }
