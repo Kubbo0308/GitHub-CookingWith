@@ -6,7 +6,14 @@ using UnityEngine.UI;
 public class ItemManager : MonoBehaviour
 {
     //インスペクターウィンドウからゲームオブジェクトを設定する
-    [SerializeField] GameObject ItemPanel_f; //家具の方のアイテムパネル
+    //家具の方のアイテムパネル
+    [SerializeField] GameObject ItemPanel_f1,ItemPanel_f2,ItemPanel_f3,ItemPanel_f4;
+    [SerializeField] GameObject ItemPanel_f5,ItemPanel_f6,ItemPanel_f7,ItemPanel_f8;
+    [SerializeField] GameObject ItemPanel_f9,ItemPanel_f10,ItemPanel_f11,ItemPanel_f12;
+    [SerializeField] GameObject ItemPanel_f13,ItemPanel_f14,ItemPanel_f15,ItemPanel_f16;
+    [SerializeField] GameObject ItemPanel_f17,ItemPanel_f18,ItemPanel_f19,ItemPanel_f20;
+    [SerializeField] GameObject ItemPanel_f21,ItemPanel_f22,ItemPanel_f23,ItemPanel_f24;
+
     public GameObject buttonComplete_f; //家具の方の完了ボタン
     [SerializeField] GameObject ItemPanel_a; //アクセの方のアイテムパネル
     public GameObject buttonComplete_a; //アクセの方の完了ボタン
@@ -51,7 +58,31 @@ public class ItemManager : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        ItemPanel_f.SetActive(false);
+        ItemPanel_f1.SetActive(false);
+        ItemPanel_f2.SetActive(false);
+        ItemPanel_f3.SetActive(false);
+        ItemPanel_f4.SetActive(false);
+        ItemPanel_f5.SetActive(false);
+        ItemPanel_f6.SetActive(false);
+        ItemPanel_f7.SetActive(false);
+        ItemPanel_f8.SetActive(false);
+        ItemPanel_f9.SetActive(false);
+        ItemPanel_f10.SetActive(false);
+        ItemPanel_f11.SetActive(false);
+        ItemPanel_f12.SetActive(false);
+        ItemPanel_f13.SetActive(false);
+        ItemPanel_f14.SetActive(false);
+        ItemPanel_f15.SetActive(false);
+        ItemPanel_f16.SetActive(false);
+        ItemPanel_f17.SetActive(false);
+        ItemPanel_f18.SetActive(false);
+        ItemPanel_f19.SetActive(false);
+        ItemPanel_f20.SetActive(false);
+        ItemPanel_f21.SetActive(false);
+        ItemPanel_f22.SetActive(false);
+        ItemPanel_f23.SetActive(false);
+        ItemPanel_f24.SetActive(false);
+
         buttonComplete_f.SetActive(false);
         ItemPanel_a.SetActive(false);
         buttonComplete_a.SetActive(false);
@@ -91,19 +122,19 @@ public class ItemManager : MonoBehaviour
     //家具パネルの方
     public void AccessItem_f()
     {
-        ItemPanel_f.SetActive(true);
+        ItemPanel_f1.SetActive(true);
         bkbutton_f.SetActive(true);
-        drbutton_f.SetActive(false);
+        drbutton_f.SetActive(true);
 
     }
     public void back_f()
     {
-        ItemPanel_f.SetActive(false);
+        ItemPanel_f1.SetActive(false);
     }
     public void directItem_f()
     {
         buttonComplete_f.SetActive(true);
-        ItemPanel_f.SetActive(false);
+        ItemPanel_f1.SetActive(false);
     }
     public void back2_f()
     {
@@ -117,7 +148,7 @@ public class ItemManager : MonoBehaviour
     {
         ItemPanel_a.SetActive(true);
         bkbutton_a.SetActive(true);
-        drbutton_a.SetActive(false);
+        drbutton_a.SetActive(true);
     }
     public void back_a()
     {
