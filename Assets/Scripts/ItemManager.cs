@@ -587,9 +587,165 @@ public class ItemManager : MonoBehaviour
         ItemPanel_f23.SetActive(false);
         ItemPanel_f24.SetActive(false);
     }
-    public void directItem_f()
+    public void directItem_f(int drnumber)
     {
         buttonComplete_f.SetActive(true); //配置しましたメッセージ
+
+        int FurniturePoint1 = PlayerPrefs.GetInt("Furniture_k"); //壁紙判定のための変数
+        int FurniturePoint2 = PlayerPrefs.GetInt("Furniture_y"); //床判定のための変数
+        int FurniturePoint3 = PlayerPrefs.GetInt("Furniture_z"); //座布団判定のための変数
+        int FurniturePoint4 = PlayerPrefs.GetInt("Furniture_t"); //机判定のための変数
+        int FurniturePoint5 = PlayerPrefs.GetInt("Furniture_ku"); //クローゼット判定のための変数
+        int FurniturePoint6 = PlayerPrefs.GetInt("Furniture_m"); //窓判定のための変数
+
+        switch (drnumber)
+        {
+            case 0:
+                FurniturePoint1 = 1;
+                Debug.Log(FurniturePoint1);
+                PlayerPrefs.SetInt("Furniture_k", FurniturePoint1);
+                PlayerPrefs.Save();
+                break;
+            case 1:
+                FurniturePoint2 = 1;
+                Debug.Log(FurniturePoint2);
+                PlayerPrefs.SetInt("Furniture_y", FurniturePoint2);
+                PlayerPrefs.Save();
+                break;
+            case 2:
+                FurniturePoint3 = 1;
+                Debug.Log(FurniturePoint3);
+                PlayerPrefs.SetInt("Furniture_z", FurniturePoint3);
+                PlayerPrefs.Save();
+                break;
+            case 3:
+                FurniturePoint4 = 1;
+                Debug.Log(FurniturePoint4);
+                PlayerPrefs.SetInt("Furniture_t", FurniturePoint4);
+                PlayerPrefs.Save();
+                break;
+            case 4:
+                FurniturePoint5 = 1;
+                Debug.Log(FurniturePoint5);
+                PlayerPrefs.SetInt("Furniture_ku", FurniturePoint5);
+                PlayerPrefs.Save();
+                break;
+            case 5:
+                FurniturePoint6 = 1;
+                Debug.Log(FurniturePoint6);
+                PlayerPrefs.SetInt("Furniture_m", FurniturePoint6);
+                PlayerPrefs.Save();
+                break;
+            case 6:
+                FurniturePoint1 = 2;
+                Debug.Log(FurniturePoint1);
+                PlayerPrefs.SetInt("Furniture_k", FurniturePoint1);
+                PlayerPrefs.Save();
+                break;
+            case 7:
+                FurniturePoint2 = 2;
+                Debug.Log(FurniturePoint2);
+                PlayerPrefs.SetInt("Furniture_y", FurniturePoint2);
+                PlayerPrefs.Save();
+                break;
+            case 8:
+                FurniturePoint3 = 2;
+                Debug.Log(FurniturePoint3);
+                PlayerPrefs.SetInt("Furniture_z", FurniturePoint3);
+                PlayerPrefs.Save();
+                break;
+            case 9:
+                FurniturePoint4 = 2;
+                Debug.Log(FurniturePoint4);
+                PlayerPrefs.SetInt("Furniture_t", FurniturePoint4);
+                PlayerPrefs.Save();
+                break;
+            case 10:
+                FurniturePoint5 = 2;
+                Debug.Log(FurniturePoint5);
+                PlayerPrefs.SetInt("Furniture_ku", FurniturePoint5);
+                PlayerPrefs.Save();
+                break;
+            case 11:
+                FurniturePoint6 = 2;
+                Debug.Log(FurniturePoint6);
+                PlayerPrefs.SetInt("Furniture_m", FurniturePoint6);
+                PlayerPrefs.Save();
+                break;
+            case 12:
+                FurniturePoint1 = 3;
+                Debug.Log(FurniturePoint1);
+                PlayerPrefs.SetInt("Furniture_k", FurniturePoint1);
+                PlayerPrefs.Save();
+                break;
+            case 13:
+                FurniturePoint2 = 3;
+                Debug.Log(FurniturePoint2);
+                PlayerPrefs.SetInt("Furniture_y", FurniturePoint2);
+                PlayerPrefs.Save();
+                break;
+            case 14:
+                FurniturePoint3 = 3;
+                Debug.Log(FurniturePoint3);
+                PlayerPrefs.SetInt("Furniture_z", FurniturePoint3);
+                PlayerPrefs.Save();
+                break;
+            case 15:
+                FurniturePoint4 = 3;
+                Debug.Log(FurniturePoint4);
+                PlayerPrefs.SetInt("Furniture_t", FurniturePoint4);
+                PlayerPrefs.Save();
+                break;
+            case 16:
+                FurniturePoint5 = 3;
+                Debug.Log(FurniturePoint5);
+                PlayerPrefs.SetInt("Furniture_ku", FurniturePoint5);
+                PlayerPrefs.Save();
+                break;
+            case 17:
+                FurniturePoint6 = 3;
+                Debug.Log(FurniturePoint6);
+                PlayerPrefs.SetInt("Furniture_m", FurniturePoint6);
+                PlayerPrefs.Save();
+                break;
+            case 18:
+                FurniturePoint1 = 4;
+                Debug.Log(FurniturePoint1);
+                PlayerPrefs.SetInt("Furniture_k", FurniturePoint1);
+                PlayerPrefs.Save();
+                break;
+            case 19:
+                FurniturePoint2 = 4;
+                Debug.Log(FurniturePoint2);
+                PlayerPrefs.SetInt("Furniture_y", FurniturePoint2);
+                PlayerPrefs.Save();
+                break;
+            case 20:
+                FurniturePoint3 = 4;
+                Debug.Log(FurniturePoint3);
+                PlayerPrefs.SetInt("Furniture_z", FurniturePoint3);
+                PlayerPrefs.Save();
+                break;
+            case 21:
+                FurniturePoint4 = 4;
+                Debug.Log(FurniturePoint4);
+                PlayerPrefs.SetInt("Furniture_t", FurniturePoint4);
+                PlayerPrefs.Save();
+                break;
+            case 22:
+                FurniturePoint5 = 4;
+                Debug.Log(FurniturePoint5);
+                PlayerPrefs.SetInt("Furniture_ku", FurniturePoint5);
+                PlayerPrefs.Save();
+                break;
+            case 23:
+                FurniturePoint6 = 4;
+                Debug.Log(FurniturePoint6);
+                PlayerPrefs.SetInt("Furniture_m", FurniturePoint6);
+                PlayerPrefs.Save();
+                break;
+        }
+
         ItemPanel_f1.SetActive(false);
         ItemPanel_f2.SetActive(false);
         ItemPanel_f3.SetActive(false);
