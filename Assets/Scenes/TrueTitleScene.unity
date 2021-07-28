@@ -302,6 +302,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   TitlePanel: {fileID: 1742786910}
   MenuPanel: {fileID: 2003806914}
+  buttonStart: {fileID: 1522149831}
+  buttonSettei: {fileID: 614047547}
 --- !u!4 &188876973
 Transform:
   m_ObjectHideFlags: 0
@@ -1234,6 +1236,18 @@ MonoBehaviour:
       - m_Target: {fileID: 1600324758}
         m_TargetAssemblyTypeName: ButtonManager, Assembly-CSharp
         m_MethodName: GoTitleButton
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+      - m_Target: {fileID: 188876972}
+        m_TargetAssemblyTypeName: TitleUIManager, Assembly-CSharp
+        m_MethodName: PushStart
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}

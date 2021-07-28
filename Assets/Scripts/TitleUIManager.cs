@@ -9,6 +9,8 @@ public class TitleUIManager : MonoBehaviour
     //インスペクターウィンドウからゲームオブジェクトを設定する
     [SerializeField] GameObject TitlePanel;
     [SerializeField] GameObject MenuPanel;
+    public GameObject buttonStart;
+    public GameObject buttonSettei;
 
 
     // Start is called before the first frame update
@@ -32,6 +34,16 @@ public class TitleUIManager : MonoBehaviour
     {
         TitlePanel.SetActive(true);
         MenuPanel.SetActive(false);
+    }
+
+    //スタートボタンを押したとき
+    public void PushStart()
+    {
+        int StartPoint = PlayerPrefs.GetInt("START");
+        StartPoint++;
+        Debug.Log(StartPoint);
+        PlayerPrefs.SetInt("START", StartPoint);
+        PlayerPrefs.Save();
     }
 
 }
