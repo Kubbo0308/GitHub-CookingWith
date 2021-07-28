@@ -3,9 +3,8 @@ using System.Collections.Generic;
 using UnityEngine;
 using System;
 
-public class DogController : MonoBehaviour
+public class CatController : MonoBehaviour
 {
-
     Animator animator;
 
     private string nowDay;
@@ -16,9 +15,9 @@ public class DogController : MonoBehaviour
 
     private int day;
 
-    private float meatDog;
-    private float vegetableDog;
-    private float carboDog;
+    private float meatCat;
+    private float vegetableCat;
+    private float carboCat;
 
     private int score;
 
@@ -30,9 +29,9 @@ public class DogController : MonoBehaviour
         score = PlayerPrefs.GetInt("SCORE");
 
         //保存されている3つのパラメータのFloat値を読み込み
-        meatDog = PlayerPrefs.GetFloat("MEATDOG", 0);
-        vegetableDog = PlayerPrefs.GetFloat("VEGETABLEDOG", 0);
-        carboDog = PlayerPrefs.GetFloat("CARBODOG", 0);
+        meatCat = PlayerPrefs.GetFloat("MEATCAT", 0);
+        vegetableCat = PlayerPrefs.GetFloat("VEGETABLECAT", 0);
+        carboCat = PlayerPrefs.GetFloat("CARBOCAT", 0);
     }
 
     // Update is called once per frame
@@ -62,16 +61,14 @@ public class DogController : MonoBehaviour
         }
 
         //肉中心の時
-        if ((score >= 5) && (meatDog > 20.0f)){
+        if ((score >= 5) && (meatCat > 20.0f)){
             animator.SetBool("isMeat", true);
-        } else if ((score >= 5) && (vegetableDog > 20.0f)){ //野菜中心の時
+        } else if ((score >= 5) && (vegetableCat > 20.0f)){ //野菜中心の時
             animator.SetBool("isVegetable", true);
-        } else if ((score >= 5) && (carboDog > 20.0f)){ //炭水化物中心の時
+        } else if ((score >= 5) && (carboCat > 20.0f)){ //炭水化物中心の時
             animator.SetBool("isCarbo", true);
         } else if (score >= 5){ //バランスが良い時
             animator.SetBool("isGood", true);
         }
-
     }
-
 }
