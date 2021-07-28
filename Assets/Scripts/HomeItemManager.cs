@@ -35,6 +35,12 @@ public class HomeItemManager : MonoBehaviour
         Debug.Log(" 今選択されているクローゼットは" + furniture_ku);
         Debug.Log(" 今選択されている窓は" + furniture_m);
 
+        image_f2.enabled = false; //最初は非表示
+        image_f3.enabled = false; //最初は非表示
+        image_f4.enabled = false; //最初は非表示
+        image_f5.enabled = false; //最初は非表示
+        image_f6.enabled = false; //最初は非表示
+
         //furniture(どの壁紙を選択しているか)で壁紙変更
         if (furniture_k == 1)
         {
@@ -58,101 +64,121 @@ public class HomeItemManager : MonoBehaviour
         }
         if (furniture_y == 1)
         {
+            image_f2.enabled = true; //表示する
             // SpriteRenderのspriteを設定済みの他のspriteに変更
             image_f2.sprite = Sprite_f5;
         }
         if (furniture_y == 2)
         {
+            image_f2.enabled = true; //表示する
             // SpriteRenderのspriteを設定済みの他のspriteに変更
             image_f2.sprite = Sprite_f6;
         }
         if (furniture_y == 3)
         {
+            image_f2.enabled = true; //表示する
             // SpriteRenderのspriteを設定済みの他のspriteに変更
             image_f2.sprite = Sprite_f7;
         }
         if (furniture_y == 4)
         {
+            image_f2.enabled = true; //表示する
             // SpriteRenderのspriteを設定済みの他のspriteに変更
             image_f2.sprite = Sprite_f8;
         }
         if (furniture_z == 1)
         {
+            image_f3.enabled = true; //表示する
             // SpriteRenderのspriteを設定済みの他のspriteに変更
             image_f3.sprite = Sprite_f9;
         }
         if (furniture_z == 2)
         {
+            image_f3.enabled = true; //表示する
             // SpriteRenderのspriteを設定済みの他のspriteに変更
             image_f3.sprite = Sprite_f10;
         }
         if (furniture_z == 3)
         {
+            image_f3.enabled = true; //表示する
             // SpriteRenderのspriteを設定済みの他のspriteに変更
             image_f3.sprite = Sprite_f11;
         }
         if (furniture_z == 4)
         {
+            image_f3.enabled = true; //表示する
             // SpriteRenderのspriteを設定済みの他のspriteに変更
             image_f3.sprite = Sprite_f12;
         }
         if (furniture_t == 1)
         {
+            image_f4.enabled = true; //表示する
             // SpriteRenderのspriteを設定済みの他のspriteに変更
             image_f4.sprite = Sprite_f13;
         }
         if (furniture_t == 2)
         {
+            image_f4.enabled = true; //表示する
             // SpriteRenderのspriteを設定済みの他のspriteに変更
             image_f4.sprite = Sprite_f14;
         }
         if (furniture_t == 3)
         {
+            image_f4.enabled = true; //表示する
             // SpriteRenderのspriteを設定済みの他のspriteに変更
             image_f4.sprite = Sprite_f15;
         }
         if (furniture_t == 4)
         {
+            image_f4.enabled = true; //表示する
             // SpriteRenderのspriteを設定済みの他のspriteに変更
             image_f4.sprite = Sprite_f16;
         }
         if (furniture_ku == 1)
         {
+            image_f5.enabled = true; //表示する
             // SpriteRenderのspriteを設定済みの他のspriteに変更
             image_f5.sprite = Sprite_f17;
         }
         if (furniture_ku == 2)
         {
+            image_f5.enabled = true; //表示する
             // SpriteRenderのspriteを設定済みの他のspriteに変更
             image_f5.sprite = Sprite_f18;
         }
         if (furniture_ku == 3)
         {
+            image_f5.enabled = true; //表示する
             // SpriteRenderのspriteを設定済みの他のspriteに変更
             image_f5.sprite = Sprite_f19;
         }
         if (furniture_ku == 4)
         {
+            image_f5.enabled = true; //表示する
             // SpriteRenderのspriteを設定済みの他のspriteに変更
             image_f5.sprite = Sprite_f20;
         }
         if (furniture_m == 1)
         {
+            image_f6.enabled = true; //表示する
             // SpriteRenderのspriteを設定済みの他のspriteに変更
             image_f6.sprite = Sprite_f21;
         }
         if (furniture_m == 2)
         {
+            image_f6.enabled = true; //表示する
             // SpriteRenderのspriteを設定済みの他のspriteに変更
             image_f6.sprite = Sprite_f22;
         }
         if (furniture_m == 3)
         {
+            image_f6.enabled = true; //表示する
             // SpriteRenderのspriteを設定済みの他のspriteに変更
             image_f6.sprite = Sprite_f23;
         }
         if (furniture_m == 4)
         {
+            image_f6.enabled = true; //表示する
             // SpriteRenderのspriteを設定済みの他のspriteに変更
             image_f6.sprite = Sprite_f24;
         }
