@@ -1,0 +1,732 @@
+Using pre-set license
+Built from '2020.3/staging' branch; Version is '2020.3.8f1 (507919d4fff5) revision 5273881'; Using compiler version '192528614'; Build Type 'Release'
+OS: 'Windows 10 Home; OS build 19041.1110; Version 2004; 64bit' Language: 'ja' Physical Memory: 8118 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 0
+
+ COMMAND LINE ARGUMENTS:
+C:\Program Files\Unity\Hub\Editor\2020.3.8f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker0
+-projectPath
+C:/Users/nina/Documents/GitHub/GitHub-CookingWith
+-logFile
+Logs/AssetImportWorker0.log
+-srvPort
+57525
+Successfully changed project path to: C:/Users/nina/Documents/GitHub/GitHub-CookingWith
+C:/Users/nina/Documents/GitHub/GitHub-CookingWith
+Using Asset Import Pipeline V2.
+Refreshing native plugins compatible for Editor in 45.63 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2020.3.8f1 (507919d4fff5)
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2020.3.8f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path C:/Users/nina/Documents/GitHub/GitHub-CookingWith/Assets
+GfxDevice: creating device client; threaded=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: Intel(R) UHD Graphics 620 (ID=0x5917)
+    Vendor:   
+    VRAM:     4059 MB
+    Driver:   27.20.100.9416
+Initialize mono
+Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2020.3.8f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2020.3.8f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
+Mono config path = 'C:/Program Files/Unity/Hub/Editor/2020.3.8f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56700
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2020.3.8f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.003560 seconds.
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 41.21 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  2.311 seconds
+Platform modules already initialized, skipping
+Registering precompiled user dll's ...
+Registered in 0.002533 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 44.06 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.136 seconds
+Platform modules already initialized, skipping
+========================================================================
+Worker process is ready to serve import requests
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.08 seconds
+Refreshing native plugins compatible for Editor in 0.66 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1828 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 88.2 MB.
+System memory in use after: 88.3 MB.
+
+Unloading 19 unused Assets to reduce memory usage. Loaded Objects now: 2278.
+Total: 2.508100 ms (FindLiveObjects: 0.260700 ms CreateObjectMapping: 0.064400 ms MarkObjects: 2.063400 ms  DeleteObjects: 0.118600 ms)
+
+========================================================================
+Received Import Request.
+  path: Assets/Scenes/TitleScene.unity
+  artifactKey: Guid(418f3f66d2fde684ea533ea40f5e9b8a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/TitleScene.unity using Guid(418f3f66d2fde684ea533ea40f5e9b8a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '717bc8eace5505fd6133d12117ab66b7') in 0.015603 seconds
+  Import took 0.021040 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.002687 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.40 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.045 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.49 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1818 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 87.6 MB.
+System memory in use after: 87.7 MB.
+
+Unloading 7 unused Assets to reduce memory usage. Loaded Objects now: 2282.
+Total: 2.564900 ms (FindLiveObjects: 0.261300 ms CreateObjectMapping: 0.063100 ms MarkObjects: 2.222100 ms  DeleteObjects: 0.017400 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.002585 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.50 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.071 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.42 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1819 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 87.7 MB.
+System memory in use after: 87.8 MB.
+
+Unloading 7 unused Assets to reduce memory usage. Loaded Objects now: 2287.
+Total: 2.188300 ms (FindLiveObjects: 0.195400 ms CreateObjectMapping: 0.071600 ms MarkObjects: 1.901400 ms  DeleteObjects: 0.018400 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.002322 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.43 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.038 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.40 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1819 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 87.7 MB.
+System memory in use after: 87.8 MB.
+
+Unloading 7 unused Assets to reduce memory usage. Loaded Objects now: 2291.
+Total: 2.651100 ms (FindLiveObjects: 0.356700 ms CreateObjectMapping: 0.173800 ms MarkObjects: 2.068600 ms  DeleteObjects: 0.048600 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.002845 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.49 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.052 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.46 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1819 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 87.7 MB.
+System memory in use after: 87.8 MB.
+
+Unloading 7 unused Assets to reduce memory usage. Loaded Objects now: 2295.
+Total: 2.718200 ms (FindLiveObjects: 0.292900 ms CreateObjectMapping: 0.076900 ms MarkObjects: 2.302800 ms  DeleteObjects: 0.044200 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 264.113797 seconds.
+  path: Assets/Scripts/HomeItemManager.cs
+  artifactKey: Guid(530971316ed563e4eb213fc3783c2fad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/HomeItemManager.cs using Guid(530971316ed563e4eb213fc3783c2fad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6670030ad149dc468cfeb65a9bc0a1cb') in 0.125094 seconds
+  Import took 0.135953 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.003741 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.47 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.038 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.41 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1819 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 87.8 MB.
+System memory in use after: 87.9 MB.
+
+Unloading 7 unused Assets to reduce memory usage. Loaded Objects now: 2299.
+Total: 2.556500 ms (FindLiveObjects: 0.261700 ms CreateObjectMapping: 0.059600 ms MarkObjects: 2.216500 ms  DeleteObjects: 0.017600 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 60.918577 seconds.
+  path: Assets/Resources/Image/Cat
+  artifactKey: Guid(b6a50febbb24bb24192f64c88d9f64c4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Image/Cat using Guid(b6a50febbb24bb24192f64c88d9f64c4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2e1c86e985113fb161a44779b57a4bc1') in 0.015042 seconds
+  Import took 0.019701 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 49.530434 seconds.
+  path: Assets/Resources/Image/Furniture/クッション1.png
+  artifactKey: Guid(77b8d25aef729fb4dbb53c7feb0434ad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Image/Furniture/クッション1.png using Guid(77b8d25aef729fb4dbb53c7feb0434ad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6f1f4d2ee114bb64d3b8ef5935c148d7') in 0.136092 seconds
+  Import took 0.140387 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000302 seconds.
+  path: Assets/Resources/Image/Furniture/収納4.png
+  artifactKey: Guid(d96f8b03f6757394f8f4066a232dc595) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Image/Furniture/収納4.png using Guid(d96f8b03f6757394f8f4066a232dc595) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7ecaab345724b06aff831a0835f66e63') in 0.026953 seconds
+  Import took 0.031697 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000290 seconds.
+  path: Assets/Resources/Image/Furniture/テーブル4.png
+  artifactKey: Guid(439a60e86cc8e7045bdee2ef013f9b93) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Image/Furniture/テーブル4.png using Guid(439a60e86cc8e7045bdee2ef013f9b93) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8b7a2d6a899e50f03fd4d2cb4db4c570') in 0.033583 seconds
+  Import took 0.036819 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000334 seconds.
+  path: Assets/Resources/Image/Furniture/テーブル3.png
+  artifactKey: Guid(dc56269a3b5efbd4fbd7dea5bb1210e6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Image/Furniture/テーブル3.png using Guid(dc56269a3b5efbd4fbd7dea5bb1210e6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '13caad739e74e89809b704dab4c83880') in 0.029751 seconds
+  Import took 0.033995 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000512 seconds.
+  path: Assets/Resources/Image/Furniture/クッション4.png
+  artifactKey: Guid(517223e63ae5b5840a8baeeabd5712aa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Image/Furniture/クッション4.png using Guid(517223e63ae5b5840a8baeeabd5712aa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2cde81160c99df641d2d0f052c555b2c') in 0.026313 seconds
+  Import took 0.031712 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000329 seconds.
+  path: Assets/Resources/Image/Furniture/テーブル1.png
+  artifactKey: Guid(98388de874739764884ad0df250e8d9f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Image/Furniture/テーブル1.png using Guid(98388de874739764884ad0df250e8d9f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7cb000954124b1f88da0ebd7048f23c7') in 0.025218 seconds
+  Import took 0.031187 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000411 seconds.
+  path: Assets/Resources/Image/Furniture/床1.png
+  artifactKey: Guid(6268043dcb554dc49b6cc9be4dfdf366) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Image/Furniture/床1.png using Guid(6268043dcb554dc49b6cc9be4dfdf366) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0638b33dd613b5bb33eda281fbb93ca3') in 0.034651 seconds
+  Import took 0.038638 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000275 seconds.
+  path: Assets/Resources/Image/Furniture/クッション2.png
+  artifactKey: Guid(27fba46e5583a6246b994770cf0535ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Image/Furniture/クッション2.png using Guid(27fba46e5583a6246b994770cf0535ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a5324affd155d15ac5a7e4b6da859203') in 0.027480 seconds
+  Import took 0.032277 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000369 seconds.
+  path: Assets/Resources/Image/Furniture/テーブル2.png
+  artifactKey: Guid(481571795a7f5d044b2ccdd4941c076a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Image/Furniture/テーブル2.png using Guid(481571795a7f5d044b2ccdd4941c076a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '978b05a1e6f948b5a2c9aece0c5c3d6d') in 0.032251 seconds
+  Import took 0.038309 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000322 seconds.
+  path: Assets/Resources/Image/Furniture/クッション2.png
+  artifactKey: Guid(27fba46e5583a6246b994770cf0535ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Image/Furniture/クッション2.png using Guid(27fba46e5583a6246b994770cf0535ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a5324affd155d15ac5a7e4b6da859203') in 0.026358 seconds
+  Import took 0.031372 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000297 seconds.
+  path: Assets/Resources/Image/Furniture/収納1.png
+  artifactKey: Guid(6451770983409964a903b4b1c85838c4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Image/Furniture/収納1.png using Guid(6451770983409964a903b4b1c85838c4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7ea05e4207c73d9c68d345931ff4e427') in 0.028736 seconds
+  Import took 0.032130 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000227 seconds.
+  path: Assets/Resources/Image/Furniture/壁紙2.png
+  artifactKey: Guid(1ecea86e7da0ff249908afae28506557) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Image/Furniture/壁紙2.png using Guid(1ecea86e7da0ff249908afae28506557) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9fedcd4f85d89a8b54749cc5c6250145') in 0.026155 seconds
+  Import took 0.030616 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000227 seconds.
+  path: Assets/Resources/Image/Furniture/壁紙1.png
+  artifactKey: Guid(e27eabf087ea00645a8b42b1d7e62aa6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Image/Furniture/壁紙1.png using Guid(e27eabf087ea00645a8b42b1d7e62aa6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7b8f1d4a5cc139bf94ab1c627aae37e2') in 0.021742 seconds
+  Import took 0.026557 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000287 seconds.
+  path: Assets/Resources/Image/Furniture/クッション3.png
+  artifactKey: Guid(62c7eec135ce2ad46bab72a050095316) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Image/Furniture/クッション3.png using Guid(62c7eec135ce2ad46bab72a050095316) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '29c5b7a8b877bf65c88ec7e46c5089d5') in 0.022440 seconds
+  Import took 0.026523 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000230 seconds.
+  path: Assets/Resources/Image/Furniture/収納3.png
+  artifactKey: Guid(0a78c355553011f47b5b4e1567f7d8a5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Image/Furniture/収納3.png using Guid(0a78c355553011f47b5b4e1567f7d8a5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '16466db97e2a4aa46b803c725d01cc3c') in 0.020546 seconds
+  Import took 0.024596 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000240 seconds.
+  path: Assets/Resources/Image/Furniture/クッション3.png
+  artifactKey: Guid(62c7eec135ce2ad46bab72a050095316) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Image/Furniture/クッション3.png using Guid(62c7eec135ce2ad46bab72a050095316) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '29c5b7a8b877bf65c88ec7e46c5089d5') in 0.021475 seconds
+  Import took 0.026273 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000249 seconds.
+  path: Assets/Resources/Image/Furniture/収納2.png
+  artifactKey: Guid(2f2ba2cec85cd8e4cb9997313d7c3ffa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Image/Furniture/収納2.png using Guid(2f2ba2cec85cd8e4cb9997313d7c3ffa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '75a1b5b724281a461d699f40a27482cd') in 0.021077 seconds
+  Import took 0.025415 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.280844 seconds.
+  path: Assets/Resources/Image/Furniture/床2.png
+  artifactKey: Guid(b2332cd38e911534fb4c84d89e8f6c26) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Image/Furniture/床2.png using Guid(b2332cd38e911534fb4c84d89e8f6c26) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '71371bf07fa81a364f8fa460438dab81') in 0.034432 seconds
+  Import took 0.040097 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000328 seconds.
+  path: Assets/Resources/Image/Furniture/窓2.png
+  artifactKey: Guid(4631f90db264f2642a2ebd798f311ab6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Image/Furniture/窓2.png using Guid(4631f90db264f2642a2ebd798f311ab6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd45f50005d4bdab583b70b13bc1d4081') in 0.027915 seconds
+  Import took 0.033164 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000359 seconds.
+  path: Assets/Resources/Image/Furniture/床3.png
+  artifactKey: Guid(92c58f640ab096840ba34da11b7c2257) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Image/Furniture/床3.png using Guid(92c58f640ab096840ba34da11b7c2257) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e77d8b0eba2fe83d6d28313cfc19177a') in 0.036225 seconds
+  Import took 0.040917 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000358 seconds.
+  path: Assets/Resources/Image/Furniture/床2.png
+  artifactKey: Guid(b2332cd38e911534fb4c84d89e8f6c26) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Image/Furniture/床2.png using Guid(b2332cd38e911534fb4c84d89e8f6c26) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '71371bf07fa81a364f8fa460438dab81') in 0.039251 seconds
+  Import took 0.044942 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000353 seconds.
+  path: Assets/Resources/Image/Furniture/窓3.png
+  artifactKey: Guid(94c4dca2c7eb3b34c993a16d575579c4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Image/Furniture/窓3.png using Guid(94c4dca2c7eb3b34c993a16d575579c4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '70fa93ccbaaf493f89acf77718752a78') in 0.027824 seconds
+  Import took 0.031650 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000389 seconds.
+  path: Assets/Resources/Image/Furniture/床4.png
+  artifactKey: Guid(b9b4cade01d4b9f4ca73fae3bd65b7e2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Image/Furniture/床4.png using Guid(b9b4cade01d4b9f4ca73fae3bd65b7e2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '894b37733385dade815a3073f9868de7') in 0.028359 seconds
+  Import took 0.033749 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000455 seconds.
+  path: Assets/Resources/Image/Furniture/窓4.png
+  artifactKey: Guid(fc1e67bd93efdc843969d157de0b3e01) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Image/Furniture/窓4.png using Guid(fc1e67bd93efdc843969d157de0b3e01) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '458cf7992fac1d6183db4a6662bfba92') in 0.026375 seconds
+  Import took 0.031715 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000572 seconds.
+  path: Assets/Resources/Image/Furniture/窓1.png
+  artifactKey: Guid(3c4c813a97eaa414b9bbc335ae40d456) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Image/Furniture/窓1.png using Guid(3c4c813a97eaa414b9bbc335ae40d456) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '81a560a045612fa2694b683a7be9b355') in 0.026669 seconds
+  Import took 0.031117 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.002487 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.47 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.034 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.43 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1819 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 90.8 MB.
+System memory in use after: 91.0 MB.
+
+Unloading 7 unused Assets to reduce memory usage. Loaded Objects now: 2311.
+Total: 2.444400 ms (FindLiveObjects: 0.231200 ms CreateObjectMapping: 0.062900 ms MarkObjects: 2.125700 ms  DeleteObjects: 0.022800 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.002785 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.47 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.044 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.40 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1819 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 90.9 MB.
+System memory in use after: 91.0 MB.
+
+Unloading 7 unused Assets to reduce memory usage. Loaded Objects now: 2315.
+Total: 2.824600 ms (FindLiveObjects: 0.268800 ms CreateObjectMapping: 0.073000 ms MarkObjects: 2.433000 ms  DeleteObjects: 0.048600 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 1102.783643 seconds.
+  path: Assets/Scenes/TitleScene.unity
+  artifactKey: Guid(418f3f66d2fde684ea533ea40f5e9b8a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/TitleScene.unity using Guid(418f3f66d2fde684ea533ea40f5e9b8a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7165aabc33305791f43afeaef41e94b5') in 0.018461 seconds
+  Import took 0.022461 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.005347 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.63 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.076 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.77 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1819 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 90.9 MB.
+System memory in use after: 91.0 MB.
+
+Unloading 7 unused Assets to reduce memory usage. Loaded Objects now: 2319.
+Total: 4.554300 ms (FindLiveObjects: 0.493500 ms CreateObjectMapping: 0.158000 ms MarkObjects: 3.877100 ms  DeleteObjects: 0.023000 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.004544 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.64 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  2.369 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.64 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1819 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 90.9 MB.
+System memory in use after: 91.0 MB.
+
+Unloading 7 unused Assets to reduce memory usage. Loaded Objects now: 2323.
+Total: 4.534600 ms (FindLiveObjects: 0.443900 ms CreateObjectMapping: 0.226800 ms MarkObjects: 3.835200 ms  DeleteObjects: 0.026400 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 358.820525 seconds.
+  path: Assets/Resources/Image/Bard/トリ_透過.png
+  artifactKey: Guid(759bb92b81b1fa849b437c426b3ddcc6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Image/Bard/トリ_透過.png using Guid(759bb92b81b1fa849b437c426b3ddcc6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3b41de6d2039b7321592bc36e7281427') in 0.094544 seconds
+  Import took 0.100311 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000536 seconds.
+  path: Assets/Resources/Image/Bard/トリ_野菜_透過.png
+  artifactKey: Guid(aa849327d6f5f3f4aba0e06808111886) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Image/Bard/トリ_野菜_透過.png using Guid(aa849327d6f5f3f4aba0e06808111886) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a39b50a6af7a76f01b49076c0fbf3c10') in 0.039609 seconds
+  Import took 0.045525 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000444 seconds.
+  path: Assets/Resources/Image/Cat/ネコ_バランス良_透過.png
+  artifactKey: Guid(73e604cf5bd92e04a9ee0f4acae1dded) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Image/Cat/ネコ_バランス良_透過.png using Guid(73e604cf5bd92e04a9ee0f4acae1dded) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5bb66352504b15372f3efed14725549b') in 0.039855 seconds
+  Import took 0.044338 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.880512 seconds.
+  path: Assets/Resources/Image/Bard/トリ_炭水化物_透過.png
+  artifactKey: Guid(6bb620d0d19e68a43a5fafb6ff1d5e40) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Image/Bard/トリ_炭水化物_透過.png using Guid(6bb620d0d19e68a43a5fafb6ff1d5e40) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7b3d1c7da57d0209028bb45ed7784337') in 0.033176 seconds
+  Import took 0.037566 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000642 seconds.
+  path: Assets/Resources/Image/Bard/トリ_肉_透過.png
+  artifactKey: Guid(166f2a439809ea24eb5c7cdd1522a831) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Image/Bard/トリ_肉_透過.png using Guid(166f2a439809ea24eb5c7cdd1522a831) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1c827bf719bae7a3f63c9068e1af5345') in 0.026570 seconds
+  Import took 0.031312 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000376 seconds.
+  path: Assets/Resources/Image/Bard/トリ_バランス良_透過.png
+  artifactKey: Guid(8e7db7089a9e8ad4c9a0983edff99c37) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Image/Bard/トリ_バランス良_透過.png using Guid(8e7db7089a9e8ad4c9a0983edff99c37) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd9aa0ca5172c073b66f58b34a1368d67') in 0.034472 seconds
+  Import took 0.039646 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000279 seconds.
+  path: Assets/Resources/Image/Bard/トリ_衰弱_透過.png
+  artifactKey: Guid(bec9eae1141111f42a19ce2f3112349b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Image/Bard/トリ_衰弱_透過.png using Guid(bec9eae1141111f42a19ce2f3112349b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e786e3c4c262826db8f2f1767229fa72') in 0.032620 seconds
+  Import took 0.036383 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.067874 seconds.
+  path: Assets/Resources/Image/Rabbit/ウサギ_衰弱_透過.png
+  artifactKey: Guid(78d6a8926c23eb944989f92c9d3eeb1f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Image/Rabbit/ウサギ_衰弱_透過.png using Guid(78d6a8926c23eb944989f92c9d3eeb1f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bfaa687d8de8f884640ce6fb3b653ee5') in 0.031719 seconds
+  Import took 0.036216 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000330 seconds.
+  path: Assets/Resources/Image/Rabbit/ウサギ_透過.png
+  artifactKey: Guid(1e37dc674f19f6b4ebfd0b6ecdba6f60) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Image/Rabbit/ウサギ_透過.png using Guid(1e37dc674f19f6b4ebfd0b6ecdba6f60) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '84f7d271e45e0de836bcab050af1051e') in 0.027659 seconds
+  Import took 0.033195 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000503 seconds.
+  path: Assets/Resources/Image/Rabbit/ウサギ_野菜_透過.png
+  artifactKey: Guid(f1f0172e38aba4a44ada088362cd1adf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Image/Rabbit/ウサギ_野菜_透過.png using Guid(f1f0172e38aba4a44ada088362cd1adf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a72422ef7f44d60fc76236112f0449fd') in 0.032791 seconds
+  Import took 0.039416 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.315147 seconds.
+  path: Assets/Resources/Image/Dog/イヌ_衰弱_透過.png
+  artifactKey: Guid(e392e8d19eb62514aa7b0c560988358c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Image/Dog/イヌ_衰弱_透過.png using Guid(e392e8d19eb62514aa7b0c560988358c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '87ce81175173f404312ead99ca9a0fe1') in 0.032881 seconds
+  Import took 0.038842 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000406 seconds.
+  path: Assets/Resources/Image/Rabbit/ウサギ_バランス良_透過.png
+  artifactKey: Guid(d10f1f9cfe2130c409afadf97bfd41db) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Image/Rabbit/ウサギ_バランス良_透過.png using Guid(d10f1f9cfe2130c409afadf97bfd41db) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'da02a1ecac5a615b97c339ce0426c0c5') in 0.030169 seconds
+  Import took 0.035272 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000397 seconds.
+  path: Assets/Resources/Image/Dog/イヌ_炭水化物_透過.png
+  artifactKey: Guid(6bf1a50cabeba504eaacc6d7e13423d4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Image/Dog/イヌ_炭水化物_透過.png using Guid(6bf1a50cabeba504eaacc6d7e13423d4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4a6cb0586cf2bb3b554bfc7f7a9b8dfd') in 0.030413 seconds
+  Import took 0.034954 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000327 seconds.
+  path: Assets/Resources/Image/Rabbit/ウサギ_肉_透過.png
+  artifactKey: Guid(b356ed78bf5907b41aeaf78a4c710408) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Image/Rabbit/ウサギ_肉_透過.png using Guid(b356ed78bf5907b41aeaf78a4c710408) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9f287970d37b46c4b4847c421c9918b0') in 0.031896 seconds
+  Import took 0.036145 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000575 seconds.
+  path: Assets/Resources/Image/Rabbit/ウサギ_炭水化物_透過.png
+  artifactKey: Guid(8b61412b5576c9e48b6fa2e746d248c9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Image/Rabbit/ウサギ_炭水化物_透過.png using Guid(8b61412b5576c9e48b6fa2e746d248c9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0358543e3d8fb1ff9549f0c1c1a84d8a') in 0.029600 seconds
+  Import took 0.036885 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000278 seconds.
+  path: Assets/Resources/Image/Dog/イヌ_野菜_透過.png
+  artifactKey: Guid(3bc5339103f58f84dadb184b6b999556) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Image/Dog/イヌ_野菜_透過.png using Guid(3bc5339103f58f84dadb184b6b999556) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a2adc92ee634420376c258fdd4638f24') in 0.031912 seconds
+  Import took 0.037621 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000418 seconds.
+  path: Assets/Resources/Image/Dog/イヌ_バランス良_透過.png
+  artifactKey: Guid(31406ab017193a34aab77622ac54566d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Image/Dog/イヌ_バランス良_透過.png using Guid(31406ab017193a34aab77622ac54566d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd6a128d30acbbdd97e1c076ee7310aa9') in 0.030631 seconds
+  Import took 0.034845 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000412 seconds.
+  path: Assets/Resources/Image/Dog/イヌ_肉_透過.png
+  artifactKey: Guid(49c9fd92d2c41ed4c949ecdb17af273f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Image/Dog/イヌ_肉_透過.png using Guid(49c9fd92d2c41ed4c949ecdb17af273f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '43462a4022d500fb9e84c1aa56a2b560') in 0.032440 seconds
+  Import took 0.037807 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000372 seconds.
+  path: Assets/Resources/Image/Dog/イヌ_透過.png
+  artifactKey: Guid(c314c6955a4a1fd4094557d284c4432a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Image/Dog/イヌ_透過.png using Guid(c314c6955a4a1fd4094557d284c4432a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e3fa70e1d78fd5229f924e58f896e8d4') in 0.029491 seconds
+  Import took 0.035698 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.003331 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.46 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.070 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.40 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1819 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 90.9 MB.
+System memory in use after: 91.0 MB.
+
+Unloading 7 unused Assets to reduce memory usage. Loaded Objects now: 2330.
+Total: 2.681500 ms (FindLiveObjects: 0.388400 ms CreateObjectMapping: 0.085900 ms MarkObjects: 2.163000 ms  DeleteObjects: 0.042700 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.002384 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.41 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.082 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.59 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1819 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 90.9 MB.
+System memory in use after: 91.1 MB.
+
+Unloading 7 unused Assets to reduce memory usage. Loaded Objects now: 2334.
+Total: 2.148300 ms (FindLiveObjects: 0.263000 ms CreateObjectMapping: 0.070900 ms MarkObjects: 1.767000 ms  DeleteObjects: 0.046300 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.002575 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.74 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.228 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.44 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1819 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 90.9 MB.
+System memory in use after: 91.1 MB.
+
+Unloading 7 unused Assets to reduce memory usage. Loaded Objects now: 2338.
+Total: 2.670600 ms (FindLiveObjects: 0.238200 ms CreateObjectMapping: 0.076600 ms MarkObjects: 2.332600 ms  DeleteObjects: 0.022000 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.002328 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.43 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.235 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.45 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1819 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 91.0 MB.
+System memory in use after: 91.1 MB.
+
+Unloading 7 unused Assets to reduce memory usage. Loaded Objects now: 2342.
+Total: 3.010300 ms (FindLiveObjects: 0.306400 ms CreateObjectMapping: 0.098700 ms MarkObjects: 2.579300 ms  DeleteObjects: 0.024300 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.002414 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.41 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.066 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.45 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1819 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 91.0 MB.
+System memory in use after: 91.1 MB.
+
+Unloading 7 unused Assets to reduce memory usage. Loaded Objects now: 2346.
+Total: 3.337700 ms (FindLiveObjects: 0.264300 ms CreateObjectMapping: 0.114900 ms MarkObjects: 2.933700 ms  DeleteObjects: 0.023000 ms)
+
