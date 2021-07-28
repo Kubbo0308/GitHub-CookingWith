@@ -7,16 +7,16 @@ using Debug = UnityEngine.Debug;
 public class DogParameter : MonoBehaviour
 {
 
-    public static float meatTotal = 0.0f;
-    public static float vegetableTotal = 0.0f;
-    public static float carboTotal = 0.0f;
+    public static float meatTotalDog = 0.0f;
+    public static float vegetableTotalDog = 0.0f;
+    public static float carboTotalDog = 0.0f;
 
     // Start is called before the first frame update
     void Start()
     {
-        meatTotal = PlayerPrefs.GetFloat("MEAT", 0);
-        vegetableTotal = PlayerPrefs.GetFloat("VEGETABLE", 0);
-        carboTotal = PlayerPrefs.GetFloat("CARBO", 0);
+        meatTotalDog = PlayerPrefs.GetFloat("MEATDOG", 0);
+        vegetableTotalDog = PlayerPrefs.GetFloat("VEGETABLEDOG", 0);
+        carboTotalDog = PlayerPrefs.GetFloat("CARBODOG", 0);
 
     }
 
@@ -28,17 +28,17 @@ public class DogParameter : MonoBehaviour
 
     public void OnClick(){
         //パラメーターを取得
-        meatTotal += MeatParameter.meatValue;
-        vegetableTotal += VegetableParameter.vegetableValue;
-        carboTotal += CarboParameter.carboValue;
+        meatTotalDog += MeatParameter.meatValue;
+        vegetableTotalDog += VegetableParameter.vegetableValue;
+        carboTotalDog += CarboParameter.carboValue;
         //パラメーターを保存
-        PlayerPrefs.SetFloat("MEAT", meatTotal);
-        PlayerPrefs.SetFloat("VEGETABLE", vegetableTotal);
-        PlayerPrefs.SetFloat("CARBO", carboTotal);
+        PlayerPrefs.SetFloat("MEATDOG", meatTotalDog);
+        PlayerPrefs.SetFloat("VEGETABLEDOG", vegetableTotalDog);
+        PlayerPrefs.SetFloat("CARBODOG", carboTotalDog);
         PlayerPrefs.Save();
         //デバッグ
-        Debug.Log("肉合計" + meatTotal);
-        Debug.Log("野菜合計" + vegetableTotal);
-        Debug.Log("炭水化物合計" + carboTotal);
+        Debug.Log("イヌの肉合計" + meatTotalDog);
+        Debug.Log("イヌの野菜合計" + vegetableTotalDog);
+        Debug.Log("イヌの炭水化物合計" + carboTotalDog);
     }
 }

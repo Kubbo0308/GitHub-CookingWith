@@ -16,14 +16,23 @@ public class DogController : MonoBehaviour
 
     private int day;
 
-    private float meat;
-    private float vegetable;
-    private float carbo;
+    private float meatDog;
+    private float vegetableDog;
+    private float carboDog;
+
+    private int score;
 
     // Start is called before the first frame update
     void Start()
     {
         animator = GetComponent<Animator>();
+        //「SCORE」というキーで保存されているInt値を読み込み
+        score = PlayerPrefs.GetInt("SCORE");
+
+        //保存されている3つのパラメータのFloat値を読み込み
+        meatDog = PlayerPrefs.GetFloat("MEATDOG", 0);
+        vegetableDog = PlayerPrefs.GetFloat("VEGETABLEDOG", 0);
+        carboDog = PlayerPrefs.GetFloat("CARBODOG", 0);
     }
 
     // Update is called once per frame
@@ -34,29 +43,36 @@ public class DogController : MonoBehaviour
         nowDay = TodayNow.Day.ToString();
         nowDayInt = int.Parse(nowDay);
 
-        lastDayInt = int.Parse(ButtonManager.lastDay);
+        //料理日記を１回以上書いたら過去の料理日記を書いた時間を持ってくる
+        if(score >= 1){
+            lastDayInt = ButtonManager.lastInt;
+        }
         
         //現在の日付から最後に料理日記を書いた日付を引く
         day = nowDayInt - lastDayInt;
 
         //dayが3日以上空いていたら
-        if ((day > 3) || (day < -20))
+        if ((day > 3) || (day < -27))
         {
             //アニメを衰弱状態にする
             animator.SetBool("isBad", true);
         } else {
             //アニメを元に戻す
-            animator.SetBool("isBad", true);
+            animator.SetBool("isBad", false);
+        }
+
+        //肉中心の時
+        if ((score >= 5) && (meatDog > 20.0f)){
+            animator.SetBool("isMeat", true);
+        } else if ((score >= 5) && (vegetableDog > 20.0f)){ //野菜中心の時
+            animator.SetBool("isVegetable", true);
+        } else if ((score >= 5) && (carboDog > 20.0f)){ //炭水化物中心の時
+            animator.SetBool("isCarbo", true);
+        } else if (score >= 5){ //バランスが良い時
+            animator.SetBool("isGood", true);
         }
 
 
     }
-
-    public void OnClick(){
-        //パラメーターを受け取る
-        meat += MeatParameter.meatValue;
-        vegetable += VegetableParameter.vegetableValue;
-        carbo += CarboParameter.carboValue;
-    } 
 
 }
