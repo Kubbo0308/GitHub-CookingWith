@@ -190,106 +190,106 @@ public class ItemManager : MonoBehaviour
         if (score >= 7)
         {
             image_f4.sprite = Sprite_f4;
-            image_a2.sprite = Sprite_a1;
+            image_a2.sprite = Sprite_a2;
         }
         if (score >= 10)
         {
-            image_f5.sprite = Sprite_f2;
-            image_a3.sprite = Sprite_a1;
+            image_f5.sprite = Sprite_f5;
+            image_a3.sprite = Sprite_a3;
         }
         if (score >= 12)
         {
-            image_f6.sprite = Sprite_f3;
-            image_a4.sprite = Sprite_a1;
+            image_f6.sprite = Sprite_f6;
+            image_a4.sprite = Sprite_a4;
         }
         if (score >= 15)
         {
-            image_f7.sprite = Sprite_f4;
-            image_a5.sprite = Sprite_a1;
+            image_f7.sprite = Sprite_f7;
+            image_a5.sprite = Sprite_a5;
         }
         if (score >= 17)
         {
-            image_f8.sprite = Sprite_f2;
-            image_a6.sprite = Sprite_a1;
+            image_f8.sprite = Sprite_f8;
+            image_a6.sprite = Sprite_a6;
         }
         if (score >= 20)
         {
-            image_f9.sprite = Sprite_f3;
-            image_a7.sprite = Sprite_a1;
+            image_f9.sprite = Sprite_f9;
+            image_a7.sprite = Sprite_a7;
         }
         if (score >= 22)
         {
-            image_f10.sprite = Sprite_f4;
-            image_a8.sprite = Sprite_a1;
+            image_f10.sprite = Sprite_f10;
+            image_a8.sprite = Sprite_a8;
         }
         if (score >= 25)
         {
-            image_f11.sprite = Sprite_f2;
-            image_a9.sprite = Sprite_a1;
+            image_f11.sprite = Sprite_f11;
+            image_a9.sprite = Sprite_a9;
         }
         if (score >= 27)
         {
-            image_f12.sprite = Sprite_f3;
+            image_f12.sprite = Sprite_f12;
             image_a10.sprite = Sprite_a1;
         }
         if (score >= 30)
         {
-            image_f13.sprite = Sprite_f4;
+            image_f13.sprite = Sprite_f13;
             image_a11.sprite = Sprite_a1;
         }
         if (score >= 32)
         {
-            image_f14.sprite = Sprite_f2;
+            image_f14.sprite = Sprite_f14;
             image_a12.sprite = Sprite_a1;
         }
         if (score >= 35)
         {
-            image_f15.sprite = Sprite_f3;
+            image_f15.sprite = Sprite_f15;
             image_a13.sprite = Sprite_a1;
         }
         if (score >= 37)
         {
-            image_f16.sprite = Sprite_f4;
+            image_f16.sprite = Sprite_f16;
             image_a14.sprite = Sprite_a1;
         }
         if (score >= 40)
         {
-            image_f17.sprite = Sprite_f2;
+            image_f17.sprite = Sprite_f17;
             image_a15.sprite = Sprite_a1;
         }
         if (score >= 42)
         {
-            image_f18.sprite = Sprite_f3;
+            image_f18.sprite = Sprite_f18;
             image_a16.sprite = Sprite_a1;
         }
         if (score >= 45)
         {
-            image_f19.sprite = Sprite_f4;
+            image_f19.sprite = Sprite_f19;
             image_a17.sprite = Sprite_a1;
         }
         if (score >= 47)
         {
-            image_f20.sprite = Sprite_f2;
+            image_f20.sprite = Sprite_f20;
             image_a18.sprite = Sprite_a1;
         }
         if (score >= 50)
         {
-            image_f21.sprite = Sprite_f3;
+            image_f21.sprite = Sprite_f21;
             image_a19.sprite = Sprite_a1;
         }
         if (score >= 52)
         {
-            image_f22.sprite = Sprite_f4;
+            image_f22.sprite = Sprite_f22;
             image_a20.sprite = Sprite_a1;
         }
         if (score >= 55)
         {
-            image_f23.sprite = Sprite_f3;
+            image_f23.sprite = Sprite_f23;
             image_a21.sprite = Sprite_a1;
         }
         if (score >= 57)
         {
-            image_f24.sprite = Sprite_f4;
+            image_f24.sprite = Sprite_f24;
             image_a22.sprite = Sprite_a1;
         }
         if (score >= 60)
