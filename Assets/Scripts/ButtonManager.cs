@@ -15,7 +15,8 @@ public class ButtonManager : MonoBehaviour
     public GameObject buttonGoal;
     public GameObject buttonCooking;
     public GameObject buttonCharacter;
-    public static string lastDay;
+    private string lastDay;
+    public static int lastInt;
 
     //�B�e���Ɍ����{�^��
 
@@ -66,6 +67,7 @@ public class ButtonManager : MonoBehaviour
     {
         DateTime TodayNow = DateTime.Now;
         lastDay = TodayNow.Day.ToString();
+        lastInt = int.Parse(lastDay);
         Debug.Log("現在の日付" + lastDay);
     }
 
