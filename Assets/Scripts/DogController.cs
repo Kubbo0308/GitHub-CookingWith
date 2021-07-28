@@ -38,40 +38,41 @@ public class DogController : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        //現在の日付取得
-        DateTime TodayNow = DateTime.Now;
-        nowDay = TodayNow.Day.ToString();
-        nowDayInt = int.Parse(nowDay);
+        if (ButtonManager.dog) {
+            //現在の日付取得
+            DateTime TodayNow = DateTime.Now;
+            nowDay = TodayNow.Day.ToString();
+            nowDayInt = int.Parse(nowDay);
 
-        //料理日記を１回以上書いたら過去の料理日記を書いた時間を持ってくる
-        if(score >= 1){
-            lastDayInt = ButtonManager.lastInt;
+            //料理日記を１回以上書いたら過去の料理日記を書いた時間を持ってくる
+            if(score >= 1){
+                lastDayInt = ButtonManager.lastInt;
+            }
+            
+            //現在の日付から最後に料理日記を書いた日付を引く
+            day = nowDayInt - lastDayInt;
+
+            //dayが3日以上空いていたら
+            if ((day > 3) || (day < -27))
+            {
+                //アニメを衰弱状態にする
+                animator.SetBool("isBad", true);
+            } else {
+                //アニメを元に戻す
+                animator.SetBool("isBad", false);
+            }
+
+            //肉中心の時
+            if ((score >= 5) && (meatDog > 20.0f)){
+                animator.SetBool("isMeat", true);
+            } else if ((score >= 5) && (vegetableDog > 20.0f)){ //野菜中心の時
+                animator.SetBool("isVegetable", true);
+            } else if ((score >= 5) && (carboDog > 20.0f)){ //炭水化物中心の時
+                animator.SetBool("isCarbo", true);
+            } else if (score >= 5){ //バランスが良い時
+                animator.SetBool("isGood", true);
+            }
         }
-        
-        //現在の日付から最後に料理日記を書いた日付を引く
-        day = nowDayInt - lastDayInt;
-
-        //dayが3日以上空いていたら
-        if ((day > 3) || (day < -27))
-        {
-            //アニメを衰弱状態にする
-            animator.SetBool("isBad", true);
-        } else {
-            //アニメを元に戻す
-            animator.SetBool("isBad", false);
-        }
-
-        //肉中心の時
-        if ((score >= 5) && (meatDog > 20.0f)){
-            animator.SetBool("isMeat", true);
-        } else if ((score >= 5) && (vegetableDog > 20.0f)){ //野菜中心の時
-            animator.SetBool("isVegetable", true);
-        } else if ((score >= 5) && (carboDog > 20.0f)){ //炭水化物中心の時
-            animator.SetBool("isCarbo", true);
-        } else if (score >= 5){ //バランスが良い時
-            animator.SetBool("isGood", true);
-        }
-
     }
 
 }

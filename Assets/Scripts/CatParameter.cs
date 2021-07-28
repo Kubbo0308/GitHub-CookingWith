@@ -26,18 +26,20 @@ public class CatParameter : MonoBehaviour
     }
 
     public void OnClick(){
-        //パラメーターを取得
-        meatTotalCat += MeatParameter.meatValue;
-        vegetableTotalCat += VegetableParameter.vegetableValue;
-        carboTotalCat += CarboParameter.carboValue;
-        //パラメーターを保存
-        PlayerPrefs.SetFloat("MEATCAT", meatTotalCat);
-        PlayerPrefs.SetFloat("VEGETABLECAT", vegetableTotalCat);
-        PlayerPrefs.SetFloat("CARBOCAT", carboTotalCat);
-        PlayerPrefs.Save();
-        //デバッグ
-        Debug.Log("ネコの肉合計" + meatTotalCat);
-        Debug.Log("ネコの野菜合計" + vegetableTotalCat);
-        Debug.Log("ネコの炭水化物合計" + carboTotalCat);
+        if (ButtonManager.cat) {
+            //パラメーターを取得
+            meatTotalCat += MeatParameter.meatValue;
+            vegetableTotalCat += VegetableParameter.vegetableValue;
+            carboTotalCat += CarboParameter.carboValue;
+            //パラメーターを保存
+            PlayerPrefs.SetFloat("MEATCAT", meatTotalCat);
+            PlayerPrefs.SetFloat("VEGETABLECAT", vegetableTotalCat);
+            PlayerPrefs.SetFloat("CARBOCAT", carboTotalCat);
+            PlayerPrefs.Save();
+            //デバッグ
+            Debug.Log("ネコの肉合計" + meatTotalCat);
+            Debug.Log("ネコの野菜合計" + vegetableTotalCat);
+            Debug.Log("ネコの炭水化物合計" + carboTotalCat);
+        }
     }
 }

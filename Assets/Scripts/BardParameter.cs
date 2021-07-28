@@ -25,18 +25,20 @@ public class BardParameter : MonoBehaviour
     }
 
     public void OnClick(){
-        //パラメーターを取得
-        meatTotalBard += MeatParameter.meatValue;
-        vegetableTotalBard += VegetableParameter.vegetableValue;
-        carboTotalBard += CarboParameter.carboValue;
-        //パラメーターを保存
-        PlayerPrefs.SetFloat("MEATBARD", meatTotalBard);
-        PlayerPrefs.SetFloat("VEGETABLEBARD", vegetableTotalBard);
-        PlayerPrefs.SetFloat("CARBOBARD", carboTotalBard);
-        PlayerPrefs.Save();
-        //デバッグ
-        Debug.Log("トリの肉合計" + meatTotalBard);
-        Debug.Log("トリの野菜合計" + vegetableTotalBard);
-        Debug.Log("トリの炭水化物合計" + carboTotalBard);
+        if (ButtonManager.bard) {
+            //パラメーターを取得
+            meatTotalBard += MeatParameter.meatValue;
+            vegetableTotalBard += VegetableParameter.vegetableValue;
+            carboTotalBard += CarboParameter.carboValue;
+            //パラメーターを保存
+            PlayerPrefs.SetFloat("MEATBARD", meatTotalBard);
+            PlayerPrefs.SetFloat("VEGETABLEBARD", vegetableTotalBard);
+            PlayerPrefs.SetFloat("CARBOBARD", carboTotalBard);
+            PlayerPrefs.Save();
+            //デバッグ
+            Debug.Log("トリの肉合計" + meatTotalBard);
+            Debug.Log("トリの野菜合計" + vegetableTotalBard);
+            Debug.Log("トリの炭水化物合計" + carboTotalBard);
+        }
     }
 }

@@ -17,6 +17,15 @@ public class ButtonManager : MonoBehaviour
     public GameObject buttonCharacter;
     private string lastDay;
     public static int lastInt;
+    //最初はイヌ以外オフにする
+    public static bool dog = true;
+    public static bool cat = false;
+    public static bool bard = false;
+    public static bool rabbit = false;
+    public GameObject Dog;
+    public GameObject Cat;
+    public GameObject Bard;
+    public GameObject Rabbit;
 
     //�B�e���Ɍ����{�^��
 
@@ -71,5 +80,56 @@ public class ButtonManager : MonoBehaviour
         Debug.Log("現在の日付" + lastDay);
     }
 
+    public void DogButton() //イヌ以外非表示
+    {
+        dog = true;
+        cat = false;
+        bard = false;
+        rabbit = false;
+
+        Dog.SetActive(true);
+        Cat.SetActive(false);
+        Bard.SetActive(false);
+        Rabbit.SetActive(false);
+    }
+
+    public void CatButton() //ネコ以外非表示
+    {
+        dog = false;
+        cat = true;
+        bard = false;
+        rabbit = false;
+
+        Dog.SetActive(false);
+        Cat.SetActive(true);
+        Bard.SetActive(false);
+        Rabbit.SetActive(false);
+    }
+
+    public void BardButton()　//トリ以外非表示
+    {
+        dog = false;
+        cat = false;
+        bard = true;
+        rabbit = false;
+
+        Dog.SetActive(false);
+        Cat.SetActive(false);
+        Bard.SetActive(true);
+        Rabbit.SetActive(false);
+    }
+
+    public void RabbitButton() //ウサギ以外非表示
+    {
+        dog = false;
+        cat = false;
+        bard = false;
+        rabbit = true;
+
+        Dog.SetActive(false);
+        Cat.SetActive(false);
+        Bard.SetActive(false);
+        Rabbit.SetActive(true);
+    }
 
 }

@@ -27,18 +27,20 @@ public class DogParameter : MonoBehaviour
     }
 
     public void OnClick(){
-        //パラメーターを取得
-        meatTotalDog += MeatParameter.meatValue;
-        vegetableTotalDog += VegetableParameter.vegetableValue;
-        carboTotalDog += CarboParameter.carboValue;
-        //パラメーターを保存
-        PlayerPrefs.SetFloat("MEATDOG", meatTotalDog);
-        PlayerPrefs.SetFloat("VEGETABLEDOG", vegetableTotalDog);
-        PlayerPrefs.SetFloat("CARBODOG", carboTotalDog);
-        PlayerPrefs.Save();
-        //デバッグ
-        Debug.Log("イヌの肉合計" + meatTotalDog);
-        Debug.Log("イヌの野菜合計" + vegetableTotalDog);
-        Debug.Log("イヌの炭水化物合計" + carboTotalDog);
+        if (ButtonManager.dog) {
+            //パラメーターを取得
+            meatTotalDog += MeatParameter.meatValue;
+            vegetableTotalDog += VegetableParameter.vegetableValue;
+            carboTotalDog += CarboParameter.carboValue;
+            //パラメーターを保存
+            PlayerPrefs.SetFloat("MEATDOG", meatTotalDog);
+            PlayerPrefs.SetFloat("VEGETABLEDOG", vegetableTotalDog);
+            PlayerPrefs.SetFloat("CARBODOG", carboTotalDog);
+            PlayerPrefs.Save();
+            //デバッグ
+            Debug.Log("イヌの肉合計" + meatTotalDog);
+            Debug.Log("イヌの野菜合計" + vegetableTotalDog);
+            Debug.Log("イヌの炭水化物合計" + carboTotalDog);
+        }
     }
 }

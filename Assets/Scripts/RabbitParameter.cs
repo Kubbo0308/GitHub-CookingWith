@@ -25,18 +25,20 @@ public class RabbitParameter : MonoBehaviour
     }
 
     public void OnClick(){
-        //パラメーターを取得
-        meatTotalRabbit += MeatParameter.meatValue;
-        vegetableTotalRabbit += VegetableParameter.vegetableValue;
-        carboTotalRabbit += CarboParameter.carboValue;
-        //パラメーターを保存
-        PlayerPrefs.SetFloat("MEATRABBIT", meatTotalRabbit);
-        PlayerPrefs.SetFloat("VEGETABLERABBIT", vegetableTotalRabbit);
-        PlayerPrefs.SetFloat("CARBORABBIT", carboTotalRabbit);
-        PlayerPrefs.Save();
-        //デバッグ
-        Debug.Log("ウサギの肉合計" + meatTotalRabbit);
-        Debug.Log("ウサギの野菜合計" + vegetableTotalRabbit);
-        Debug.Log("ウサギの炭水化物合計" + carboTotalRabbit);
+        if (ButtonManager.rabbit) {
+            //パラメーターを取得
+            meatTotalRabbit += MeatParameter.meatValue;
+            vegetableTotalRabbit += VegetableParameter.vegetableValue;
+            carboTotalRabbit += CarboParameter.carboValue;
+            //パラメーターを保存
+            PlayerPrefs.SetFloat("MEATRABBIT", meatTotalRabbit);
+            PlayerPrefs.SetFloat("VEGETABLERABBIT", vegetableTotalRabbit);
+            PlayerPrefs.SetFloat("CARBORABBIT", carboTotalRabbit);
+            PlayerPrefs.Save();
+            //デバッグ
+            Debug.Log("ウサギの肉合計" + meatTotalRabbit);
+            Debug.Log("ウサギの野菜合計" + vegetableTotalRabbit);
+            Debug.Log("ウサギの炭水化物合計" + carboTotalRabbit);
+        }
     }
 }
