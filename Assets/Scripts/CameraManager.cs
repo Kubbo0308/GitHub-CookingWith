@@ -37,6 +37,16 @@ public class CameraManager : MonoBehaviour
     public GameObject buttonNowCooking;
     public GameObject buttonPastCooking;
 
+    //スライダー
+    public Slider slider_m;
+    public Slider slider_v;
+    public Slider slider_c;
+
+    //テキスト
+    [SerializeField] GameObject text_m;
+    [SerializeField] GameObject text_v;
+    [SerializeField] GameObject text_c;
+
     WebCamTexture webCam;
 
     // Start is called before the first frame update
@@ -71,7 +81,7 @@ public class CameraManager : MonoBehaviour
         //カメラ表示開始
         webCam.Play();
 
-        //ボタン全非表示
+        //ボタン等全非表示
         buttonCamera.SetActive(false);
         buttonHome.SetActive(false);
         buttonGoal.SetActive(false);
@@ -80,9 +90,19 @@ public class CameraManager : MonoBehaviour
         buttonSelect.SetActive(false);
         waitText.SetActive(false);
         buttonsave.SetActive(false);
+
         inputFieldGameObject.SetActive(false);
+
         buttonNowCooking.SetActive(false);
         buttonPastCooking.SetActive(false);
+
+        slider_m.gameObject.SetActive(false);
+        slider_v.gameObject.SetActive(false);
+        slider_c.gameObject.SetActive(false);
+
+        text_m.SetActive(false);
+        text_v.SetActive(false);
+        text_c.SetActive(false);
 
         //撮影、キャンセルボタン表示
         buttonShot.SetActive(true);
@@ -121,7 +141,7 @@ public class CameraManager : MonoBehaviour
 
     public void OnCancelClick()
     {
-        //ボタン全非表示
+        //ボタン全表示
         buttonCamera.SetActive(true);
         buttonHome.SetActive(true);
         buttonGoal.SetActive(true);
@@ -134,7 +154,15 @@ public class CameraManager : MonoBehaviour
         buttonNowCooking.SetActive(true);
         buttonPastCooking.SetActive(true);
 
-        //撮影、キャンセルボタン表示
+        slider_m.gameObject.SetActive(true);
+        slider_v.gameObject.SetActive(true);
+        slider_c.gameObject.SetActive(true);
+
+        text_m.SetActive(true);
+        text_v.SetActive(true);
+        text_c.SetActive(true);
+
+        //撮影、キャンセルボタン非表示
         buttonShot.SetActive(false);
         buttonCancel.SetActive(false);
     }
@@ -145,7 +173,7 @@ public class CameraManager : MonoBehaviour
 
         yield return new WaitForSeconds(3.0f);
 
-        //ボタン全非表示
+        //ボタン全表示
         buttonCamera.SetActive(true);
         buttonHome.SetActive(true);
         buttonGoal.SetActive(true);
@@ -161,7 +189,15 @@ public class CameraManager : MonoBehaviour
         RawImage.enabled = false;
         Image.enabled = true;
 
-        //撮影、キャンセルボタン表示
+        slider_m.gameObject.SetActive(true);
+        slider_v.gameObject.SetActive(true);
+        slider_c.gameObject.SetActive(true);
+
+        text_m.SetActive(true);
+        text_v.SetActive(true);
+        text_c.SetActive(true);
+
+        //撮影、キャンセルボタン非表示
         buttonShot.SetActive(false);
         buttonCancel.SetActive(false);
         waitText.SetActive(false);

@@ -357,6 +357,12 @@ MonoBehaviour:
   buttonsave: {fileID: 830899521}
   buttonNowCooking: {fileID: 1852091885}
   buttonPastCooking: {fileID: 1887292990}
+  slider_m: {fileID: 607991642}
+  slider_v: {fileID: 859053520}
+  slider_c: {fileID: 1045238665}
+  text_m: {fileID: 2027381779}
+  text_v: {fileID: 1971530045}
+  text_c: {fileID: 1019403067}
 --- !u!4 &185434358
 Transform:
   m_ObjectHideFlags: 0
@@ -441,7 +447,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: "\u4FDD\u5B58"
+  m_Text: 
 --- !u!222 &212581456
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -1689,7 +1695,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 1
     m_VerticalOverflow: 1
     m_LineSpacing: 1
-  m_Text: "\u6B62\u3081\u308B"
+  m_Text: 
 --- !u!222 &679496789
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -2103,6 +2109,7 @@ MonoBehaviour:
   buttonGoal: {fileID: 0}
   buttonCooking: {fileID: 0}
   buttonCharacter: {fileID: 0}
+  buttonTitle: {fileID: 0}
 --- !u!4 &743988273
 Transform:
   m_ObjectHideFlags: 0
@@ -2602,8 +2609,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 170, y: -399}
-  m_SizeDelta: {x: 200, y: 55}
+  m_AnchoredPosition: {x: 190, y: -407}
+  m_SizeDelta: {x: 180, y: 70}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &830899523
 MonoBehaviour:
@@ -2729,8 +2736,8 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 10905, guid: 0000000000000000f000000000000000, type: 0}
-  m_Type: 1
+  m_Sprite: {fileID: 21300000, guid: 989f4fa30459345498b9c88621ca0f22, type: 3}
+  m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
   m_FillMethod: 4
@@ -3304,8 +3311,8 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 10905, guid: 0000000000000000f000000000000000, type: 0}
-  m_Type: 1
+  m_Sprite: {fileID: 21300000, guid: bd0b215a929bb474989afde6bd5d677b, type: 3}
+  m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
   m_FillMethod: 4
@@ -3846,7 +3853,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
-  m_Color: {r: 0.19607843, g: 0.19607843, b: 0.19607843, a: 1}
+  m_Color: {r: 0.40392157, g: 0.2627451, b: 0.078431375, a: 1}
   m_RaycastTarget: 1
   m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
   m_Maskable: 1
@@ -5131,7 +5138,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 1
     m_VerticalOverflow: 1
     m_LineSpacing: 1
-  m_Text: "\u64AE\u308B"
+  m_Text: 
 --- !u!222 &1599749506
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -7496,7 +7503,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
-  m_Color: {r: 0.19607843, g: 0.19607843, b: 0.19607843, a: 1}
+  m_Color: {r: 0.40392157, g: 0.2627451, b: 0.078431375, a: 1}
   m_RaycastTarget: 1
   m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
   m_Maskable: 1
@@ -7654,7 +7661,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
-  m_Color: {r: 0.19607843, g: 0.19607843, b: 0.19607843, a: 1}
+  m_Color: {r: 0.4056604, g: 0.26369756, b: 0.07909098, a: 1}
   m_RaycastTarget: 1
   m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
   m_Maskable: 1
@@ -7873,8 +7880,8 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 10905, guid: 0000000000000000f000000000000000, type: 0}
-  m_Type: 1
+  m_Sprite: {fileID: 21300000, guid: 863c5800ac3d2c5458059099d1f08630, type: 3}
+  m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
   m_FillMethod: 4
