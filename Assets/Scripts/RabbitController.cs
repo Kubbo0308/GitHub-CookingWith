@@ -42,6 +42,7 @@ public class RabbitController : MonoBehaviour
     void Update()
     {
         if (ButtonManager.rabbit) {
+            Debug.Log("ウサギのUpDateは走っているよ");
             //現在の日付取得
             DateTime TodayNow = DateTime.Now;
             nowDay = TodayNow.Day.ToString();

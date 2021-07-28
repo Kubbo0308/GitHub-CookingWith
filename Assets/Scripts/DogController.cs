@@ -56,9 +56,6 @@ public class DogController : MonoBehaviour
             {
                 //アニメを衰弱状態にする
                 animator.SetBool("isBad", true);
-                Debug.Log("nowDayInt : " + nowDayInt);
-                Debug.Log("lastDayInt : " + lastDayInt);
-                Debug.Log("day : " + day);
             } else {
                 //アニメを元に戻す
                 animator.SetBool("isBad", false);

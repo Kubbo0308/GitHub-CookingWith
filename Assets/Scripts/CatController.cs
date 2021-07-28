@@ -42,6 +42,7 @@ public class CatController : MonoBehaviour
     void Update()
     {
         if (ButtonManager.cat) {
+            Debug.Log("ネコのUpDateは走っているよ");
             //現在の日付取得
             DateTime TodayNow = DateTime.Now;
             nowDay = TodayNow.Day.ToString();
