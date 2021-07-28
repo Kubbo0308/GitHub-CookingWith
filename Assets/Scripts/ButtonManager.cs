@@ -16,7 +16,7 @@ public class ButtonManager : MonoBehaviour
     public GameObject buttonCooking;
     public GameObject buttonCharacter;
     private string lastDay;
-    public static int lastInt;
+    private int lastInt;
     //最初はイヌ以外オフにする
     public static bool dog = true;
     public static bool cat = false;
@@ -32,7 +32,7 @@ public class ButtonManager : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-
+        lastInt = PlayerPrefs.GetInt("LAST", 0);
     }
 
     // Update is called once per frame
@@ -77,7 +77,8 @@ public class ButtonManager : MonoBehaviour
         DateTime TodayNow = DateTime.Now;
         lastDay = TodayNow.Day.ToString();
         lastInt = int.Parse(lastDay);
-        Debug.Log("現在の日付" + lastDay);
+        PlayerPrefs.SetInt("LAST", lastInt);
+        Debug.Log("現在の日付" + lastInt);
     }
 
     public void DogButton() //イヌ以外非表示

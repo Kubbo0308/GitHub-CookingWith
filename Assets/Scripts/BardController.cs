@@ -2,10 +2,11 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using System;
+using Debug = UnityEngine.Debug;
 
 public class BardController : MonoBehaviour
 {
-    Animator animator;
+    private Animator animator;
 
     private string nowDay;
 
@@ -28,6 +29,9 @@ public class BardController : MonoBehaviour
         //「SCORE」というキーで保存されているInt値を読み込み
         score = PlayerPrefs.GetInt("SCORE");
 
+        //「LAST」というキーで保存されているInt値を読み込み
+        lastDayInt = PlayerPrefs.GetInt("LAST");
+
         //保存されている3つのパラメータのFloat値を読み込み
         meatBard = PlayerPrefs.GetFloat("MEATBARD", 0);
         vegetableBard = PlayerPrefs.GetFloat("VEGETABLEBARD", 0);
@@ -43,11 +47,6 @@ public class BardController : MonoBehaviour
             nowDay = TodayNow.Day.ToString();
             nowDayInt = int.Parse(nowDay);
 
-            //料理日記を１回以上書いたら過去の料理日記を書いた時間を持ってくる
-            if(score >= 1){
-                lastDayInt = ButtonManager.lastInt;
-            }
-            
             //現在の日付から最後に料理日記を書いた日付を引く
             day = nowDayInt - lastDayInt;
 
@@ -56,6 +55,7 @@ public class BardController : MonoBehaviour
             {
                 //アニメを衰弱状態にする
                 animator.SetBool("isBad", true);
+
             } else {
                 //アニメを元に戻す
                 animator.SetBool("isBad", false);

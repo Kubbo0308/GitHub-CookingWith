@@ -2,11 +2,12 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using System;
+using Debug = UnityEngine.Debug;
 
 public class DogController : MonoBehaviour
 {
 
-    Animator animator;
+    private Animator animator;
 
     private string nowDay;
 
@@ -29,6 +30,9 @@ public class DogController : MonoBehaviour
         //「SCORE」というキーで保存されているInt値を読み込み
         score = PlayerPrefs.GetInt("SCORE");
 
+        //「LAST」というキーで保存されているInt値を読み込み
+        lastDayInt = PlayerPrefs.GetInt("LAST");
+
         //保存されている3つのパラメータのFloat値を読み込み
         meatDog = PlayerPrefs.GetFloat("MEATDOG", 0);
         vegetableDog = PlayerPrefs.GetFloat("VEGETABLEDOG", 0);
@@ -43,12 +47,7 @@ public class DogController : MonoBehaviour
             DateTime TodayNow = DateTime.Now;
             nowDay = TodayNow.Day.ToString();
             nowDayInt = int.Parse(nowDay);
-
-            //料理日記を１回以上書いたら過去の料理日記を書いた時間を持ってくる
-            if(score >= 1){
-                lastDayInt = ButtonManager.lastInt;
-            }
-            
+  
             //現在の日付から最後に料理日記を書いた日付を引く
             day = nowDayInt - lastDayInt;
 
@@ -57,6 +56,9 @@ public class DogController : MonoBehaviour
             {
                 //アニメを衰弱状態にする
                 animator.SetBool("isBad", true);
+                Debug.Log("nowDayInt : " + nowDayInt);
+                Debug.Log("lastDayInt : " + lastDayInt);
+                Debug.Log("day : " + day);
             } else {
                 //アニメを元に戻す
                 animator.SetBool("isBad", false);
