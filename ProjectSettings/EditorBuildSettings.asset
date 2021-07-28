@@ -17,4 +17,7 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/CharacterScene.unity
     guid: 0607078f57d1dea40b9e6827d10848f8
+  - enabled: 1
+    path: Assets/Scenes/TrueTitleScene.unity
+    guid: 2718492a1a572fa488976a6b9cb8cf82
   m_configObjects: {}
