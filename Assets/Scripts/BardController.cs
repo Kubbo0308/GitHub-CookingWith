@@ -14,6 +14,8 @@ public class BardController : MonoBehaviour
 
     private int lastDayInt;
 
+    private string character;
+
     private int day;
 
     private float meatBard;
@@ -32,6 +34,9 @@ public class BardController : MonoBehaviour
         //「LAST」というキーで保存されているInt値を読み込み
         lastDayInt = PlayerPrefs.GetInt("LAST");
 
+        //「CHARACTER」というキーで保存されているstring値を読み込み
+        character = PlayerPrefs.GetString("CHARACTER", "DOG");
+
         //保存されている3つのパラメータのFloat値を読み込み
         meatBard = PlayerPrefs.GetFloat("MEATBARD", 0);
         vegetableBard = PlayerPrefs.GetFloat("VEGETABLEBARD", 0);
@@ -41,7 +46,10 @@ public class BardController : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        if (ButtonManager.bard) {
+        //「CHARACTER」というキーで保存されているstring値を読み込み
+        character = PlayerPrefs.GetString("CHARACTER");
+
+        if (character.Equals("BARD")) {
             Debug.Log("トリのUpDateは走っているよ");
             //現在の日付取得
             DateTime TodayNow = DateTime.Now;

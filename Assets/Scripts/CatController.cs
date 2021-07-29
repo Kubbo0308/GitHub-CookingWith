@@ -14,6 +14,8 @@ public class CatController : MonoBehaviour
 
     private int lastDayInt;
 
+    private string character;
+
     private int day;
 
     private float meatCat;
@@ -32,6 +34,9 @@ public class CatController : MonoBehaviour
         //「LAST」というキーで保存されているInt値を読み込み
         lastDayInt = PlayerPrefs.GetInt("LAST");
 
+        //「CHARACTER」というキーで保存されているstring値を読み込み
+        character = PlayerPrefs.GetString("CHARACTER", "DOG");
+
         //保存されている3つのパラメータのFloat値を読み込み
         meatCat = PlayerPrefs.GetFloat("MEATCAT", 0);
         vegetableCat = PlayerPrefs.GetFloat("VEGETABLECAT", 0);
@@ -41,7 +46,10 @@ public class CatController : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        if (ButtonManager.cat) {
+        //「CHARACTER」というキーで保存されているstring値を読み込み
+        character = PlayerPrefs.GetString("CHARACTER");
+
+        if (character.Equals("CAT")) {
             Debug.Log("ネコのUpDateは走っているよ");
             //現在の日付取得
             DateTime TodayNow = DateTime.Now;

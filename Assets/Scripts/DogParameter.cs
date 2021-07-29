@@ -11,12 +11,17 @@ public class DogParameter : MonoBehaviour
     public static float vegetableTotalDog = 0.0f;
     public static float carboTotalDog = 0.0f;
 
+    private string character;
+
     // Start is called before the first frame update
     void Start()
     {
         meatTotalDog = PlayerPrefs.GetFloat("MEATDOG", 0);
         vegetableTotalDog = PlayerPrefs.GetFloat("VEGETABLEDOG", 0);
         carboTotalDog = PlayerPrefs.GetFloat("CARBODOG", 0);
+
+        //「CHARACTER」というキーで保存されているstring値を読み込み
+        character = PlayerPrefs.GetString("CHARACTER", "DOG");
 
     }
 
@@ -27,7 +32,7 @@ public class DogParameter : MonoBehaviour
     }
 
     public void OnClick(){
-        if (ButtonManager.dog) {
+        if (character.Equals("DOG")) {
             //パラメーターを取得
             meatTotalDog += MeatParameter.meatValue;
             vegetableTotalDog += VegetableParameter.vegetableValue;

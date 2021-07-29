@@ -11,12 +11,17 @@ public class CatParameter : MonoBehaviour
     public static float vegetableTotalCat = 0.0f;
     public static float carboTotalCat = 0.0f;
 
+    private string character;
+
     // Start is called before the first frame update
     void Start()
     {
         meatTotalCat = PlayerPrefs.GetFloat("MEATCAT", 0);
         vegetableTotalCat = PlayerPrefs.GetFloat("VEGETABLECAT", 0);
         carboTotalCat = PlayerPrefs.GetFloat("CARBOCAT", 0);
+
+        //「CHARACTER」というキーで保存されているstring値を読み込み
+        character = PlayerPrefs.GetString("CHARACTER", "DOG");
     }
 
     // Update is called once per frame
@@ -26,7 +31,7 @@ public class CatParameter : MonoBehaviour
     }
 
     public void OnClick(){
-        if (ButtonManager.cat) {
+        if (character.Equals("CAT")) {
             //パラメーターを取得
             meatTotalCat += MeatParameter.meatValue;
             vegetableTotalCat += VegetableParameter.vegetableValue;

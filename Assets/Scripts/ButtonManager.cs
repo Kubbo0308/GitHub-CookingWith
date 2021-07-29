@@ -15,14 +15,10 @@ public class ButtonManager : MonoBehaviour
     public GameObject buttonGoal;
     public GameObject buttonCooking;
     public GameObject buttonCharacter;
-    public GameObject buttonTitle;
     private string lastDay;
     private int lastInt;
     //最初はイヌ以外オフにする
-    public static bool dog;
-    public static bool cat;
-    public static bool bard;
-    public static bool rabbit;
+     private string character;
     public GameObject Dog;
     public GameObject Cat;
     public GameObject Bard;
@@ -34,6 +30,7 @@ public class ButtonManager : MonoBehaviour
     void Start()
     {
         lastInt = PlayerPrefs.GetInt("LAST", 0);
+        character = PlayerPrefs.GetString("CHARACTER", "DOG");
     }
 
     // Update is called once per frame
@@ -73,12 +70,6 @@ public class ButtonManager : MonoBehaviour
         SceneManager.LoadScene("FriendScene");
     }
 
-    public void bkTitleButton()
-    {
-        //�ӂꂠ����ʂ�
-        SceneManager.LoadScene("TrueTitleScene");
-    }
-
     public void SaveButton() //保存ボタン押されたときの日付取得
     {
         DateTime TodayNow = DateTime.Now;
@@ -90,54 +81,54 @@ public class ButtonManager : MonoBehaviour
 
     public void DogButton() //イヌ以外非表示
     {
-        dog = true;
-        cat = false;
-        bard = false;
-        rabbit = false;
-
         Dog.SetActive(true);
         Cat.SetActive(false);
         Bard.SetActive(false);
         Rabbit.SetActive(false);
+
+        character = "DOG";
+        PlayerPrefs.SetString("CHARACTER", character);
+        PlayerPrefs.Save();
+        Debug.Log("現在のキャラクター" + character);
     }
 
     public void CatButton() //ネコ以外非表示
     {
-        dog = false;
-        cat = true;
-        bard = false;
-        rabbit = false;
-
         Dog.SetActive(false);
         Cat.SetActive(true);
         Bard.SetActive(false);
         Rabbit.SetActive(false);
+
+        character = "CAT";
+        PlayerPrefs.SetString("CHARACTER", character);
+        PlayerPrefs.Save();
+        Debug.Log("現在のキャラクター" + character);
     }
 
     public void BardButton()　//トリ以外非表示
     {
-        dog = false;
-        cat = false;
-        bard = true;
-        rabbit = false;
-
         Dog.SetActive(false);
         Cat.SetActive(false);
         Bard.SetActive(true);
         Rabbit.SetActive(false);
+
+        character = "BARD";
+        PlayerPrefs.SetString("CHARACTER", character);
+        PlayerPrefs.Save();
+        Debug.Log("現在のキャラクター" + character);
     }
 
     public void RabbitButton() //ウサギ以外非表示
     {
-        dog = false;
-        cat = false;
-        bard = false;
-        rabbit = true;
-
         Dog.SetActive(false);
         Cat.SetActive(false);
         Bard.SetActive(false);
         Rabbit.SetActive(true);
+
+        character = "RABBIT";
+        PlayerPrefs.SetString("CHARACTER", character);
+        PlayerPrefs.Save();
+        Debug.Log("現在のキャラクター" + character);
     }
 
 }
