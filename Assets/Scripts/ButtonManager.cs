@@ -18,10 +18,10 @@ public class ButtonManager : MonoBehaviour
     private string lastDay;
     private int lastInt;
     //最初はイヌ以外オフにする
-    public static bool dog = true;
-    public static bool cat = false;
-    public static bool bard = false;
-    public static bool rabbit = false;
+    public static bool dog;
+    public static bool cat;
+    public static bool bard;
+    public static bool rabbit;
     public GameObject Dog;
     public GameObject Cat;
     public GameObject Bard;
