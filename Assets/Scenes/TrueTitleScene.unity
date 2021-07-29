@@ -302,6 +302,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   TitlePanel: {fileID: 1742786910}
   MenuPanel: {fileID: 2003806914}
+  buttonStart: {fileID: 1522149831}
+  buttonSettei: {fileID: 614047547}
 --- !u!4 &188876973
 Transform:
   m_ObjectHideFlags: 0
@@ -386,7 +388,9 @@ MonoBehaviour:
     m_HorizontalOverflow: 1
     m_VerticalOverflow: 1
     m_LineSpacing: 1
-  m_Text: "\u30B9\u30BF\u30FC\u30C8\n"
+  m_Text: '
+
+'
 --- !u!222 &436772769
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -1241,6 +1245,18 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
+      - m_Target: {fileID: 188876972}
+        m_TargetAssemblyTypeName: TitleUIManager, Assembly-CSharp
+        m_MethodName: PushStart
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &1522149835
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1254,14 +1270,14 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
-  m_Color: {r: 0.5, g: 0.15408802, b: 0.15408802, a: 1}
+  m_Color: {r: 1, g: 0.9308176, b: 0.9308176, a: 1}
   m_RaycastTarget: 1
   m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
   m_Maskable: 1
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 0}
+  m_Sprite: {fileID: 21300000, guid: 7d45c13d284463748b3be9ff4bc56363, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -1308,18 +1324,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f5007ddb0113d0b4cac7c8b635dc8f6c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  RawImage: {fileID: 0}
-  Image: {fileID: 0}
-  buttonCamera: {fileID: 0}
   buttonHome: {fileID: 0}
   buttonGoal: {fileID: 0}
   buttonCooking: {fileID: 0}
   buttonCharacter: {fileID: 0}
-  buttonFreindship: {fileID: 0}
-  buttonShot: {fileID: 0}
-  buttonCancel: {fileID: 0}
-  buttonSelect: {fileID: 0}
-  waitText: {fileID: 0}
+  buttonTitle: {fileID: 0}
 --- !u!4 &1600324759
 Transform:
   m_ObjectHideFlags: 0

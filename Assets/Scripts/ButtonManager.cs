@@ -15,6 +15,7 @@ public class ButtonManager : MonoBehaviour
     public GameObject buttonGoal;
     public GameObject buttonCooking;
     public GameObject buttonCharacter;
+    public GameObject buttonTitle;
     private string lastDay;
     private int lastInt;
     //最初はイヌ以外オフにする
@@ -70,6 +71,12 @@ public class ButtonManager : MonoBehaviour
     {
         //�ӂꂠ����ʂ�
         SceneManager.LoadScene("FriendScene");
+    }
+
+    public void bkTitleButton()
+    {
+        //�ӂꂠ����ʂ�
+        SceneManager.LoadScene("TrueTitleScene");
     }
 
     public void SaveButton() //保存ボタン押されたときの日付取得
