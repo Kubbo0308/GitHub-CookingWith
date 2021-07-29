@@ -30,7 +30,7 @@ public class ButtonManager : MonoBehaviour
     void Start()
     {
         lastInt = PlayerPrefs.GetInt("LAST", 0);
-        character = PlayerPrefs.GetString("CHARACTER", "DOG");
+        character = PlayerPrefs.GetString("CHARACTER");
     }
 
     // Update is called once per frame

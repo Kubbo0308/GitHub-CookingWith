@@ -35,7 +35,7 @@ public class BardController : MonoBehaviour
         lastDayInt = PlayerPrefs.GetInt("LAST");
 
         //「CHARACTER」というキーで保存されているstring値を読み込み
-        character = PlayerPrefs.GetString("CHARACTER", "DOG");
+        character = PlayerPrefs.GetString("CHARACTER");
 
         //保存されている3つのパラメータのFloat値を読み込み
         meatBard = PlayerPrefs.GetFloat("MEATBARD", 0);
