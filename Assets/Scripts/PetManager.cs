@@ -18,12 +18,13 @@ public class PetManager : MonoBehaviour
     public GameObject SelectButton_left;
     public GameObject DecisionButton;
 
+    public Text petText;
+
     int whatpet = 0;
 
     // Start is called before the first frame update
     void Start()
     {
-        image_pet3.enabled = false; //最初は非表示
         SelectPetPanel.SetActive(false); //最初は非表示
         NamePetPanel.SetActive(false); //最初は非表示
 
@@ -32,6 +33,7 @@ public class PetManager : MonoBehaviour
         Debug.Log("タイトルからスタートボタンを押した回数は" + start);
         if (start == 0)
         {
+            image_pet3.enabled = false; //最初は非表示
             SelectPetPanel.SetActive(true); //表示
             SelectButton_left.SetActive(false); //最初は非表示
         }
@@ -53,16 +55,19 @@ public class PetManager : MonoBehaviour
             image_pet.sprite = Sprite_cat;
             SelectButton_right.SetActive(true);
             SelectButton_left.SetActive(true);
+            petText.text = "ネコ";
         }
         else if (whatpet == 2)
         {
             image_pet.sprite = Sprite_bird;
             SelectButton_right.SetActive(true);
+            petText.text = "トリ";
         }
         else if (whatpet == 3)
         {
             image_pet.sprite = Sprite_rabbit;
             SelectButton_right.SetActive(false);
+            petText.text = "ウサギ";
         }
     }
 
@@ -74,16 +79,19 @@ public class PetManager : MonoBehaviour
         {
             SelectButton_left.SetActive(false);
             image_pet.sprite = Sprite_dog;
+            petText.text = "イヌ";
         }
         else if (whatpet == 1)
         {
             SelectButton_right.SetActive(true);
             image_pet.sprite = Sprite_cat;
+            petText.text = "ネコ";
         }
         else if (whatpet == 2)
         {
             SelectButton_right.SetActive(true);
             image_pet.sprite = Sprite_bird;
+            petText.text = "トリ";
         }
     }
 
@@ -110,5 +118,34 @@ public class PetManager : MonoBehaviour
             image_pet2.sprite = Sprite_rabbit;
         }
 
+    }
+
+    public void back_pet()
+    {
+        SelectPetPanel.SetActive(true);
+        NamePetPanel.SetActive(false);
+    }
+    public void decision_pet()
+    {
+        NamePetPanel.SetActive(false);
+        image_pet3.enabled = true;
+
+        if (whatpet == 0)
+        {
+            // SpriteRenderのspriteを設定済みの他のspriteに変更
+            image_pet3.sprite = Sprite_dog;
+        }
+        else if (whatpet == 1)
+        {
+            image_pet3.sprite = Sprite_cat;
+        }
+        else if (whatpet == 2)
+        {
+            image_pet3.sprite = Sprite_bird;
+        }
+        else if (whatpet == 3)
+        {
+            image_pet3.sprite = Sprite_rabbit;
+        }
     }
 }
