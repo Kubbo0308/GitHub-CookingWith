@@ -974,78 +974,146 @@ public class ItemManager : MonoBehaviour
         //「SCORE」というキーで保存されているInt値を読み込み
         int score = PlayerPrefs.GetInt("SCORE");
 
+        //「Accessory_○○」というキーで保存されているInt値を読み込み
+        int Accessory_b = PlayerPrefs.GetInt("Accessory_b"); //帽子判定のための変数
+        int Accessory_k = PlayerPrefs.GetInt("Accessory_k"); //首輪定のための変数
+        int Accessory_m = PlayerPrefs.GetInt("Accessory_m"); //眼鏡判定のための変数
+
         switch (number2)
         {
             case 0:
-                if (score >= 5)
+                if (Accessory_b != 0)
+                {
+                    ItemPanel_a1.SetActive(true);
+                    drbutton_a1.SetActive(false);
+                    wbutton_a1.SetActive(true);
+                }
+                else if (score >= 5)
                 {
                     ItemPanel_a1.SetActive(true);
                     bkbutton_a1.SetActive(true);
                     drbutton_a1.SetActive(true);
+                    wbutton_a1.SetActive(false);
                 }
                 break;
             case 1:
-                if (score >= 7)
+                if (Accessory_k != 0)
+                {
+                    ItemPanel_a2.SetActive(true);
+                    drbutton_a2.SetActive(false);
+                    wbutton_a2.SetActive(true);
+                }
+                else if (score >= 7)
                 {
                     ItemPanel_a2.SetActive(true);
                     bkbutton_a2.SetActive(true);
                     drbutton_a2.SetActive(true);
+                    wbutton_a2.SetActive(false);
                 }
                 break;
             case 2:
-                if (score >= 10)
+                if (Accessory_m != 0)
+                {
+                    ItemPanel_a3.SetActive(true);
+                    drbutton_a3.SetActive(false);
+                    wbutton_a3.SetActive(true);
+                }
+                else if (score >= 10)
                 {
                     ItemPanel_a3.SetActive(true);
                     bkbutton_a3.SetActive(true);
                     drbutton_a3.SetActive(true);
+                    wbutton_a3.SetActive(false);
                 }
                 break;
             case 3:
-                if (score >= 12)
+                if (Accessory_b != 0)
+                {
+                    ItemPanel_a4.SetActive(true);
+                    drbutton_a4.SetActive(false);
+                    wbutton_a4.SetActive(true);
+                }
+                else if (score >= 12)
                 {
                     ItemPanel_a4.SetActive(true);
                     bkbutton_a4.SetActive(true);
                     drbutton_a4.SetActive(true);
+                    wbutton_a4.SetActive(false);
                 }
                 break;
             case 4:
-                if (score >= 15)
+                if (Accessory_k != 0)
+                {
+                    ItemPanel_a5.SetActive(true);
+                    drbutton_a5.SetActive(false);
+                    wbutton_a5.SetActive(true);
+                }
+                else if (score >= 15)
                 {
                     ItemPanel_a5.SetActive(true);
                     bkbutton_a5.SetActive(true);
                     drbutton_a5.SetActive(true);
+                    wbutton_a5.SetActive(false);
                 }
                 break;
             case 5:
-                if (score >= 17)
+                if (Accessory_m != 0)
+                {
+                    ItemPanel_a6.SetActive(true);
+                    drbutton_a6.SetActive(false);
+                    wbutton_a6.SetActive(true);
+                }
+                else if (score >= 17)
                 {
                     ItemPanel_a6.SetActive(true);
                     bkbutton_a6.SetActive(true);
                     drbutton_a6.SetActive(true);
+                    wbutton_a6.SetActive(false);
                 }
                 break;
             case 6:
-                if (score >= 20)
+                if (Accessory_b != 0)
+                {
+                    ItemPanel_a7.SetActive(true);
+                    drbutton_a7.SetActive(false);
+                    wbutton_a7.SetActive(true);
+                }
+                else if (score >= 20)
                 {
                     ItemPanel_a7.SetActive(true);
                     bkbutton_a7.SetActive(true);
                     drbutton_a7.SetActive(true);
+                    wbutton_a7.SetActive(false);
                 }
                 break;
             case 7:
-                if (score >= 22)
+                if (Accessory_k != 0)
+                {
+                    ItemPanel_a8.SetActive(true);
+                    drbutton_a8.SetActive(false);
+                    wbutton_a8.SetActive(true);
+                }
+                else if (score >= 22)
                 {
                     ItemPanel_a8.SetActive(true);
                     bkbutton_a8.SetActive(true);
                     drbutton_a8.SetActive(true);
+                    wbutton_a8.SetActive(false);
                 }
                 break;
             case 8:
-                if (score >= 25)
+                if (Accessory_m != 0)
+                {
+                    ItemPanel_a9.SetActive(true);
+                    drbutton_a9.SetActive(false);
+                    wbutton_a9.SetActive(true);
+                }
+                else if (score >= 25)
                 {
                     ItemPanel_a9.SetActive(true);
                     bkbutton_a9.SetActive(true);
                     drbutton_a9.SetActive(true);
+                    wbutton_a9.SetActive(false);
                 }
                 break;
             case 9:
@@ -1305,46 +1373,7 @@ public class ItemManager : MonoBehaviour
         ItemPanel_a35.SetActive(false);
         ItemPanel_a36.SetActive(false);
     }
-    public void directItem_a()
-    {
-        buttonComplete_a.SetActive(true);
-        ItemPanel_a1.SetActive(false);
-        ItemPanel_a2.SetActive(false);
-        ItemPanel_a3.SetActive(false);
-        ItemPanel_a4.SetActive(false);
-        ItemPanel_a5.SetActive(false);
-        ItemPanel_a6.SetActive(false);
-        ItemPanel_a7.SetActive(false);
-        ItemPanel_a8.SetActive(false);
-        ItemPanel_a9.SetActive(false);
-        ItemPanel_a10.SetActive(false);
-        ItemPanel_a11.SetActive(false);
-        ItemPanel_a12.SetActive(false);
-        ItemPanel_a13.SetActive(false);
-        ItemPanel_a14.SetActive(false);
-        ItemPanel_a15.SetActive(false);
-        ItemPanel_a16.SetActive(false);
-        ItemPanel_a17.SetActive(false);
-        ItemPanel_a18.SetActive(false);
-        ItemPanel_a19.SetActive(false);
-        ItemPanel_a20.SetActive(false);
-        ItemPanel_a21.SetActive(false);
-        ItemPanel_a22.SetActive(false);
-        ItemPanel_a23.SetActive(false);
-        ItemPanel_a24.SetActive(false);
-        ItemPanel_a25.SetActive(false);
-        ItemPanel_a26.SetActive(false);
-        ItemPanel_a27.SetActive(false);
-        ItemPanel_a28.SetActive(false);
-        ItemPanel_a29.SetActive(false);
-        ItemPanel_a30.SetActive(false);
-        ItemPanel_a31.SetActive(false);
-        ItemPanel_a32.SetActive(false);
-        ItemPanel_a33.SetActive(false);
-        ItemPanel_a34.SetActive(false);
-        ItemPanel_a35.SetActive(false);
-        ItemPanel_a36.SetActive(false);
-    }
+    
     public void back2_a()
     {
         buttonComplete_a.SetActive(false);
@@ -1365,145 +1394,121 @@ public class ItemManager : MonoBehaviour
         {
             case 0:
                 FurniturePoint1 = 0;
-                Debug.Log(FurniturePoint1);
                 PlayerPrefs.SetInt("Furniture_k", FurniturePoint1);
                 PlayerPrefs.Save();
                 break;
             case 1:
                 FurniturePoint2 = 0;
-                Debug.Log(FurniturePoint2);
                 PlayerPrefs.SetInt("Furniture_y", FurniturePoint2);
                 PlayerPrefs.Save();
                 break;
             case 2:
                 FurniturePoint3 = 0;
-                Debug.Log(FurniturePoint3);
                 PlayerPrefs.SetInt("Furniture_z", FurniturePoint3);
                 PlayerPrefs.Save();
                 break;
             case 3:
                 FurniturePoint4 = 0;
-                Debug.Log(FurniturePoint4);
                 PlayerPrefs.SetInt("Furniture_t", FurniturePoint4);
                 PlayerPrefs.Save();
                 break;
             case 4:
                 FurniturePoint5 = 0;
-                Debug.Log(FurniturePoint5);
                 PlayerPrefs.SetInt("Furniture_ku", FurniturePoint5);
                 PlayerPrefs.Save();
                 break;
             case 5:
                 FurniturePoint6 = 0;
-                Debug.Log(FurniturePoint6);
                 PlayerPrefs.SetInt("Furniture_m", FurniturePoint6);
                 PlayerPrefs.Save();
                 break;
             case 6:
                 FurniturePoint1 = 0;
-                Debug.Log(FurniturePoint1);
                 PlayerPrefs.SetInt("Furniture_k", FurniturePoint1);
                 PlayerPrefs.Save();
                 break;
             case 7:
                 FurniturePoint2 = 0;
-                Debug.Log(FurniturePoint2);
                 PlayerPrefs.SetInt("Furniture_y", FurniturePoint2);
                 PlayerPrefs.Save();
                 break;
             case 8:
                 FurniturePoint3 = 0;
-                Debug.Log(FurniturePoint3);
                 PlayerPrefs.SetInt("Furniture_z", FurniturePoint3);
                 PlayerPrefs.Save();
                 break;
             case 9:
                 FurniturePoint4 = 0;
-                Debug.Log(FurniturePoint4);
                 PlayerPrefs.SetInt("Furniture_t", FurniturePoint4);
                 PlayerPrefs.Save();
                 break;
             case 10:
                 FurniturePoint5 = 0;
-                Debug.Log(FurniturePoint5);
                 PlayerPrefs.SetInt("Furniture_ku", FurniturePoint5);
                 PlayerPrefs.Save();
                 break;
             case 11:
                 FurniturePoint6 = 0;
-                Debug.Log(FurniturePoint6);
                 PlayerPrefs.SetInt("Furniture_m", FurniturePoint6);
                 PlayerPrefs.Save();
                 break;
             case 12:
                 FurniturePoint1 = 0;
-                Debug.Log(FurniturePoint1);
                 PlayerPrefs.SetInt("Furniture_k", FurniturePoint1);
                 PlayerPrefs.Save();
                 break;
             case 13:
                 FurniturePoint2 = 0;
-                Debug.Log(FurniturePoint2);
                 PlayerPrefs.SetInt("Furniture_y", FurniturePoint2);
                 PlayerPrefs.Save();
                 break;
             case 14:
                 FurniturePoint3 = 0;
-                Debug.Log(FurniturePoint3);
                 PlayerPrefs.SetInt("Furniture_z", FurniturePoint3);
                 PlayerPrefs.Save();
                 break;
             case 15:
                 FurniturePoint4 = 0;
-                Debug.Log(FurniturePoint4);
                 PlayerPrefs.SetInt("Furniture_t", FurniturePoint4);
                 PlayerPrefs.Save();
                 break;
             case 16:
                 FurniturePoint5 = 0;
-                Debug.Log(FurniturePoint5);
                 PlayerPrefs.SetInt("Furniture_ku", FurniturePoint5);
                 PlayerPrefs.Save();
                 break;
             case 17:
                 FurniturePoint6 = 0;
-                Debug.Log(FurniturePoint6);
                 PlayerPrefs.SetInt("Furniture_m", FurniturePoint6);
                 PlayerPrefs.Save();
                 break;
             case 18:
                 FurniturePoint1 = 0;
-                Debug.Log(FurniturePoint1);
                 PlayerPrefs.SetInt("Furniture_k", FurniturePoint1);
                 PlayerPrefs.Save();
                 break;
             case 19:
                 FurniturePoint2 = 0;
-                Debug.Log(FurniturePoint2);
                 PlayerPrefs.SetInt("Furniture_y", FurniturePoint2);
                 PlayerPrefs.Save();
                 break;
             case 20:
                 FurniturePoint3 = 0;
-                Debug.Log(FurniturePoint3);
                 PlayerPrefs.SetInt("Furniture_z", FurniturePoint3);
                 PlayerPrefs.Save();
                 break;
             case 21:
                 FurniturePoint4 = 0;
-                Debug.Log(FurniturePoint4);
                 PlayerPrefs.SetInt("Furniture_t", FurniturePoint4);
                 PlayerPrefs.Save();
                 break;
             case 22:
                 FurniturePoint5 = 0;
-                Debug.Log(FurniturePoint5);
                 PlayerPrefs.SetInt("Furniture_ku", FurniturePoint5);
                 PlayerPrefs.Save();
                 break;
             case 23:
                 FurniturePoint6 = 0;
-                Debug.Log(FurniturePoint6);
                 PlayerPrefs.SetInt("Furniture_m", FurniturePoint6);
                 PlayerPrefs.Save();
                 break;
@@ -1533,5 +1538,140 @@ public class ItemManager : MonoBehaviour
         ItemPanel_f22.SetActive(false);
         ItemPanel_f23.SetActive(false);
         ItemPanel_f24.SetActive(false);
+    }
+    public void directItem_a(int drnumber_a)
+    {
+        buttonComplete_a.SetActive(true); //配置しましたメッセージ
+
+        int AccessoryPoint1 = PlayerPrefs.GetInt("Accessory_b"); //帽子判定のための変数
+        int AccessoryPoint2 = PlayerPrefs.GetInt("Accessory_k"); //首輪定のための変数
+        int AccessoryPoint3 = PlayerPrefs.GetInt("Accessory_m"); //眼鏡判定のための変数
+
+        switch (drnumber_a)
+        {
+            case 0:
+                AccessoryPoint1 = 1;
+                PlayerPrefs.SetInt("Accessory_b", AccessoryPoint1);
+                PlayerPrefs.Save();
+                break;
+            case 1:
+                AccessoryPoint2 = 1;
+                PlayerPrefs.SetInt("Accessory_k", AccessoryPoint2);
+                PlayerPrefs.Save();
+                break;
+            case 2:
+                AccessoryPoint3 = 1;
+                PlayerPrefs.SetInt("Accessory_m", AccessoryPoint3);
+                PlayerPrefs.Save();
+                break;
+            case 3:
+                AccessoryPoint1 = 2;
+                PlayerPrefs.SetInt("Accessory_b", AccessoryPoint1);
+                PlayerPrefs.Save();
+                break;
+            case 4:
+                AccessoryPoint2 = 2;
+                PlayerPrefs.SetInt("Accessory_k", AccessoryPoint2);
+                PlayerPrefs.Save();
+                break;
+            case 5:
+                AccessoryPoint3 = 2;
+                PlayerPrefs.SetInt("Accessory_m", AccessoryPoint3);
+                PlayerPrefs.Save();
+                break;
+            case 6:
+                AccessoryPoint1 = 3;
+                PlayerPrefs.SetInt("Accessory_b", AccessoryPoint1);
+                PlayerPrefs.Save();
+                break;
+            case 7:
+                AccessoryPoint2 = 3;
+                PlayerPrefs.SetInt("Accessory_k", AccessoryPoint2);
+                PlayerPrefs.Save();
+                break;
+            case 8:
+                AccessoryPoint3 = 3;
+                PlayerPrefs.SetInt("Accessory_m", AccessoryPoint3);
+                PlayerPrefs.Save();
+                break;
+        }
+
+        ItemPanel_a1.SetActive(false);
+        ItemPanel_a2.SetActive(false);
+        ItemPanel_a3.SetActive(false);
+        ItemPanel_a4.SetActive(false);
+        ItemPanel_a5.SetActive(false);
+        ItemPanel_a6.SetActive(false);
+        ItemPanel_a7.SetActive(false);
+        ItemPanel_a8.SetActive(false);
+        ItemPanel_a9.SetActive(false);
+    }
+
+    public void withdrawalItem_a(int wnumber_a)
+    {
+        buttonComplete_a.SetActive(true); //配置しましたメッセージ
+
+        int AccessoryPoint1 = PlayerPrefs.GetInt("Accessory_b"); //帽子判定のための変数
+        int AccessoryPoint2 = PlayerPrefs.GetInt("Accessory_k"); //首輪定のための変数
+        int AccessoryPoint3 = PlayerPrefs.GetInt("Accessory_m"); //眼鏡判定のための変数
+
+        switch (wnumber_a)
+        {
+            case 0:
+                AccessoryPoint1 = 0;
+                PlayerPrefs.SetInt("Accessory_b", AccessoryPoint1);
+                PlayerPrefs.Save();
+                break;
+            case 1:
+                AccessoryPoint2 = 0;
+                PlayerPrefs.SetInt("Accessory_k", AccessoryPoint2);
+                PlayerPrefs.Save();
+                break;
+            case 2:
+                AccessoryPoint3 = 0;
+                PlayerPrefs.SetInt("Accessory_m", AccessoryPoint3);
+                PlayerPrefs.Save();
+                break;
+            case 3:
+                AccessoryPoint1 = 0;
+                PlayerPrefs.SetInt("Accessory_b", AccessoryPoint1);
+                PlayerPrefs.Save();
+                break;
+            case 4:
+                AccessoryPoint2 = 0;
+                PlayerPrefs.SetInt("Accessory_k", AccessoryPoint2);
+                PlayerPrefs.Save();
+                break;
+            case 5:
+                AccessoryPoint3 = 0;
+                PlayerPrefs.SetInt("Accessory_m", AccessoryPoint3);
+                PlayerPrefs.Save();
+                break;
+            case 6:
+                AccessoryPoint1 = 0;
+                PlayerPrefs.SetInt("Accessory_b", AccessoryPoint1);
+                PlayerPrefs.Save();
+                break;
+            case 7:
+                AccessoryPoint2 = 0;
+                PlayerPrefs.SetInt("Accessory_k", AccessoryPoint2);
+                PlayerPrefs.Save();
+                break;
+            case 8:
+                AccessoryPoint3 = 0;
+                PlayerPrefs.SetInt("Accessory_m", AccessoryPoint3);
+                PlayerPrefs.Save();
+                break;
+        }
+
+        ItemPanel_a1.SetActive(false);
+        ItemPanel_a2.SetActive(false);
+        ItemPanel_a3.SetActive(false);
+        ItemPanel_a4.SetActive(false);
+        ItemPanel_a5.SetActive(false);
+        ItemPanel_a6.SetActive(false);
+        ItemPanel_a7.SetActive(false);
+        ItemPanel_a8.SetActive(false);
+        ItemPanel_a9.SetActive(false);
     }
 }

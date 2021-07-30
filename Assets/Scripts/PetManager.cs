@@ -11,6 +11,14 @@ public class PetManager : MonoBehaviour
     public Image image_pet2; //名前入力画面のペット画像
     public Image image_pet3; //ホーム画面に滞在するペット画像
 
+    //アクセの画像
+    //この画像に変更する
+    public Sprite Sprite_boushi1, Sprite_kubiwa1, Sprite_megane1;
+    public Sprite Sprite_boushi2, Sprite_kubiwa2, Sprite_megane2;
+    public Sprite Sprite_boushi3, Sprite_kubiwa3, Sprite_megane3;
+    //どの画像を変更する？
+    public Image image_boushi, image_kubiwa,image_megane;
+
     [SerializeField] GameObject SelectPetPanel;
     [SerializeField] GameObject NamePetPanel;
 
@@ -36,8 +44,102 @@ public class PetManager : MonoBehaviour
             image_pet3.enabled = false; //最初は非表示
             SelectPetPanel.SetActive(true); //表示
             SelectButton_left.SetActive(false); //最初は非表示
+
+            //違うシーンから戻ったときにもう一度選択画面が出るのに対処
+            start++;
+            PlayerPrefs.SetInt("START", start);
+            PlayerPrefs.Save();
         }
 
+        int PetPoint = PlayerPrefs.GetInt("PET");
+        Debug.Log("選択しているペットは" + PetPoint);
+
+        if (PetPoint == 0)
+        {
+            // SpriteRenderのspriteを設定済みの他のspriteに変更
+            image_pet3.sprite = Sprite_dog;
+        }
+        else if (PetPoint == 1)
+        {
+            image_pet3.sprite = Sprite_cat;
+        }
+        else if (PetPoint == 2)
+        {
+            image_pet3.sprite = Sprite_bird;
+        }
+        else if (PetPoint == 3)
+        {
+            image_pet3.sprite = Sprite_rabbit;
+        }
+
+        //「Accessory_○○」というキーで保存されているInt値を読み込み
+        int Accessory_b = PlayerPrefs.GetInt("Accessory_b"); //帽子判定のための変数
+        int Accessory_k = PlayerPrefs.GetInt("Accessory_k"); //首輪定のための変数
+        int Accessory_m = PlayerPrefs.GetInt("Accessory_m"); //眼鏡判定のための変数
+
+        Debug.Log(" 今選択されている帽子は" + Accessory_b);
+        Debug.Log(" 今選択されている首輪は" + Accessory_k);
+        Debug.Log(" 今選択されている眼鏡は" + Accessory_m);
+
+        image_boushi.enabled = false; //最初は非表示
+        image_kubiwa.enabled = false; //最初は非表示
+        image_megane.enabled = false; //最初は非表示
+
+        //furniture(どの壁紙を選択しているか)で壁紙変更
+        if (Accessory_b == 1)
+        {
+            image_boushi.enabled = true; //表示する
+            // SpriteRenderのspriteを設定済みの他のspriteに変更
+            image_boushi.sprite = Sprite_boushi1;
+        }
+        if (Accessory_b == 2)
+        {
+            image_boushi.enabled = true; //表示する
+            // SpriteRenderのspriteを設定済みの他のspriteに変更
+            image_boushi.sprite = Sprite_boushi2;
+        }
+        if (Accessory_b == 3)
+        {
+            image_boushi.enabled = true; //表示する
+            // SpriteRenderのspriteを設定済みの他のspriteに変更
+            image_boushi.sprite = Sprite_boushi3;
+        }
+        if (Accessory_k == 1)
+        {
+            image_kubiwa.enabled = true; //表示する
+            // SpriteRenderのspriteを設定済みの他のspriteに変更
+            image_kubiwa.sprite = Sprite_kubiwa1;
+        }
+        if (Accessory_k == 2)
+        {
+            image_kubiwa.enabled = true; //表示する
+            // SpriteRenderのspriteを設定済みの他のspriteに変更
+            image_kubiwa.sprite = Sprite_kubiwa2;
+        }
+        if (Accessory_k == 3)
+        {
+            image_kubiwa.enabled = true; //表示する
+            // SpriteRenderのspriteを設定済みの他のspriteに変更
+            image_kubiwa.sprite = Sprite_kubiwa3;
+        }
+        if (Accessory_m == 1)
+        {
+            image_megane.enabled = true; //表示する
+            // SpriteRenderのspriteを設定済みの他のspriteに変更
+            image_megane.sprite = Sprite_megane1;
+        }
+        if (Accessory_m == 2)
+        {
+            image_megane.enabled = true; //表示する
+            // SpriteRenderのspriteを設定済みの他のspriteに変更
+            image_megane.sprite = Sprite_megane2;
+        }
+        if (Accessory_m == 3)
+        {
+            image_megane.enabled = true; //表示する
+            // SpriteRenderのspriteを設定済みの他のspriteに変更
+            image_megane.sprite = Sprite_megane3;
+        }
     }
 
     // Update is called once per frame
@@ -129,6 +231,9 @@ public class PetManager : MonoBehaviour
     {
         NamePetPanel.SetActive(false);
         image_pet3.enabled = true;
+
+        PlayerPrefs.SetInt("PET", whatpet);
+        PlayerPrefs.Save();
 
         if (whatpet == 0)
         {
