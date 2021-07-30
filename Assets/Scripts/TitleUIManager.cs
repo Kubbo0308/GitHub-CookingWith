@@ -40,7 +40,7 @@ public class TitleUIManager : MonoBehaviour
     public void PushStart()
     {
         int StartPoint = PlayerPrefs.GetInt("START");
-        StartPoint = 0;
+        StartPoint = 1; //‚±‚±‚ð•Ï‚¦‚é‚Æ(StartPoint = 1‚Æ‚©)ƒeƒXƒg‚Å‚«‚é
         Debug.Log(StartPoint);
         PlayerPrefs.SetInt("START", StartPoint);
         PlayerPrefs.Save();

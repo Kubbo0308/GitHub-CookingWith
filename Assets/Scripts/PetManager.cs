@@ -31,7 +31,7 @@ public class PetManager : MonoBehaviour
         //「START」というキーで保存されているInt値を読み込み
         int start = PlayerPrefs.GetInt("START");
         Debug.Log("タイトルからスタートボタンを押した回数は" + start);
-        if (start == 0)
+        if (start == 1)
         {
             image_pet3.enabled = false; //最初は非表示
             SelectPetPanel.SetActive(true); //表示
