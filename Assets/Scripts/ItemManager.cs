@@ -45,6 +45,14 @@ public class ItemManager : MonoBehaviour
     public GameObject drbutton_f17, drbutton_f18, drbutton_f19, drbutton_f20;
     public GameObject drbutton_f21, drbutton_f22, drbutton_f23, drbutton_f24;
 
+    //家具の方の撤収ボタン
+    public GameObject wbutton_f1, wbutton_f2, wbutton_f3, wbutton_f4;
+    public GameObject wbutton_f5, wbutton_f6, wbutton_f7, wbutton_f8;
+    public GameObject wbutton_f9, wbutton_f10, wbutton_f11, wbutton_f12;
+    public GameObject wbutton_f13, wbutton_f14, wbutton_f15, wbutton_f16;
+    public GameObject wbutton_f17, wbutton_f18, wbutton_f19, wbutton_f20;
+    public GameObject wbutton_f21, wbutton_f22, wbutton_f23, wbutton_f24;
+
     //アクセの方の戻るボタン
     public GameObject bkbutton_a1, bkbutton_a2, bkbutton_a3, bkbutton_a4;
     public GameObject bkbutton_a5, bkbutton_a6, bkbutton_a7, bkbutton_a8;
@@ -66,6 +74,11 @@ public class ItemManager : MonoBehaviour
     public GameObject drbutton_a25, drbutton_a26, drbutton_a27, drbutton_a28;
     public GameObject drbutton_a29, drbutton_a30, drbutton_a31, drbutton_a32;
     public GameObject drbutton_a33, drbutton_a34, drbutton_a35, drbutton_a36;
+
+    //アクセの方の撤収ボタン
+    public GameObject wbutton_a1, wbutton_a2, wbutton_a3, wbutton_a4;
+    public GameObject wbutton_a5, wbutton_a6, wbutton_a7, wbutton_a8;
+    public GameObject wbutton_a9;
 
     // publicで宣言し、inspectorで設定可能にする
     //この画像に変更する
@@ -171,6 +184,7 @@ public class ItemManager : MonoBehaviour
         //「SCORE」というキーで保存されているInt値を読み込み
         int score = PlayerPrefs.GetInt("SCORE");
         Debug.Log(" 料理日記を書いた回数は" + score);
+
 
         //score(料理日記を書いた回数)が○回以上でアイテム解放
         if (score >= 1)
@@ -363,198 +377,374 @@ public class ItemManager : MonoBehaviour
         //「SCORE」というキーで保存されているInt値を読み込み
         int score = PlayerPrefs.GetInt("SCORE");
 
+        //「Furniture_○○」というキーで保存されているInt値を読み込み
+        int furniture_k = PlayerPrefs.GetInt("Furniture_k");
+        int furniture_y = PlayerPrefs.GetInt("Furniture_y");
+        int furniture_z = PlayerPrefs.GetInt("Furniture_z");
+        int furniture_t = PlayerPrefs.GetInt("Furniture_t");
+        int furniture_ku = PlayerPrefs.GetInt("Furniture_ku");
+        int furniture_m = PlayerPrefs.GetInt("Furniture_m");
+
         switch (number)
         {
             case 0:
-                if (score >= 1)
+                if (furniture_k != 0)
+                {
+                    ItemPanel_f1.SetActive(true);
+                    drbutton_f1.SetActive(false);
+                    wbutton_f1.SetActive(true);
+                }
+                else if (score >= 1)
                 {
                     ItemPanel_f1.SetActive(true);
                     bkbutton_f1.SetActive(true);
                     drbutton_f1.SetActive(true);
+                    wbutton_f1.SetActive(false);
                 }
                 break;
             case 1:
-                if (score >= 3)
+                if (furniture_y != 0)
+                {
+                    ItemPanel_f2.SetActive(true);
+                    drbutton_f2.SetActive(false);
+                    wbutton_f2.SetActive(true);
+                }
+                else if (score >= 3)
                 {
                     ItemPanel_f2.SetActive(true);
                     bkbutton_f2.SetActive(true);
                     drbutton_f2.SetActive(true);
+                    wbutton_f2.SetActive(false);
                 }
                 break;
             case 2:
-                if (score >= 5)
+                if (furniture_z != 0)
+                {
+                    ItemPanel_f3.SetActive(true);
+                    drbutton_f3.SetActive(false);
+                    wbutton_f3.SetActive(true);
+                }
+                else if (score >= 5)
                 {
                     ItemPanel_f3.SetActive(true);
                     bkbutton_f3.SetActive(true);
                     drbutton_f3.SetActive(true);
+                    wbutton_f3.SetActive(false);
                 }
                 break;
             case 3:
-                if (score >= 7)
+                if (furniture_t != 0)
+                {
+                    ItemPanel_f4.SetActive(true);
+                    drbutton_f4.SetActive(false);
+                    wbutton_f4.SetActive(true);
+                }
+                else if (score >= 7)
                 {
                     ItemPanel_f4.SetActive(true);
                     bkbutton_f4.SetActive(true);
                     drbutton_f4.SetActive(true);
+                    wbutton_f4.SetActive(false);
                 }
                 break;
             case 4:
-                if (score >= 10)
+                if (furniture_ku != 0)
+                {
+                    ItemPanel_f5.SetActive(true);
+                    drbutton_f5.SetActive(false);
+                    wbutton_f5.SetActive(true);
+                }
+                else if (score >= 10)
                 {
                     ItemPanel_f5.SetActive(true);
                     bkbutton_f5.SetActive(true);
                     drbutton_f5.SetActive(true);
+                    wbutton_f5.SetActive(false);
                 }
                 break;
             case 5:
-                if (score >= 12)
+                if (furniture_m != 0)
+                {
+                    ItemPanel_f6.SetActive(true);
+                    drbutton_f6.SetActive(false);
+                    wbutton_f6.SetActive(true);
+                }
+                else if (score >= 12)
                 {
                     ItemPanel_f6.SetActive(true);
                     bkbutton_f6.SetActive(true);
                     drbutton_f6.SetActive(true);
+                    wbutton_f6.SetActive(false);
                 }
                 break;
             case 6:
-                if (score >= 15)
+                if (furniture_k != 0)
+                {
+                    ItemPanel_f7.SetActive(true);
+                    drbutton_f7.SetActive(false);
+                    wbutton_f7.SetActive(true);
+                }
+                else if (score >= 15)
                 {
                     ItemPanel_f7.SetActive(true);
                     bkbutton_f7.SetActive(true);
                     drbutton_f7.SetActive(true);
+                    wbutton_f7.SetActive(false);
                 }
                 break;
             case 7:
-                if (score >= 17)
+                if (furniture_y != 0)
+                {
+                    ItemPanel_f8.SetActive(true);
+                    drbutton_f8.SetActive(false);
+                    wbutton_f8.SetActive(true);
+                }
+                else if (score >= 17)
                 {
                     ItemPanel_f8.SetActive(true);
                     bkbutton_f8.SetActive(true);
                     drbutton_f8.SetActive(true);
+                    wbutton_f8.SetActive(false);
                 }
                 break;
             case 8:
-                if (score >= 20)
+                if (furniture_z != 0)
+                {
+                    ItemPanel_f9.SetActive(true);
+                    drbutton_f9.SetActive(false);
+                    wbutton_f9.SetActive(true);
+                }
+                else if (score >= 20)
                 {
                     ItemPanel_f9.SetActive(true);
                     bkbutton_f9.SetActive(true);
                     drbutton_f9.SetActive(true);
+                    wbutton_f9.SetActive(false);
                 }
                 break;
             case 9:
-                if (score >= 22)
+                if (furniture_t != 0)
+                {
+                    ItemPanel_f10.SetActive(true);
+                    drbutton_f10.SetActive(false);
+                    wbutton_f10.SetActive(true);
+                }
+                else if (score >= 22)
                 {
                     ItemPanel_f10.SetActive(true);
                     bkbutton_f10.SetActive(true);
                     drbutton_f10.SetActive(true);
+                    wbutton_f10.SetActive(false);
                 }
                 break;
             case 10:
-                if (score >= 25)
+                if (furniture_ku != 0)
+                {
+                    ItemPanel_f11.SetActive(true);
+                    drbutton_f11.SetActive(false);
+                    wbutton_f11.SetActive(true);
+                }
+                else if (score >= 25)
                 {
                     ItemPanel_f11.SetActive(true);
                     bkbutton_f11.SetActive(true);
                     drbutton_f11.SetActive(true);
+                    wbutton_f11.SetActive(false);
                 }
                 break;
             case 11:
-                if (score >= 27)
+                if (furniture_m != 0)
+                {
+                    ItemPanel_f12.SetActive(true);
+                    drbutton_f12.SetActive(false);
+                    wbutton_f12.SetActive(true);
+                }
+                else if (score >= 27)
                 {
                     ItemPanel_f12.SetActive(true);
                     bkbutton_f12.SetActive(true);
                     drbutton_f12.SetActive(true);
+                    wbutton_f12.SetActive(false);
                 }
                 break;
             case 12:
-                if (score >= 30)
+                if (furniture_k != 0)
+                {
+                    ItemPanel_f13.SetActive(true);
+                    drbutton_f13.SetActive(false);
+                    wbutton_f13.SetActive(true);
+                }
+                else if (score >= 30)
                 {
                     ItemPanel_f13.SetActive(true);
                     bkbutton_f13.SetActive(true);
                     drbutton_f13.SetActive(true);
+                    wbutton_f13.SetActive(false);
                 }
                 break;
             case 13:
-                if (score >= 32)
+                if (furniture_y != 0)
+                {
+                    ItemPanel_f14.SetActive(true);
+                    drbutton_f14.SetActive(false);
+                    wbutton_f14.SetActive(true);
+                }
+                else if (score >= 32)
                 {
                     ItemPanel_f14.SetActive(true);
                     bkbutton_f14.SetActive(true);
                     drbutton_f14.SetActive(true);
+                    wbutton_f14.SetActive(false);
                 }
                 break;
             case 14:
-                if (score >= 35)
+                if (furniture_z != 0)
+                {
+                    ItemPanel_f15.SetActive(true);
+                    drbutton_f15.SetActive(false);
+                    wbutton_f15.SetActive(true);
+                }
+                else if (score >= 35)
                 {
                     ItemPanel_f15.SetActive(true);
                     bkbutton_f15.SetActive(true);
                     drbutton_f15.SetActive(true);
+                    wbutton_f15.SetActive(false);
                 }
                 break;
             case 15:
-                if (score >= 37)
+                if (furniture_t != 0)
+                {
+                    ItemPanel_f16.SetActive(true);
+                    drbutton_f16.SetActive(false);
+                    wbutton_f16.SetActive(true);
+                }
+                else if (score >= 37)
                 {
                     ItemPanel_f16.SetActive(true);
                     bkbutton_f16.SetActive(true);
                     drbutton_f16.SetActive(true);
+                    wbutton_f16.SetActive(false);
                 }
                 break;
             case 16:
-                if (score >= 40)
+                if (furniture_ku != 0)
+                {
+                    ItemPanel_f17.SetActive(true);
+                    drbutton_f17.SetActive(false);
+                    wbutton_f17.SetActive(true);
+                }
+                else if (score >= 40)
                 {
                     ItemPanel_f17.SetActive(true);
                     bkbutton_f17.SetActive(true);
                     drbutton_f17.SetActive(true);
+                    wbutton_f17.SetActive(false);
                 }
                 break;
             case 17:
-                if (score >= 42)
+                if (furniture_m != 0)
+                {
+                    ItemPanel_f18.SetActive(true);
+                    drbutton_f18.SetActive(false);
+                    wbutton_f18.SetActive(true);
+                }
+                else if (score >= 42)
                 {
                     ItemPanel_f18.SetActive(true);
                     bkbutton_f18.SetActive(true);
                     drbutton_f18.SetActive(true);
+                    wbutton_f18.SetActive(false);
                 }
                 break;
             case 18:
-                if (score >= 45)
+                if (furniture_k != 0)
+                {
+                    ItemPanel_f19.SetActive(true);
+                    drbutton_f19.SetActive(false);
+                    wbutton_f19.SetActive(true);
+                }
+                else if (score >= 45)
                 {
                     ItemPanel_f19.SetActive(true);
                     bkbutton_f19.SetActive(true);
                     drbutton_f19.SetActive(true);
+                    wbutton_f19.SetActive(false);
                 }
                 break;
             case 19:
-                if (score >= 47)
+                if (furniture_y != 0)
+                {
+                    ItemPanel_f20.SetActive(true);
+                    drbutton_f20.SetActive(false);
+                    wbutton_f20.SetActive(true);
+                }
+                else if (score >= 47)
                 {
                     ItemPanel_f20.SetActive(true);
                     bkbutton_f20.SetActive(true);
                     drbutton_f20.SetActive(true);
+                    wbutton_f21.SetActive(false);
                 }
                 break;
             case 20:
-                if (score >= 50)
+                if (furniture_z != 0)
+                {
+                    ItemPanel_f21.SetActive(true);
+                    drbutton_f21.SetActive(false);
+                    wbutton_f21.SetActive(true);
+                }
+                else if (score >= 50)
                 {
                     ItemPanel_f21.SetActive(true);
                     bkbutton_f21.SetActive(true);
                     drbutton_f21.SetActive(true);
+                    wbutton_f21.SetActive(false);
                 }
                 break;
             case 21:
-                if (score >= 52)
+                if (furniture_t != 0)
+                {
+                    ItemPanel_f22.SetActive(true);
+                    drbutton_f22.SetActive(false);
+                    wbutton_f22.SetActive(true);
+                }
+                else if (score >= 52)
                 {
                     ItemPanel_f22.SetActive(true);
                     bkbutton_f22.SetActive(true);
                     drbutton_f22.SetActive(true);
+                    wbutton_f22.SetActive(false);
                 }
                 break;
             case 22:
-                if (score >= 55)
+                if (furniture_ku != 0)
+                {
+                    ItemPanel_f23.SetActive(true);
+                    drbutton_f23.SetActive(false);
+                    wbutton_f23.SetActive(true);
+                }
+                else if (score >= 55)
                 {
                     ItemPanel_f23.SetActive(true);
                     bkbutton_f23.SetActive(true);
                     drbutton_f23.SetActive(true);
+                    wbutton_f23.SetActive(false);
                 }
                 break;
             case 23:
-                if (score >= 57)
+                if (furniture_m != 0)
+                {
+                    ItemPanel_f24.SetActive(true);
+                    drbutton_f24.SetActive(false);
+                    wbutton_f24.SetActive(true);
+                }
+                else if (score >= 57)
                 {
                     ItemPanel_f24.SetActive(true);
                     bkbutton_f24.SetActive(true);
                     drbutton_f24.SetActive(true);
+                    wbutton_f24.SetActive(false);
                 }
                 break;
         }
@@ -784,78 +974,146 @@ public class ItemManager : MonoBehaviour
         //「SCORE」というキーで保存されているInt値を読み込み
         int score = PlayerPrefs.GetInt("SCORE");
 
+        //「Accessory_○○」というキーで保存されているInt値を読み込み
+        int Accessory_b = PlayerPrefs.GetInt("Accessory_b"); //帽子判定のための変数
+        int Accessory_k = PlayerPrefs.GetInt("Accessory_k"); //首輪定のための変数
+        int Accessory_m = PlayerPrefs.GetInt("Accessory_m"); //眼鏡判定のための変数
+
         switch (number2)
         {
             case 0:
-                if (score >= 5)
+                if (Accessory_b != 0)
+                {
+                    ItemPanel_a1.SetActive(true);
+                    drbutton_a1.SetActive(false);
+                    wbutton_a1.SetActive(true);
+                }
+                else if (score >= 5)
                 {
                     ItemPanel_a1.SetActive(true);
                     bkbutton_a1.SetActive(true);
                     drbutton_a1.SetActive(true);
+                    wbutton_a1.SetActive(false);
                 }
                 break;
             case 1:
-                if (score >= 7)
+                if (Accessory_k != 0)
+                {
+                    ItemPanel_a2.SetActive(true);
+                    drbutton_a2.SetActive(false);
+                    wbutton_a2.SetActive(true);
+                }
+                else if (score >= 7)
                 {
                     ItemPanel_a2.SetActive(true);
                     bkbutton_a2.SetActive(true);
                     drbutton_a2.SetActive(true);
+                    wbutton_a2.SetActive(false);
                 }
                 break;
             case 2:
-                if (score >= 10)
+                if (Accessory_m != 0)
+                {
+                    ItemPanel_a3.SetActive(true);
+                    drbutton_a3.SetActive(false);
+                    wbutton_a3.SetActive(true);
+                }
+                else if (score >= 10)
                 {
                     ItemPanel_a3.SetActive(true);
                     bkbutton_a3.SetActive(true);
                     drbutton_a3.SetActive(true);
+                    wbutton_a3.SetActive(false);
                 }
                 break;
             case 3:
-                if (score >= 12)
+                if (Accessory_b != 0)
+                {
+                    ItemPanel_a4.SetActive(true);
+                    drbutton_a4.SetActive(false);
+                    wbutton_a4.SetActive(true);
+                }
+                else if (score >= 12)
                 {
                     ItemPanel_a4.SetActive(true);
                     bkbutton_a4.SetActive(true);
                     drbutton_a4.SetActive(true);
+                    wbutton_a4.SetActive(false);
                 }
                 break;
             case 4:
-                if (score >= 15)
+                if (Accessory_k != 0)
+                {
+                    ItemPanel_a5.SetActive(true);
+                    drbutton_a5.SetActive(false);
+                    wbutton_a5.SetActive(true);
+                }
+                else if (score >= 15)
                 {
                     ItemPanel_a5.SetActive(true);
                     bkbutton_a5.SetActive(true);
                     drbutton_a5.SetActive(true);
+                    wbutton_a5.SetActive(false);
                 }
                 break;
             case 5:
-                if (score >= 17)
+                if (Accessory_m != 0)
+                {
+                    ItemPanel_a6.SetActive(true);
+                    drbutton_a6.SetActive(false);
+                    wbutton_a6.SetActive(true);
+                }
+                else if (score >= 17)
                 {
                     ItemPanel_a6.SetActive(true);
                     bkbutton_a6.SetActive(true);
                     drbutton_a6.SetActive(true);
+                    wbutton_a6.SetActive(false);
                 }
                 break;
             case 6:
-                if (score >= 20)
+                if (Accessory_b != 0)
+                {
+                    ItemPanel_a7.SetActive(true);
+                    drbutton_a7.SetActive(false);
+                    wbutton_a7.SetActive(true);
+                }
+                else if (score >= 20)
                 {
                     ItemPanel_a7.SetActive(true);
                     bkbutton_a7.SetActive(true);
                     drbutton_a7.SetActive(true);
+                    wbutton_a7.SetActive(false);
                 }
                 break;
             case 7:
-                if (score >= 22)
+                if (Accessory_k != 0)
+                {
+                    ItemPanel_a8.SetActive(true);
+                    drbutton_a8.SetActive(false);
+                    wbutton_a8.SetActive(true);
+                }
+                else if (score >= 22)
                 {
                     ItemPanel_a8.SetActive(true);
                     bkbutton_a8.SetActive(true);
                     drbutton_a8.SetActive(true);
+                    wbutton_a8.SetActive(false);
                 }
                 break;
             case 8:
-                if (score >= 25)
+                if (Accessory_m != 0)
+                {
+                    ItemPanel_a9.SetActive(true);
+                    drbutton_a9.SetActive(false);
+                    wbutton_a9.SetActive(true);
+                }
+                else if (score >= 25)
                 {
                     ItemPanel_a9.SetActive(true);
                     bkbutton_a9.SetActive(true);
                     drbutton_a9.SetActive(true);
+                    wbutton_a9.SetActive(false);
                 }
                 break;
             case 9:
@@ -1115,9 +1373,229 @@ public class ItemManager : MonoBehaviour
         ItemPanel_a35.SetActive(false);
         ItemPanel_a36.SetActive(false);
     }
-    public void directItem_a()
+    
+    public void back2_a()
     {
-        buttonComplete_a.SetActive(true);
+        buttonComplete_a.SetActive(false);
+    }
+
+    public void withdrawalItem_f(int wnumber)
+    {
+        buttonComplete_f.SetActive(true); //配置しましたメッセージ
+
+        int FurniturePoint1 = PlayerPrefs.GetInt("Furniture_k"); //壁紙判定のための変数
+        int FurniturePoint2 = PlayerPrefs.GetInt("Furniture_y"); //床判定のための変数
+        int FurniturePoint3 = PlayerPrefs.GetInt("Furniture_z"); //座布団判定のための変数
+        int FurniturePoint4 = PlayerPrefs.GetInt("Furniture_t"); //机判定のための変数
+        int FurniturePoint5 = PlayerPrefs.GetInt("Furniture_ku"); //クローゼット判定のための変数
+        int FurniturePoint6 = PlayerPrefs.GetInt("Furniture_m"); //窓判定のための変数
+
+        switch (wnumber)
+        {
+            case 0:
+                FurniturePoint1 = 0;
+                PlayerPrefs.SetInt("Furniture_k", FurniturePoint1);
+                PlayerPrefs.Save();
+                break;
+            case 1:
+                FurniturePoint2 = 0;
+                PlayerPrefs.SetInt("Furniture_y", FurniturePoint2);
+                PlayerPrefs.Save();
+                break;
+            case 2:
+                FurniturePoint3 = 0;
+                PlayerPrefs.SetInt("Furniture_z", FurniturePoint3);
+                PlayerPrefs.Save();
+                break;
+            case 3:
+                FurniturePoint4 = 0;
+                PlayerPrefs.SetInt("Furniture_t", FurniturePoint4);
+                PlayerPrefs.Save();
+                break;
+            case 4:
+                FurniturePoint5 = 0;
+                PlayerPrefs.SetInt("Furniture_ku", FurniturePoint5);
+                PlayerPrefs.Save();
+                break;
+            case 5:
+                FurniturePoint6 = 0;
+                PlayerPrefs.SetInt("Furniture_m", FurniturePoint6);
+                PlayerPrefs.Save();
+                break;
+            case 6:
+                FurniturePoint1 = 0;
+                PlayerPrefs.SetInt("Furniture_k", FurniturePoint1);
+                PlayerPrefs.Save();
+                break;
+            case 7:
+                FurniturePoint2 = 0;
+                PlayerPrefs.SetInt("Furniture_y", FurniturePoint2);
+                PlayerPrefs.Save();
+                break;
+            case 8:
+                FurniturePoint3 = 0;
+                PlayerPrefs.SetInt("Furniture_z", FurniturePoint3);
+                PlayerPrefs.Save();
+                break;
+            case 9:
+                FurniturePoint4 = 0;
+                PlayerPrefs.SetInt("Furniture_t", FurniturePoint4);
+                PlayerPrefs.Save();
+                break;
+            case 10:
+                FurniturePoint5 = 0;
+                PlayerPrefs.SetInt("Furniture_ku", FurniturePoint5);
+                PlayerPrefs.Save();
+                break;
+            case 11:
+                FurniturePoint6 = 0;
+                PlayerPrefs.SetInt("Furniture_m", FurniturePoint6);
+                PlayerPrefs.Save();
+                break;
+            case 12:
+                FurniturePoint1 = 0;
+                PlayerPrefs.SetInt("Furniture_k", FurniturePoint1);
+                PlayerPrefs.Save();
+                break;
+            case 13:
+                FurniturePoint2 = 0;
+                PlayerPrefs.SetInt("Furniture_y", FurniturePoint2);
+                PlayerPrefs.Save();
+                break;
+            case 14:
+                FurniturePoint3 = 0;
+                PlayerPrefs.SetInt("Furniture_z", FurniturePoint3);
+                PlayerPrefs.Save();
+                break;
+            case 15:
+                FurniturePoint4 = 0;
+                PlayerPrefs.SetInt("Furniture_t", FurniturePoint4);
+                PlayerPrefs.Save();
+                break;
+            case 16:
+                FurniturePoint5 = 0;
+                PlayerPrefs.SetInt("Furniture_ku", FurniturePoint5);
+                PlayerPrefs.Save();
+                break;
+            case 17:
+                FurniturePoint6 = 0;
+                PlayerPrefs.SetInt("Furniture_m", FurniturePoint6);
+                PlayerPrefs.Save();
+                break;
+            case 18:
+                FurniturePoint1 = 0;
+                PlayerPrefs.SetInt("Furniture_k", FurniturePoint1);
+                PlayerPrefs.Save();
+                break;
+            case 19:
+                FurniturePoint2 = 0;
+                PlayerPrefs.SetInt("Furniture_y", FurniturePoint2);
+                PlayerPrefs.Save();
+                break;
+            case 20:
+                FurniturePoint3 = 0;
+                PlayerPrefs.SetInt("Furniture_z", FurniturePoint3);
+                PlayerPrefs.Save();
+                break;
+            case 21:
+                FurniturePoint4 = 0;
+                PlayerPrefs.SetInt("Furniture_t", FurniturePoint4);
+                PlayerPrefs.Save();
+                break;
+            case 22:
+                FurniturePoint5 = 0;
+                PlayerPrefs.SetInt("Furniture_ku", FurniturePoint5);
+                PlayerPrefs.Save();
+                break;
+            case 23:
+                FurniturePoint6 = 0;
+                PlayerPrefs.SetInt("Furniture_m", FurniturePoint6);
+                PlayerPrefs.Save();
+                break;
+        }
+
+        ItemPanel_f1.SetActive(false);
+        ItemPanel_f2.SetActive(false);
+        ItemPanel_f3.SetActive(false);
+        ItemPanel_f4.SetActive(false);
+        ItemPanel_f5.SetActive(false);
+        ItemPanel_f6.SetActive(false);
+        ItemPanel_f7.SetActive(false);
+        ItemPanel_f8.SetActive(false);
+        ItemPanel_f9.SetActive(false);
+        ItemPanel_f10.SetActive(false);
+        ItemPanel_f11.SetActive(false);
+        ItemPanel_f12.SetActive(false);
+        ItemPanel_f13.SetActive(false);
+        ItemPanel_f14.SetActive(false);
+        ItemPanel_f15.SetActive(false);
+        ItemPanel_f16.SetActive(false);
+        ItemPanel_f17.SetActive(false);
+        ItemPanel_f18.SetActive(false);
+        ItemPanel_f19.SetActive(false);
+        ItemPanel_f20.SetActive(false);
+        ItemPanel_f21.SetActive(false);
+        ItemPanel_f22.SetActive(false);
+        ItemPanel_f23.SetActive(false);
+        ItemPanel_f24.SetActive(false);
+    }
+    public void directItem_a(int drnumber_a)
+    {
+        buttonComplete_a.SetActive(true); //配置しましたメッセージ
+
+        int AccessoryPoint1 = PlayerPrefs.GetInt("Accessory_b"); //帽子判定のための変数
+        int AccessoryPoint2 = PlayerPrefs.GetInt("Accessory_k"); //首輪定のための変数
+        int AccessoryPoint3 = PlayerPrefs.GetInt("Accessory_m"); //眼鏡判定のための変数
+
+        switch (drnumber_a)
+        {
+            case 0:
+                AccessoryPoint1 = 1;
+                PlayerPrefs.SetInt("Accessory_b", AccessoryPoint1);
+                PlayerPrefs.Save();
+                break;
+            case 1:
+                AccessoryPoint2 = 1;
+                PlayerPrefs.SetInt("Accessory_k", AccessoryPoint2);
+                PlayerPrefs.Save();
+                break;
+            case 2:
+                AccessoryPoint3 = 1;
+                PlayerPrefs.SetInt("Accessory_m", AccessoryPoint3);
+                PlayerPrefs.Save();
+                break;
+            case 3:
+                AccessoryPoint1 = 2;
+                PlayerPrefs.SetInt("Accessory_b", AccessoryPoint1);
+                PlayerPrefs.Save();
+                break;
+            case 4:
+                AccessoryPoint2 = 2;
+                PlayerPrefs.SetInt("Accessory_k", AccessoryPoint2);
+                PlayerPrefs.Save();
+                break;
+            case 5:
+                AccessoryPoint3 = 2;
+                PlayerPrefs.SetInt("Accessory_m", AccessoryPoint3);
+                PlayerPrefs.Save();
+                break;
+            case 6:
+                AccessoryPoint1 = 3;
+                PlayerPrefs.SetInt("Accessory_b", AccessoryPoint1);
+                PlayerPrefs.Save();
+                break;
+            case 7:
+                AccessoryPoint2 = 3;
+                PlayerPrefs.SetInt("Accessory_k", AccessoryPoint2);
+                PlayerPrefs.Save();
+                break;
+            case 8:
+                AccessoryPoint3 = 3;
+                PlayerPrefs.SetInt("Accessory_m", AccessoryPoint3);
+                PlayerPrefs.Save();
+                break;
+        }
+
         ItemPanel_a1.SetActive(false);
         ItemPanel_a2.SetActive(false);
         ItemPanel_a3.SetActive(false);
@@ -1127,37 +1605,73 @@ public class ItemManager : MonoBehaviour
         ItemPanel_a7.SetActive(false);
         ItemPanel_a8.SetActive(false);
         ItemPanel_a9.SetActive(false);
-        ItemPanel_a10.SetActive(false);
-        ItemPanel_a11.SetActive(false);
-        ItemPanel_a12.SetActive(false);
-        ItemPanel_a13.SetActive(false);
-        ItemPanel_a14.SetActive(false);
-        ItemPanel_a15.SetActive(false);
-        ItemPanel_a16.SetActive(false);
-        ItemPanel_a17.SetActive(false);
-        ItemPanel_a18.SetActive(false);
-        ItemPanel_a19.SetActive(false);
-        ItemPanel_a20.SetActive(false);
-        ItemPanel_a21.SetActive(false);
-        ItemPanel_a22.SetActive(false);
-        ItemPanel_a23.SetActive(false);
-        ItemPanel_a24.SetActive(false);
-        ItemPanel_a25.SetActive(false);
-        ItemPanel_a26.SetActive(false);
-        ItemPanel_a27.SetActive(false);
-        ItemPanel_a28.SetActive(false);
-        ItemPanel_a29.SetActive(false);
-        ItemPanel_a30.SetActive(false);
-        ItemPanel_a31.SetActive(false);
-        ItemPanel_a32.SetActive(false);
-        ItemPanel_a33.SetActive(false);
-        ItemPanel_a34.SetActive(false);
-        ItemPanel_a35.SetActive(false);
-        ItemPanel_a36.SetActive(false);
-    }
-    public void back2_a()
-    {
-        buttonComplete_a.SetActive(false);
     }
 
+    public void withdrawalItem_a(int wnumber_a)
+    {
+        buttonComplete_a.SetActive(true); //配置しましたメッセージ
+
+        int AccessoryPoint1 = PlayerPrefs.GetInt("Accessory_b"); //帽子判定のための変数
+        int AccessoryPoint2 = PlayerPrefs.GetInt("Accessory_k"); //首輪定のための変数
+        int AccessoryPoint3 = PlayerPrefs.GetInt("Accessory_m"); //眼鏡判定のための変数
+
+        switch (wnumber_a)
+        {
+            case 0:
+                AccessoryPoint1 = 0;
+                PlayerPrefs.SetInt("Accessory_b", AccessoryPoint1);
+                PlayerPrefs.Save();
+                break;
+            case 1:
+                AccessoryPoint2 = 0;
+                PlayerPrefs.SetInt("Accessory_k", AccessoryPoint2);
+                PlayerPrefs.Save();
+                break;
+            case 2:
+                AccessoryPoint3 = 0;
+                PlayerPrefs.SetInt("Accessory_m", AccessoryPoint3);
+                PlayerPrefs.Save();
+                break;
+            case 3:
+                AccessoryPoint1 = 0;
+                PlayerPrefs.SetInt("Accessory_b", AccessoryPoint1);
+                PlayerPrefs.Save();
+                break;
+            case 4:
+                AccessoryPoint2 = 0;
+                PlayerPrefs.SetInt("Accessory_k", AccessoryPoint2);
+                PlayerPrefs.Save();
+                break;
+            case 5:
+                AccessoryPoint3 = 0;
+                PlayerPrefs.SetInt("Accessory_m", AccessoryPoint3);
+                PlayerPrefs.Save();
+                break;
+            case 6:
+                AccessoryPoint1 = 0;
+                PlayerPrefs.SetInt("Accessory_b", AccessoryPoint1);
+                PlayerPrefs.Save();
+                break;
+            case 7:
+                AccessoryPoint2 = 0;
+                PlayerPrefs.SetInt("Accessory_k", AccessoryPoint2);
+                PlayerPrefs.Save();
+                break;
+            case 8:
+                AccessoryPoint3 = 0;
+                PlayerPrefs.SetInt("Accessory_m", AccessoryPoint3);
+                PlayerPrefs.Save();
+                break;
+        }
+
+        ItemPanel_a1.SetActive(false);
+        ItemPanel_a2.SetActive(false);
+        ItemPanel_a3.SetActive(false);
+        ItemPanel_a4.SetActive(false);
+        ItemPanel_a5.SetActive(false);
+        ItemPanel_a6.SetActive(false);
+        ItemPanel_a7.SetActive(false);
+        ItemPanel_a8.SetActive(false);
+        ItemPanel_a9.SetActive(false);
+    }
 }
