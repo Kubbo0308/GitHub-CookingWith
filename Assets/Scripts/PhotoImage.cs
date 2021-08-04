@@ -12,6 +12,7 @@ public class PhotoImage : MonoBehaviour
     Sprite sprite;
     //画像リンクから画像をテクスチャにする
     Texture2D texture;
+    public GameObject selectButton;
    
 
     // Start is called before the first frame update
@@ -34,6 +35,7 @@ public class PhotoImage : MonoBehaviour
         sprite = Sprite.Create(texture, new Rect(0.0f, 0.0f, texture.width, texture.height), Vector2.zero);
         //Imageにspriteを張り付ける
         gameObject.GetComponent<Image>().sprite = sprite;
+        selectButton.SetActive(false);
     }
 
     //テクスチャを読み込む
