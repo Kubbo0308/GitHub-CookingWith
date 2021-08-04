@@ -18,11 +18,10 @@ public class ButtonManager : MonoBehaviour
     private string lastDay;
     private int lastInt;
     //最初はイヌ以外オフにする
-     private string character;
-    public GameObject Dog;
-    public GameObject Cat;
-    public GameObject Bard;
-    public GameObject Rabbit;
+ 
+    WebCamTexture webCam;
+
+    public GameObject cameraManager;
 
     //�B�e���Ɍ����{�^��
 
@@ -30,7 +29,9 @@ public class ButtonManager : MonoBehaviour
     void Start()
     {
         lastInt = PlayerPrefs.GetInt("LAST", 0);
-        character = PlayerPrefs.GetString("CHARACTER");
+        
+        // WebCamTextureのインスタンスを生成
+        webCam = new WebCamTexture();
     }
 
     // Update is called once per frame
@@ -81,58 +82,22 @@ public class ButtonManager : MonoBehaviour
         lastInt = int.Parse(lastDay);
         PlayerPrefs.SetInt("LAST", lastInt);
         Debug.Log("現在の日付" + lastInt);
-    }
 
-    public void DogButton() //イヌ以外非表示
-    {
-        Dog.SetActive(true);
-        Cat.SetActive(false);
-        Bard.SetActive(false);
-        Rabbit.SetActive(false);
+        // インスタンス取得
+        webCam = cameraManager.GetComponent<CameraManager>().webCam;
+        // Texture2Dを新規作成
+        Texture2D texture = new Texture2D(webCam.width, webCam.height, TextureFormat.ARGB32, false);
+        // カメラのピクセルデータを設定
+        texture.SetPixels(webCam.GetPixels());
+        // TextureをApply
+        texture.Apply();
 
-        character = "DOG";
-        PlayerPrefs.SetString("CHARACTER", character);
-        PlayerPrefs.Save();
-        Debug.Log("現在のキャラクター" + character);
-    }
+        // Encode
+        byte[] bin = texture.EncodeToJPG();
+        // Encodeが終わったら削除
+        UnityEngine.Object.Destroy(texture);
 
-    public void CatButton() //ネコ以外非表示
-    {
-        Dog.SetActive(false);
-        Cat.SetActive(true);
-        Bard.SetActive(false);
-        Rabbit.SetActive(false);
-
-        character = "CAT";
-        PlayerPrefs.SetString("CHARACTER", character);
-        PlayerPrefs.Save();
-        Debug.Log("現在のキャラクター" + character);
-    }
-
-    public void BardButton()　//トリ以外非表示
-    {
-        Dog.SetActive(false);
-        Cat.SetActive(false);
-        Bard.SetActive(true);
-        Rabbit.SetActive(false);
-
-        character = "BARD";
-        PlayerPrefs.SetString("CHARACTER", character);
-        PlayerPrefs.Save();
-        Debug.Log("現在のキャラクター" + character);
-    }
-
-    public void RabbitButton() //ウサギ以外非表示
-    {
-        Dog.SetActive(false);
-        Cat.SetActive(false);
-        Bard.SetActive(false);
-        Rabbit.SetActive(true);
-
-        character = "RABBIT";
-        PlayerPrefs.SetString("CHARACTER", character);
-        PlayerPrefs.Save();
-        Debug.Log("現在のキャラクター" + character);
+        File.WriteAllBytes(Application.dataPath + "/Resources/cook.jpg", bin);
     }
 
 }

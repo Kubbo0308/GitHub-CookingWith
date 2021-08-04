@@ -2109,10 +2109,7 @@ MonoBehaviour:
   buttonGoal: {fileID: 0}
   buttonCooking: {fileID: 0}
   buttonCharacter: {fileID: 0}
-  Dog: {fileID: 0}
-  Cat: {fileID: 0}
-  Bard: {fileID: 0}
-  Rabbit: {fileID: 0}
+  cameraManager: {fileID: 185434356}
 --- !u!4 &743988273
 Transform:
   m_ObjectHideFlags: 0
