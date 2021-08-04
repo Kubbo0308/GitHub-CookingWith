@@ -388,7 +388,7 @@ public class ItemManager : MonoBehaviour
         switch (number)
         {
             case 0:
-                if (furniture_k != 0)
+                if (furniture_k == 1)
                 {
                     ItemPanel_f1.SetActive(true);
                     drbutton_f1.SetActive(false);
@@ -403,7 +403,7 @@ public class ItemManager : MonoBehaviour
                 }
                 break;
             case 1:
-                if (furniture_y != 0)
+                if (furniture_y == 1)
                 {
                     ItemPanel_f2.SetActive(true);
                     drbutton_f2.SetActive(false);
@@ -418,7 +418,7 @@ public class ItemManager : MonoBehaviour
                 }
                 break;
             case 2:
-                if (furniture_z != 0)
+                if (furniture_z == 1)
                 {
                     ItemPanel_f3.SetActive(true);
                     drbutton_f3.SetActive(false);
@@ -433,7 +433,7 @@ public class ItemManager : MonoBehaviour
                 }
                 break;
             case 3:
-                if (furniture_t != 0)
+                if (furniture_t == 1)
                 {
                     ItemPanel_f4.SetActive(true);
                     drbutton_f4.SetActive(false);
@@ -448,7 +448,7 @@ public class ItemManager : MonoBehaviour
                 }
                 break;
             case 4:
-                if (furniture_ku != 0)
+                if (furniture_ku == 1)
                 {
                     ItemPanel_f5.SetActive(true);
                     drbutton_f5.SetActive(false);
@@ -463,7 +463,7 @@ public class ItemManager : MonoBehaviour
                 }
                 break;
             case 5:
-                if (furniture_m != 0)
+                if (furniture_m == 1)
                 {
                     ItemPanel_f6.SetActive(true);
                     drbutton_f6.SetActive(false);
@@ -478,7 +478,7 @@ public class ItemManager : MonoBehaviour
                 }
                 break;
             case 6:
-                if (furniture_k != 0)
+                if (furniture_k == 2)
                 {
                     ItemPanel_f7.SetActive(true);
                     drbutton_f7.SetActive(false);
@@ -493,7 +493,7 @@ public class ItemManager : MonoBehaviour
                 }
                 break;
             case 7:
-                if (furniture_y != 0)
+                if (furniture_y == 2)
                 {
                     ItemPanel_f8.SetActive(true);
                     drbutton_f8.SetActive(false);
@@ -508,7 +508,7 @@ public class ItemManager : MonoBehaviour
                 }
                 break;
             case 8:
-                if (furniture_z != 0)
+                if (furniture_z == 2)
                 {
                     ItemPanel_f9.SetActive(true);
                     drbutton_f9.SetActive(false);
@@ -523,7 +523,7 @@ public class ItemManager : MonoBehaviour
                 }
                 break;
             case 9:
-                if (furniture_t != 0)
+                if (furniture_t == 2)
                 {
                     ItemPanel_f10.SetActive(true);
                     drbutton_f10.SetActive(false);
@@ -538,7 +538,7 @@ public class ItemManager : MonoBehaviour
                 }
                 break;
             case 10:
-                if (furniture_ku != 0)
+                if (furniture_ku == 2)
                 {
                     ItemPanel_f11.SetActive(true);
                     drbutton_f11.SetActive(false);
@@ -553,7 +553,7 @@ public class ItemManager : MonoBehaviour
                 }
                 break;
             case 11:
-                if (furniture_m != 0)
+                if (furniture_m == 2)
                 {
                     ItemPanel_f12.SetActive(true);
                     drbutton_f12.SetActive(false);
@@ -568,7 +568,7 @@ public class ItemManager : MonoBehaviour
                 }
                 break;
             case 12:
-                if (furniture_k != 0)
+                if (furniture_k == 3)
                 {
                     ItemPanel_f13.SetActive(true);
                     drbutton_f13.SetActive(false);
@@ -583,7 +583,7 @@ public class ItemManager : MonoBehaviour
                 }
                 break;
             case 13:
-                if (furniture_y != 0)
+                if (furniture_y == 3)
                 {
                     ItemPanel_f14.SetActive(true);
                     drbutton_f14.SetActive(false);
@@ -598,7 +598,7 @@ public class ItemManager : MonoBehaviour
                 }
                 break;
             case 14:
-                if (furniture_z != 0)
+                if (furniture_z == 3)
                 {
                     ItemPanel_f15.SetActive(true);
                     drbutton_f15.SetActive(false);
@@ -613,7 +613,7 @@ public class ItemManager : MonoBehaviour
                 }
                 break;
             case 15:
-                if (furniture_t != 0)
+                if (furniture_t == 3)
                 {
                     ItemPanel_f16.SetActive(true);
                     drbutton_f16.SetActive(false);
@@ -628,7 +628,7 @@ public class ItemManager : MonoBehaviour
                 }
                 break;
             case 16:
-                if (furniture_ku != 0)
+                if (furniture_ku == 3)
                 {
                     ItemPanel_f17.SetActive(true);
                     drbutton_f17.SetActive(false);
@@ -643,7 +643,7 @@ public class ItemManager : MonoBehaviour
                 }
                 break;
             case 17:
-                if (furniture_m != 0)
+                if (furniture_m == 3)
                 {
                     ItemPanel_f18.SetActive(true);
                     drbutton_f18.SetActive(false);
@@ -658,7 +658,7 @@ public class ItemManager : MonoBehaviour
                 }
                 break;
             case 18:
-                if (furniture_k != 0)
+                if (furniture_k == 4)
                 {
                     ItemPanel_f19.SetActive(true);
                     drbutton_f19.SetActive(false);
@@ -673,7 +673,7 @@ public class ItemManager : MonoBehaviour
                 }
                 break;
             case 19:
-                if (furniture_y != 0)
+                if (furniture_y == 4)
                 {
                     ItemPanel_f20.SetActive(true);
                     drbutton_f20.SetActive(false);
@@ -688,7 +688,7 @@ public class ItemManager : MonoBehaviour
                 }
                 break;
             case 20:
-                if (furniture_z != 0)
+                if (furniture_z == 4)
                 {
                     ItemPanel_f21.SetActive(true);
                     drbutton_f21.SetActive(false);
@@ -703,7 +703,7 @@ public class ItemManager : MonoBehaviour
                 }
                 break;
             case 21:
-                if (furniture_t != 0)
+                if (furniture_t == 4)
                 {
                     ItemPanel_f22.SetActive(true);
                     drbutton_f22.SetActive(false);
@@ -718,7 +718,7 @@ public class ItemManager : MonoBehaviour
                 }
                 break;
             case 22:
-                if (furniture_ku != 0)
+                if (furniture_ku == 4)
                 {
                     ItemPanel_f23.SetActive(true);
                     drbutton_f23.SetActive(false);
@@ -733,7 +733,7 @@ public class ItemManager : MonoBehaviour
                 }
                 break;
             case 23:
-                if (furniture_m != 0)
+                if (furniture_m == 4)
                 {
                     ItemPanel_f24.SetActive(true);
                     drbutton_f24.SetActive(false);
