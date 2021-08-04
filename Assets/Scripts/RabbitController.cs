@@ -41,6 +41,64 @@ public class RabbitController : MonoBehaviour
         meatRabbit = PlayerPrefs.GetFloat("MEATRABBIT", 0);
         vegetableRabbit = PlayerPrefs.GetFloat("VEGETABLERABBIT", 0);
         carboRabbit = PlayerPrefs.GetFloat("CARBORABBIT", 0);
+
+        //「CHARACTER」というキーで保存されているstring値を読み込み
+        character = PlayerPrefs.GetString("CHARACTER");
+
+        int petPoint = PlayerPrefs.GetInt("WHAT_PET");
+
+        if (petPoint == 18 || petPoint == 19 || petPoint == 20 || petPoint == 21 || petPoint == 22 || petPoint == 23)
+        {
+            //現在の日付取得
+            DateTime TodayNow = DateTime.Now;
+            nowDay = TodayNow.Day.ToString();
+            nowDayInt = int.Parse(nowDay);
+
+            //現在の日付から最後に料理日記を書いた日付を引く
+            day = nowDayInt - lastDayInt;
+
+            //dayが3日以上空いていたら
+            if ((day > 3) || (day < -27))
+            {
+                //アニメを衰弱状態にする
+                petPoint = 19;
+                PlayerPrefs.SetInt("WHAT_PET", petPoint);
+                PlayerPrefs.Save();
+            }
+            else
+            {
+                //アニメを元に戻す
+                petPoint = 18;
+                PlayerPrefs.SetInt("WHAT_PET", petPoint);
+                PlayerPrefs.Save();
+            }
+
+            //肉中心の時
+            if ((score >= 5) && (meatRabbit > 20.0f))
+            {
+                petPoint = 20;
+                PlayerPrefs.SetInt("WHAT_PET", petPoint);
+                PlayerPrefs.Save();
+            }
+            else if ((score >= 5) && (vegetableRabbit > 20.0f))
+            { //野菜中心の時
+                petPoint = 21;
+                PlayerPrefs.SetInt("WHAT_PET", petPoint);
+                PlayerPrefs.Save();
+            }
+            else if ((score >= 5) && (carboRabbit > 20.0f))
+            { //炭水化物中心の時
+                petPoint = 22;
+                PlayerPrefs.SetInt("WHAT_PET", petPoint);
+                PlayerPrefs.Save();
+            }
+            else if (score >= 5)
+            { //バランスが良い時
+                petPoint = 23;
+                PlayerPrefs.SetInt("WHAT_PET", petPoint);
+                PlayerPrefs.Save();
+            }
+        }
     }
 
     // Update is called once per frame
@@ -48,6 +106,8 @@ public class RabbitController : MonoBehaviour
     {
         //「CHARACTER」というキーで保存されているstring値を読み込み
         character = PlayerPrefs.GetString("CHARACTER");
+
+        int petPoint = PlayerPrefs.GetInt("WHAT_PET");
 
         if (character.Equals("RABBIT")) {
             Debug.Log("ウサギのUpDateは走っているよ");
@@ -64,20 +124,39 @@ public class RabbitController : MonoBehaviour
             {
                 //アニメを衰弱状態にする
                 animator.SetBool("isBad", true);
+                petPoint = 19;
+                PlayerPrefs.SetInt("WHAT_PET", petPoint);
+                PlayerPrefs.Save();
             } else {
                 //アニメを元に戻す
                 animator.SetBool("isBad", false);
+                petPoint = 18;
+                PlayerPrefs.SetInt("WHAT_PET", petPoint);
+                PlayerPrefs.Save();
             }
 
             //肉中心の時
             if ((score >= 5) && (meatRabbit > 20.0f)){
                 animator.SetBool("isMeat", true);
+                petPoint = 20;
+                PlayerPrefs.SetInt("WHAT_PET", petPoint);
+                PlayerPrefs.Save();
             } else if ((score >= 5) && (vegetableRabbit > 20.0f)){ //野菜中心の時
                 animator.SetBool("isVegetable", true);
+                petPoint = 21;
+                PlayerPrefs.SetInt("WHAT_PET", petPoint);
+                PlayerPrefs.Save();
             } else if ((score >= 5) && (carboRabbit > 20.0f)){ //炭水化物中心の時
                 animator.SetBool("isCarbo", true);
+                petPoint = 22;
+                PlayerPrefs.SetInt("WHAT_PET", petPoint);
+                PlayerPrefs.Save();
             } else if (score >= 5){ //バランスが良い時
                 animator.SetBool("isGood", true);
+                petPoint = 23;
+                PlayerPrefs.SetInt("WHAT_PET", petPoint);
+                PlayerPrefs.Save();
+                Debug.Log("バランス良いねトリ");
             }
         }
     }

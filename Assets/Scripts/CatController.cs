@@ -41,6 +41,64 @@ public class CatController : MonoBehaviour
         meatCat = PlayerPrefs.GetFloat("MEATCAT", 0);
         vegetableCat = PlayerPrefs.GetFloat("VEGETABLECAT", 0);
         carboCat = PlayerPrefs.GetFloat("CARBOCAT", 0);
+
+        //「CHARACTER」というキーで保存されているstring値を読み込み
+        character = PlayerPrefs.GetString("CHARACTER");
+
+        int petPoint = PlayerPrefs.GetInt("WHAT_PET");
+
+        if (petPoint == 6 || petPoint == 17 || petPoint == 8 || petPoint == 9 || petPoint == 10 || petPoint == 11)
+        {
+            //現在の日付取得
+            DateTime TodayNow = DateTime.Now;
+            nowDay = TodayNow.Day.ToString();
+            nowDayInt = int.Parse(nowDay);
+
+            //現在の日付から最後に料理日記を書いた日付を引く
+            day = nowDayInt - lastDayInt;
+
+            //dayが3日以上空いていたら
+            if ((day > 3) || (day < -27))
+            {
+                //アニメを衰弱状態にする
+                petPoint = 7;
+                PlayerPrefs.SetInt("WHAT_PET", petPoint);
+                PlayerPrefs.Save();
+            }
+            else
+            {
+                //アニメを元に戻す
+                petPoint = 6;
+                PlayerPrefs.SetInt("WHAT_PET", petPoint);
+                PlayerPrefs.Save();
+            }
+
+            //肉中心の時
+            if ((score >= 5) && (meatCat > 20.0f))
+            {
+                petPoint = 8;
+                PlayerPrefs.SetInt("WHAT_PET", petPoint);
+                PlayerPrefs.Save();
+            }
+            else if ((score >= 5) && (vegetableCat > 20.0f))
+            { //野菜中心の時
+                petPoint = 9;
+                PlayerPrefs.SetInt("WHAT_PET", petPoint);
+                PlayerPrefs.Save();
+            }
+            else if ((score >= 5) && (carboCat > 20.0f))
+            { //炭水化物中心の時
+                petPoint = 10;
+                PlayerPrefs.SetInt("WHAT_PET", petPoint);
+                PlayerPrefs.Save();
+            }
+            else if (score >= 5)
+            { //バランスが良い時
+                petPoint = 11;
+                PlayerPrefs.SetInt("WHAT_PET", petPoint);
+                PlayerPrefs.Save();
+            }
+        }
     }
 
     // Update is called once per frame
@@ -48,6 +106,8 @@ public class CatController : MonoBehaviour
     {
         //「CHARACTER」というキーで保存されているstring値を読み込み
         character = PlayerPrefs.GetString("CHARACTER");
+
+        int petPoint = PlayerPrefs.GetInt("WHAT_PET");
 
         if (character.Equals("CAT")) {
             Debug.Log("ネコのUpDateは走っているよ");
@@ -64,20 +124,38 @@ public class CatController : MonoBehaviour
             {
                 //アニメを衰弱状態にする
                 animator.SetBool("isBad", true);
+                petPoint = 7;
+                PlayerPrefs.SetInt("WHAT_PET", petPoint);
+                PlayerPrefs.Save();
             } else {
                 //アニメを元に戻す
                 animator.SetBool("isBad", false);
+                petPoint = 6;
+                PlayerPrefs.SetInt("WHAT_PET", petPoint);
+                PlayerPrefs.Save();
             }
 
             //肉中心の時
             if ((score >= 5) && (meatCat > 20.0f)){
                 animator.SetBool("isMeat", true);
+                petPoint = 8;
+                PlayerPrefs.SetInt("WHAT_PET", petPoint);
+                PlayerPrefs.Save();
             } else if ((score >= 5) && (vegetableCat > 20.0f)){ //野菜中心の時
                 animator.SetBool("isVegetable", true);
+                petPoint = 9;
+                PlayerPrefs.SetInt("WHAT_PET", petPoint);
+                PlayerPrefs.Save();
             } else if ((score >= 5) && (carboCat > 20.0f)){ //炭水化物中心の時
                 animator.SetBool("isCarbo", true);
+                petPoint = 10;
+                PlayerPrefs.SetInt("WHAT_PET", petPoint);
+                PlayerPrefs.Save();
             } else if (score >= 5){ //バランスが良い時
                 animator.SetBool("isGood", true);
+                petPoint = 11;
+                PlayerPrefs.SetInt("WHAT_PET", petPoint);
+                PlayerPrefs.Save();
             }
         }
     }

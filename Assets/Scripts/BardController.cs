@@ -41,6 +41,62 @@ public class BardController : MonoBehaviour
         meatBard = PlayerPrefs.GetFloat("MEATBARD", 0);
         vegetableBard = PlayerPrefs.GetFloat("VEGETABLEBARD", 0);
         carboBard = PlayerPrefs.GetFloat("CARBOBARD", 0);
+
+        int petPoint = PlayerPrefs.GetInt("WHAT_PET");
+
+        if (petPoint == 12 || petPoint == 13 || petPoint == 14 || petPoint == 15 || petPoint == 16 || petPoint == 17)
+        {
+            //現在の日付取得
+            DateTime TodayNow = DateTime.Now;
+            nowDay = TodayNow.Day.ToString();
+            nowDayInt = int.Parse(nowDay);
+
+            //現在の日付から最後に料理日記を書いた日付を引く
+            day = nowDayInt - lastDayInt;
+
+            //dayが3日以上空いていたら
+            if ((day > 3) || (day < -27))
+            {
+                //アニメを衰弱状態にする
+                petPoint = 13;
+                PlayerPrefs.SetInt("WHAT_PET", petPoint);
+                PlayerPrefs.Save();
+
+            }
+            else
+            {
+                //アニメを元に戻す
+                petPoint = 12;
+                PlayerPrefs.SetInt("WHAT_PET", petPoint);
+                PlayerPrefs.Save();
+            }
+
+            //肉中心の時
+            if ((score >= 5) && (meatBard > 20.0f))
+            {
+                petPoint = 14;
+                PlayerPrefs.SetInt("WHAT_PET", petPoint);
+                PlayerPrefs.Save();
+            }
+            else if ((score >= 5) && (vegetableBard > 20.0f))
+            { //野菜中心の時
+                petPoint = 15;
+                PlayerPrefs.SetInt("WHAT_PET", petPoint);
+                PlayerPrefs.Save();
+            }
+            else if ((score >= 5) && (carboBard > 20.0f))
+            { //炭水化物中心の時
+                petPoint = 16;
+                PlayerPrefs.SetInt("WHAT_PET", petPoint);
+                PlayerPrefs.Save();
+            }
+            else if (score >= 5)
+            { //バランスが良い時
+                petPoint = 17;
+                PlayerPrefs.SetInt("WHAT_PET", petPoint);
+                PlayerPrefs.Save();
+            }
+        }
     }
 
     // Update is called once per frame
@@ -59,26 +115,46 @@ public class BardController : MonoBehaviour
             //現在の日付から最後に料理日記を書いた日付を引く
             day = nowDayInt - lastDayInt;
 
+            int petPoint = PlayerPrefs.GetInt("WHAT_PET");
+
             //dayが3日以上空いていたら
             if ((day > 3) || (day < -27))
             {
                 //アニメを衰弱状態にする
                 animator.SetBool("isBad", true);
+                petPoint=13;
+                PlayerPrefs.SetInt("WHAT_PET", petPoint);
+                PlayerPrefs.Save();
 
             } else {
                 //アニメを元に戻す
                 animator.SetBool("isBad", false);
+                petPoint = 12;
+                PlayerPrefs.SetInt("WHAT_PET", petPoint);
+                PlayerPrefs.Save();
             }
 
             //肉中心の時
             if ((score >= 5) && (meatBard > 20.0f)){
                 animator.SetBool("isMeat", true);
+                petPoint = 14;
+                PlayerPrefs.SetInt("WHAT_PET", petPoint);
+                PlayerPrefs.Save();
             } else if ((score >= 5) && (vegetableBard > 20.0f)){ //野菜中心の時
                 animator.SetBool("isVegetable", true);
+                petPoint = 15;
+                PlayerPrefs.SetInt("WHAT_PET", petPoint);
+                PlayerPrefs.Save();
             } else if ((score >= 5) && (carboBard > 20.0f)){ //炭水化物中心の時
                 animator.SetBool("isCarbo", true);
+                petPoint = 16;
+                PlayerPrefs.SetInt("WHAT_PET", petPoint);
+                PlayerPrefs.Save();
             } else if (score >= 5){ //バランスが良い時
                 animator.SetBool("isGood", true);
+                petPoint = 17;
+                PlayerPrefs.SetInt("WHAT_PET", petPoint);
+                PlayerPrefs.Save();
             }
         }
     }

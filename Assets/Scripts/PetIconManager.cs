@@ -84,8 +84,8 @@ public class PetIconManager : MonoBehaviour
 
         buttonComplete_f.SetActive(false);
 
-        //「PET」というキーで保存されているInt値を読み込み
-        int PetPoint = PlayerPrefs.GetInt("PET");
+        //「WHAT_PET」というキーで保存されているInt値を読み込み
+        int PetPoint = PlayerPrefs.GetInt("WHAT_PET");
 
 
         //どの種類のペットを育成したかで画像を表示する
@@ -95,95 +95,95 @@ public class PetIconManager : MonoBehaviour
             image_f1.sprite = Sprite_f1;
             Point0 = 1;
         }
-        if (PetPoint == 4)
+        if (PetPoint == 1)
         {
             image_f2.sprite = Sprite_f2;
+            Point1 = 1;
+        }
+        if (PetPoint == 2)
+        {
+            image_f3.sprite = Sprite_f3;
+            Point2 = 1;
+        }
+        if (PetPoint == 3)
+        {
+            image_f4.sprite = Sprite_f4;
+            Point3 = 1;
+        }
+        if (PetPoint == 4)
+        {
+            image_f5.sprite = Sprite_f5;
             Point4 = 1;
         }
         if (PetPoint == 5)
         {
-            image_f3.sprite = Sprite_f3;
+            image_f6.sprite = Sprite_f6;
             Point5 = 1;
         }
         if (PetPoint == 6)
         {
-            image_f4.sprite = Sprite_f4;
+            image_f7.sprite = Sprite_f7;
             Point6 = 1;
         }
         if (PetPoint == 7)
         {
-            image_f5.sprite = Sprite_f5;
+            image_f8.sprite = Sprite_f8;
             Point7 = 1;
         }
         if (PetPoint == 8)
         {
-            image_f6.sprite = Sprite_f6;
+            image_f9.sprite = Sprite_f9;
             Point8 = 1;
-        }
-        if (PetPoint == 1)
-        {
-            image_f7.sprite = Sprite_f7;
-            Point1 = 1;
         }
         if (PetPoint == 9)
         {
-            image_f8.sprite = Sprite_f8;
+            image_f10.sprite = Sprite_f10;
             Point9 = 1;
         }
         if (PetPoint == 10)
         {
-            image_f9.sprite = Sprite_f9;
+            image_f11.sprite = Sprite_f11;
             Point10 = 1;
         }
         if (PetPoint == 11)
         {
-            image_f10.sprite = Sprite_f10;
+            image_f12.sprite = Sprite_f12;
             Point11 = 1;
         }
         if (PetPoint == 12)
         {
-            image_f11.sprite = Sprite_f11;
+            image_f13.sprite = Sprite_f13;
             Point12 = 1;
         }
         if (PetPoint == 13)
         {
-            image_f12.sprite = Sprite_f12;
+            image_f14.sprite = Sprite_f14;
             Point13 = 1;
-        }
-        if (PetPoint == 2)
-        {
-            image_f13.sprite = Sprite_f13;
-            Point2 = 1;
         }
         if (PetPoint == 14)
         {
-            image_f14.sprite = Sprite_f14;
+            image_f15.sprite = Sprite_f15;
             Point14 = 1;
         }
         if (PetPoint == 15)
         {
-            image_f15.sprite = Sprite_f15;
+            image_f16.sprite = Sprite_f16;
             Point15 = 1;
         }
         if (PetPoint == 16)
         {
-            image_f16.sprite = Sprite_f16;
+            image_f17.sprite = Sprite_f17;
             Point16 = 1;
         }
         if (PetPoint == 17)
         {
-            image_f17.sprite = Sprite_f17;
+            image_f18.sprite = Sprite_f18;
             Point17 = 1;
         }
         if (PetPoint == 18)
         {
-            image_f18.sprite = Sprite_f18;
-            Point18 = 1;
-        }
-        if (PetPoint == 3)
-        {
             image_f19.sprite = Sprite_f19;
-            Point3 = 1;
+            Point18 = 1;
         }
         if (PetPoint == 19)
         {
@@ -232,7 +232,7 @@ public class PetIconManager : MonoBehaviour
                 }
                 break;
             case 1:
-                if (Point4 == 1)
+                if (Point1 == 1)
                 {
                     ItemPanel_f2.SetActive(true);
                     bkbutton_f2.SetActive(true);
@@ -240,7 +240,7 @@ public class PetIconManager : MonoBehaviour
                 }
                 break;
             case 2:
-                if (Point5 == 1)
+                if (Point2 == 1)
                 {
                     ItemPanel_f3.SetActive(true);
                     bkbutton_f3.SetActive(true);
@@ -248,7 +248,7 @@ public class PetIconManager : MonoBehaviour
                 }
                 break;
             case 3:
-                if (Point6 == 1)
+                if (Point3 == 1)
                 {
                     ItemPanel_f4.SetActive(true);
                     bkbutton_f4.SetActive(true);
@@ -256,7 +256,7 @@ public class PetIconManager : MonoBehaviour
                 }
                 break;
             case 4:
-               if (Point7 == 1)
+               if (Point4 == 1)
                 {
                     ItemPanel_f5.SetActive(true);
                     bkbutton_f5.SetActive(true);
@@ -264,7 +264,7 @@ public class PetIconManager : MonoBehaviour
                 }
                 break;
             case 5:
-                if (Point8 == 1)
+                if (Point5 == 1)
                 {
                     ItemPanel_f6.SetActive(true);
                     bkbutton_f6.SetActive(true);
@@ -272,7 +272,7 @@ public class PetIconManager : MonoBehaviour
                 }
                 break;
             case 6:
-               if (Point1 == 1)
+               if (Point6 == 1)
                 {
                     ItemPanel_f7.SetActive(true);
                     bkbutton_f7.SetActive(true);
@@ -280,7 +280,7 @@ public class PetIconManager : MonoBehaviour
                 }
                 break;
             case 7:
-                if (Point9 == 1)
+                if (Point7 == 1)
                 {
                     ItemPanel_f8.SetActive(true);
                     bkbutton_f8.SetActive(true);
@@ -288,7 +288,7 @@ public class PetIconManager : MonoBehaviour
                 }
                 break;
             case 8:
-                if (Point10 == 1)
+                if (Point8 == 1)
                 {
                     ItemPanel_f9.SetActive(true);
                     bkbutton_f9.SetActive(true);
@@ -296,7 +296,7 @@ public class PetIconManager : MonoBehaviour
                 }
                 break;
             case 9:
-                 if (Point11 == 1)
+                 if (Point9 == 1)
                 {
                     ItemPanel_f10.SetActive(true);
                     bkbutton_f10.SetActive(true);
@@ -304,7 +304,7 @@ public class PetIconManager : MonoBehaviour
                 }
                 break;
             case 10:
-                if (Point12 == 1)
+                if (Point10 == 1)
                 {
                     ItemPanel_f11.SetActive(true);
                     bkbutton_f11.SetActive(true);
@@ -312,7 +312,7 @@ public class PetIconManager : MonoBehaviour
                 }
                 break;
             case 11:
-                if (Point13 == 1)
+                if (Point11 == 1)
                 {
                     ItemPanel_f12.SetActive(true);
                     bkbutton_f12.SetActive(true);
@@ -320,7 +320,7 @@ public class PetIconManager : MonoBehaviour
                 }
                 break;
             case 12:
-                if (Point2 == 1)
+                if (Point12 == 1)
                 {
                     ItemPanel_f13.SetActive(true);
                     bkbutton_f13.SetActive(true);
@@ -328,7 +328,7 @@ public class PetIconManager : MonoBehaviour
                 }
                 break;
             case 13:
-                if (Point14 == 1)
+                if (Point13 == 1)
                 {
                     ItemPanel_f14.SetActive(true);
                     bkbutton_f14.SetActive(true);
@@ -336,7 +336,7 @@ public class PetIconManager : MonoBehaviour
                 }
                 break;
             case 14:
-                if (Point15 == 1)
+                if (Point14 == 1)
                 {
                     ItemPanel_f15.SetActive(true);
                     bkbutton_f15.SetActive(true);
@@ -344,7 +344,7 @@ public class PetIconManager : MonoBehaviour
                 }
                 break;
             case 15:
-                if (Point16 == 1)
+                if (Point15 == 1)
                 {
                     ItemPanel_f16.SetActive(true);
                     bkbutton_f16.SetActive(true);
@@ -352,7 +352,7 @@ public class PetIconManager : MonoBehaviour
                 }
                 break;
             case 16:
-                if (Point17 == 1)
+                if (Point16 == 1)
                 {
                     ItemPanel_f17.SetActive(true);
                     bkbutton_f17.SetActive(true);
@@ -360,7 +360,7 @@ public class PetIconManager : MonoBehaviour
                 }
                 break;
             case 17:
-                if (Point18 == 1)
+                if (Point17 == 1)
                 {
                     ItemPanel_f18.SetActive(true);
                     bkbutton_f18.SetActive(true);
@@ -368,7 +368,7 @@ public class PetIconManager : MonoBehaviour
                 }
                 break;
             case 18:
-                if (Point3 == 1)
+                if (Point18 == 1)
                 {
                     ItemPanel_f19.SetActive(true);
                     bkbutton_f19.SetActive(true);
@@ -449,7 +449,7 @@ public class PetIconManager : MonoBehaviour
     {
         buttonComplete_f.SetActive(true); //配置しましたメッセージ
 
-        int PetPoint = PlayerPrefs.GetInt("pet"); //ペット判定のための変数
+        int PetPoint = PlayerPrefs.GetInt("WHAT_PET"); //ペット判定のための変数
 
         //ホーム画面に配置できるのは育成完了後のペットのみ(通常・衰弱除く)
         switch (drnumber)

@@ -7,6 +7,11 @@ public class PetManager : MonoBehaviour
 {
     //ペットの画像
     public Sprite Sprite_dog, Sprite_cat, Sprite_bird, Sprite_rabbit;
+    public Sprite Sprite_dog1, Sprite_cat1, Sprite_bird1, Sprite_rabbit1;
+    public Sprite Sprite_dog2, Sprite_cat2, Sprite_bird2, Sprite_rabbit2;
+    public Sprite Sprite_dog3, Sprite_cat3, Sprite_bird3, Sprite_rabbit3;
+    public Sprite Sprite_dog4, Sprite_cat4, Sprite_bird4, Sprite_rabbit4;
+    public Sprite Sprite_dog5, Sprite_cat5, Sprite_bird5, Sprite_rabbit5;
     public Image image_pet;
     public Image image_pet2; //名前入力画面のペット画像
     public Image image_pet3; //ホーム画面に滞在するペット画像
@@ -51,25 +56,104 @@ public class PetManager : MonoBehaviour
             PlayerPrefs.Save();
         }
 
-        int PetPoint = PlayerPrefs.GetInt("PET");
-        Debug.Log("選択しているペットは" + PetPoint);
+        int pet = PlayerPrefs.GetInt("WHAT_PET");
+        Debug.Log("育成中のペットは" + pet);
 
-        if (PetPoint == 0)
+        if (pet == 0)
         {
-            // SpriteRenderのspriteを設定済みの他のspriteに変更
             image_pet3.sprite = Sprite_dog;
         }
-        else if (PetPoint == 1)
+        if (pet == 1)
+        {
+            image_pet3.sprite = Sprite_dog1;
+        }
+        if (pet == 2)
+        {
+            image_pet3.sprite = Sprite_dog2;
+        }
+        if (pet == 3)
+        {
+            image_pet3.sprite = Sprite_dog3;
+        }
+        if (pet == 4)
+        {
+            image_pet3.sprite = Sprite_dog4;
+        }
+        if (pet == 5)
+        {
+            image_pet3.sprite = Sprite_dog5;
+        }
+        if (pet == 6)
         {
             image_pet3.sprite = Sprite_cat;
         }
-        else if (PetPoint == 2)
+        if (pet == 7)
+        {
+            image_pet3.sprite = Sprite_cat1;
+        }
+        if (pet == 8)
+        {
+            image_pet3.sprite = Sprite_cat2;
+        }
+        if (pet == 9)
+        {
+            image_pet3.sprite = Sprite_cat3;
+        }
+        if (pet == 10)
+        {
+            image_pet3.sprite = Sprite_cat4;
+        }
+        if (pet == 11)
+        {
+            image_pet3.sprite = Sprite_cat5;
+        }
+        if (pet == 12)
         {
             image_pet3.sprite = Sprite_bird;
         }
-        else if (PetPoint == 3)
+        if (pet == 13)
+        {
+            image_pet3.sprite = Sprite_bird1;
+        }
+        if (pet == 14)
+        {
+            image_pet3.sprite = Sprite_bird2;
+        }
+        if (pet == 15)
+        {
+            image_pet3.sprite = Sprite_bird3;
+        }
+        if (pet == 16)
+        {
+            image_pet3.sprite = Sprite_bird4;
+        }
+        if (pet == 17)
+        {
+            image_pet3.sprite = Sprite_bird5;
+        }
+        if (pet == 18)
         {
             image_pet3.sprite = Sprite_rabbit;
+        }
+        if (pet == 19)
+        {
+            image_pet3.sprite = Sprite_rabbit1;
+        }
+        if (pet == 20)
+        {
+            image_pet3.sprite = Sprite_rabbit2;
+        }
+        if (pet == 21)
+        {
+            image_pet3.sprite = Sprite_rabbit3;
+        }
+        if (pet == 22)
+        {
+            image_pet3.sprite = Sprite_rabbit4;
+        }
+        if (pet == 23)
+        {
+            image_pet3.sprite = Sprite_rabbit5;
         }
 
         //「Accessory_○○」というキーで保存されているInt値を読み込み
@@ -232,8 +316,10 @@ public class PetManager : MonoBehaviour
         NamePetPanel.SetActive(false);
         image_pet3.enabled = true;
 
-        PlayerPrefs.SetInt("PET", whatpet);
+        PlayerPrefs.SetInt("WHAT_PET", whatpet);
         PlayerPrefs.Save();
+
+        int pet = PlayerPrefs.GetInt("WHAT_PET");
 
         if (whatpet == 0)
         {
@@ -251,6 +337,102 @@ public class PetManager : MonoBehaviour
         else if (whatpet == 3)
         {
             image_pet3.sprite = Sprite_rabbit;
+        }
+        else if (pet == 0)
+        {
+            image_pet3.sprite = Sprite_dog;
+        }
+        else if (pet == 1)
+        {
+            image_pet3.sprite = Sprite_dog1;
+        }
+        else if (pet == 2)
+        {
+            image_pet3.sprite = Sprite_dog2;
+        }
+        else if (pet == 3)
+        {
+            image_pet3.sprite = Sprite_dog3;
+        }
+        else if (pet == 4)
+        {
+            image_pet3.sprite = Sprite_dog4;
+        }
+        else if (pet == 5)
+        {
+            image_pet3.sprite = Sprite_dog5;
+        }
+        else if (pet == 6)
+        {
+            image_pet3.sprite = Sprite_cat;
+        }
+        else if (pet == 7)
+        {
+            image_pet3.sprite = Sprite_cat1;
+        }
+        else if (pet == 8)
+        {
+            image_pet3.sprite = Sprite_cat2;
+        }
+        else if (pet == 9)
+        {
+            image_pet3.sprite = Sprite_cat3;
+        }
+        else if (pet == 10)
+        {
+            image_pet3.sprite = Sprite_cat4;
+        }
+        else if (pet == 11)
+        {
+            image_pet3.sprite = Sprite_cat5;
+        }
+        else if (pet == 12)
+        {
+            image_pet3.sprite = Sprite_bird;
+        }
+        else if (pet == 13)
+        {
+            image_pet3.sprite = Sprite_bird1;
+        }
+        else if (pet == 14)
+        {
+            image_pet3.sprite = Sprite_bird2;
+        }
+        else if (pet == 15)
+        {
+            image_pet3.sprite = Sprite_bird3;
+        }
+        else if (pet == 16)
+        {
+            image_pet3.sprite = Sprite_bird4;
+        }
+        else if (pet == 17)
+        {
+            image_pet3.sprite = Sprite_bird5;
+        }
+        else if (pet == 18)
+        {
+            image_pet3.sprite = Sprite_rabbit;
+        }
+        else if (pet == 19)
+        {
+            image_pet3.sprite = Sprite_rabbit1;
+        }
+        else if (pet == 20)
+        {
+            image_pet3.sprite = Sprite_rabbit2;
+        }
+        else if (pet == 21)
+        {
+            image_pet3.sprite = Sprite_rabbit3;
+        }
+        else if (pet == 22)
+        {
+            image_pet3.sprite = Sprite_rabbit4;
+        }
+        else if (pet == 23)
+        {
+            image_pet3.sprite = Sprite_rabbit5;
         }
     }
 }
