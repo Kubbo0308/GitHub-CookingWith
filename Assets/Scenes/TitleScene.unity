@@ -198,6 +198,49 @@ MonoBehaviour:
   m_FillOrigin: 0
   m_UseSpriteMesh: 0
   m_PixelsPerUnitMultiplier: 1
+--- !u!1 &64851770
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 64851772}
+  - component: {fileID: 64851771}
+  m_Layer: 0
+  m_Name: BardController
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &64851771
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 64851770}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bc8bc16bf097615468b7fa9519a432fd, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!4 &64851772
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 64851770}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -1.2123698, y: -0.21113493, z: 395.36575}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 8
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &131997238
 GameObject:
   m_ObjectHideFlags: 0
@@ -2297,26 +2340,26 @@ MonoBehaviour:
   Sprite_cat: {fileID: 21300000, guid: 160e06bcf71c1a2419b9c61626f3dad3, type: 3}
   Sprite_bird: {fileID: 21300000, guid: 759bb92b81b1fa849b437c426b3ddcc6, type: 3}
   Sprite_rabbit: {fileID: 21300000, guid: 1e37dc674f19f6b4ebfd0b6ecdba6f60, type: 3}
-  dog_Good: {fileID: 21300000, guid: 31406ab017193a34aab77622ac54566d, type: 3}
-  dog_Bad: {fileID: 21300000, guid: e392e8d19eb62514aa7b0c560988358c, type: 3}
-  dog_Meat: {fileID: 21300000, guid: 49c9fd92d2c41ed4c949ecdb17af273f, type: 3}
-  dog_Vegetable: {fileID: 21300000, guid: 3bc5339103f58f84dadb184b6b999556, type: 3}
-  dog_Carbo: {fileID: 21300000, guid: 6bf1a50cabeba504eaacc6d7e13423d4, type: 3}
-  cat_Good: {fileID: 21300000, guid: 73e604cf5bd92e04a9ee0f4acae1dded, type: 3}
-  cat_Bad: {fileID: 21300000, guid: 2de08b401d82cf44ea0af6b09e9f7a2b, type: 3}
-  cat_Meat: {fileID: 21300000, guid: 48e1a6ff2c91c544daf994d061261880, type: 3}
-  cat_Vegetable: {fileID: 21300000, guid: 6d04474c8ea74444286142e2084e8592, type: 3}
-  cat_Carbo: {fileID: 21300000, guid: 399768b959253104ba26935e05b6b920, type: 3}
-  bard_Good: {fileID: 21300000, guid: 8e7db7089a9e8ad4c9a0983edff99c37, type: 3}
-  bard_Bad: {fileID: 21300000, guid: bec9eae1141111f42a19ce2f3112349b, type: 3}
-  bard_Meat: {fileID: 21300000, guid: 166f2a439809ea24eb5c7cdd1522a831, type: 3}
-  bard_Vegetable: {fileID: 21300000, guid: aa849327d6f5f3f4aba0e06808111886, type: 3}
-  bard_Carbo: {fileID: 21300000, guid: 6bb620d0d19e68a43a5fafb6ff1d5e40, type: 3}
-  rabbit_Good: {fileID: 21300000, guid: d10f1f9cfe2130c409afadf97bfd41db, type: 3}
-  rabbit_Bad: {fileID: 21300000, guid: 78d6a8926c23eb944989f92c9d3eeb1f, type: 3}
-  rabbit_Meat: {fileID: 21300000, guid: b356ed78bf5907b41aeaf78a4c710408, type: 3}
-  rabbit_Vegetable: {fileID: 21300000, guid: f1f0172e38aba4a44ada088362cd1adf, type: 3}
-  rabbit_Carbo: {fileID: 21300000, guid: 8b61412b5576c9e48b6fa2e746d248c9, type: 3}
+  Sprite_dog1: {fileID: 21300000, guid: e392e8d19eb62514aa7b0c560988358c, type: 3}
+  Sprite_cat1: {fileID: 21300000, guid: 2de08b401d82cf44ea0af6b09e9f7a2b, type: 3}
+  Sprite_bird1: {fileID: 21300000, guid: bec9eae1141111f42a19ce2f3112349b, type: 3}
+  Sprite_rabbit1: {fileID: 21300000, guid: 78d6a8926c23eb944989f92c9d3eeb1f, type: 3}
+  Sprite_dog2: {fileID: 21300000, guid: 49c9fd92d2c41ed4c949ecdb17af273f, type: 3}
+  Sprite_cat2: {fileID: 21300000, guid: 48e1a6ff2c91c544daf994d061261880, type: 3}
+  Sprite_bird2: {fileID: 21300000, guid: 166f2a439809ea24eb5c7cdd1522a831, type: 3}
+  Sprite_rabbit2: {fileID: 21300000, guid: b356ed78bf5907b41aeaf78a4c710408, type: 3}
+  Sprite_dog3: {fileID: 21300000, guid: 3bc5339103f58f84dadb184b6b999556, type: 3}
+  Sprite_cat3: {fileID: 21300000, guid: 6d04474c8ea74444286142e2084e8592, type: 3}
+  Sprite_bird3: {fileID: 21300000, guid: aa849327d6f5f3f4aba0e06808111886, type: 3}
+  Sprite_rabbit3: {fileID: 21300000, guid: f1f0172e38aba4a44ada088362cd1adf, type: 3}
+  Sprite_dog4: {fileID: 21300000, guid: 6bf1a50cabeba504eaacc6d7e13423d4, type: 3}
+  Sprite_cat4: {fileID: 21300000, guid: 399768b959253104ba26935e05b6b920, type: 3}
+  Sprite_bird4: {fileID: 21300000, guid: 6bb620d0d19e68a43a5fafb6ff1d5e40, type: 3}
+  Sprite_rabbit4: {fileID: 21300000, guid: 8b61412b5576c9e48b6fa2e746d248c9, type: 3}
+  Sprite_dog5: {fileID: 21300000, guid: 31406ab017193a34aab77622ac54566d, type: 3}
+  Sprite_cat5: {fileID: 21300000, guid: 73e604cf5bd92e04a9ee0f4acae1dded, type: 3}
+  Sprite_bird5: {fileID: 21300000, guid: 8e7db7089a9e8ad4c9a0983edff99c37, type: 3}
+  Sprite_rabbit5: {fileID: 21300000, guid: d10f1f9cfe2130c409afadf97bfd41db, type: 3}
   image_pet: {fileID: 155071430}
   image_pet2: {fileID: 217826784}
   image_pet3: {fileID: 1157256712}
@@ -2351,6 +2394,49 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 5
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &1110608374
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1110608376}
+  - component: {fileID: 1110608375}
+  m_Layer: 0
+  m_Name: DogController
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &1110608375
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1110608374}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ecf61b94c2276f54d859080dafbf6d49, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!4 &1110608376
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1110608374}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -1.2123698, y: -0.21113493, z: 395.36575}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 6
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1157256709
 GameObject:
@@ -3325,6 +3411,49 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1640837543}
   m_CullTransparentMesh: 1
+--- !u!1 &1659335631
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1659335633}
+  - component: {fileID: 1659335632}
+  m_Layer: 0
+  m_Name: RabbitController
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &1659335632
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1659335631}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f5b5181b0e22e42469ba3c0f8e42028e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!4 &1659335633
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1659335631}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -1.2123698, y: -0.21113493, z: 395.36575}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 9
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1661972310
 GameObject:
   m_ObjectHideFlags: 0
@@ -3572,7 +3701,7 @@ MonoBehaviour:
       m_Calls:
       - m_Target: {fileID: 262491212}
         m_TargetAssemblyTypeName: ButtonManager, Assembly-CSharp
-        m_MethodName: bkTitleButton
+        m_MethodName: GoTrueTitleButton
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -3844,6 +3973,36 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1901682054}
   m_CullTransparentMesh: 1
+--- !u!1 &1988822561
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1988822562}
+  m_Layer: 0
+  m_Name: CatController
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1988822562
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1988822561}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -1.2123698, y: -0.21113493, z: 395.36575}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 7
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &2008076815
 GameObject:
   m_ObjectHideFlags: 0

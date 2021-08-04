@@ -2,17 +2,16 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
-using System;
-using Debug = UnityEngine.Debug;
 
 public class PetManager : MonoBehaviour
 {
     //ペットの画像
     public Sprite Sprite_dog, Sprite_cat, Sprite_bird, Sprite_rabbit;
-    public Sprite dog_Good, dog_Bad, dog_Meat, dog_Vegetable, dog_Carbo;
-    public Sprite cat_Good, cat_Bad, cat_Meat, cat_Vegetable, cat_Carbo;
-    public Sprite bird_Good, bird_Bad, bird_Meat, bird_Vegetable, bird_Carbo;
-    public Sprite rabbit_Good, rabbit_Bad, rabbit_Meat, rabbit_Vegetable, rabbit_Carbo;
+    public Sprite Sprite_dog1, Sprite_cat1, Sprite_bird1, Sprite_rabbit1;
+    public Sprite Sprite_dog2, Sprite_cat2, Sprite_bird2, Sprite_rabbit2;
+    public Sprite Sprite_dog3, Sprite_cat3, Sprite_bird3, Sprite_rabbit3;
+    public Sprite Sprite_dog4, Sprite_cat4, Sprite_bird4, Sprite_rabbit4;
+    public Sprite Sprite_dog5, Sprite_cat5, Sprite_bird5, Sprite_rabbit5;
     public Image image_pet;
     public Image image_pet2; //名前入力画面のペット画像
     public Image image_pet3; //ホーム画面に滞在するペット画像
@@ -36,22 +35,6 @@ public class PetManager : MonoBehaviour
 
     int whatpet = 0;
 
-    //日付に関する変数
-    private string nowDay;
-    private int nowDayInt;
-    private int lastDayInt;
-    private int day;
-
-    //パラメータに関する変数
-     private float meatDog;
-    private float vegetableDog;
-    private float carboDog;
-
-    //日記の書いた回数に関する変数
-    private int score;
-    //ペットを選択したか判定
-    private int selectPet = 0;
-
     // Start is called before the first frame update
     void Start()
     {
@@ -73,25 +56,104 @@ public class PetManager : MonoBehaviour
             PlayerPrefs.Save();
         }
 
-        int PetPoint = PlayerPrefs.GetInt("PET");
-        Debug.Log("選択しているペットは" + PetPoint);
+        int pet = PlayerPrefs.GetInt("WHAT_PET");
+        Debug.Log("育成中のペットは" + pet);
 
-        if (PetPoint == 0)
+        if (pet == 0)
         {
-            // SpriteRenderのspriteを設定済みの他のspriteに変更
             image_pet3.sprite = Sprite_dog;
         }
-        else if (PetPoint == 1)
+        if (pet == 1)
+        {
+            image_pet3.sprite = Sprite_dog1;
+        }
+        if (pet == 2)
+        {
+            image_pet3.sprite = Sprite_dog2;
+        }
+        if (pet == 3)
+        {
+            image_pet3.sprite = Sprite_dog3;
+        }
+        if (pet == 4)
+        {
+            image_pet3.sprite = Sprite_dog4;
+        }
+        if (pet == 5)
+        {
+            image_pet3.sprite = Sprite_dog5;
+        }
+        if (pet == 6)
         {
             image_pet3.sprite = Sprite_cat;
         }
-        else if (PetPoint == 2)
+        if (pet == 7)
+        {
+            image_pet3.sprite = Sprite_cat1;
+        }
+        if (pet == 8)
+        {
+            image_pet3.sprite = Sprite_cat2;
+        }
+        if (pet == 9)
+        {
+            image_pet3.sprite = Sprite_cat3;
+        }
+        if (pet == 10)
+        {
+            image_pet3.sprite = Sprite_cat4;
+        }
+        if (pet == 11)
+        {
+            image_pet3.sprite = Sprite_cat5;
+        }
+        if (pet == 12)
         {
             image_pet3.sprite = Sprite_bird;
         }
-        else if (PetPoint == 3)
+        if (pet == 13)
+        {
+            image_pet3.sprite = Sprite_bird1;
+        }
+        if (pet == 14)
+        {
+            image_pet3.sprite = Sprite_bird2;
+        }
+        if (pet == 15)
+        {
+            image_pet3.sprite = Sprite_bird3;
+        }
+        if (pet == 16)
+        {
+            image_pet3.sprite = Sprite_bird4;
+        }
+        if (pet == 17)
+        {
+            image_pet3.sprite = Sprite_bird5;
+        }
+        if (pet == 18)
         {
             image_pet3.sprite = Sprite_rabbit;
+        }
+        if (pet == 19)
+        {
+            image_pet3.sprite = Sprite_rabbit1;
+        }
+        if (pet == 20)
+        {
+            image_pet3.sprite = Sprite_rabbit2;
+        }
+        if (pet == 21)
+        {
+            image_pet3.sprite = Sprite_rabbit3;
+        }
+        if (pet == 22)
+        {
+            image_pet3.sprite = Sprite_rabbit4;
+        }
+        if (pet == 23)
+        {
+            image_pet3.sprite = Sprite_rabbit5;
         }
 
         //「Accessory_○○」というキーで保存されているInt値を読み込み
@@ -162,144 +224,12 @@ public class PetManager : MonoBehaviour
             // SpriteRenderのspriteを設定済みの他のspriteに変更
             image_megane.sprite = Sprite_megane3;
         }
-
-         //「SCORE」というキーで保存されているInt値を読み込み
-        score = PlayerPrefs.GetInt("SCORE");
-
-        //「LAST」というキーで保存されているInt値を読み込み
-        lastDayInt = PlayerPrefs.GetInt("LAST");
-
-        //保存されている3つのパラメータのFloat値を読み込み
-        meatDog = PlayerPrefs.GetFloat("MEATDOG", 0);
-        vegetableDog = PlayerPrefs.GetFloat("VEGETABLEDOG", 0);
-        carboDog = PlayerPrefs.GetFloat("CARBODOG", 0);
     }
 
     // Update is called once per frame
     void Update()
     {
-        if (whatpet == 0) {
-            Debug.Log("イヌのUpDateは走っているよ");
-            //現在の日付取得
-            DateTime TodayNow = DateTime.Now;
-            nowDay = TodayNow.Day.ToString();
-            nowDayInt = int.Parse(nowDay);
-  
-            //現在の日付から最後に料理日記を書いた日付を引く
-            day = nowDayInt - lastDayInt;
 
-            //dayが3日以上空いていたら
-            if ((day > 3) || (day < -27))
-            {
-                //アニメを衰弱状態にする
-                image_pet3.sprite = dog_Bad;
-            } else {
-                //アニメを元に戻す
-                image_pet3.sprite = Sprite_dog;
-            }
-
-            //肉中心の時
-            if ((score >= 5) && (meatDog > 20.0f)){
-                image_pet3.sprite = dog_Meat;
-            } else if ((score >= 5) && (vegetableDog > 20.0f)){ //野菜中心の時
-                image_pet3.sprite = dog_Vegetable;
-            } else if ((score >= 5) && (carboDog > 20.0f)){ //炭水化物中心の時
-                image_pet3.sprite = dog_Carbo;
-            } else if (score >= 5){ //バランスが良い時
-                image_pet3.sprite = dog_Good;
-            }
-        } else if (whatpet == 1) {
-            Debug.Log("ネコのUpDateは走っているよ");
-            //現在の日付取得
-            DateTime TodayNow = DateTime.Now;
-            nowDay = TodayNow.Day.ToString();
-            nowDayInt = int.Parse(nowDay);
-  
-            //現在の日付から最後に料理日記を書いた日付を引く
-            day = nowDayInt - lastDayInt;
-
-            //dayが3日以上空いていたら
-            if ((day > 3) || (day < -27))
-            {
-                //アニメを衰弱状態にする
-                image_pet3.sprite = cat_Bad;
-            } else {
-                //アニメを元に戻す
-                image_pet3.sprite = Sprite_cat;
-            }
-
-            //肉中心の時
-            if ((score >= 5) && (meatDog > 20.0f)){
-                image_pet3.sprite = cat_Meat;
-            } else if ((score >= 5) && (vegetableDog > 20.0f)){ //野菜中心の時
-                image_pet3.sprite = cat_Vegetable;
-            } else if ((score >= 5) && (carboDog > 20.0f)){ //炭水化物中心の時
-                image_pet3.sprite = cat_Carbo;
-            } else if (score >= 5){ //バランスが良い時
-                image_pet3.sprite = cat_Good;
-            }
-
-        } else if (whatpet == 2) {
-            Debug.Log("トリのUpDateは走っているよ");
-            //現在の日付取得
-            DateTime TodayNow = DateTime.Now;
-            nowDay = TodayNow.Day.ToString();
-            nowDayInt = int.Parse(nowDay);
-  
-            //現在の日付から最後に料理日記を書いた日付を引く
-            day = nowDayInt - lastDayInt;
-
-            //dayが3日以上空いていたら
-            if ((day > 3) || (day < -27))
-            {
-                //アニメを衰弱状態にする
-                image_pet3.sprite = bird_Bad;
-            } else {
-                //アニメを元に戻す
-                image_pet3.sprite = Sprite_bird;
-            }
-
-            //肉中心の時
-            if ((score >= 5) && (meatDog > 20.0f)){
-                image_pet3.sprite = bird_Meat;
-            } else if ((score >= 5) && (vegetableDog > 20.0f)){ //野菜中心の時
-                image_pet3.sprite = bird_Vegetable;
-            } else if ((score >= 5) && (carboDog > 20.0f)){ //炭水化物中心の時
-                image_pet3.sprite = bird_Carbo;
-            } else if (score >= 5){ //バランスが良い時
-                image_pet3.sprite = bird_Good;
-            }
-        } else {
-            Debug.Log("ウサギのUpDateは走っているよ");
-            //現在の日付取得
-            DateTime TodayNow = DateTime.Now;
-            nowDay = TodayNow.Day.ToString();
-            nowDayInt = int.Parse(nowDay);
-  
-            //現在の日付から最後に料理日記を書いた日付を引く
-            day = nowDayInt - lastDayInt;
-
-            //dayが3日以上空いていたら
-            if ((day > 3) || (day < -27))
-            {
-                //アニメを衰弱状態にする
-                image_pet3.sprite = rabbit_Bad;
-            } else {
-                //アニメを元に戻す
-                image_pet3.sprite = Sprite_rabbit;
-            }
-
-            //肉中心の時
-            if ((score >= 5) && (meatDog > 20.0f)){
-                image_pet3.sprite = rabbit_Meat;
-            } else if ((score >= 5) && (vegetableDog > 20.0f)){ //野菜中心の時
-                image_pet3.sprite = rabbit_Vegetable;
-            } else if ((score >= 5) && (carboDog > 20.0f)){ //炭水化物中心の時
-                image_pet3.sprite = rabbit_Carbo;
-            } else if (score >= 5){ //バランスが良い時
-                image_pet3.sprite = rabbit_Good;
-            }
-        }
     }
 
     //三角ボタン(右)が押されたとき
@@ -386,8 +316,10 @@ public class PetManager : MonoBehaviour
         NamePetPanel.SetActive(false);
         image_pet3.enabled = true;
 
-        PlayerPrefs.SetInt("PET", whatpet);
+        PlayerPrefs.SetInt("WHAT_PET", whatpet);
         PlayerPrefs.Save();
+
+        int pet = PlayerPrefs.GetInt("WHAT_PET");
 
         if (whatpet == 0)
         {
@@ -405,6 +337,102 @@ public class PetManager : MonoBehaviour
         else if (whatpet == 3)
         {
             image_pet3.sprite = Sprite_rabbit;
+        }
+        else if (pet == 0)
+        {
+            image_pet3.sprite = Sprite_dog;
+        }
+        else if (pet == 1)
+        {
+            image_pet3.sprite = Sprite_dog1;
+        }
+        else if (pet == 2)
+        {
+            image_pet3.sprite = Sprite_dog2;
+        }
+        else if (pet == 3)
+        {
+            image_pet3.sprite = Sprite_dog3;
+        }
+        else if (pet == 4)
+        {
+            image_pet3.sprite = Sprite_dog4;
+        }
+        else if (pet == 5)
+        {
+            image_pet3.sprite = Sprite_dog5;
+        }
+        else if (pet == 6)
+        {
+            image_pet3.sprite = Sprite_cat;
+        }
+        else if (pet == 7)
+        {
+            image_pet3.sprite = Sprite_cat1;
+        }
+        else if (pet == 8)
+        {
+            image_pet3.sprite = Sprite_cat2;
+        }
+        else if (pet == 9)
+        {
+            image_pet3.sprite = Sprite_cat3;
+        }
+        else if (pet == 10)
+        {
+            image_pet3.sprite = Sprite_cat4;
+        }
+        else if (pet == 11)
+        {
+            image_pet3.sprite = Sprite_cat5;
+        }
+        else if (pet == 12)
+        {
+            image_pet3.sprite = Sprite_bird;
+        }
+        else if (pet == 13)
+        {
+            image_pet3.sprite = Sprite_bird1;
+        }
+        else if (pet == 14)
+        {
+            image_pet3.sprite = Sprite_bird2;
+        }
+        else if (pet == 15)
+        {
+            image_pet3.sprite = Sprite_bird3;
+        }
+        else if (pet == 16)
+        {
+            image_pet3.sprite = Sprite_bird4;
+        }
+        else if (pet == 17)
+        {
+            image_pet3.sprite = Sprite_bird5;
+        }
+        else if (pet == 18)
+        {
+            image_pet3.sprite = Sprite_rabbit;
+        }
+        else if (pet == 19)
+        {
+            image_pet3.sprite = Sprite_rabbit1;
+        }
+        else if (pet == 20)
+        {
+            image_pet3.sprite = Sprite_rabbit2;
+        }
+        else if (pet == 21)
+        {
+            image_pet3.sprite = Sprite_rabbit3;
+        }
+        else if (pet == 22)
+        {
+            image_pet3.sprite = Sprite_rabbit4;
+        }
+        else if (pet == 23)
+        {
+            image_pet3.sprite = Sprite_rabbit5;
         }
     }
 }
