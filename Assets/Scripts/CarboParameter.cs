@@ -27,6 +27,12 @@ public class CarboParameter : MonoBehaviour
     {
         carboValue = carboSlider.value;
         Debug.Log("炭水化物の値" + carboValue);
+        /*
+        Debug.Log("イヌ" + ButtonManager.dog);
+        Debug.Log("ネコ" + ButtonManager.cat);
+        Debug.Log("トリ" + ButtonManager.bard);
+        Debug.Log("ウサギ" + ButtonManager.rabbit);
+        */
     }
 
 }
