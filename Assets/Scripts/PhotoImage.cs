@@ -29,7 +29,6 @@ public class PhotoImage : MonoBehaviour
 
     public void PhotoUpload()
     {
-        //var texture = Resources.Load<Texture2D>("cooktest");
         Texture2D texture = Resources.Load("cooktest") as Texture2D;
         //texture‚©‚çsprite‚É•ÏŠ·
         sprite = Sprite.Create(texture, new Rect(0.0f, 0.0f, texture.width, texture.height), Vector2.zero);
