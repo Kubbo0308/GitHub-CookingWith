@@ -539,7 +539,10 @@ MonoBehaviour:
   buttonGoal: {fileID: 976009723}
   buttonCooking: {fileID: 379647185}
   buttonCharacter: {fileID: 650242397}
-  buttonTitle: {fileID: 1808614785}
+  Dog: {fileID: 0}
+  Cat: {fileID: 0}
+  Bard: {fileID: 0}
+  Rabbit: {fileID: 0}
 --- !u!4 &262491213
 Transform:
   m_ObjectHideFlags: 0
@@ -3549,7 +3552,7 @@ MonoBehaviour:
       m_Calls:
       - m_Target: {fileID: 262491212}
         m_TargetAssemblyTypeName: ButtonManager, Assembly-CSharp
-        m_MethodName: bkTitleButton
+        m_MethodName: GoTrueTitleButton
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}

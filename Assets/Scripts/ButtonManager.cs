@@ -69,6 +69,10 @@ public class ButtonManager : MonoBehaviour
         //�ӂꂠ����ʂ�
         SceneManager.LoadScene("FriendScene");
     }
+    public void GoTrueTitleButton()
+    {
+        SceneManager.LoadScene("TrueTitleScene");
+    }
 
     public void SaveButton() //保存ボタン押されたときの日付取得
     {
