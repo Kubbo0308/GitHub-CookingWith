@@ -539,7 +539,10 @@ MonoBehaviour:
   buttonGoal: {fileID: 976009723}
   buttonCooking: {fileID: 379647185}
   buttonCharacter: {fileID: 650242397}
-  buttonTitle: {fileID: 1808614785}
+  Dog: {fileID: 0}
+  Cat: {fileID: 0}
+  Bard: {fileID: 0}
+  Rabbit: {fileID: 0}
 --- !u!4 &262491213
 Transform:
   m_ObjectHideFlags: 0
@@ -2294,6 +2297,26 @@ MonoBehaviour:
   Sprite_cat: {fileID: 21300000, guid: 160e06bcf71c1a2419b9c61626f3dad3, type: 3}
   Sprite_bird: {fileID: 21300000, guid: 759bb92b81b1fa849b437c426b3ddcc6, type: 3}
   Sprite_rabbit: {fileID: 21300000, guid: 1e37dc674f19f6b4ebfd0b6ecdba6f60, type: 3}
+  dog_Good: {fileID: 21300000, guid: 31406ab017193a34aab77622ac54566d, type: 3}
+  dog_Bad: {fileID: 21300000, guid: e392e8d19eb62514aa7b0c560988358c, type: 3}
+  dog_Meat: {fileID: 21300000, guid: 49c9fd92d2c41ed4c949ecdb17af273f, type: 3}
+  dog_Vegetable: {fileID: 21300000, guid: 3bc5339103f58f84dadb184b6b999556, type: 3}
+  dog_Carbo: {fileID: 21300000, guid: 6bf1a50cabeba504eaacc6d7e13423d4, type: 3}
+  cat_Good: {fileID: 21300000, guid: 73e604cf5bd92e04a9ee0f4acae1dded, type: 3}
+  cat_Bad: {fileID: 21300000, guid: 2de08b401d82cf44ea0af6b09e9f7a2b, type: 3}
+  cat_Meat: {fileID: 21300000, guid: 48e1a6ff2c91c544daf994d061261880, type: 3}
+  cat_Vegetable: {fileID: 21300000, guid: 6d04474c8ea74444286142e2084e8592, type: 3}
+  cat_Carbo: {fileID: 21300000, guid: 399768b959253104ba26935e05b6b920, type: 3}
+  bard_Good: {fileID: 21300000, guid: 8e7db7089a9e8ad4c9a0983edff99c37, type: 3}
+  bard_Bad: {fileID: 21300000, guid: bec9eae1141111f42a19ce2f3112349b, type: 3}
+  bard_Meat: {fileID: 21300000, guid: 166f2a439809ea24eb5c7cdd1522a831, type: 3}
+  bard_Vegetable: {fileID: 21300000, guid: aa849327d6f5f3f4aba0e06808111886, type: 3}
+  bard_Carbo: {fileID: 21300000, guid: 6bb620d0d19e68a43a5fafb6ff1d5e40, type: 3}
+  rabbit_Good: {fileID: 21300000, guid: d10f1f9cfe2130c409afadf97bfd41db, type: 3}
+  rabbit_Bad: {fileID: 21300000, guid: 78d6a8926c23eb944989f92c9d3eeb1f, type: 3}
+  rabbit_Meat: {fileID: 21300000, guid: b356ed78bf5907b41aeaf78a4c710408, type: 3}
+  rabbit_Vegetable: {fileID: 21300000, guid: f1f0172e38aba4a44ada088362cd1adf, type: 3}
+  rabbit_Carbo: {fileID: 21300000, guid: 8b61412b5576c9e48b6fa2e746d248c9, type: 3}
   image_pet: {fileID: 155071430}
   image_pet2: {fileID: 217826784}
   image_pet3: {fileID: 1157256712}

@@ -2,11 +2,17 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
+using System;
+using Debug = UnityEngine.Debug;
 
 public class PetManager : MonoBehaviour
 {
     //ペットの画像
     public Sprite Sprite_dog, Sprite_cat, Sprite_bird, Sprite_rabbit;
+    public Sprite dog_Good, dog_Bad, dog_Meat, dog_Vegetable, dog_Carbo;
+    public Sprite cat_Good, cat_Bad, cat_Meat, cat_Vegetable, cat_Carbo;
+    public Sprite bird_Good, bird_Bad, bird_Meat, bird_Vegetable, bird_Carbo;
+    public Sprite rabbit_Good, rabbit_Bad, rabbit_Meat, rabbit_Vegetable, rabbit_Carbo;
     public Image image_pet;
     public Image image_pet2; //名前入力画面のペット画像
     public Image image_pet3; //ホーム画面に滞在するペット画像
@@ -29,6 +35,22 @@ public class PetManager : MonoBehaviour
     public Text petText;
 
     int whatpet = 0;
+
+    //日付に関する変数
+    private string nowDay;
+    private int nowDayInt;
+    private int lastDayInt;
+    private int day;
+
+    //パラメータに関する変数
+     private float meatDog;
+    private float vegetableDog;
+    private float carboDog;
+
+    //日記の書いた回数に関する変数
+    private int score;
+    //ペットを選択したか判定
+    private int selectPet = 0;
 
     // Start is called before the first frame update
     void Start()
@@ -140,12 +162,144 @@ public class PetManager : MonoBehaviour
             // SpriteRenderのspriteを設定済みの他のspriteに変更
             image_megane.sprite = Sprite_megane3;
         }
+
+         //「SCORE」というキーで保存されているInt値を読み込み
+        score = PlayerPrefs.GetInt("SCORE");
+
+        //「LAST」というキーで保存されているInt値を読み込み
+        lastDayInt = PlayerPrefs.GetInt("LAST");
+
+        //保存されている3つのパラメータのFloat値を読み込み
+        meatDog = PlayerPrefs.GetFloat("MEATDOG", 0);
+        vegetableDog = PlayerPrefs.GetFloat("VEGETABLEDOG", 0);
+        carboDog = PlayerPrefs.GetFloat("CARBODOG", 0);
     }
 
     // Update is called once per frame
     void Update()
     {
+        if (whatpet == 0) {
+            Debug.Log("イヌのUpDateは走っているよ");
+            //現在の日付取得
+            DateTime TodayNow = DateTime.Now;
+            nowDay = TodayNow.Day.ToString();
+            nowDayInt = int.Parse(nowDay);
+  
+            //現在の日付から最後に料理日記を書いた日付を引く
+            day = nowDayInt - lastDayInt;
 
+            //dayが3日以上空いていたら
+            if ((day > 3) || (day < -27))
+            {
+                //アニメを衰弱状態にする
+                image_pet3.sprite = dog_Bad;
+            } else {
+                //アニメを元に戻す
+                image_pet3.sprite = Sprite_dog;
+            }
+
+            //肉中心の時
+            if ((score >= 5) && (meatDog > 20.0f)){
+                image_pet3.sprite = dog_Meat;
+            } else if ((score >= 5) && (vegetableDog > 20.0f)){ //野菜中心の時
+                image_pet3.sprite = dog_Vegetable;
+            } else if ((score >= 5) && (carboDog > 20.0f)){ //炭水化物中心の時
+                image_pet3.sprite = dog_Carbo;
+            } else if (score >= 5){ //バランスが良い時
+                image_pet3.sprite = dog_Good;
+            }
+        } else if (whatpet == 1) {
+            Debug.Log("ネコのUpDateは走っているよ");
+            //現在の日付取得
+            DateTime TodayNow = DateTime.Now;
+            nowDay = TodayNow.Day.ToString();
+            nowDayInt = int.Parse(nowDay);
+  
+            //現在の日付から最後に料理日記を書いた日付を引く
+            day = nowDayInt - lastDayInt;
+
+            //dayが3日以上空いていたら
+            if ((day > 3) || (day < -27))
+            {
+                //アニメを衰弱状態にする
+                image_pet3.sprite = cat_Bad;
+            } else {
+                //アニメを元に戻す
+                image_pet3.sprite = Sprite_cat;
+            }
+
+            //肉中心の時
+            if ((score >= 5) && (meatDog > 20.0f)){
+                image_pet3.sprite = cat_Meat;
+            } else if ((score >= 5) && (vegetableDog > 20.0f)){ //野菜中心の時
+                image_pet3.sprite = cat_Vegetable;
+            } else if ((score >= 5) && (carboDog > 20.0f)){ //炭水化物中心の時
+                image_pet3.sprite = cat_Carbo;
+            } else if (score >= 5){ //バランスが良い時
+                image_pet3.sprite = cat_Good;
+            }
+
+        } else if (whatpet == 2) {
+            Debug.Log("トリのUpDateは走っているよ");
+            //現在の日付取得
+            DateTime TodayNow = DateTime.Now;
+            nowDay = TodayNow.Day.ToString();
+            nowDayInt = int.Parse(nowDay);
+  
+            //現在の日付から最後に料理日記を書いた日付を引く
+            day = nowDayInt - lastDayInt;
+
+            //dayが3日以上空いていたら
+            if ((day > 3) || (day < -27))
+            {
+                //アニメを衰弱状態にする
+                image_pet3.sprite = bird_Bad;
+            } else {
+                //アニメを元に戻す
+                image_pet3.sprite = Sprite_bird;
+            }
+
+            //肉中心の時
+            if ((score >= 5) && (meatDog > 20.0f)){
+                image_pet3.sprite = bird_Meat;
+            } else if ((score >= 5) && (vegetableDog > 20.0f)){ //野菜中心の時
+                image_pet3.sprite = bird_Vegetable;
+            } else if ((score >= 5) && (carboDog > 20.0f)){ //炭水化物中心の時
+                image_pet3.sprite = bird_Carbo;
+            } else if (score >= 5){ //バランスが良い時
+                image_pet3.sprite = bird_Good;
+            }
+        } else {
+            Debug.Log("ウサギのUpDateは走っているよ");
+            //現在の日付取得
+            DateTime TodayNow = DateTime.Now;
+            nowDay = TodayNow.Day.ToString();
+            nowDayInt = int.Parse(nowDay);
+  
+            //現在の日付から最後に料理日記を書いた日付を引く
+            day = nowDayInt - lastDayInt;
+
+            //dayが3日以上空いていたら
+            if ((day > 3) || (day < -27))
+            {
+                //アニメを衰弱状態にする
+                image_pet3.sprite = rabbit_Bad;
+            } else {
+                //アニメを元に戻す
+                image_pet3.sprite = Sprite_rabbit;
+            }
+
+            //肉中心の時
+            if ((score >= 5) && (meatDog > 20.0f)){
+                image_pet3.sprite = rabbit_Meat;
+            } else if ((score >= 5) && (vegetableDog > 20.0f)){ //野菜中心の時
+                image_pet3.sprite = rabbit_Vegetable;
+            } else if ((score >= 5) && (carboDog > 20.0f)){ //炭水化物中心の時
+                image_pet3.sprite = rabbit_Carbo;
+            } else if (score >= 5){ //バランスが良い時
+                image_pet3.sprite = rabbit_Good;
+            }
+        }
     }
 
     //三角ボタン(右)が押されたとき
