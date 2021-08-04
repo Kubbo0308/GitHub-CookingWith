@@ -47,7 +47,7 @@ public class CameraManager : MonoBehaviour
     [SerializeField] GameObject text_v;
     [SerializeField] GameObject text_c;
 
-    WebCamTexture webCam;
+    public WebCamTexture webCam;
 
     // Start is called before the first frame update
     void Start()
