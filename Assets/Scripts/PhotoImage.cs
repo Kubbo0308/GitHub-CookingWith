@@ -38,30 +38,4 @@ public class PhotoImage : MonoBehaviour
         selectButton.SetActive(false);
     }
 
-    //テクスチャを読み込む
-    IEnumerator Connect()
-    {
-
-        //画像リンク
-        string url = "Assets/cooktest.jpg";
-
-
-        UnityWebRequest www = UnityWebRequestTexture.GetTexture(url);
-
-        yield return www.SendWebRequest();
-
-        if (www.isNetworkError || www.isHttpError)
-        {
-        }
-        else
-        {
-            //textureに画像格納
-            texture = ((DownloadHandlerTexture)www.downloadHandler).texture;
-            //textureからspriteに変換
-            sprite = Sprite.Create(texture, new Rect(0.0f, 0.0f, texture.width, texture.height), Vector2.zero);
-            //Imageにspriteを張り付ける
-            gameObject.GetComponent<Image>().sprite = sprite;
-        }
-    }
-
 }

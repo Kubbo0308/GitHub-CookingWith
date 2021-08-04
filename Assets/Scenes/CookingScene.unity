@@ -363,6 +363,7 @@ MonoBehaviour:
   text_m: {fileID: 2027381779}
   text_v: {fileID: 1971530045}
   text_c: {fileID: 1019403067}
+  webCam: {fileID: 0}
 --- !u!4 &185434358
 Transform:
   m_ObjectHideFlags: 0
@@ -2110,6 +2111,8 @@ MonoBehaviour:
   buttonCooking: {fileID: 0}
   buttonCharacter: {fileID: 0}
   cameraManager: {fileID: 185434356}
+  canvas: {fileID: 975938680}
+  image: {fileID: 2018497807931884682, guid: 3d4c9fa037dc400479abd1ec6559d199, type: 3}
 --- !u!4 &743988273
 Transform:
   m_ObjectHideFlags: 0
@@ -2656,18 +2659,6 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 1039336325}
-        m_TargetAssemblyTypeName: InputFieldManager, Assembly-CSharp
-        m_MethodName: InputText
-        m_Mode: 1
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 0
-        m_CallState: 2
       - m_Target: {fileID: 607991643}
         m_TargetAssemblyTypeName: MeatParameter, Assembly-CSharp
         m_MethodName: Meat
@@ -2755,6 +2746,18 @@ MonoBehaviour:
       - m_Target: {fileID: 16840980}
         m_TargetAssemblyTypeName: RabbitParameter, Assembly-CSharp
         m_MethodName: OnClick
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+      - m_Target: {fileID: 1039336325}
+        m_TargetAssemblyTypeName: InputFieldManager, Assembly-CSharp
+        m_MethodName: InputText
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}

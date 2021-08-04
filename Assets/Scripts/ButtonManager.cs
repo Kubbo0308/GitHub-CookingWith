@@ -22,6 +22,8 @@ public class ButtonManager : MonoBehaviour
     WebCamTexture webCam;
 
     public GameObject cameraManager;
+    public GameObject canvas;
+    public GameObject image;
 
     //�B�e���Ɍ����{�^��
 
@@ -98,6 +100,8 @@ public class ButtonManager : MonoBehaviour
         UnityEngine.Object.Destroy(texture);
 
         File.WriteAllBytes(Application.dataPath + "/Resources/cook.jpg", bin);
+
+
     }
 
 }

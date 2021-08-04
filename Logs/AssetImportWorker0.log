@@ -9411,3 +9411,2067 @@ Start importing Assets/Resources/cooktest.jpg using Guid(6627021e375aadd44a9d369
   ERROR: Build asset version error: assets/resources/cooktest.jpg in SourceAssetDB has modification time of '2021-08-04T06:27:37.6988235Z' while content on disk has modification time of '2021-08-04T06:48:10.7103906Z'
   Import took 0.023185 seconds .
 
+========================================================================
+Received Import Request.
+  Time since last request: 0.087918 seconds.
+  path: Assets/Resources/cook.jpg
+  artifactKey: Guid(69b327c3f53fc864c96450e32175c33f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/cook.jpg using Guid(69b327c3f53fc864c96450e32175c33f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.015831 seconds
+  ERROR: Build asset version error: assets/resources/cook.jpg in SourceAssetDB has modification time of '2021-08-04T06:27:44.9280125Z' while content on disk has modification time of '2021-08-04T06:48:16.7717072Z'
+  Import took 0.019091 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000237 seconds.
+  path: Assets/Resources/cooktest.jpg
+  artifactKey: Guid(6627021e375aadd44a9d3691a97f3b5d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/cooktest.jpg using Guid(6627021e375aadd44a9d3691a97f3b5d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.026360 seconds
+  ERROR: Build asset version error: assets/resources/cooktest.jpg in SourceAssetDB has modification time of '2021-08-04T06:27:37.6988235Z' while content on disk has modification time of '2021-08-04T06:48:10.7103906Z'
+  Import took 0.028980 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.080942 seconds.
+  path: Assets/Resources/cook.jpg
+  artifactKey: Guid(69b327c3f53fc864c96450e32175c33f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/cook.jpg using Guid(69b327c3f53fc864c96450e32175c33f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.017109 seconds
+  ERROR: Build asset version error: assets/resources/cook.jpg in SourceAssetDB has modification time of '2021-08-04T06:27:44.9280125Z' while content on disk has modification time of '2021-08-04T06:48:16.7717072Z'
+  Import took 0.020477 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000227 seconds.
+  path: Assets/Resources/cooktest.jpg
+  artifactKey: Guid(6627021e375aadd44a9d3691a97f3b5d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/cooktest.jpg using Guid(6627021e375aadd44a9d3691a97f3b5d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.022139 seconds
+  ERROR: Build asset version error: assets/resources/cooktest.jpg in SourceAssetDB has modification time of '2021-08-04T06:27:37.6988235Z' while content on disk has modification time of '2021-08-04T06:48:10.7103906Z'
+  Import took 0.026197 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.090583 seconds.
+  path: Assets/Resources/cook.jpg
+  artifactKey: Guid(69b327c3f53fc864c96450e32175c33f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/cook.jpg using Guid(69b327c3f53fc864c96450e32175c33f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.019785 seconds
+  ERROR: Build asset version error: assets/resources/cook.jpg in SourceAssetDB has modification time of '2021-08-04T06:27:44.9280125Z' while content on disk has modification time of '2021-08-04T06:48:16.7717072Z'
+  Import took 0.024112 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000381 seconds.
+  path: Assets/Resources/cooktest.jpg
+  artifactKey: Guid(6627021e375aadd44a9d3691a97f3b5d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/cooktest.jpg using Guid(6627021e375aadd44a9d3691a97f3b5d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.031453 seconds
+  ERROR: Build asset version error: assets/resources/cooktest.jpg in SourceAssetDB has modification time of '2021-08-04T06:27:37.6988235Z' while content on disk has modification time of '2021-08-04T06:48:10.7103906Z'
+  Import took 0.035821 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.071339 seconds.
+  path: Assets/Resources/cook.jpg
+  artifactKey: Guid(69b327c3f53fc864c96450e32175c33f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/cook.jpg using Guid(69b327c3f53fc864c96450e32175c33f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.013148 seconds
+  ERROR: Build asset version error: assets/resources/cook.jpg in SourceAssetDB has modification time of '2021-08-04T06:27:44.9280125Z' while content on disk has modification time of '2021-08-04T06:48:16.7717072Z'
+  Import took 0.016619 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000391 seconds.
+  path: Assets/Resources/cooktest.jpg
+  artifactKey: Guid(6627021e375aadd44a9d3691a97f3b5d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/cooktest.jpg using Guid(6627021e375aadd44a9d3691a97f3b5d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.041577 seconds
+  ERROR: Build asset version error: assets/resources/cooktest.jpg in SourceAssetDB has modification time of '2021-08-04T06:27:37.6988235Z' while content on disk has modification time of '2021-08-04T06:48:10.7103906Z'
+  Import took 0.047361 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000239 seconds.
+  path: Assets/Resources/cook.jpg
+  artifactKey: Guid(69b327c3f53fc864c96450e32175c33f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/cook.jpg using Guid(69b327c3f53fc864c96450e32175c33f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.007390 seconds
+  ERROR: Build asset version error: assets/resources/cook.jpg in SourceAssetDB has modification time of '2021-08-04T06:27:44.9280125Z' while content on disk has modification time of '2021-08-04T06:48:16.7717072Z'
+  Import took 0.011777 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.103040 seconds.
+  path: Assets/Resources/cook.jpg
+  artifactKey: Guid(69b327c3f53fc864c96450e32175c33f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/cook.jpg using Guid(69b327c3f53fc864c96450e32175c33f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.016340 seconds
+  ERROR: Build asset version error: assets/resources/cook.jpg in SourceAssetDB has modification time of '2021-08-04T06:27:44.9280125Z' while content on disk has modification time of '2021-08-04T06:48:16.7717072Z'
+  Import took 0.020958 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000642 seconds.
+  path: Assets/Resources/cooktest.jpg
+  artifactKey: Guid(6627021e375aadd44a9d3691a97f3b5d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/cooktest.jpg using Guid(6627021e375aadd44a9d3691a97f3b5d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.032910 seconds
+  ERROR: Build asset version error: assets/resources/cooktest.jpg in SourceAssetDB has modification time of '2021-08-04T06:27:37.6988235Z' while content on disk has modification time of '2021-08-04T06:48:10.7103906Z'
+  Import took 0.036337 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.079353 seconds.
+  path: Assets/Resources/cook.jpg
+  artifactKey: Guid(69b327c3f53fc864c96450e32175c33f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/cook.jpg using Guid(69b327c3f53fc864c96450e32175c33f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.011615 seconds
+  ERROR: Build asset version error: assets/resources/cook.jpg in SourceAssetDB has modification time of '2021-08-04T06:27:44.9280125Z' while content on disk has modification time of '2021-08-04T06:48:16.7717072Z'
+  Import took 0.017694 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000630 seconds.
+  path: Assets/Resources/cooktest.jpg
+  artifactKey: Guid(6627021e375aadd44a9d3691a97f3b5d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/cooktest.jpg using Guid(6627021e375aadd44a9d3691a97f3b5d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.044256 seconds
+  ERROR: Build asset version error: assets/resources/cooktest.jpg in SourceAssetDB has modification time of '2021-08-04T06:27:37.6988235Z' while content on disk has modification time of '2021-08-04T06:48:10.7103906Z'
+  Import took 0.049871 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000485 seconds.
+  path: Assets/Resources/cook.jpg
+  artifactKey: Guid(69b327c3f53fc864c96450e32175c33f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/cook.jpg using Guid(69b327c3f53fc864c96450e32175c33f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.058965 seconds
+  ERROR: Build asset version error: assets/resources/cook.jpg in SourceAssetDB has modification time of '2021-08-04T06:27:44.9280125Z' while content on disk has modification time of '2021-08-04T06:48:16.7717072Z'
+  Import took 0.064432 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000615 seconds.
+  path: Assets/Resources/cooktest.jpg
+  artifactKey: Guid(6627021e375aadd44a9d3691a97f3b5d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/cooktest.jpg using Guid(6627021e375aadd44a9d3691a97f3b5d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.038357 seconds
+  ERROR: Build asset version error: assets/resources/cooktest.jpg in SourceAssetDB has modification time of '2021-08-04T06:27:37.6988235Z' while content on disk has modification time of '2021-08-04T06:48:10.7103906Z'
+  Import took 0.042133 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.091013 seconds.
+  path: Assets/Resources/cook.jpg
+  artifactKey: Guid(69b327c3f53fc864c96450e32175c33f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/cook.jpg using Guid(69b327c3f53fc864c96450e32175c33f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.051389 seconds
+  ERROR: Build asset version error: assets/resources/cook.jpg in SourceAssetDB has modification time of '2021-08-04T06:27:44.9280125Z' while content on disk has modification time of '2021-08-04T06:48:16.7717072Z'
+  Import took 0.086149 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000298 seconds.
+  path: Assets/Resources/cooktest.jpg
+  artifactKey: Guid(6627021e375aadd44a9d3691a97f3b5d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/cooktest.jpg using Guid(6627021e375aadd44a9d3691a97f3b5d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.038066 seconds
+  ERROR: Build asset version error: assets/resources/cooktest.jpg in SourceAssetDB has modification time of '2021-08-04T06:27:37.6988235Z' while content on disk has modification time of '2021-08-04T06:48:10.7103906Z'
+  Import took 0.045128 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.027499 seconds.
+  path: Assets/Resources/cook.jpg
+  artifactKey: Guid(69b327c3f53fc864c96450e32175c33f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/cook.jpg using Guid(69b327c3f53fc864c96450e32175c33f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.028868 seconds
+  ERROR: Build asset version error: assets/resources/cook.jpg in SourceAssetDB has modification time of '2021-08-04T06:27:44.9280125Z' while content on disk has modification time of '2021-08-04T06:48:16.7717072Z'
+  Import took 0.036204 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000267 seconds.
+  path: Assets/Resources/cooktest.jpg
+  artifactKey: Guid(6627021e375aadd44a9d3691a97f3b5d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/cooktest.jpg using Guid(6627021e375aadd44a9d3691a97f3b5d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.024149 seconds
+  ERROR: Build asset version error: assets/resources/cooktest.jpg in SourceAssetDB has modification time of '2021-08-04T06:27:37.6988235Z' while content on disk has modification time of '2021-08-04T06:48:10.7103906Z'
+  Import took 0.028154 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.078345 seconds.
+  path: Assets/Resources/cook.jpg
+  artifactKey: Guid(69b327c3f53fc864c96450e32175c33f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/cook.jpg using Guid(69b327c3f53fc864c96450e32175c33f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.022218 seconds
+  ERROR: Build asset version error: assets/resources/cook.jpg in SourceAssetDB has modification time of '2021-08-04T06:27:44.9280125Z' while content on disk has modification time of '2021-08-04T06:48:16.7717072Z'
+  Import took 0.029512 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000259 seconds.
+  path: Assets/Resources/cooktest.jpg
+  artifactKey: Guid(6627021e375aadd44a9d3691a97f3b5d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/cooktest.jpg using Guid(6627021e375aadd44a9d3691a97f3b5d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.037176 seconds
+  ERROR: Build asset version error: assets/resources/cooktest.jpg in SourceAssetDB has modification time of '2021-08-04T06:27:37.6988235Z' while content on disk has modification time of '2021-08-04T06:48:10.7103906Z'
+  Import took 0.041294 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.076720 seconds.
+  path: Assets/Resources/cook.jpg
+  artifactKey: Guid(69b327c3f53fc864c96450e32175c33f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/cook.jpg using Guid(69b327c3f53fc864c96450e32175c33f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.022101 seconds
+  ERROR: Build asset version error: assets/resources/cook.jpg in SourceAssetDB has modification time of '2021-08-04T06:27:44.9280125Z' while content on disk has modification time of '2021-08-04T06:48:16.7717072Z'
+  Import took 0.030214 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000508 seconds.
+  path: Assets/Resources/cooktest.jpg
+  artifactKey: Guid(6627021e375aadd44a9d3691a97f3b5d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/cooktest.jpg using Guid(6627021e375aadd44a9d3691a97f3b5d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.049912 seconds
+  ERROR: Build asset version error: assets/resources/cooktest.jpg in SourceAssetDB has modification time of '2021-08-04T06:27:37.6988235Z' while content on disk has modification time of '2021-08-04T06:48:10.7103906Z'
+  Import took 0.055256 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.001150 seconds.
+  path: Assets/Resources/cook.jpg
+  artifactKey: Guid(69b327c3f53fc864c96450e32175c33f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/cook.jpg using Guid(69b327c3f53fc864c96450e32175c33f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.008098 seconds
+  ERROR: Build asset version error: assets/resources/cook.jpg in SourceAssetDB has modification time of '2021-08-04T06:27:44.9280125Z' while content on disk has modification time of '2021-08-04T06:48:16.7717072Z'
+  Import took 0.011443 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.114295 seconds.
+  path: Assets/Resources/cook.jpg
+  artifactKey: Guid(69b327c3f53fc864c96450e32175c33f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/cook.jpg using Guid(69b327c3f53fc864c96450e32175c33f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.026829 seconds
+  ERROR: Build asset version error: assets/resources/cook.jpg in SourceAssetDB has modification time of '2021-08-04T06:27:44.9280125Z' while content on disk has modification time of '2021-08-04T06:48:16.7717072Z'
+  Import took 0.035863 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000284 seconds.
+  path: Assets/Resources/cooktest.jpg
+  artifactKey: Guid(6627021e375aadd44a9d3691a97f3b5d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/cooktest.jpg using Guid(6627021e375aadd44a9d3691a97f3b5d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.042508 seconds
+  ERROR: Build asset version error: assets/resources/cooktest.jpg in SourceAssetDB has modification time of '2021-08-04T06:27:37.6988235Z' while content on disk has modification time of '2021-08-04T06:48:10.7103906Z'
+  Import took 0.047881 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.111421 seconds.
+  path: Assets/Resources/cook.jpg
+  artifactKey: Guid(69b327c3f53fc864c96450e32175c33f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/cook.jpg using Guid(69b327c3f53fc864c96450e32175c33f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.013384 seconds
+  ERROR: Build asset version error: assets/resources/cook.jpg in SourceAssetDB has modification time of '2021-08-04T06:27:44.9280125Z' while content on disk has modification time of '2021-08-04T06:48:16.7717072Z'
+  Import took 0.020609 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000369 seconds.
+  path: Assets/Resources/cooktest.jpg
+  artifactKey: Guid(6627021e375aadd44a9d3691a97f3b5d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/cooktest.jpg using Guid(6627021e375aadd44a9d3691a97f3b5d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.033802 seconds
+  ERROR: Build asset version error: assets/resources/cooktest.jpg in SourceAssetDB has modification time of '2021-08-04T06:27:37.6988235Z' while content on disk has modification time of '2021-08-04T06:48:10.7103906Z'
+  Import took 0.038420 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.073635 seconds.
+  path: Assets/Resources/cook.jpg
+  artifactKey: Guid(69b327c3f53fc864c96450e32175c33f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/cook.jpg using Guid(69b327c3f53fc864c96450e32175c33f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.031754 seconds
+  ERROR: Build asset version error: assets/resources/cook.jpg in SourceAssetDB has modification time of '2021-08-04T06:27:44.9280125Z' while content on disk has modification time of '2021-08-04T06:48:16.7717072Z'
+  Import took 0.037277 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000204 seconds.
+  path: Assets/Resources/cooktest.jpg
+  artifactKey: Guid(6627021e375aadd44a9d3691a97f3b5d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/cooktest.jpg using Guid(6627021e375aadd44a9d3691a97f3b5d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.048388 seconds
+  ERROR: Build asset version error: assets/resources/cooktest.jpg in SourceAssetDB has modification time of '2021-08-04T06:27:37.6988235Z' while content on disk has modification time of '2021-08-04T06:48:10.7103906Z'
+  Import took 0.059032 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.083499 seconds.
+  path: Assets/Resources/cook.jpg
+  artifactKey: Guid(69b327c3f53fc864c96450e32175c33f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/cook.jpg using Guid(69b327c3f53fc864c96450e32175c33f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.074479 seconds
+  ERROR: Build asset version error: assets/resources/cook.jpg in SourceAssetDB has modification time of '2021-08-04T06:27:44.9280125Z' while content on disk has modification time of '2021-08-04T06:48:16.7717072Z'
+  Import took 0.080710 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.004138 seconds.
+  path: Assets/Resources/cooktest.jpg
+  artifactKey: Guid(6627021e375aadd44a9d3691a97f3b5d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/cooktest.jpg using Guid(6627021e375aadd44a9d3691a97f3b5d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.045520 seconds
+  ERROR: Build asset version error: assets/resources/cooktest.jpg in SourceAssetDB has modification time of '2021-08-04T06:27:37.6988235Z' while content on disk has modification time of '2021-08-04T06:48:10.7103906Z'
+  Import took 0.050896 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000947 seconds.
+  path: Assets/Resources/cook.jpg
+  artifactKey: Guid(69b327c3f53fc864c96450e32175c33f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/cook.jpg using Guid(69b327c3f53fc864c96450e32175c33f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.019942 seconds
+  ERROR: Build asset version error: assets/resources/cook.jpg in SourceAssetDB has modification time of '2021-08-04T06:27:44.9280125Z' while content on disk has modification time of '2021-08-04T06:48:16.7717072Z'
+  Import took 0.032513 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.001198 seconds.
+  path: Assets/Resources/cooktest.jpg
+  artifactKey: Guid(6627021e375aadd44a9d3691a97f3b5d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/cooktest.jpg using Guid(6627021e375aadd44a9d3691a97f3b5d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.048113 seconds
+  ERROR: Build asset version error: assets/resources/cooktest.jpg in SourceAssetDB has modification time of '2021-08-04T06:27:37.6988235Z' while content on disk has modification time of '2021-08-04T06:48:10.7103906Z'
+  Import took 0.053315 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000644 seconds.
+  path: Assets/Resources/cook.jpg
+  artifactKey: Guid(69b327c3f53fc864c96450e32175c33f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/cook.jpg using Guid(69b327c3f53fc864c96450e32175c33f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.013666 seconds
+  ERROR: Build asset version error: assets/resources/cook.jpg in SourceAssetDB has modification time of '2021-08-04T06:27:44.9280125Z' while content on disk has modification time of '2021-08-04T06:48:16.7717072Z'
+  Import took 0.021228 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.007738 seconds.
+  path: Assets/Resources/cook.jpg
+  artifactKey: Guid(69b327c3f53fc864c96450e32175c33f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/cook.jpg using Guid(69b327c3f53fc864c96450e32175c33f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.024846 seconds
+  ERROR: Build asset version error: assets/resources/cook.jpg in SourceAssetDB has modification time of '2021-08-04T06:27:44.9280125Z' while content on disk has modification time of '2021-08-04T06:48:16.7717072Z'
+  Import took 0.028497 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000379 seconds.
+  path: Assets/Resources/cooktest.jpg
+  artifactKey: Guid(6627021e375aadd44a9d3691a97f3b5d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/cooktest.jpg using Guid(6627021e375aadd44a9d3691a97f3b5d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.060532 seconds
+  ERROR: Build asset version error: assets/resources/cooktest.jpg in SourceAssetDB has modification time of '2021-08-04T06:27:37.6988235Z' while content on disk has modification time of '2021-08-04T06:48:10.7103906Z'
+  Import took 0.065031 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000235 seconds.
+  path: Assets/Resources/cook.jpg
+  artifactKey: Guid(69b327c3f53fc864c96450e32175c33f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/cook.jpg using Guid(69b327c3f53fc864c96450e32175c33f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.015612 seconds
+  ERROR: Build asset version error: assets/resources/cook.jpg in SourceAssetDB has modification time of '2021-08-04T06:27:44.9280125Z' while content on disk has modification time of '2021-08-04T06:48:16.7717072Z'
+  Import took 0.019238 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.014172 seconds.
+  path: Assets/Resources/cook.jpg
+  artifactKey: Guid(69b327c3f53fc864c96450e32175c33f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/cook.jpg using Guid(69b327c3f53fc864c96450e32175c33f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.022048 seconds
+  ERROR: Build asset version error: assets/resources/cook.jpg in SourceAssetDB has modification time of '2021-08-04T06:27:44.9280125Z' while content on disk has modification time of '2021-08-04T06:48:16.7717072Z'
+  Import took 0.026095 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000528 seconds.
+  path: Assets/Resources/cooktest.jpg
+  artifactKey: Guid(6627021e375aadd44a9d3691a97f3b5d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/cooktest.jpg using Guid(6627021e375aadd44a9d3691a97f3b5d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.041096 seconds
+  ERROR: Build asset version error: assets/resources/cooktest.jpg in SourceAssetDB has modification time of '2021-08-04T06:27:37.6988235Z' while content on disk has modification time of '2021-08-04T06:48:10.7103906Z'
+  Import took 0.045277 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000261 seconds.
+  path: Assets/Resources/cook.jpg
+  artifactKey: Guid(69b327c3f53fc864c96450e32175c33f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/cook.jpg using Guid(69b327c3f53fc864c96450e32175c33f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.011687 seconds
+  ERROR: Build asset version error: assets/resources/cook.jpg in SourceAssetDB has modification time of '2021-08-04T06:27:44.9280125Z' while content on disk has modification time of '2021-08-04T06:48:16.7717072Z'
+  Import took 0.018503 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000556 seconds.
+  path: Assets/Resources/cooktest.jpg
+  artifactKey: Guid(6627021e375aadd44a9d3691a97f3b5d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/cooktest.jpg using Guid(6627021e375aadd44a9d3691a97f3b5d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.088807 seconds
+  ERROR: Build asset version error: assets/resources/cooktest.jpg in SourceAssetDB has modification time of '2021-08-04T06:27:37.6988235Z' while content on disk has modification time of '2021-08-04T06:48:10.7103906Z'
+  Import took 0.098017 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000292 seconds.
+  path: Assets/Resources/cook.jpg
+  artifactKey: Guid(69b327c3f53fc864c96450e32175c33f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/cook.jpg using Guid(69b327c3f53fc864c96450e32175c33f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.014227 seconds
+  ERROR: Build asset version error: assets/resources/cook.jpg in SourceAssetDB has modification time of '2021-08-04T06:27:44.9280125Z' while content on disk has modification time of '2021-08-04T06:48:16.7717072Z'
+  Import took 0.020545 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.088241 seconds.
+  path: Assets/Resources/cook.jpg
+  artifactKey: Guid(69b327c3f53fc864c96450e32175c33f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/cook.jpg using Guid(69b327c3f53fc864c96450e32175c33f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.023003 seconds
+  ERROR: Build asset version error: assets/resources/cook.jpg in SourceAssetDB has modification time of '2021-08-04T06:27:44.9280125Z' while content on disk has modification time of '2021-08-04T06:48:16.7717072Z'
+  Import took 0.036279 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000353 seconds.
+  path: Assets/Resources/cooktest.jpg
+  artifactKey: Guid(6627021e375aadd44a9d3691a97f3b5d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/cooktest.jpg using Guid(6627021e375aadd44a9d3691a97f3b5d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.024973 seconds
+  ERROR: Build asset version error: assets/resources/cooktest.jpg in SourceAssetDB has modification time of '2021-08-04T06:27:37.6988235Z' while content on disk has modification time of '2021-08-04T06:48:10.7103906Z'
+  Import took 0.028821 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.098760 seconds.
+  path: Assets/Resources/cook.jpg
+  artifactKey: Guid(69b327c3f53fc864c96450e32175c33f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/cook.jpg using Guid(69b327c3f53fc864c96450e32175c33f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.024910 seconds
+  ERROR: Build asset version error: assets/resources/cook.jpg in SourceAssetDB has modification time of '2021-08-04T06:27:44.9280125Z' while content on disk has modification time of '2021-08-04T06:48:16.7717072Z'
+  Import took 0.030228 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000293 seconds.
+  path: Assets/Resources/cooktest.jpg
+  artifactKey: Guid(6627021e375aadd44a9d3691a97f3b5d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/cooktest.jpg using Guid(6627021e375aadd44a9d3691a97f3b5d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.022083 seconds
+  ERROR: Build asset version error: assets/resources/cooktest.jpg in SourceAssetDB has modification time of '2021-08-04T06:27:37.6988235Z' while content on disk has modification time of '2021-08-04T06:48:10.7103906Z'
+  Import took 0.024554 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.121632 seconds.
+  path: Assets/Resources/cook.jpg
+  artifactKey: Guid(69b327c3f53fc864c96450e32175c33f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/cook.jpg using Guid(69b327c3f53fc864c96450e32175c33f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.019411 seconds
+  ERROR: Build asset version error: assets/resources/cook.jpg in SourceAssetDB has modification time of '2021-08-04T06:27:44.9280125Z' while content on disk has modification time of '2021-08-04T06:48:16.7717072Z'
+  Import took 0.026518 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000356 seconds.
+  path: Assets/Resources/cooktest.jpg
+  artifactKey: Guid(6627021e375aadd44a9d3691a97f3b5d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/cooktest.jpg using Guid(6627021e375aadd44a9d3691a97f3b5d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.021506 seconds
+  ERROR: Build asset version error: assets/resources/cooktest.jpg in SourceAssetDB has modification time of '2021-08-04T06:27:37.6988235Z' while content on disk has modification time of '2021-08-04T06:48:10.7103906Z'
+  Import took 0.024143 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.087938 seconds.
+  path: Assets/Resources/cook.jpg
+  artifactKey: Guid(69b327c3f53fc864c96450e32175c33f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/cook.jpg using Guid(69b327c3f53fc864c96450e32175c33f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.011267 seconds
+  ERROR: Build asset version error: assets/resources/cook.jpg in SourceAssetDB has modification time of '2021-08-04T06:27:44.9280125Z' while content on disk has modification time of '2021-08-04T06:48:16.7717072Z'
+  Import took 0.015374 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000517 seconds.
+  path: Assets/Resources/cooktest.jpg
+  artifactKey: Guid(6627021e375aadd44a9d3691a97f3b5d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/cooktest.jpg using Guid(6627021e375aadd44a9d3691a97f3b5d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.030874 seconds
+  ERROR: Build asset version error: assets/resources/cooktest.jpg in SourceAssetDB has modification time of '2021-08-04T06:27:37.6988235Z' while content on disk has modification time of '2021-08-04T06:48:10.7103906Z'
+  Import took 0.038025 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000257 seconds.
+  path: Assets/Resources/cook.jpg
+  artifactKey: Guid(69b327c3f53fc864c96450e32175c33f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/cook.jpg using Guid(69b327c3f53fc864c96450e32175c33f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.016390 seconds
+  ERROR: Build asset version error: assets/resources/cook.jpg in SourceAssetDB has modification time of '2021-08-04T06:27:44.9280125Z' while content on disk has modification time of '2021-08-04T06:48:16.7717072Z'
+  Import took 0.020715 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000580 seconds.
+  path: Assets/Resources/cook.jpg
+  artifactKey: Guid(69b327c3f53fc864c96450e32175c33f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/cook.jpg using Guid(69b327c3f53fc864c96450e32175c33f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.019157 seconds
+  ERROR: Build asset version error: assets/resources/cook.jpg in SourceAssetDB has modification time of '2021-08-04T06:27:44.9280125Z' while content on disk has modification time of '2021-08-04T06:48:16.7717072Z'
+  Import took 0.022550 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000345 seconds.
+  path: Assets/Resources/cooktest.jpg
+  artifactKey: Guid(6627021e375aadd44a9d3691a97f3b5d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/cooktest.jpg using Guid(6627021e375aadd44a9d3691a97f3b5d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.049149 seconds
+  ERROR: Build asset version error: assets/resources/cooktest.jpg in SourceAssetDB has modification time of '2021-08-04T06:27:37.6988235Z' while content on disk has modification time of '2021-08-04T06:48:10.7103906Z'
+  Import took 0.055372 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000614 seconds.
+  path: Assets/Resources/cook.jpg
+  artifactKey: Guid(69b327c3f53fc864c96450e32175c33f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/cook.jpg using Guid(69b327c3f53fc864c96450e32175c33f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.020480 seconds
+  ERROR: Build asset version error: assets/resources/cook.jpg in SourceAssetDB has modification time of '2021-08-04T06:27:44.9280125Z' while content on disk has modification time of '2021-08-04T06:48:16.7717072Z'
+  Import took 0.026159 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000273 seconds.
+  path: Assets/Resources/cooktest.jpg
+  artifactKey: Guid(6627021e375aadd44a9d3691a97f3b5d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/cooktest.jpg using Guid(6627021e375aadd44a9d3691a97f3b5d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.057458 seconds
+  ERROR: Build asset version error: assets/resources/cooktest.jpg in SourceAssetDB has modification time of '2021-08-04T06:27:37.6988235Z' while content on disk has modification time of '2021-08-04T06:48:10.7103906Z'
+  Import took 0.061929 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000821 seconds.
+  path: Assets/Resources/cook.jpg
+  artifactKey: Guid(69b327c3f53fc864c96450e32175c33f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/cook.jpg using Guid(69b327c3f53fc864c96450e32175c33f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.020061 seconds
+  ERROR: Build asset version error: assets/resources/cook.jpg in SourceAssetDB has modification time of '2021-08-04T06:27:44.9280125Z' while content on disk has modification time of '2021-08-04T06:48:16.7717072Z'
+  Import took 0.023554 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000239 seconds.
+  path: Assets/Resources/cooktest.jpg
+  artifactKey: Guid(6627021e375aadd44a9d3691a97f3b5d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/cooktest.jpg using Guid(6627021e375aadd44a9d3691a97f3b5d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.045737 seconds
+  ERROR: Build asset version error: assets/resources/cooktest.jpg in SourceAssetDB has modification time of '2021-08-04T06:27:37.6988235Z' while content on disk has modification time of '2021-08-04T06:48:10.7103906Z'
+  Import took 0.050639 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000553 seconds.
+  path: Assets/Resources/cook.jpg
+  artifactKey: Guid(69b327c3f53fc864c96450e32175c33f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/cook.jpg using Guid(69b327c3f53fc864c96450e32175c33f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.020927 seconds
+  ERROR: Build asset version error: assets/resources/cook.jpg in SourceAssetDB has modification time of '2021-08-04T06:27:44.9280125Z' while content on disk has modification time of '2021-08-04T06:48:16.7717072Z'
+  Import took 0.026735 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.007901 seconds.
+  path: Assets/Resources/cook.jpg
+  artifactKey: Guid(69b327c3f53fc864c96450e32175c33f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/cook.jpg using Guid(69b327c3f53fc864c96450e32175c33f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.013510 seconds
+  ERROR: Build asset version error: assets/resources/cook.jpg in SourceAssetDB has modification time of '2021-08-04T06:27:44.9280125Z' while content on disk has modification time of '2021-08-04T06:48:16.7717072Z'
+  Import took 0.017837 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000227 seconds.
+  path: Assets/Resources/cooktest.jpg
+  artifactKey: Guid(6627021e375aadd44a9d3691a97f3b5d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/cooktest.jpg using Guid(6627021e375aadd44a9d3691a97f3b5d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.033021 seconds
+  ERROR: Build asset version error: assets/resources/cooktest.jpg in SourceAssetDB has modification time of '2021-08-04T06:27:37.6988235Z' while content on disk has modification time of '2021-08-04T06:48:10.7103906Z'
+  Import took 0.036317 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000243 seconds.
+  path: Assets/Resources/cook.jpg
+  artifactKey: Guid(69b327c3f53fc864c96450e32175c33f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/cook.jpg using Guid(69b327c3f53fc864c96450e32175c33f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.011174 seconds
+  ERROR: Build asset version error: assets/resources/cook.jpg in SourceAssetDB has modification time of '2021-08-04T06:27:44.9280125Z' while content on disk has modification time of '2021-08-04T06:48:16.7717072Z'
+  Import took 0.014209 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000203 seconds.
+  path: Assets/Resources/cooktest.jpg
+  artifactKey: Guid(6627021e375aadd44a9d3691a97f3b5d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/cooktest.jpg using Guid(6627021e375aadd44a9d3691a97f3b5d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.031376 seconds
+  ERROR: Build asset version error: assets/resources/cooktest.jpg in SourceAssetDB has modification time of '2021-08-04T06:27:37.6988235Z' while content on disk has modification time of '2021-08-04T06:48:10.7103906Z'
+  Import took 0.036331 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000448 seconds.
+  path: Assets/Resources/cook.jpg
+  artifactKey: Guid(69b327c3f53fc864c96450e32175c33f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/cook.jpg using Guid(69b327c3f53fc864c96450e32175c33f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.011104 seconds
+  ERROR: Build asset version error: assets/resources/cook.jpg in SourceAssetDB has modification time of '2021-08-04T06:27:44.9280125Z' while content on disk has modification time of '2021-08-04T06:48:16.7717072Z'
+  Import took 0.014324 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000194 seconds.
+  path: Assets/Resources/cooktest.jpg
+  artifactKey: Guid(6627021e375aadd44a9d3691a97f3b5d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/cooktest.jpg using Guid(6627021e375aadd44a9d3691a97f3b5d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.033702 seconds
+  ERROR: Build asset version error: assets/resources/cooktest.jpg in SourceAssetDB has modification time of '2021-08-04T06:27:37.6988235Z' while content on disk has modification time of '2021-08-04T06:48:10.7103906Z'
+  Import took 0.038260 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000304 seconds.
+  path: Assets/Resources/cook.jpg
+  artifactKey: Guid(69b327c3f53fc864c96450e32175c33f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/cook.jpg using Guid(69b327c3f53fc864c96450e32175c33f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.009501 seconds
+  ERROR: Build asset version error: assets/resources/cook.jpg in SourceAssetDB has modification time of '2021-08-04T06:27:44.9280125Z' while content on disk has modification time of '2021-08-04T06:48:16.7717072Z'
+  Import took 0.012377 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.001410 seconds.
+  path: Assets/Resources/cook.jpg
+  artifactKey: Guid(69b327c3f53fc864c96450e32175c33f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/cook.jpg using Guid(69b327c3f53fc864c96450e32175c33f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.013245 seconds
+  ERROR: Build asset version error: assets/resources/cook.jpg in SourceAssetDB has modification time of '2021-08-04T06:27:44.9280125Z' while content on disk has modification time of '2021-08-04T06:48:16.7717072Z'
+  Import took 0.015643 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000203 seconds.
+  path: Assets/Resources/cooktest.jpg
+  artifactKey: Guid(6627021e375aadd44a9d3691a97f3b5d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/cooktest.jpg using Guid(6627021e375aadd44a9d3691a97f3b5d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.030907 seconds
+  ERROR: Build asset version error: assets/resources/cooktest.jpg in SourceAssetDB has modification time of '2021-08-04T06:27:37.6988235Z' while content on disk has modification time of '2021-08-04T06:48:10.7103906Z'
+  Import took 0.033599 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000378 seconds.
+  path: Assets/Resources/cook.jpg
+  artifactKey: Guid(69b327c3f53fc864c96450e32175c33f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/cook.jpg using Guid(69b327c3f53fc864c96450e32175c33f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.008712 seconds
+  ERROR: Build asset version error: assets/resources/cook.jpg in SourceAssetDB has modification time of '2021-08-04T06:27:44.9280125Z' while content on disk has modification time of '2021-08-04T06:48:16.7717072Z'
+  Import took 0.011197 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000235 seconds.
+  path: Assets/Resources/cooktest.jpg
+  artifactKey: Guid(6627021e375aadd44a9d3691a97f3b5d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/cooktest.jpg using Guid(6627021e375aadd44a9d3691a97f3b5d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.028655 seconds
+  ERROR: Build asset version error: assets/resources/cooktest.jpg in SourceAssetDB has modification time of '2021-08-04T06:27:37.6988235Z' while content on disk has modification time of '2021-08-04T06:48:10.7103906Z'
+  Import took 0.034154 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000404 seconds.
+  path: Assets/Resources/cook.jpg
+  artifactKey: Guid(69b327c3f53fc864c96450e32175c33f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/cook.jpg using Guid(69b327c3f53fc864c96450e32175c33f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.009471 seconds
+  ERROR: Build asset version error: assets/resources/cook.jpg in SourceAssetDB has modification time of '2021-08-04T06:27:44.9280125Z' while content on disk has modification time of '2021-08-04T06:48:16.7717072Z'
+  Import took 0.013144 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.003377 seconds.
+  path: Assets/Resources/cook.jpg
+  artifactKey: Guid(69b327c3f53fc864c96450e32175c33f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/cook.jpg using Guid(69b327c3f53fc864c96450e32175c33f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.020077 seconds
+  ERROR: Build asset version error: assets/resources/cook.jpg in SourceAssetDB has modification time of '2021-08-04T06:27:44.9280125Z' while content on disk has modification time of '2021-08-04T06:48:16.7717072Z'
+  Import took 0.022668 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000300 seconds.
+  path: Assets/Resources/cooktest.jpg
+  artifactKey: Guid(6627021e375aadd44a9d3691a97f3b5d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/cooktest.jpg using Guid(6627021e375aadd44a9d3691a97f3b5d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.031755 seconds
+  ERROR: Build asset version error: assets/resources/cooktest.jpg in SourceAssetDB has modification time of '2021-08-04T06:27:37.6988235Z' while content on disk has modification time of '2021-08-04T06:48:10.7103906Z'
+  Import took 0.035655 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000266 seconds.
+  path: Assets/Resources/cook.jpg
+  artifactKey: Guid(69b327c3f53fc864c96450e32175c33f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/cook.jpg using Guid(69b327c3f53fc864c96450e32175c33f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.015477 seconds
+  ERROR: Build asset version error: assets/resources/cook.jpg in SourceAssetDB has modification time of '2021-08-04T06:27:44.9280125Z' while content on disk has modification time of '2021-08-04T06:48:16.7717072Z'
+  Import took 0.019016 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000478 seconds.
+  path: Assets/Resources/cooktest.jpg
+  artifactKey: Guid(6627021e375aadd44a9d3691a97f3b5d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/cooktest.jpg using Guid(6627021e375aadd44a9d3691a97f3b5d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.031215 seconds
+  ERROR: Build asset version error: assets/resources/cooktest.jpg in SourceAssetDB has modification time of '2021-08-04T06:27:37.6988235Z' while content on disk has modification time of '2021-08-04T06:48:10.7103906Z'
+  Import took 0.034102 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000278 seconds.
+  path: Assets/Resources/cook.jpg
+  artifactKey: Guid(69b327c3f53fc864c96450e32175c33f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/cook.jpg using Guid(69b327c3f53fc864c96450e32175c33f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.009904 seconds
+  ERROR: Build asset version error: assets/resources/cook.jpg in SourceAssetDB has modification time of '2021-08-04T06:27:44.9280125Z' while content on disk has modification time of '2021-08-04T06:48:16.7717072Z'
+  Import took 0.015975 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000298 seconds.
+  path: Assets/Resources/cooktest.jpg
+  artifactKey: Guid(6627021e375aadd44a9d3691a97f3b5d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/cooktest.jpg using Guid(6627021e375aadd44a9d3691a97f3b5d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.034181 seconds
+  ERROR: Build asset version error: assets/resources/cooktest.jpg in SourceAssetDB has modification time of '2021-08-04T06:27:37.6988235Z' while content on disk has modification time of '2021-08-04T06:48:10.7103906Z'
+  Import took 0.037429 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000350 seconds.
+  path: Assets/Resources/cook.jpg
+  artifactKey: Guid(69b327c3f53fc864c96450e32175c33f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/cook.jpg using Guid(69b327c3f53fc864c96450e32175c33f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.007414 seconds
+  ERROR: Build asset version error: assets/resources/cook.jpg in SourceAssetDB has modification time of '2021-08-04T06:27:44.9280125Z' while content on disk has modification time of '2021-08-04T06:48:16.7717072Z'
+  Import took 0.010188 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.124719 seconds.
+  path: Assets/Resources/cook.jpg
+  artifactKey: Guid(69b327c3f53fc864c96450e32175c33f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/cook.jpg using Guid(69b327c3f53fc864c96450e32175c33f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.025708 seconds
+  ERROR: Build asset version error: assets/resources/cook.jpg in SourceAssetDB has modification time of '2021-08-04T06:27:44.9280125Z' while content on disk has modification time of '2021-08-04T06:48:16.7717072Z'
+  Import took 0.032291 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000647 seconds.
+  path: Assets/Resources/cooktest.jpg
+  artifactKey: Guid(6627021e375aadd44a9d3691a97f3b5d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/cooktest.jpg using Guid(6627021e375aadd44a9d3691a97f3b5d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.045387 seconds
+  ERROR: Build asset version error: assets/resources/cooktest.jpg in SourceAssetDB has modification time of '2021-08-04T06:27:37.6988235Z' while content on disk has modification time of '2021-08-04T06:48:10.7103906Z'
+  Import took 0.049252 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000281 seconds.
+  path: Assets/Resources/cook.jpg
+  artifactKey: Guid(69b327c3f53fc864c96450e32175c33f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/cook.jpg using Guid(69b327c3f53fc864c96450e32175c33f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.009076 seconds
+  ERROR: Build asset version error: assets/resources/cook.jpg in SourceAssetDB has modification time of '2021-08-04T06:27:44.9280125Z' while content on disk has modification time of '2021-08-04T06:48:16.7717072Z'
+  Import took 0.011383 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.104064 seconds.
+  path: Assets/Resources/cook.jpg
+  artifactKey: Guid(69b327c3f53fc864c96450e32175c33f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/cook.jpg using Guid(69b327c3f53fc864c96450e32175c33f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.020195 seconds
+  ERROR: Build asset version error: assets/resources/cook.jpg in SourceAssetDB has modification time of '2021-08-04T06:27:44.9280125Z' while content on disk has modification time of '2021-08-04T06:48:16.7717072Z'
+  Import took 0.025360 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000405 seconds.
+  path: Assets/Resources/cooktest.jpg
+  artifactKey: Guid(6627021e375aadd44a9d3691a97f3b5d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/cooktest.jpg using Guid(6627021e375aadd44a9d3691a97f3b5d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.025472 seconds
+  ERROR: Build asset version error: assets/resources/cooktest.jpg in SourceAssetDB has modification time of '2021-08-04T06:27:37.6988235Z' while content on disk has modification time of '2021-08-04T06:48:10.7103906Z'
+  Import took 0.028446 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.090508 seconds.
+  path: Assets/Resources/cook.jpg
+  artifactKey: Guid(69b327c3f53fc864c96450e32175c33f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/cook.jpg using Guid(69b327c3f53fc864c96450e32175c33f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.018035 seconds
+  ERROR: Build asset version error: assets/resources/cook.jpg in SourceAssetDB has modification time of '2021-08-04T06:27:44.9280125Z' while content on disk has modification time of '2021-08-04T06:48:16.7717072Z'
+  Import took 0.023419 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000302 seconds.
+  path: Assets/Resources/cooktest.jpg
+  artifactKey: Guid(6627021e375aadd44a9d3691a97f3b5d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/cooktest.jpg using Guid(6627021e375aadd44a9d3691a97f3b5d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.034075 seconds
+  ERROR: Build asset version error: assets/resources/cooktest.jpg in SourceAssetDB has modification time of '2021-08-04T06:27:37.6988235Z' while content on disk has modification time of '2021-08-04T06:48:10.7103906Z'
+  Import took 0.037931 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.076791 seconds.
+  path: Assets/Resources/cook.jpg
+  artifactKey: Guid(69b327c3f53fc864c96450e32175c33f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/cook.jpg using Guid(69b327c3f53fc864c96450e32175c33f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.015261 seconds
+  ERROR: Build asset version error: assets/resources/cook.jpg in SourceAssetDB has modification time of '2021-08-04T06:27:44.9280125Z' while content on disk has modification time of '2021-08-04T06:48:16.7717072Z'
+  Import took 0.026068 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000235 seconds.
+  path: Assets/Resources/cooktest.jpg
+  artifactKey: Guid(6627021e375aadd44a9d3691a97f3b5d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/cooktest.jpg using Guid(6627021e375aadd44a9d3691a97f3b5d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.042188 seconds
+  ERROR: Build asset version error: assets/resources/cooktest.jpg in SourceAssetDB has modification time of '2021-08-04T06:27:37.6988235Z' while content on disk has modification time of '2021-08-04T06:48:10.7103906Z'
+  Import took 0.060186 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.004889 seconds.
+  path: Assets/Resources/cook.jpg
+  artifactKey: Guid(69b327c3f53fc864c96450e32175c33f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/cook.jpg using Guid(69b327c3f53fc864c96450e32175c33f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.018243 seconds
+  ERROR: Build asset version error: assets/resources/cook.jpg in SourceAssetDB has modification time of '2021-08-04T06:27:44.9280125Z' while content on disk has modification time of '2021-08-04T06:48:16.7717072Z'
+  Import took 0.023012 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.095048 seconds.
+  path: Assets/Resources/cook.jpg
+  artifactKey: Guid(69b327c3f53fc864c96450e32175c33f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/cook.jpg using Guid(69b327c3f53fc864c96450e32175c33f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.020477 seconds
+  ERROR: Build asset version error: assets/resources/cook.jpg in SourceAssetDB has modification time of '2021-08-04T06:27:44.9280125Z' while content on disk has modification time of '2021-08-04T06:48:16.7717072Z'
+  Import took 0.024366 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000315 seconds.
+  path: Assets/Resources/cooktest.jpg
+  artifactKey: Guid(6627021e375aadd44a9d3691a97f3b5d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/cooktest.jpg using Guid(6627021e375aadd44a9d3691a97f3b5d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.024231 seconds
+  ERROR: Build asset version error: assets/resources/cooktest.jpg in SourceAssetDB has modification time of '2021-08-04T06:27:37.6988235Z' while content on disk has modification time of '2021-08-04T06:48:10.7103906Z'
+  Import took 0.027341 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.086511 seconds.
+  path: Assets/Resources/cook.jpg
+  artifactKey: Guid(69b327c3f53fc864c96450e32175c33f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/cook.jpg using Guid(69b327c3f53fc864c96450e32175c33f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.023884 seconds
+  ERROR: Build asset version error: assets/resources/cook.jpg in SourceAssetDB has modification time of '2021-08-04T06:27:44.9280125Z' while content on disk has modification time of '2021-08-04T06:48:16.7717072Z'
+  Import took 0.031028 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000254 seconds.
+  path: Assets/Resources/cooktest.jpg
+  artifactKey: Guid(6627021e375aadd44a9d3691a97f3b5d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/cooktest.jpg using Guid(6627021e375aadd44a9d3691a97f3b5d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.027853 seconds
+  ERROR: Build asset version error: assets/resources/cooktest.jpg in SourceAssetDB has modification time of '2021-08-04T06:27:37.6988235Z' while content on disk has modification time of '2021-08-04T06:48:10.7103906Z'
+  Import took 0.031321 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.071505 seconds.
+  path: Assets/Resources/cook.jpg
+  artifactKey: Guid(69b327c3f53fc864c96450e32175c33f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/cook.jpg using Guid(69b327c3f53fc864c96450e32175c33f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.018398 seconds
+  ERROR: Build asset version error: assets/resources/cook.jpg in SourceAssetDB has modification time of '2021-08-04T06:27:44.9280125Z' while content on disk has modification time of '2021-08-04T06:48:16.7717072Z'
+  Import took 0.021966 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000288 seconds.
+  path: Assets/Resources/cooktest.jpg
+  artifactKey: Guid(6627021e375aadd44a9d3691a97f3b5d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/cooktest.jpg using Guid(6627021e375aadd44a9d3691a97f3b5d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.017576 seconds
+  ERROR: Build asset version error: assets/resources/cooktest.jpg in SourceAssetDB has modification time of '2021-08-04T06:27:37.6988235Z' while content on disk has modification time of '2021-08-04T06:48:10.7103906Z'
+  Import took 0.020591 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.089240 seconds.
+  path: Assets/Resources/cook.jpg
+  artifactKey: Guid(69b327c3f53fc864c96450e32175c33f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/cook.jpg using Guid(69b327c3f53fc864c96450e32175c33f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.011454 seconds
+  ERROR: Build asset version error: assets/resources/cook.jpg in SourceAssetDB has modification time of '2021-08-04T06:27:44.9280125Z' while content on disk has modification time of '2021-08-04T06:48:16.7717072Z'
+  Import took 0.016597 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000982 seconds.
+  path: Assets/Resources/cooktest.jpg
+  artifactKey: Guid(6627021e375aadd44a9d3691a97f3b5d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/cooktest.jpg using Guid(6627021e375aadd44a9d3691a97f3b5d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.032859 seconds
+  ERROR: Build asset version error: assets/resources/cooktest.jpg in SourceAssetDB has modification time of '2021-08-04T06:27:37.6988235Z' while content on disk has modification time of '2021-08-04T06:48:10.7103906Z'
+  Import took 0.038673 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000338 seconds.
+  path: Assets/Resources/cook.jpg
+  artifactKey: Guid(69b327c3f53fc864c96450e32175c33f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/cook.jpg using Guid(69b327c3f53fc864c96450e32175c33f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.008596 seconds
+  ERROR: Build asset version error: assets/resources/cook.jpg in SourceAssetDB has modification time of '2021-08-04T06:27:44.9280125Z' while content on disk has modification time of '2021-08-04T06:48:16.7717072Z'
+  Import took 0.012205 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.008737 seconds.
+  path: Assets/Resources/cook.jpg
+  artifactKey: Guid(69b327c3f53fc864c96450e32175c33f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/cook.jpg using Guid(69b327c3f53fc864c96450e32175c33f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.018677 seconds
+  ERROR: Build asset version error: assets/resources/cook.jpg in SourceAssetDB has modification time of '2021-08-04T06:27:44.9280125Z' while content on disk has modification time of '2021-08-04T06:48:16.7717072Z'
+  Import took 0.022352 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000259 seconds.
+  path: Assets/Resources/cooktest.jpg
+  artifactKey: Guid(6627021e375aadd44a9d3691a97f3b5d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/cooktest.jpg using Guid(6627021e375aadd44a9d3691a97f3b5d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.033136 seconds
+  ERROR: Build asset version error: assets/resources/cooktest.jpg in SourceAssetDB has modification time of '2021-08-04T06:27:37.6988235Z' while content on disk has modification time of '2021-08-04T06:48:10.7103906Z'
+  Import took 0.036432 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000287 seconds.
+  path: Assets/Resources/cook.jpg
+  artifactKey: Guid(69b327c3f53fc864c96450e32175c33f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/cook.jpg using Guid(69b327c3f53fc864c96450e32175c33f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.014433 seconds
+  ERROR: Build asset version error: assets/resources/cook.jpg in SourceAssetDB has modification time of '2021-08-04T06:27:44.9280125Z' while content on disk has modification time of '2021-08-04T06:48:16.7717072Z'
+  Import took 0.018059 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.007544 seconds.
+  path: Assets/Resources/cook.jpg
+  artifactKey: Guid(69b327c3f53fc864c96450e32175c33f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/cook.jpg using Guid(69b327c3f53fc864c96450e32175c33f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.017081 seconds
+  ERROR: Build asset version error: assets/resources/cook.jpg in SourceAssetDB has modification time of '2021-08-04T06:27:44.9280125Z' while content on disk has modification time of '2021-08-04T06:48:16.7717072Z'
+  Import took 0.021313 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000304 seconds.
+  path: Assets/Resources/cooktest.jpg
+  artifactKey: Guid(6627021e375aadd44a9d3691a97f3b5d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/cooktest.jpg using Guid(6627021e375aadd44a9d3691a97f3b5d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.037970 seconds
+  ERROR: Build asset version error: assets/resources/cooktest.jpg in SourceAssetDB has modification time of '2021-08-04T06:27:37.6988235Z' while content on disk has modification time of '2021-08-04T06:48:10.7103906Z'
+  Import took 0.042328 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000381 seconds.
+  path: Assets/Resources/cook.jpg
+  artifactKey: Guid(69b327c3f53fc864c96450e32175c33f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/cook.jpg using Guid(69b327c3f53fc864c96450e32175c33f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.013674 seconds
+  ERROR: Build asset version error: assets/resources/cook.jpg in SourceAssetDB has modification time of '2021-08-04T06:27:44.9280125Z' while content on disk has modification time of '2021-08-04T06:48:16.7717072Z'
+  Import took 0.018490 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.053367 seconds.
+  path: Assets/Resources/cook.jpg
+  artifactKey: Guid(69b327c3f53fc864c96450e32175c33f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/cook.jpg using Guid(69b327c3f53fc864c96450e32175c33f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.024181 seconds
+  ERROR: Build asset version error: assets/resources/cook.jpg in SourceAssetDB has modification time of '2021-08-04T06:27:44.9280125Z' while content on disk has modification time of '2021-08-04T06:48:16.7717072Z'
+  Import took 0.027565 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000290 seconds.
+  path: Assets/Resources/cooktest.jpg
+  artifactKey: Guid(6627021e375aadd44a9d3691a97f3b5d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/cooktest.jpg using Guid(6627021e375aadd44a9d3691a97f3b5d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.038508 seconds
+  ERROR: Build asset version error: assets/resources/cooktest.jpg in SourceAssetDB has modification time of '2021-08-04T06:27:37.6988235Z' while content on disk has modification time of '2021-08-04T06:48:10.7103906Z'
+  Import took 0.042442 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.075929 seconds.
+  path: Assets/Resources/cook.jpg
+  artifactKey: Guid(69b327c3f53fc864c96450e32175c33f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/cook.jpg using Guid(69b327c3f53fc864c96450e32175c33f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.015706 seconds
+  ERROR: Build asset version error: assets/resources/cook.jpg in SourceAssetDB has modification time of '2021-08-04T06:27:44.9280125Z' while content on disk has modification time of '2021-08-04T06:48:16.7717072Z'
+  Import took 0.018386 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000243 seconds.
+  path: Assets/Resources/cooktest.jpg
+  artifactKey: Guid(6627021e375aadd44a9d3691a97f3b5d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/cooktest.jpg using Guid(6627021e375aadd44a9d3691a97f3b5d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.022155 seconds
+  ERROR: Build asset version error: assets/resources/cooktest.jpg in SourceAssetDB has modification time of '2021-08-04T06:27:37.6988235Z' while content on disk has modification time of '2021-08-04T06:48:10.7103906Z'
+  Import took 0.024816 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.104497 seconds.
+  path: Assets/Resources/cook.jpg
+  artifactKey: Guid(69b327c3f53fc864c96450e32175c33f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/cook.jpg using Guid(69b327c3f53fc864c96450e32175c33f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.026541 seconds
+  ERROR: Build asset version error: assets/resources/cook.jpg in SourceAssetDB has modification time of '2021-08-04T06:27:44.9280125Z' while content on disk has modification time of '2021-08-04T06:48:16.7717072Z'
+  Import took 0.034423 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000721 seconds.
+  path: Assets/Resources/cooktest.jpg
+  artifactKey: Guid(6627021e375aadd44a9d3691a97f3b5d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/cooktest.jpg using Guid(6627021e375aadd44a9d3691a97f3b5d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.047440 seconds
+  ERROR: Build asset version error: assets/resources/cooktest.jpg in SourceAssetDB has modification time of '2021-08-04T06:27:37.6988235Z' while content on disk has modification time of '2021-08-04T06:48:10.7103906Z'
+  Import took 0.052072 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000251 seconds.
+  path: Assets/Resources/cook.jpg
+  artifactKey: Guid(69b327c3f53fc864c96450e32175c33f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/cook.jpg using Guid(69b327c3f53fc864c96450e32175c33f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.015029 seconds
+  ERROR: Build asset version error: assets/resources/cook.jpg in SourceAssetDB has modification time of '2021-08-04T06:27:44.9280125Z' while content on disk has modification time of '2021-08-04T06:48:16.7717072Z'
+  Import took 0.018855 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.008893 seconds.
+  path: Assets/Resources/cook.jpg
+  artifactKey: Guid(69b327c3f53fc864c96450e32175c33f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/cook.jpg using Guid(69b327c3f53fc864c96450e32175c33f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.015882 seconds
+  ERROR: Build asset version error: assets/resources/cook.jpg in SourceAssetDB has modification time of '2021-08-04T06:27:44.9280125Z' while content on disk has modification time of '2021-08-04T06:48:16.7717072Z'
+  Import took 0.018464 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000401 seconds.
+  path: Assets/Resources/cooktest.jpg
+  artifactKey: Guid(6627021e375aadd44a9d3691a97f3b5d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/cooktest.jpg using Guid(6627021e375aadd44a9d3691a97f3b5d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.030255 seconds
+  ERROR: Build asset version error: assets/resources/cooktest.jpg in SourceAssetDB has modification time of '2021-08-04T06:27:37.6988235Z' while content on disk has modification time of '2021-08-04T06:48:10.7103906Z'
+  Import took 0.033230 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000347 seconds.
+  path: Assets/Resources/cook.jpg
+  artifactKey: Guid(69b327c3f53fc864c96450e32175c33f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/cook.jpg using Guid(69b327c3f53fc864c96450e32175c33f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.008978 seconds
+  ERROR: Build asset version error: assets/resources/cook.jpg in SourceAssetDB has modification time of '2021-08-04T06:27:44.9280125Z' while content on disk has modification time of '2021-08-04T06:48:16.7717072Z'
+  Import took 0.012405 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000310 seconds.
+  path: Assets/Resources/cooktest.jpg
+  artifactKey: Guid(6627021e375aadd44a9d3691a97f3b5d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/cooktest.jpg using Guid(6627021e375aadd44a9d3691a97f3b5d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.031740 seconds
+  ERROR: Build asset version error: assets/resources/cooktest.jpg in SourceAssetDB has modification time of '2021-08-04T06:27:37.6988235Z' while content on disk has modification time of '2021-08-04T06:48:10.7103906Z'
+  Import took 0.036124 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000370 seconds.
+  path: Assets/Resources/cook.jpg
+  artifactKey: Guid(69b327c3f53fc864c96450e32175c33f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/cook.jpg using Guid(69b327c3f53fc864c96450e32175c33f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.012641 seconds
+  ERROR: Build asset version error: assets/resources/cook.jpg in SourceAssetDB has modification time of '2021-08-04T06:27:44.9280125Z' while content on disk has modification time of '2021-08-04T06:48:16.7717072Z'
+  Import took 0.018705 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.011801 seconds.
+  path: Assets/Resources/cook.jpg
+  artifactKey: Guid(69b327c3f53fc864c96450e32175c33f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/cook.jpg using Guid(69b327c3f53fc864c96450e32175c33f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.018942 seconds
+  ERROR: Build asset version error: assets/resources/cook.jpg in SourceAssetDB has modification time of '2021-08-04T06:27:44.9280125Z' while content on disk has modification time of '2021-08-04T06:48:16.7717072Z'
+  Import took 0.022240 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000262 seconds.
+  path: Assets/Resources/cooktest.jpg
+  artifactKey: Guid(6627021e375aadd44a9d3691a97f3b5d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/cooktest.jpg using Guid(6627021e375aadd44a9d3691a97f3b5d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.033058 seconds
+  ERROR: Build asset version error: assets/resources/cooktest.jpg in SourceAssetDB has modification time of '2021-08-04T06:27:37.6988235Z' while content on disk has modification time of '2021-08-04T06:48:10.7103906Z'
+  Import took 0.039381 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000264 seconds.
+  path: Assets/Resources/cook.jpg
+  artifactKey: Guid(69b327c3f53fc864c96450e32175c33f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/cook.jpg using Guid(69b327c3f53fc864c96450e32175c33f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.017651 seconds
+  ERROR: Build asset version error: assets/resources/cook.jpg in SourceAssetDB has modification time of '2021-08-04T06:27:44.9280125Z' while content on disk has modification time of '2021-08-04T06:48:16.7717072Z'
+  Import took 0.023942 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000645 seconds.
+  path: Assets/Resources/cooktest.jpg
+  artifactKey: Guid(6627021e375aadd44a9d3691a97f3b5d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/cooktest.jpg using Guid(6627021e375aadd44a9d3691a97f3b5d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.064881 seconds
+  ERROR: Build asset version error: assets/resources/cooktest.jpg in SourceAssetDB has modification time of '2021-08-04T06:27:37.6988235Z' while content on disk has modification time of '2021-08-04T06:48:10.7103906Z'
+  Import took 0.073432 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000258 seconds.
+  path: Assets/Resources/cook.jpg
+  artifactKey: Guid(69b327c3f53fc864c96450e32175c33f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/cook.jpg using Guid(69b327c3f53fc864c96450e32175c33f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.009559 seconds
+  ERROR: Build asset version error: assets/resources/cook.jpg in SourceAssetDB has modification time of '2021-08-04T06:27:44.9280125Z' while content on disk has modification time of '2021-08-04T06:48:16.7717072Z'
+  Import took 0.014337 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.102290 seconds.
+  path: Assets/Resources/cook.jpg
+  artifactKey: Guid(69b327c3f53fc864c96450e32175c33f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/cook.jpg using Guid(69b327c3f53fc864c96450e32175c33f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.021664 seconds
+  ERROR: Build asset version error: assets/resources/cook.jpg in SourceAssetDB has modification time of '2021-08-04T06:27:44.9280125Z' while content on disk has modification time of '2021-08-04T06:48:16.7717072Z'
+  Import took 0.026125 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000267 seconds.
+  path: Assets/Resources/cooktest.jpg
+  artifactKey: Guid(6627021e375aadd44a9d3691a97f3b5d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/cooktest.jpg using Guid(6627021e375aadd44a9d3691a97f3b5d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.027970 seconds
+  ERROR: Build asset version error: assets/resources/cooktest.jpg in SourceAssetDB has modification time of '2021-08-04T06:27:37.6988235Z' while content on disk has modification time of '2021-08-04T06:48:10.7103906Z'
+  Import took 0.033756 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.115429 seconds.
+  path: Assets/Resources/cook.jpg
+  artifactKey: Guid(69b327c3f53fc864c96450e32175c33f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/cook.jpg using Guid(69b327c3f53fc864c96450e32175c33f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.016214 seconds
+  ERROR: Build asset version error: assets/resources/cook.jpg in SourceAssetDB has modification time of '2021-08-04T06:27:44.9280125Z' while content on disk has modification time of '2021-08-04T06:48:16.7717072Z'
+  Import took 0.019629 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000264 seconds.
+  path: Assets/Resources/cooktest.jpg
+  artifactKey: Guid(6627021e375aadd44a9d3691a97f3b5d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/cooktest.jpg using Guid(6627021e375aadd44a9d3691a97f3b5d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.017767 seconds
+  ERROR: Build asset version error: assets/resources/cooktest.jpg in SourceAssetDB has modification time of '2021-08-04T06:27:37.6988235Z' while content on disk has modification time of '2021-08-04T06:48:10.7103906Z'
+  Import took 0.020519 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000282 seconds.
+  path: Assets/Resources/cook.jpg
+  artifactKey: Guid(69b327c3f53fc864c96450e32175c33f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/cook.jpg using Guid(69b327c3f53fc864c96450e32175c33f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.015967 seconds
+  ERROR: Build asset version error: assets/resources/cook.jpg in SourceAssetDB has modification time of '2021-08-04T06:27:44.9280125Z' while content on disk has modification time of '2021-08-04T06:48:16.7717072Z'
+  Import took 0.018545 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.008946 seconds.
+  path: Assets/Resources/cook.jpg
+  artifactKey: Guid(69b327c3f53fc864c96450e32175c33f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/cook.jpg using Guid(69b327c3f53fc864c96450e32175c33f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.015710 seconds
+  ERROR: Build asset version error: assets/resources/cook.jpg in SourceAssetDB has modification time of '2021-08-04T06:27:44.9280125Z' while content on disk has modification time of '2021-08-04T06:48:16.7717072Z'
+  Import took 0.020602 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000272 seconds.
+  path: Assets/Resources/cooktest.jpg
+  artifactKey: Guid(6627021e375aadd44a9d3691a97f3b5d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/cooktest.jpg using Guid(6627021e375aadd44a9d3691a97f3b5d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.034089 seconds
+  ERROR: Build asset version error: assets/resources/cooktest.jpg in SourceAssetDB has modification time of '2021-08-04T06:27:37.6988235Z' while content on disk has modification time of '2021-08-04T06:48:10.7103906Z'
+  Import took 0.036632 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000253 seconds.
+  path: Assets/Resources/cook.jpg
+  artifactKey: Guid(69b327c3f53fc864c96450e32175c33f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/cook.jpg using Guid(69b327c3f53fc864c96450e32175c33f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.015094 seconds
+  ERROR: Build asset version error: assets/resources/cook.jpg in SourceAssetDB has modification time of '2021-08-04T06:27:44.9280125Z' while content on disk has modification time of '2021-08-04T06:48:16.7717072Z'
+  Import took 0.017584 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000523 seconds.
+  path: Assets/Resources/cooktest.jpg
+  artifactKey: Guid(6627021e375aadd44a9d3691a97f3b5d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/cooktest.jpg using Guid(6627021e375aadd44a9d3691a97f3b5d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.028535 seconds
+  ERROR: Build asset version error: assets/resources/cooktest.jpg in SourceAssetDB has modification time of '2021-08-04T06:27:37.6988235Z' while content on disk has modification time of '2021-08-04T06:48:10.7103906Z'
+  Import took 0.031878 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000259 seconds.
+  path: Assets/Resources/cook.jpg
+  artifactKey: Guid(69b327c3f53fc864c96450e32175c33f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/cook.jpg using Guid(69b327c3f53fc864c96450e32175c33f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.011587 seconds
+  ERROR: Build asset version error: assets/resources/cook.jpg in SourceAssetDB has modification time of '2021-08-04T06:27:44.9280125Z' while content on disk has modification time of '2021-08-04T06:48:16.7717072Z'
+  Import took 0.015185 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000432 seconds.
+  path: Assets/Resources/cooktest.jpg
+  artifactKey: Guid(6627021e375aadd44a9d3691a97f3b5d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/cooktest.jpg using Guid(6627021e375aadd44a9d3691a97f3b5d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.018710 seconds
+  ERROR: Build asset version error: assets/resources/cooktest.jpg in SourceAssetDB has modification time of '2021-08-04T06:27:37.6988235Z' while content on disk has modification time of '2021-08-04T06:48:10.7103906Z'
+  Import took 0.024063 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000293 seconds.
+  path: Assets/Resources/cook.jpg
+  artifactKey: Guid(69b327c3f53fc864c96450e32175c33f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/cook.jpg using Guid(69b327c3f53fc864c96450e32175c33f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.017676 seconds
+  ERROR: Build asset version error: assets/resources/cook.jpg in SourceAssetDB has modification time of '2021-08-04T06:27:44.9280125Z' while content on disk has modification time of '2021-08-04T06:48:16.7717072Z'
+  Import took 0.020889 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000271 seconds.
+  path: Assets/Resources/cooktest.jpg
+  artifactKey: Guid(6627021e375aadd44a9d3691a97f3b5d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/cooktest.jpg using Guid(6627021e375aadd44a9d3691a97f3b5d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.033361 seconds
+  ERROR: Build asset version error: assets/resources/cooktest.jpg in SourceAssetDB has modification time of '2021-08-04T06:27:37.6988235Z' while content on disk has modification time of '2021-08-04T06:48:10.7103906Z'
+  Import took 0.036143 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000239 seconds.
+  path: Assets/Resources/cook.jpg
+  artifactKey: Guid(69b327c3f53fc864c96450e32175c33f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/cook.jpg using Guid(69b327c3f53fc864c96450e32175c33f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.014146 seconds
+  ERROR: Build asset version error: assets/resources/cook.jpg in SourceAssetDB has modification time of '2021-08-04T06:27:44.9280125Z' while content on disk has modification time of '2021-08-04T06:48:16.7717072Z'
+  Import took 0.016873 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000284 seconds.
+  path: Assets/Resources/cooktest.jpg
+  artifactKey: Guid(6627021e375aadd44a9d3691a97f3b5d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/cooktest.jpg using Guid(6627021e375aadd44a9d3691a97f3b5d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.030043 seconds
+  ERROR: Build asset version error: assets/resources/cooktest.jpg in SourceAssetDB has modification time of '2021-08-04T06:27:37.6988235Z' while content on disk has modification time of '2021-08-04T06:48:10.7103906Z'
+  Import took 0.033089 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000213 seconds.
+  path: Assets/Resources/cook.jpg
+  artifactKey: Guid(69b327c3f53fc864c96450e32175c33f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/cook.jpg using Guid(69b327c3f53fc864c96450e32175c33f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.007653 seconds
+  ERROR: Build asset version error: assets/resources/cook.jpg in SourceAssetDB has modification time of '2021-08-04T06:27:44.9280125Z' while content on disk has modification time of '2021-08-04T06:48:16.7717072Z'
+  Import took 0.010698 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000376 seconds.
+  path: Assets/Resources/cooktest.jpg
+  artifactKey: Guid(6627021e375aadd44a9d3691a97f3b5d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/cooktest.jpg using Guid(6627021e375aadd44a9d3691a97f3b5d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.032411 seconds
+  ERROR: Build asset version error: assets/resources/cooktest.jpg in SourceAssetDB has modification time of '2021-08-04T06:27:37.6988235Z' while content on disk has modification time of '2021-08-04T06:48:10.7103906Z'
+  Import took 0.035293 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000475 seconds.
+  path: Assets/Resources/cook.jpg
+  artifactKey: Guid(69b327c3f53fc864c96450e32175c33f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/cook.jpg using Guid(69b327c3f53fc864c96450e32175c33f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.010679 seconds
+  ERROR: Build asset version error: assets/resources/cook.jpg in SourceAssetDB has modification time of '2021-08-04T06:27:44.9280125Z' while content on disk has modification time of '2021-08-04T06:48:16.7717072Z'
+  Import took 0.015451 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.004396 seconds.
+  path: Assets/Resources/cook.jpg
+  artifactKey: Guid(69b327c3f53fc864c96450e32175c33f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/cook.jpg using Guid(69b327c3f53fc864c96450e32175c33f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.019339 seconds
+  ERROR: Build asset version error: assets/resources/cook.jpg in SourceAssetDB has modification time of '2021-08-04T06:27:44.9280125Z' while content on disk has modification time of '2021-08-04T06:48:16.7717072Z'
+  Import took 0.022004 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000252 seconds.
+  path: Assets/Resources/cooktest.jpg
+  artifactKey: Guid(6627021e375aadd44a9d3691a97f3b5d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/cooktest.jpg using Guid(6627021e375aadd44a9d3691a97f3b5d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.034943 seconds
+  ERROR: Build asset version error: assets/resources/cooktest.jpg in SourceAssetDB has modification time of '2021-08-04T06:27:37.6988235Z' while content on disk has modification time of '2021-08-04T06:48:10.7103906Z'
+  Import took 0.038057 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000293 seconds.
+  path: Assets/Resources/cook.jpg
+  artifactKey: Guid(69b327c3f53fc864c96450e32175c33f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/cook.jpg using Guid(69b327c3f53fc864c96450e32175c33f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.015124 seconds
+  ERROR: Build asset version error: assets/resources/cook.jpg in SourceAssetDB has modification time of '2021-08-04T06:27:44.9280125Z' while content on disk has modification time of '2021-08-04T06:48:16.7717072Z'
+  Import took 0.018046 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000267 seconds.
+  path: Assets/Resources/cooktest.jpg
+  artifactKey: Guid(6627021e375aadd44a9d3691a97f3b5d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/cooktest.jpg using Guid(6627021e375aadd44a9d3691a97f3b5d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.030041 seconds
+  ERROR: Build asset version error: assets/resources/cooktest.jpg in SourceAssetDB has modification time of '2021-08-04T06:27:37.6988235Z' while content on disk has modification time of '2021-08-04T06:48:10.7103906Z'
+  Import took 0.032808 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000284 seconds.
+  path: Assets/Resources/cook.jpg
+  artifactKey: Guid(69b327c3f53fc864c96450e32175c33f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/cook.jpg using Guid(69b327c3f53fc864c96450e32175c33f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.007560 seconds
+  ERROR: Build asset version error: assets/resources/cook.jpg in SourceAssetDB has modification time of '2021-08-04T06:27:44.9280125Z' while content on disk has modification time of '2021-08-04T06:48:16.7717072Z'
+  Import took 0.010303 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000333 seconds.
+  path: Assets/Resources/cooktest.jpg
+  artifactKey: Guid(6627021e375aadd44a9d3691a97f3b5d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/cooktest.jpg using Guid(6627021e375aadd44a9d3691a97f3b5d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.038697 seconds
+  ERROR: Build asset version error: assets/resources/cooktest.jpg in SourceAssetDB has modification time of '2021-08-04T06:27:37.6988235Z' while content on disk has modification time of '2021-08-04T06:48:10.7103906Z'
+  Import took 0.042474 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000505 seconds.
+  path: Assets/Resources/cook.jpg
+  artifactKey: Guid(69b327c3f53fc864c96450e32175c33f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/cook.jpg using Guid(69b327c3f53fc864c96450e32175c33f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.013906 seconds
+  ERROR: Build asset version error: assets/resources/cook.jpg in SourceAssetDB has modification time of '2021-08-04T06:27:44.9280125Z' while content on disk has modification time of '2021-08-04T06:48:16.7717072Z'
+  Import took 0.017804 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.003737 seconds.
+  path: Assets/Resources/cook.jpg
+  artifactKey: Guid(69b327c3f53fc864c96450e32175c33f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/cook.jpg using Guid(69b327c3f53fc864c96450e32175c33f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.016795 seconds
+  ERROR: Build asset version error: assets/resources/cook.jpg in SourceAssetDB has modification time of '2021-08-04T06:27:44.9280125Z' while content on disk has modification time of '2021-08-04T06:48:16.7717072Z'
+  Import took 0.020024 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000425 seconds.
+  path: Assets/Resources/cooktest.jpg
+  artifactKey: Guid(6627021e375aadd44a9d3691a97f3b5d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/cooktest.jpg using Guid(6627021e375aadd44a9d3691a97f3b5d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.032837 seconds
+  ERROR: Build asset version error: assets/resources/cooktest.jpg in SourceAssetDB has modification time of '2021-08-04T06:27:37.6988235Z' while content on disk has modification time of '2021-08-04T06:48:10.7103906Z'
+  Import took 0.036982 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000313 seconds.
+  path: Assets/Resources/cook.jpg
+  artifactKey: Guid(69b327c3f53fc864c96450e32175c33f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/cook.jpg using Guid(69b327c3f53fc864c96450e32175c33f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.008081 seconds
+  ERROR: Build asset version error: assets/resources/cook.jpg in SourceAssetDB has modification time of '2021-08-04T06:27:44.9280125Z' while content on disk has modification time of '2021-08-04T06:48:16.7717072Z'
+  Import took 0.011678 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.001978 seconds.
+  path: Assets/Resources/cook.jpg
+  artifactKey: Guid(69b327c3f53fc864c96450e32175c33f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/cook.jpg using Guid(69b327c3f53fc864c96450e32175c33f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.014120 seconds
+  ERROR: Build asset version error: assets/resources/cook.jpg in SourceAssetDB has modification time of '2021-08-04T06:27:44.9280125Z' while content on disk has modification time of '2021-08-04T06:48:16.7717072Z'
+  Import took 0.018303 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000278 seconds.
+  path: Assets/Resources/cooktest.jpg
+  artifactKey: Guid(6627021e375aadd44a9d3691a97f3b5d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/cooktest.jpg using Guid(6627021e375aadd44a9d3691a97f3b5d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.034683 seconds
+  ERROR: Build asset version error: assets/resources/cooktest.jpg in SourceAssetDB has modification time of '2021-08-04T06:27:37.6988235Z' while content on disk has modification time of '2021-08-04T06:48:10.7103906Z'
+  Import took 0.037308 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000293 seconds.
+  path: Assets/Resources/cook.jpg
+  artifactKey: Guid(69b327c3f53fc864c96450e32175c33f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/cook.jpg using Guid(69b327c3f53fc864c96450e32175c33f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.012716 seconds
+  ERROR: Build asset version error: assets/resources/cook.jpg in SourceAssetDB has modification time of '2021-08-04T06:27:44.9280125Z' while content on disk has modification time of '2021-08-04T06:48:16.7717072Z'
+  Import took 0.016400 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000227 seconds.
+  path: Assets/Resources/cooktest.jpg
+  artifactKey: Guid(6627021e375aadd44a9d3691a97f3b5d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/cooktest.jpg using Guid(6627021e375aadd44a9d3691a97f3b5d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.034398 seconds
+  ERROR: Build asset version error: assets/resources/cooktest.jpg in SourceAssetDB has modification time of '2021-08-04T06:27:37.6988235Z' while content on disk has modification time of '2021-08-04T06:48:10.7103906Z'
+  Import took 0.038773 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000287 seconds.
+  path: Assets/Resources/cook.jpg
+  artifactKey: Guid(69b327c3f53fc864c96450e32175c33f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/cook.jpg using Guid(69b327c3f53fc864c96450e32175c33f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.008736 seconds
+  ERROR: Build asset version error: assets/resources/cook.jpg in SourceAssetDB has modification time of '2021-08-04T06:27:44.9280125Z' while content on disk has modification time of '2021-08-04T06:48:16.7717072Z'
+  Import took 0.012515 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.008315 seconds.
+  path: Assets/Resources/cook.jpg
+  artifactKey: Guid(69b327c3f53fc864c96450e32175c33f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/cook.jpg using Guid(69b327c3f53fc864c96450e32175c33f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.015610 seconds
+  ERROR: Build asset version error: assets/resources/cook.jpg in SourceAssetDB has modification time of '2021-08-04T06:27:44.9280125Z' while content on disk has modification time of '2021-08-04T06:48:16.7717072Z'
+  Import took 0.018981 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000229 seconds.
+  path: Assets/Resources/cooktest.jpg
+  artifactKey: Guid(6627021e375aadd44a9d3691a97f3b5d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/cooktest.jpg using Guid(6627021e375aadd44a9d3691a97f3b5d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.033896 seconds
+  ERROR: Build asset version error: assets/resources/cooktest.jpg in SourceAssetDB has modification time of '2021-08-04T06:27:37.6988235Z' while content on disk has modification time of '2021-08-04T06:48:10.7103906Z'
+  Import took 0.037233 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000271 seconds.
+  path: Assets/Resources/cook.jpg
+  artifactKey: Guid(69b327c3f53fc864c96450e32175c33f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/cook.jpg using Guid(69b327c3f53fc864c96450e32175c33f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.011817 seconds
+  ERROR: Build asset version error: assets/resources/cook.jpg in SourceAssetDB has modification time of '2021-08-04T06:27:44.9280125Z' while content on disk has modification time of '2021-08-04T06:48:16.7717072Z'
+  Import took 0.015475 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000604 seconds.
+  path: Assets/Resources/cooktest.jpg
+  artifactKey: Guid(6627021e375aadd44a9d3691a97f3b5d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/cooktest.jpg using Guid(6627021e375aadd44a9d3691a97f3b5d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.030208 seconds
+  ERROR: Build asset version error: assets/resources/cooktest.jpg in SourceAssetDB has modification time of '2021-08-04T06:27:37.6988235Z' while content on disk has modification time of '2021-08-04T06:48:10.7103906Z'
+  Import took 0.035398 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000287 seconds.
+  path: Assets/Resources/cook.jpg
+  artifactKey: Guid(69b327c3f53fc864c96450e32175c33f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/cook.jpg using Guid(69b327c3f53fc864c96450e32175c33f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.009487 seconds
+  ERROR: Build asset version error: assets/resources/cook.jpg in SourceAssetDB has modification time of '2021-08-04T06:27:44.9280125Z' while content on disk has modification time of '2021-08-04T06:48:16.7717072Z'
+  Import took 0.013263 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.005294 seconds.
+  path: Assets/Resources/cook.jpg
+  artifactKey: Guid(69b327c3f53fc864c96450e32175c33f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/cook.jpg using Guid(69b327c3f53fc864c96450e32175c33f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.014725 seconds
+  ERROR: Build asset version error: assets/resources/cook.jpg in SourceAssetDB has modification time of '2021-08-04T06:27:44.9280125Z' while content on disk has modification time of '2021-08-04T06:48:16.7717072Z'
+  Import took 0.017972 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000318 seconds.
+  path: Assets/Resources/cooktest.jpg
+  artifactKey: Guid(6627021e375aadd44a9d3691a97f3b5d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/cooktest.jpg using Guid(6627021e375aadd44a9d3691a97f3b5d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.033101 seconds
+  ERROR: Build asset version error: assets/resources/cooktest.jpg in SourceAssetDB has modification time of '2021-08-04T06:27:37.6988235Z' while content on disk has modification time of '2021-08-04T06:48:10.7103906Z'
+  Import took 0.036778 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000209 seconds.
+  path: Assets/Resources/cook.jpg
+  artifactKey: Guid(69b327c3f53fc864c96450e32175c33f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/cook.jpg using Guid(69b327c3f53fc864c96450e32175c33f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.014961 seconds
+  ERROR: Build asset version error: assets/resources/cook.jpg in SourceAssetDB has modification time of '2021-08-04T06:27:44.9280125Z' while content on disk has modification time of '2021-08-04T06:48:16.7717072Z'
+  Import took 0.017791 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000300 seconds.
+  path: Assets/Resources/cooktest.jpg
+  artifactKey: Guid(6627021e375aadd44a9d3691a97f3b5d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/cooktest.jpg using Guid(6627021e375aadd44a9d3691a97f3b5d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.031566 seconds
+  ERROR: Build asset version error: assets/resources/cooktest.jpg in SourceAssetDB has modification time of '2021-08-04T06:27:37.6988235Z' while content on disk has modification time of '2021-08-04T06:48:10.7103906Z'
+  Import took 0.034934 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000245 seconds.
+  path: Assets/Resources/cook.jpg
+  artifactKey: Guid(69b327c3f53fc864c96450e32175c33f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/cook.jpg using Guid(69b327c3f53fc864c96450e32175c33f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.008243 seconds
+  ERROR: Build asset version error: assets/resources/cook.jpg in SourceAssetDB has modification time of '2021-08-04T06:27:44.9280125Z' while content on disk has modification time of '2021-08-04T06:48:16.7717072Z'
+  Import took 0.011337 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000381 seconds.
+  path: Assets/Resources/cooktest.jpg
+  artifactKey: Guid(6627021e375aadd44a9d3691a97f3b5d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/cooktest.jpg using Guid(6627021e375aadd44a9d3691a97f3b5d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.031828 seconds
+  ERROR: Build asset version error: assets/resources/cooktest.jpg in SourceAssetDB has modification time of '2021-08-04T06:27:37.6988235Z' while content on disk has modification time of '2021-08-04T06:48:10.7103906Z'
+  Import took 0.034701 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000317 seconds.
+  path: Assets/Resources/cook.jpg
+  artifactKey: Guid(69b327c3f53fc864c96450e32175c33f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/cook.jpg using Guid(69b327c3f53fc864c96450e32175c33f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.014040 seconds
+  ERROR: Build asset version error: assets/resources/cook.jpg in SourceAssetDB has modification time of '2021-08-04T06:27:44.9280125Z' while content on disk has modification time of '2021-08-04T06:48:16.7717072Z'
+  Import took 0.018017 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.002331 seconds.
+  path: Assets/Resources/cook.jpg
+  artifactKey: Guid(69b327c3f53fc864c96450e32175c33f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/cook.jpg using Guid(69b327c3f53fc864c96450e32175c33f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.017684 seconds
+  ERROR: Build asset version error: assets/resources/cook.jpg in SourceAssetDB has modification time of '2021-08-04T06:27:44.9280125Z' while content on disk has modification time of '2021-08-04T06:48:16.7717072Z'
+  Import took 0.020780 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000307 seconds.
+  path: Assets/Resources/cooktest.jpg
+  artifactKey: Guid(6627021e375aadd44a9d3691a97f3b5d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/cooktest.jpg using Guid(6627021e375aadd44a9d3691a97f3b5d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.033089 seconds
+  ERROR: Build asset version error: assets/resources/cooktest.jpg in SourceAssetDB has modification time of '2021-08-04T06:27:37.6988235Z' while content on disk has modification time of '2021-08-04T06:48:10.7103906Z'
+  Import took 0.035604 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000281 seconds.
+  path: Assets/Resources/cook.jpg
+  artifactKey: Guid(69b327c3f53fc864c96450e32175c33f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/cook.jpg using Guid(69b327c3f53fc864c96450e32175c33f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.014783 seconds
+  ERROR: Build asset version error: assets/resources/cook.jpg in SourceAssetDB has modification time of '2021-08-04T06:27:44.9280125Z' while content on disk has modification time of '2021-08-04T06:48:16.7717072Z'
+  Import took 0.018161 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000376 seconds.
+  path: Assets/Resources/cooktest.jpg
+  artifactKey: Guid(6627021e375aadd44a9d3691a97f3b5d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/cooktest.jpg using Guid(6627021e375aadd44a9d3691a97f3b5d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.033432 seconds
+  ERROR: Build asset version error: assets/resources/cooktest.jpg in SourceAssetDB has modification time of '2021-08-04T06:27:37.6988235Z' while content on disk has modification time of '2021-08-04T06:48:10.7103906Z'
+  Import took 0.036670 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000241 seconds.
+  path: Assets/Resources/cook.jpg
+  artifactKey: Guid(69b327c3f53fc864c96450e32175c33f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/cook.jpg using Guid(69b327c3f53fc864c96450e32175c33f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.023642 seconds
+  ERROR: Build asset version error: assets/resources/cook.jpg in SourceAssetDB has modification time of '2021-08-04T06:27:44.9280125Z' while content on disk has modification time of '2021-08-04T06:48:16.7717072Z'
+  Import took 0.027564 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000302 seconds.
+  path: Assets/Resources/cooktest.jpg
+  artifactKey: Guid(6627021e375aadd44a9d3691a97f3b5d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/cooktest.jpg using Guid(6627021e375aadd44a9d3691a97f3b5d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.034898 seconds
+  ERROR: Build asset version error: assets/resources/cooktest.jpg in SourceAssetDB has modification time of '2021-08-04T06:27:37.6988235Z' while content on disk has modification time of '2021-08-04T06:48:10.7103906Z'
+  Import took 0.039667 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000237 seconds.
+  path: Assets/Resources/cook.jpg
+  artifactKey: Guid(69b327c3f53fc864c96450e32175c33f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/cook.jpg using Guid(69b327c3f53fc864c96450e32175c33f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.008434 seconds
+  ERROR: Build asset version error: assets/resources/cook.jpg in SourceAssetDB has modification time of '2021-08-04T06:27:44.9280125Z' while content on disk has modification time of '2021-08-04T06:48:16.7717072Z'
+  Import took 0.012137 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.004503 seconds.
+  path: Assets/Resources/cook.jpg
+  artifactKey: Guid(69b327c3f53fc864c96450e32175c33f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/cook.jpg using Guid(69b327c3f53fc864c96450e32175c33f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.018009 seconds
+  ERROR: Build asset version error: assets/resources/cook.jpg in SourceAssetDB has modification time of '2021-08-04T06:27:44.9280125Z' while content on disk has modification time of '2021-08-04T06:48:16.7717072Z'
+  Import took 0.021868 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000326 seconds.
+  path: Assets/Resources/cooktest.jpg
+  artifactKey: Guid(6627021e375aadd44a9d3691a97f3b5d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/cooktest.jpg using Guid(6627021e375aadd44a9d3691a97f3b5d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.048473 seconds
+  ERROR: Build asset version error: assets/resources/cooktest.jpg in SourceAssetDB has modification time of '2021-08-04T06:27:37.6988235Z' while content on disk has modification time of '2021-08-04T06:48:10.7103906Z'
+  Import took 0.053234 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000429 seconds.
+  path: Assets/Resources/cook.jpg
+  artifactKey: Guid(69b327c3f53fc864c96450e32175c33f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/cook.jpg using Guid(69b327c3f53fc864c96450e32175c33f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.014837 seconds
+  ERROR: Build asset version error: assets/resources/cook.jpg in SourceAssetDB has modification time of '2021-08-04T06:27:44.9280125Z' while content on disk has modification time of '2021-08-04T06:48:16.7717072Z'
+  Import took 0.020817 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000428 seconds.
+  path: Assets/Resources/cooktest.jpg
+  artifactKey: Guid(6627021e375aadd44a9d3691a97f3b5d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/cooktest.jpg using Guid(6627021e375aadd44a9d3691a97f3b5d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.050536 seconds
+  ERROR: Build asset version error: assets/resources/cooktest.jpg in SourceAssetDB has modification time of '2021-08-04T06:27:37.6988235Z' while content on disk has modification time of '2021-08-04T06:48:10.7103906Z'
+  Import took 0.056192 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000469 seconds.
+  path: Assets/Resources/cook.jpg
+  artifactKey: Guid(69b327c3f53fc864c96450e32175c33f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/cook.jpg using Guid(69b327c3f53fc864c96450e32175c33f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.012329 seconds
+  ERROR: Build asset version error: assets/resources/cook.jpg in SourceAssetDB has modification time of '2021-08-04T06:27:44.9280125Z' while content on disk has modification time of '2021-08-04T06:48:16.7717072Z'
+  Import took 0.017187 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.009165 seconds.
+  path: Assets/Resources/cook.jpg
+  artifactKey: Guid(69b327c3f53fc864c96450e32175c33f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/cook.jpg using Guid(69b327c3f53fc864c96450e32175c33f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.018578 seconds
+  ERROR: Build asset version error: assets/resources/cook.jpg in SourceAssetDB has modification time of '2021-08-04T06:27:44.9280125Z' while content on disk has modification time of '2021-08-04T06:48:16.7717072Z'
+  Import took 0.022120 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000288 seconds.
+  path: Assets/Resources/cooktest.jpg
+  artifactKey: Guid(6627021e375aadd44a9d3691a97f3b5d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/cooktest.jpg using Guid(6627021e375aadd44a9d3691a97f3b5d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.045615 seconds
+  ERROR: Build asset version error: assets/resources/cooktest.jpg in SourceAssetDB has modification time of '2021-08-04T06:27:37.6988235Z' while content on disk has modification time of '2021-08-04T06:48:10.7103906Z'
+  Import took 0.049797 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000256 seconds.
+  path: Assets/Resources/cook.jpg
+  artifactKey: Guid(69b327c3f53fc864c96450e32175c33f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/cook.jpg using Guid(69b327c3f53fc864c96450e32175c33f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.015821 seconds
+  ERROR: Build asset version error: assets/resources/cook.jpg in SourceAssetDB has modification time of '2021-08-04T06:27:44.9280125Z' while content on disk has modification time of '2021-08-04T06:48:16.7717072Z'
+  Import took 0.019975 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000266 seconds.
+  path: Assets/Resources/cooktest.jpg
+  artifactKey: Guid(6627021e375aadd44a9d3691a97f3b5d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/cooktest.jpg using Guid(6627021e375aadd44a9d3691a97f3b5d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.037654 seconds
+  ERROR: Build asset version error: assets/resources/cooktest.jpg in SourceAssetDB has modification time of '2021-08-04T06:27:37.6988235Z' while content on disk has modification time of '2021-08-04T06:48:10.7103906Z'
+  Import took 0.041279 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000279 seconds.
+  path: Assets/Resources/cook.jpg
+  artifactKey: Guid(69b327c3f53fc864c96450e32175c33f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/cook.jpg using Guid(69b327c3f53fc864c96450e32175c33f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.011396 seconds
+  ERROR: Build asset version error: assets/resources/cook.jpg in SourceAssetDB has modification time of '2021-08-04T06:27:44.9280125Z' while content on disk has modification time of '2021-08-04T06:48:16.7717072Z'
+  Import took 0.015724 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000328 seconds.
+  path: Assets/Resources/cooktest.jpg
+  artifactKey: Guid(6627021e375aadd44a9d3691a97f3b5d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/cooktest.jpg using Guid(6627021e375aadd44a9d3691a97f3b5d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.041449 seconds
+  ERROR: Build asset version error: assets/resources/cooktest.jpg in SourceAssetDB has modification time of '2021-08-04T06:27:37.6988235Z' while content on disk has modification time of '2021-08-04T06:48:10.7103906Z'
+  Import took 0.045709 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000319 seconds.
+  path: Assets/Resources/cook.jpg
+  artifactKey: Guid(69b327c3f53fc864c96450e32175c33f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/cook.jpg using Guid(69b327c3f53fc864c96450e32175c33f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.013559 seconds
+  ERROR: Build asset version error: assets/resources/cook.jpg in SourceAssetDB has modification time of '2021-08-04T06:27:44.9280125Z' while content on disk has modification time of '2021-08-04T06:48:16.7717072Z'
+  Import took 0.019227 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.006058 seconds.
+  path: Assets/Resources/cook.jpg
+  artifactKey: Guid(69b327c3f53fc864c96450e32175c33f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/cook.jpg using Guid(69b327c3f53fc864c96450e32175c33f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.020210 seconds
+  ERROR: Build asset version error: assets/resources/cook.jpg in SourceAssetDB has modification time of '2021-08-04T06:27:44.9280125Z' while content on disk has modification time of '2021-08-04T06:48:16.7717072Z'
+  Import took 0.024747 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000282 seconds.
+  path: Assets/Resources/cooktest.jpg
+  artifactKey: Guid(6627021e375aadd44a9d3691a97f3b5d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/cooktest.jpg using Guid(6627021e375aadd44a9d3691a97f3b5d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.043362 seconds
+  ERROR: Build asset version error: assets/resources/cooktest.jpg in SourceAssetDB has modification time of '2021-08-04T06:27:37.6988235Z' while content on disk has modification time of '2021-08-04T06:48:10.7103906Z'
+  Import took 0.047863 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000295 seconds.
+  path: Assets/Resources/cook.jpg
+  artifactKey: Guid(69b327c3f53fc864c96450e32175c33f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/cook.jpg using Guid(69b327c3f53fc864c96450e32175c33f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.010041 seconds
+  ERROR: Build asset version error: assets/resources/cook.jpg in SourceAssetDB has modification time of '2021-08-04T06:27:44.9280125Z' while content on disk has modification time of '2021-08-04T06:48:16.7717072Z'
+  Import took 0.015743 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000420 seconds.
+  path: Assets/Resources/cooktest.jpg
+  artifactKey: Guid(6627021e375aadd44a9d3691a97f3b5d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/cooktest.jpg using Guid(6627021e375aadd44a9d3691a97f3b5d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.037633 seconds
+  ERROR: Build asset version error: assets/resources/cooktest.jpg in SourceAssetDB has modification time of '2021-08-04T06:27:37.6988235Z' while content on disk has modification time of '2021-08-04T06:48:10.7103906Z'
+  Import took 0.043935 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000333 seconds.
+  path: Assets/Resources/cook.jpg
+  artifactKey: Guid(69b327c3f53fc864c96450e32175c33f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/cook.jpg using Guid(69b327c3f53fc864c96450e32175c33f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.015912 seconds
+  ERROR: Build asset version error: assets/resources/cook.jpg in SourceAssetDB has modification time of '2021-08-04T06:27:44.9280125Z' while content on disk has modification time of '2021-08-04T06:48:16.7717072Z'
+  Import took 0.024410 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.005486 seconds.
+  path: Assets/Resources/cook.jpg
+  artifactKey: Guid(69b327c3f53fc864c96450e32175c33f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/cook.jpg using Guid(69b327c3f53fc864c96450e32175c33f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.016812 seconds
+  ERROR: Build asset version error: assets/resources/cook.jpg in SourceAssetDB has modification time of '2021-08-04T06:27:44.9280125Z' while content on disk has modification time of '2021-08-04T06:48:16.7717072Z'
+  Import took 0.021949 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000387 seconds.
+  path: Assets/Resources/cooktest.jpg
+  artifactKey: Guid(6627021e375aadd44a9d3691a97f3b5d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/cooktest.jpg using Guid(6627021e375aadd44a9d3691a97f3b5d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.044637 seconds
+  ERROR: Build asset version error: assets/resources/cooktest.jpg in SourceAssetDB has modification time of '2021-08-04T06:27:37.6988235Z' while content on disk has modification time of '2021-08-04T06:48:10.7103906Z'
+  Import took 0.048323 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000325 seconds.
+  path: Assets/Resources/cook.jpg
+  artifactKey: Guid(69b327c3f53fc864c96450e32175c33f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/cook.jpg using Guid(69b327c3f53fc864c96450e32175c33f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.014568 seconds
+  ERROR: Build asset version error: assets/resources/cook.jpg in SourceAssetDB has modification time of '2021-08-04T06:27:44.9280125Z' while content on disk has modification time of '2021-08-04T06:48:16.7717072Z'
+  Import took 0.019435 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000576 seconds.
+  path: Assets/Resources/cooktest.jpg
+  artifactKey: Guid(6627021e375aadd44a9d3691a97f3b5d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/cooktest.jpg using Guid(6627021e375aadd44a9d3691a97f3b5d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.040931 seconds
+  ERROR: Build asset version error: assets/resources/cooktest.jpg in SourceAssetDB has modification time of '2021-08-04T06:27:37.6988235Z' while content on disk has modification time of '2021-08-04T06:48:10.7103906Z'
+  Import took 0.045036 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000293 seconds.
+  path: Assets/Resources/cook.jpg
+  artifactKey: Guid(69b327c3f53fc864c96450e32175c33f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/cook.jpg using Guid(69b327c3f53fc864c96450e32175c33f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.018754 seconds
+  ERROR: Build asset version error: assets/resources/cook.jpg in SourceAssetDB has modification time of '2021-08-04T06:27:44.9280125Z' while content on disk has modification time of '2021-08-04T06:48:16.7717072Z'
+  Import took 0.022154 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.019932 seconds.
+  path: Assets/Resources/cook.jpg
+  artifactKey: Guid(69b327c3f53fc864c96450e32175c33f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/cook.jpg using Guid(69b327c3f53fc864c96450e32175c33f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.036692 seconds
+  ERROR: Build asset version error: assets/resources/cook.jpg in SourceAssetDB has modification time of '2021-08-04T06:27:44.9280125Z' while content on disk has modification time of '2021-08-04T06:48:16.7717072Z'
+  Import took 0.041817 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000268 seconds.
+  path: Assets/Resources/cooktest.jpg
+  artifactKey: Guid(6627021e375aadd44a9d3691a97f3b5d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/cooktest.jpg using Guid(6627021e375aadd44a9d3691a97f3b5d) Importer(815301076,1909f56bfc062723c751e8b465ee728b) Diagnostics callstack to track who triggered the sub-import:
+0x00007ff60a8ce612 (Unity) ImporterAssetResolver::ResolveAsset
+0x00007ff60a899ed2 (Unity) ResolveArtifactV2
+0x00007ff60a8b9640 (Unity) ImportToObjects
+0x00007ff60a8b8b19 (Unity) ImportAsset
+0x00007ff60a81ab78 (Unity) AssetImportWorker::Import
+0x00007ff60a86eb6f (Unity) <lambda_e7e5f5e49556456463706cfa5dd72d0a>::operator()
+0x00007ff60a911ad2 (Unity) asio::detail::completion_handler<core::mutable_function<void __cdecl(void)> >::do_complete
+0x00007ff60a913c30 (Unity) asio::detail::win_iocp_io_service::do_one
+0x00007ff60a9173be (Unity) asio::io_service::run
+0x00007ff60a89aa6b (Unity) RunAssetImportWorkerClientV2
+0x00007ff60a89aac0 (Unity) RunAssetImporterV2
+0x00007ff609d8c396 (Unity) Application::InitializeProject
+0x00007ff60a70f492 (Unity) WinMain
+0x00007ff60c5546e6 (Unity) __scrt_common_main_seh
+0x00007ff9a70a7034 (KERNEL32) BaseThreadInitThunk
+0x00007ff9a8e02651 (ntdll) RtlUserThreadStart
+
+Requesting import of Guid(6627021e375aadd44a9d3691a97f3b5d) Importer(-1,00000000000000000000000000000000), Assets/Resources/cooktest.jpg from editor
+Resuming Guid(6627021e375aadd44a9d3691a97f3b5d) Importer(-1,00000000000000000000000000000000) -> 00000000000000000000000000000000 (aborted)
+Diagnostics callstack to track who triggered the sub-import:
+0x00007ff60a8ce612 (Unity) ImporterAssetResolver::ResolveAsset
+0x00007ff60a899ed2 (Unity) ResolveArtifactV2
+0x00007ff60a890c71 (Unity) ProduceArtifactV2
+0x00007ff60a7e481e (Unity) AssetDatabase::ProduceArtifact
+0x00007ff60a7c9dd8 (Unity) PreviewImporter::GenerateAssetData
+0x00007ff60a8b9a09 (Unity) ImportToObjects
+0x00007ff60a8b8b19 (Unity) ImportAsset
+0x00007ff60a81ab78 (Unity) AssetImportWorker::Import
+0x00007ff60a86eb6f (Unity) <lambda_e7e5f5e49556456463706cfa5dd72d0a>::operator()
+0x00007ff60a911ad2 (Unity) asio::detail::completion_handler<core::mutable_function<void __cdecl(void)> >::do_complete
+0x00007ff60a913c30 (Unity) asio::detail::win_iocp_io_service::do_one
+0x00007ff60a9173be (Unity) asio::io_service::run
+0x00007ff60a89aa6b (Unity) RunAssetImportWorkerClientV2
+0x00007ff60a89aac0 (Unity) RunAssetImporterV2
+0x00007ff609d8c396 (Unity) Application::InitializeProject
+0x00007ff60a70f492 (Unity) WinMain
+0x00007ff60c5546e6 (Unity) __scrt_common_main_seh
+0x00007ff9a70a7034 (KERNEL32) BaseThreadInitThunk
+0x00007ff9a8e02651 (ntdll) RtlUserThreadStart
+
+Sub-import of Guid(6627021e375aadd44a9d3691a97f3b5d) Importer(-1,00000000000000000000000000000000), Assets/Resources/cooktest.jpg skipped because a previous one failed already
+ -> (artifact id: 'f4cae3b6cb24b85e146f2015cb06413c') in 2.602273 seconds
+  Import took 2.605778 seconds (was aborted).
+
+========================================================================
+Received Prepare
+Refreshing native plugins compatible for Editor in 0.82 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 41.6 MB.
+System memory in use after: 41.7 MB.
+
+Unloading 3 unused Assets to reduce memory usage. Loaded Objects now: 1585.
+Total: 3.497700 ms (FindLiveObjects: 0.146600 ms CreateObjectMapping: 0.039200 ms MarkObjects: 3.240700 ms  DeleteObjects: 0.070000 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.113343 seconds.
+  path: Assets/Resources/cooktest.jpg
+  artifactKey: Guid(6627021e375aadd44a9d3691a97f3b5d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/cooktest.jpg using Guid(6627021e375aadd44a9d3691a97f3b5d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd3718bf0b6e2fa3cd94c7abaa0634753') in 0.026601 seconds
+  Import took 0.029887 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000350 seconds.
+  path: Assets/Resources/cook.jpg
+  artifactKey: Guid(69b327c3f53fc864c96450e32175c33f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/cook.jpg using Guid(69b327c3f53fc864c96450e32175c33f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b5fc19e4cf356b66ff6c74bd39119559') in 0.039187 seconds
+  Import took 0.043376 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.007066 seconds.
+  path: Assets/Resources/cook.jpg
+  artifactKey: Guid(69b327c3f53fc864c96450e32175c33f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/cook.jpg using Guid(69b327c3f53fc864c96450e32175c33f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b5fc19e4cf356b66ff6c74bd39119559') in 0.045685 seconds
+  Import took 0.048924 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.001114 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.30 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.051 seconds
+Platform modules already initialized, skipping
+Switching build target platform(5) subTarget(0) extendedPlatform(0) -> platform(13) subTarget(537395200) extendedPlatform(0)
+Refreshing native plugins compatible for Editor in 0.45 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1135 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 63.7 MB.
+System memory in use after: 63.8 MB.
+
+Unloading 5 unused Assets to reduce memory usage. Loaded Objects now: 1588.
+Total: 1.990400 ms (FindLiveObjects: 0.275500 ms CreateObjectMapping: 0.045300 ms MarkObjects: 1.573200 ms  DeleteObjects: 0.095500 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:graphics/normal-map-encoding: 01000000000000000000000000000000 -> 02000000000000000000000000000000
+========================================================================
+Received Import Request.
+  Time since last request: 49.133335 seconds.
+  path: Assets/Resources/cooktest.jpg
+  artifactKey: Guid(6627021e375aadd44a9d3691a97f3b5d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/cooktest.jpg using Guid(6627021e375aadd44a9d3691a97f3b5d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2bdd3a7fdcca9157241bab4f10287814') in 0.076225 seconds
+  Import took 0.079689 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.001114 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.52 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.110 seconds
+Platform modules already initialized, skipping
+Switching build target platform(5) subTarget(0) extendedPlatform(0) -> platform(13) subTarget(537395200) extendedPlatform(0)
+Refreshing native plugins compatible for Editor in 0.29 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1135 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 63.7 MB.
+System memory in use after: 63.8 MB.
+
+Unloading 5 unused Assets to reduce memory usage. Loaded Objects now: 1592.
+Total: 2.215800 ms (FindLiveObjects: 0.158200 ms CreateObjectMapping: 0.037200 ms MarkObjects: 1.908900 ms  DeleteObjects: 0.110300 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:graphics/normal-map-encoding: 01000000000000000000000000000000 -> 02000000000000000000000000000000
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.001168 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.26 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.009 seconds
+Platform modules already initialized, skipping
+Switching build target platform(5) subTarget(0) extendedPlatform(0) -> platform(13) subTarget(537395200) extendedPlatform(0)
+Refreshing native plugins compatible for Editor in 0.27 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1135 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 63.7 MB.
+System memory in use after: 63.8 MB.
+
+Unloading 5 unused Assets to reduce memory usage. Loaded Objects now: 1595.
+Total: 2.256900 ms (FindLiveObjects: 0.194000 ms CreateObjectMapping: 0.036700 ms MarkObjects: 1.939800 ms  DeleteObjects: 0.085200 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:graphics/normal-map-encoding: 01000000000000000000000000000000 -> 02000000000000000000000000000000
+========================================================================
+Received Import Request.
+  Time since last request: 792.637084 seconds.
+  path: Assets/Prefabs/Bard.prefab
+  artifactKey: Guid(ad3381079e9d23945a031ab089633290) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Bard.prefab using Guid(ad3381079e9d23945a031ab089633290) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fba286125d1178d2302cfebae6b8d3bc') in 0.123009 seconds
+  Import took 0.126935 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000331 seconds.
+  path: Assets/Prefabs/Rabbit.prefab
+  artifactKey: Guid(1befac519672bb741b84d6532b41a25c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Rabbit.prefab using Guid(1befac519672bb741b84d6532b41a25c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '87c7ae3b0db50bdd12a8e66425f545f4') in 0.041348 seconds
+  Import took 0.046133 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000717 seconds.
+  path: Assets/Prefabs/Cat.prefab
+  artifactKey: Guid(f34360f415170c1418d1c8e2ac6f76a3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Cat.prefab using Guid(f34360f415170c1418d1c8e2ac6f76a3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a7db219dad5b6e6536307daccd719eab') in 0.044301 seconds
+  Import took 0.050142 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000353 seconds.
+  path: Assets/Prefabs/Dog.prefab
+  artifactKey: Guid(3a6a220a9ed6c354d8a0d64aa8b09883) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Dog.prefab using Guid(3a6a220a9ed6c354d8a0d64aa8b09883) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fc34385c881e6f97529eda24bef6962b') in 0.042734 seconds
+  Import took 0.046560 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.302629 seconds.
+  path: Assets/Prefabs/CookImage.prefab
+  artifactKey: Guid(3d4c9fa037dc400479abd1ec6559d199) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/CookImage.prefab using Guid(3d4c9fa037dc400479abd1ec6559d199) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a5a99d99ab9b294e58e56188dabd1c3a') in 0.018489 seconds
+  Import took 0.022117 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.036881 seconds.
+  path: Assets/Prefabs/CookImage.prefab
+  artifactKey: Guid(3d4c9fa037dc400479abd1ec6559d199) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/CookImage.prefab using Guid(3d4c9fa037dc400479abd1ec6559d199) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a5a99d99ab9b294e58e56188dabd1c3a') in 0.005911 seconds
+  Import took 0.009036 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.001153 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.32 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.095 seconds
+Platform modules already initialized, skipping
+Switching build target platform(5) subTarget(0) extendedPlatform(0) -> platform(13) subTarget(537395200) extendedPlatform(0)
+Refreshing native plugins compatible for Editor in 0.67 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1135 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 63.8 MB.
+System memory in use after: 63.9 MB.
+
+Unloading 5 unused Assets to reduce memory usage. Loaded Objects now: 1603.
+Total: 1.815000 ms (FindLiveObjects: 0.159300 ms CreateObjectMapping: 0.033900 ms MarkObjects: 1.506600 ms  DeleteObjects: 0.114300 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:graphics/normal-map-encoding: 01000000000000000000000000000000 -> 02000000000000000000000000000000
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.000990 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.26 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.172 seconds
+Platform modules already initialized, skipping
+Switching build target platform(5) subTarget(0) extendedPlatform(0) -> platform(13) subTarget(537395200) extendedPlatform(0)
+Refreshing native plugins compatible for Editor in 0.31 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1135 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 63.8 MB.
+System memory in use after: 63.9 MB.
+
+Unloading 5 unused Assets to reduce memory usage. Loaded Objects now: 1606.
+Total: 2.451700 ms (FindLiveObjects: 0.283400 ms CreateObjectMapping: 0.091000 ms MarkObjects: 1.968400 ms  DeleteObjects: 0.107600 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:graphics/normal-map-encoding: 01000000000000000000000000000000 -> 02000000000000000000000000000000
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.000980 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.28 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.049 seconds
+Platform modules already initialized, skipping
+Switching build target platform(5) subTarget(0) extendedPlatform(0) -> platform(13) subTarget(537395200) extendedPlatform(0)
+Refreshing native plugins compatible for Editor in 0.25 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1135 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 63.9 MB.
+System memory in use after: 63.9 MB.
+
+Unloading 5 unused Assets to reduce memory usage. Loaded Objects now: 1609.
+Total: 1.958100 ms (FindLiveObjects: 0.151600 ms CreateObjectMapping: 0.040800 ms MarkObjects: 1.702600 ms  DeleteObjects: 0.061900 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:graphics/normal-map-encoding: 01000000000000000000000000000000 -> 02000000000000000000000000000000
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.001536 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.26 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.091 seconds
+Platform modules already initialized, skipping
+Switching build target platform(5) subTarget(0) extendedPlatform(0) -> platform(13) subTarget(537395200) extendedPlatform(0)
+Refreshing native plugins compatible for Editor in 0.30 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1135 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 63.9 MB.
+System memory in use after: 63.9 MB.
+
+Unloading 5 unused Assets to reduce memory usage. Loaded Objects now: 1612.
+Total: 2.692000 ms (FindLiveObjects: 0.181600 ms CreateObjectMapping: 0.038500 ms MarkObjects: 2.394900 ms  DeleteObjects: 0.075800 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:graphics/normal-map-encoding: 01000000000000000000000000000000 -> 02000000000000000000000000000000
