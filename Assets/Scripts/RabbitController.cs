@@ -47,6 +47,8 @@ public class RabbitController : MonoBehaviour
 
         int petPoint = PlayerPrefs.GetInt("WHAT_PET");
 
+        int Point = PlayerPrefs.GetInt("POINT");
+
         if (petPoint == 18 || petPoint == 19 || petPoint == 20 || petPoint == 21 || petPoint == 22 || petPoint == 23)
         {
             //現在の日付取得
@@ -74,25 +76,25 @@ public class RabbitController : MonoBehaviour
             }
 
             //肉中心の時
-            if ((score >= 5) && (meatRabbit > 20.0f))
+            if ((Point >= 5) && (meatRabbit > 20.0f))
             {
                 petPoint = 20;
                 PlayerPrefs.SetInt("WHAT_PET", petPoint);
                 PlayerPrefs.Save();
             }
-            else if ((score >= 5) && (vegetableRabbit > 20.0f))
+            else if ((Point >= 5) && (vegetableRabbit > 20.0f))
             { //野菜中心の時
                 petPoint = 21;
                 PlayerPrefs.SetInt("WHAT_PET", petPoint);
                 PlayerPrefs.Save();
             }
-            else if ((score >= 5) && (carboRabbit > 20.0f))
+            else if ((Point >= 5) && (carboRabbit > 20.0f))
             { //炭水化物中心の時
                 petPoint = 22;
                 PlayerPrefs.SetInt("WHAT_PET", petPoint);
                 PlayerPrefs.Save();
             }
-            else if (score >= 5)
+            else if (Point >= 5)
             { //バランスが良い時
                 petPoint = 23;
                 PlayerPrefs.SetInt("WHAT_PET", petPoint);

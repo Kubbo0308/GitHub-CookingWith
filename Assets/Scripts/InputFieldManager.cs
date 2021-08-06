@@ -67,6 +67,11 @@ public class InputFieldManager : MonoBehaviour
         PlayerPrefs.SetInt("SCORE", ItemPoint);
         PlayerPrefs.Save();
 
+        int PointPet = PlayerPrefs.GetInt("POINT");
+        PointPet++;
+        PlayerPrefs.SetInt("POINT", PointPet);
+        PlayerPrefs.Save();
+
     }
 
     // CSVå`éÆÇ≈ï€ë∂Ç∑ÇÈÇΩÇﬂÇÃä÷êî

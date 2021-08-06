@@ -44,6 +44,8 @@ public class BardController : MonoBehaviour
 
         int petPoint = PlayerPrefs.GetInt("WHAT_PET");
 
+        int Point = PlayerPrefs.GetInt("POINT");
+
         if (petPoint == 12 || petPoint == 13 || petPoint == 14 || petPoint == 15 || petPoint == 16 || petPoint == 17)
         {
             //現在の日付取得
@@ -72,25 +74,25 @@ public class BardController : MonoBehaviour
             }
 
             //肉中心の時
-            if ((score >= 5) && (meatBard > 20.0f))
+            if ((Point >= 5) && (meatBard > 20.0f))
             {
                 petPoint = 14;
                 PlayerPrefs.SetInt("WHAT_PET", petPoint);
                 PlayerPrefs.Save();
             }
-            else if ((score >= 5) && (vegetableBard > 20.0f))
+            else if ((Point >= 5) && (vegetableBard > 20.0f))
             { //野菜中心の時
                 petPoint = 15;
                 PlayerPrefs.SetInt("WHAT_PET", petPoint);
                 PlayerPrefs.Save();
             }
-            else if ((score >= 5) && (carboBard > 20.0f))
+            else if ((Point >= 5) && (carboBard > 20.0f))
             { //炭水化物中心の時
                 petPoint = 16;
                 PlayerPrefs.SetInt("WHAT_PET", petPoint);
                 PlayerPrefs.Save();
             }
-            else if (score >= 5)
+            else if (Point >= 5)
             { //バランスが良い時
                 petPoint = 17;
                 PlayerPrefs.SetInt("WHAT_PET", petPoint);

@@ -87,128 +87,200 @@ public class PetIconManager : MonoBehaviour
         //「WHAT_PET」というキーで保存されているInt値を読み込み
         int PetPoint = PlayerPrefs.GetInt("WHAT_PET");
 
+        int POINT0 = PlayerPrefs.GetInt("POINT0");
+        int POINT1 = PlayerPrefs.GetInt("POINT1");
+        int POINT2 = PlayerPrefs.GetInt("POINT2");
+        int POINT3 = PlayerPrefs.GetInt("POINT3");
+        int POINT4 = PlayerPrefs.GetInt("POINT4");
+        int POINT5 = PlayerPrefs.GetInt("POINT5");
+        int POINT6 = PlayerPrefs.GetInt("POINT6");
+        int POINT7 = PlayerPrefs.GetInt("POINT7");
+        int POINT8 = PlayerPrefs.GetInt("POINT8");
+        int POINT9 = PlayerPrefs.GetInt("POINT9");
+        int POINT10 = PlayerPrefs.GetInt("POINT10");
+        int POINT11 = PlayerPrefs.GetInt("POINT11");
+        int POINT12 = PlayerPrefs.GetInt("POINT12");
+        int POINT13 = PlayerPrefs.GetInt("POINT13");
+        int POINT14 = PlayerPrefs.GetInt("POINT14");
+        int POINT15 = PlayerPrefs.GetInt("POINT15");
+        int POINT16 = PlayerPrefs.GetInt("POINT16");
+        int POINT17 = PlayerPrefs.GetInt("POINT17");
+        int POINT18 = PlayerPrefs.GetInt("POINT18");
+        int POINT19 = PlayerPrefs.GetInt("POINT19");
+        int POINT20 = PlayerPrefs.GetInt("POINT20");
+        int POINT21 = PlayerPrefs.GetInt("POINT21");
+        int POINT22 = PlayerPrefs.GetInt("POINT22");
+        int POINT23 = PlayerPrefs.GetInt("POINT23");
 
         //どの種類のペットを育成したかで画像を表示する
-        if (PetPoint == 0)
+        if (PetPoint == 0 || POINT0 == 1)
         {
             // SpriteRenderのspriteを設定済みの他のspriteに変更
             image_f1.sprite = Sprite_f1;
             Point0 = 1;
+            PlayerPrefs.SetInt("POINT0", Point0);
+            PlayerPrefs.Save();
         }
-        if (PetPoint == 1)
+        if (PetPoint == 1 || POINT1 == 1)
         {
             image_f2.sprite = Sprite_f2;
             Point1 = 1;
+            PlayerPrefs.SetInt("POINT1", Point1);
+            PlayerPrefs.Save();
         }
-        if (PetPoint == 2)
+        if (PetPoint == 2 || POINT2 == 1)
         {
             image_f3.sprite = Sprite_f3;
             Point2 = 1;
+            PlayerPrefs.SetInt("POINT2", Point2);
+            PlayerPrefs.Save();
         }
-        if (PetPoint == 3)
+        if (PetPoint == 3 || POINT3 == 1)
         {
             image_f4.sprite = Sprite_f4;
             Point3 = 1;
+            PlayerPrefs.SetInt("POINT3", Point3);
+            PlayerPrefs.Save();
         }
-        if (PetPoint == 4)
+        if (PetPoint == 4 || POINT4 == 1)
         {
             image_f5.sprite = Sprite_f5;
             Point4 = 1;
+            PlayerPrefs.SetInt("POINT4", Point4);
+            PlayerPrefs.Save();
         }
-        if (PetPoint == 5)
+        if (PetPoint == 5 || POINT5 == 1)
         {
             image_f6.sprite = Sprite_f6;
             Point5 = 1;
+            PlayerPrefs.SetInt("POINT5", Point5);
+            PlayerPrefs.Save();
         }
-        if (PetPoint == 6)
+        if (PetPoint == 6 || POINT6 == 1)
         {
             image_f7.sprite = Sprite_f7;
             Point6 = 1;
+            PlayerPrefs.SetInt("POINT6", Point6);
+            PlayerPrefs.Save();
         }
-        if (PetPoint == 7)
+        if (PetPoint == 7 || POINT7 == 1)
         {
             image_f8.sprite = Sprite_f8;
             Point7 = 1;
+            PlayerPrefs.SetInt("POINT7", Point7);
+            PlayerPrefs.Save();
         }
-        if (PetPoint == 8)
+        if (PetPoint == 8 || POINT8 == 1)
         {
             image_f9.sprite = Sprite_f9;
             Point8 = 1;
+            PlayerPrefs.SetInt("POINT8", Point8);
+            PlayerPrefs.Save();
         }
-        if (PetPoint == 9)
+        if (PetPoint == 9 || POINT9 == 1)
         {
             image_f10.sprite = Sprite_f10;
             Point9 = 1;
+            PlayerPrefs.SetInt("POINT9", Point9);
+            PlayerPrefs.Save();
         }
-        if (PetPoint == 10)
+        if (PetPoint == 10 || POINT10 == 1)
         {
             image_f11.sprite = Sprite_f11;
             Point10 = 1;
+            PlayerPrefs.SetInt("POINT10", Point10);
+            PlayerPrefs.Save();
         }
-        if (PetPoint == 11)
+        if (PetPoint == 11 || POINT11 == 1)
         {
             image_f12.sprite = Sprite_f12;
             Point11 = 1;
+            PlayerPrefs.SetInt("POINT11", Point11);
+            PlayerPrefs.Save();
         }
-        if (PetPoint == 12)
+        if (PetPoint == 12 || POINT12 == 1)
         {
             image_f13.sprite = Sprite_f13;
             Point12 = 1;
+            PlayerPrefs.SetInt("POINT12", Point12);
+            PlayerPrefs.Save();
         }
-        if (PetPoint == 13)
+        if (PetPoint == 13 || POINT13 == 1)
         {
             image_f14.sprite = Sprite_f14;
             Point13 = 1;
+            PlayerPrefs.SetInt("POINT13", Point13);
+            PlayerPrefs.Save();
         }
-        if (PetPoint == 14)
+        if (PetPoint == 14 || POINT14 == 1)
         {
             image_f15.sprite = Sprite_f15;
             Point14 = 1;
+            PlayerPrefs.SetInt("POINT14", Point14);
+            PlayerPrefs.Save();
         }
-        if (PetPoint == 15)
+        if (PetPoint == 15 || POINT15 == 1)
         {
             image_f16.sprite = Sprite_f16;
             Point15 = 1;
+            PlayerPrefs.SetInt("POINT15", Point15);
+            PlayerPrefs.Save();
         }
-        if (PetPoint == 16)
+        if (PetPoint == 16 || POINT16 == 1)
         {
             image_f17.sprite = Sprite_f17;
             Point16 = 1;
+            PlayerPrefs.SetInt("POINT16", Point16);
+            PlayerPrefs.Save();
         }
-        if (PetPoint == 17)
+        if (PetPoint == 17 || POINT17 == 1)
         {
             image_f18.sprite = Sprite_f18;
             Point17 = 1;
+            PlayerPrefs.SetInt("POINT17", Point17);
+            PlayerPrefs.Save();
         }
-        if (PetPoint == 18)
+        if (PetPoint == 18 || POINT18 == 1)
         {
             image_f19.sprite = Sprite_f19;
             Point18 = 1;
+            PlayerPrefs.SetInt("POINT18", Point18);
+            PlayerPrefs.Save();
         }
-        if (PetPoint == 19)
+        if (PetPoint == 19 || POINT19 == 1)
         {
             image_f20.sprite = Sprite_f20;
             Point19 = 1;
+            PlayerPrefs.SetInt("POINT19", Point19);
+            PlayerPrefs.Save();
         }
-        if (PetPoint == 20)
+        if (PetPoint == 20 || POINT20 == 1)
         {
             image_f21.sprite = Sprite_f21;
             Point20 = 1;
+            PlayerPrefs.SetInt("POINT20", Point20);
+            PlayerPrefs.Save();
         }
-        if (PetPoint == 21)
+        if (PetPoint == 21 || POINT21 == 1)
         {
             image_f22.sprite = Sprite_f22;
             Point21 = 1;
+            PlayerPrefs.SetInt("POINT21", Point21);
+            PlayerPrefs.Save();
         }
-        if (PetPoint == 22)
+        if (PetPoint == 22 || POINT22 == 1)
         {
             image_f23.sprite = Sprite_f23;
             Point22 = 1;
+            PlayerPrefs.SetInt("POINT22", Point22);
+            PlayerPrefs.Save();
         }
-        if (PetPoint == 23)
+        if (PetPoint == 23 || POINT23 == 1)
         {
             image_f24.sprite = Sprite_f24;
             Point23 = 1;
+            PlayerPrefs.SetInt("POINT23", Point23);
+            PlayerPrefs.Save();
         }
     }
 
