@@ -63,9 +63,14 @@ public class InputFieldManager : MonoBehaviour
         form.text = "";
         int ItemPoint = PlayerPrefs.GetInt("SCORE");
         ItemPoint++;
-        Debug.Log(ItemPoint);
         PlayerPrefs.SetInt("SCORE", ItemPoint);
         PlayerPrefs.Save();
+
+        int PointPet = PlayerPrefs.GetInt("POINT");
+        PointPet++;
+        PlayerPrefs.SetInt("POINT", PointPet);
+        PlayerPrefs.Save();
+        Debug.Log("現在のポイント(育成の必要なポイント)は" + PointPet);
 
     }
 

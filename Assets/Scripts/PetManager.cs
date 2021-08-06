@@ -12,9 +12,12 @@ public class PetManager : MonoBehaviour
     public Sprite Sprite_dog3, Sprite_cat3, Sprite_bird3, Sprite_rabbit3;
     public Sprite Sprite_dog4, Sprite_cat4, Sprite_bird4, Sprite_rabbit4;
     public Sprite Sprite_dog5, Sprite_cat5, Sprite_bird5, Sprite_rabbit5;
-    public Image image_pet;
+    public Image image_pet;  //選択画面のペット画像
     public Image image_pet2; //名前入力画面のペット画像
     public Image image_pet3; //ホーム画面に滞在するペット画像
+
+    public Image image_pet4; //選択画面のペット画像2
+    public Image image_pet5; //名前入力画面のペット画像2
 
     //アクセの画像
     //この画像に変更する
@@ -25,39 +28,56 @@ public class PetManager : MonoBehaviour
     public Image image_boushi, image_kubiwa,image_megane;
 
     [SerializeField] GameObject SelectPetPanel;
+    [SerializeField] GameObject SelectPetPanel2;
     [SerializeField] GameObject NamePetPanel;
+    [SerializeField] GameObject NamePetPanel2;
 
     public GameObject SelectButton_right;
     public GameObject SelectButton_left;
+    public GameObject SelectButton_right2;
+    public GameObject SelectButton_left2;
     public GameObject DecisionButton;
 
+    public GameObject buttonSelect; //ペット交換ボタン
+
     public Text petText;
+    public Text petText2;
 
     int whatpet = 0;
 
     // Start is called before the first frame update
     void Start()
     {
+        buttonSelect.SetActive(false); //最初は非表示
         SelectPetPanel.SetActive(false); //最初は非表示
+        SelectPetPanel2.SetActive(false); //最初は非表示
         NamePetPanel.SetActive(false); //最初は非表示
+        NamePetPanel2.SetActive(false); //最初は非表示
 
         //「START」というキーで保存されているInt値を読み込み
         int start = PlayerPrefs.GetInt("START");
+        //「DECISION」というキーで保存されているInt値を読み込み
+        int decision = PlayerPrefs.GetInt("DECISION");
+
         Debug.Log("タイトルからスタートボタンを押した回数は" + start);
-        if (start == 1)
+        Debug.Log("現在ペットを新しく選択しているかどうかの状態は" + decision);
+
+        if (start == 1 && decision == 0)
         {
             image_pet3.enabled = false; //最初は非表示
             SelectPetPanel.SetActive(true); //表示
             SelectButton_left.SetActive(false); //最初は非表示
-
-            //違うシーンから戻ったときにもう一度選択画面が出るのに対処
-            start++;
-            PlayerPrefs.SetInt("START", start);
-            PlayerPrefs.Save();
         }
 
+        //「WHAT_PET」というキーで保存されているInt値を読み込み
         int pet = PlayerPrefs.GetInt("WHAT_PET");
         Debug.Log("育成中のペットは" + pet);
+
+        //成長しきった場合
+        if (pet == 2 || pet == 3 || pet == 4 || pet == 5 || pet == 8 || pet == 9 || pet == 10 || pet == 11 || pet == 14 || pet == 15 || pet == 16 || pet == 17 || pet == 20 || pet == 21 || pet == 22 || pet == 23)
+        {
+            buttonSelect.SetActive(true);
+        }
 
         if (pet == 0)
         {
@@ -231,6 +251,11 @@ public class PetManager : MonoBehaviour
     {
 
     }
+    public void SelectPet()
+    {
+        SelectPetPanel2.SetActive(true); //表示
+        SelectButton_left2.SetActive(false); //最初は非表示
+    }
 
     //三角ボタン(右)が押されたとき
     public void SelectPet_right()
@@ -281,6 +306,55 @@ public class PetManager : MonoBehaviour
         }
     }
 
+    //三角ボタン(右)が押されたとき
+    public void SelectPet_right2()
+    {
+        whatpet++;
+        if (whatpet == 1)
+        {
+            image_pet4.sprite = Sprite_cat;
+            SelectButton_right2.SetActive(true);
+            SelectButton_left2.SetActive(true);
+            petText2.text = "ネコ";
+        }
+        else if (whatpet == 2)
+        {
+            image_pet4.sprite = Sprite_bird;
+            SelectButton_right2.SetActive(true);
+            petText2.text = "トリ";
+        }
+        else if (whatpet == 3)
+        {
+            image_pet4.sprite = Sprite_rabbit;
+            SelectButton_right2.SetActive(false);
+            petText2.text = "ウサギ";
+        }
+    }
+
+    //三角ボタン(左)が押されたとき
+    public void SelectPet_left2()
+    {
+        whatpet--;
+        if (whatpet == 0)
+        {
+            SelectButton_left2.SetActive(false);
+            image_pet4.sprite = Sprite_dog;
+            petText2.text = "イヌ";
+        }
+        else if (whatpet == 1)
+        {
+            SelectButton_right2.SetActive(true);
+            image_pet4.sprite = Sprite_cat;
+            petText2.text = "ネコ";
+        }
+        else if (whatpet == 2)
+        {
+            SelectButton_right2.SetActive(true);
+            image_pet4.sprite = Sprite_bird;
+            petText2.text = "トリ";
+        }
+    }
+
     public void NamePet()
     {
         SelectPetPanel.SetActive(false);
@@ -305,134 +379,152 @@ public class PetManager : MonoBehaviour
         }
 
     }
+    public void NamePet2()
+    {
+        SelectPetPanel2.SetActive(false);
+        NamePetPanel2.SetActive(true);
 
+        if (whatpet == 0)
+        {
+            // SpriteRenderのspriteを設定済みの他のspriteに変更
+            image_pet5.sprite = Sprite_dog;
+        }
+        else if (whatpet == 1)
+        {
+            image_pet5.sprite = Sprite_cat;
+        }
+        else if (whatpet == 2)
+        {
+            image_pet5.sprite = Sprite_bird;
+        }
+        else if (whatpet == 3)
+        {
+            image_pet5.sprite = Sprite_rabbit;
+        }
+
+    }
+    public void back()
+    {
+        SelectPetPanel2.SetActive(false);
+    }
     public void back_pet()
     {
         SelectPetPanel.SetActive(true);
         NamePetPanel.SetActive(false);
+    }
+    public void back_pet2()
+    {
+        SelectPetPanel2.SetActive(true);
+        NamePetPanel2.SetActive(false);
     }
     public void decision_pet()
     {
         NamePetPanel.SetActive(false);
         image_pet3.enabled = true;
 
-        PlayerPrefs.SetInt("WHAT_PET", whatpet);
+        //選択した場合はdecisionを1に設定する
+        int decision = PlayerPrefs.GetInt("DECISION");
+        decision = 1;
+        PlayerPrefs.SetInt("DECISION", decision);
         PlayerPrefs.Save();
 
-        int pet = PlayerPrefs.GetInt("WHAT_PET");
+        //「SCORE」というキーで保存されているInt値を読み込み
+        int score = PlayerPrefs.GetInt("SCORE");
+        score = 0;
+        PlayerPrefs.SetInt("SCORE", score);
+        PlayerPrefs.Save();
+
+        int Pet = PlayerPrefs.GetInt("WHAT_PET");
 
         if (whatpet == 0)
         {
             // SpriteRenderのspriteを設定済みの他のspriteに変更
             image_pet3.sprite = Sprite_dog;
+
+            Pet = 0;
+            PlayerPrefs.SetInt("WHAT_PET", Pet);
+            PlayerPrefs.Save();
         }
         else if (whatpet == 1)
         {
             image_pet3.sprite = Sprite_cat;
+
+            Pet = 6;
+            PlayerPrefs.SetInt("WHAT_PET", Pet);
+            PlayerPrefs.Save();
         }
         else if (whatpet == 2)
         {
             image_pet3.sprite = Sprite_bird;
+            Pet = 12;
+            PlayerPrefs.SetInt("WHAT_PET", Pet);
+            PlayerPrefs.Save();
         }
         else if (whatpet == 3)
         {
             image_pet3.sprite = Sprite_rabbit;
+
+            Pet = 18;
+            PlayerPrefs.SetInt("WHAT_PET", Pet);
+            PlayerPrefs.Save();
         }
-        else if (pet == 0)
+    }
+
+    public void decision_pet2()
+    {
+        NamePetPanel2.SetActive(false);
+        image_pet3.enabled = true;
+
+        //選択した場合はdecisionを1に設定する
+        int decision = PlayerPrefs.GetInt("DECISION");
+        decision = 1;
+        PlayerPrefs.SetInt("DECISION", decision);
+        PlayerPrefs.Save();
+
+        int PointPet = PlayerPrefs.GetInt("POINT");
+        PointPet = 0;
+        PlayerPrefs.SetInt("POINT", PointPet);
+        PlayerPrefs.Save();
+
+        int Pet = PlayerPrefs.GetInt("WHAT_PET");
+
+        buttonSelect.SetActive(false);
+
+        if (whatpet == 0)
         {
+            // SpriteRenderのspriteを設定済みの他のspriteに変更
             image_pet3.sprite = Sprite_dog;
+
+            Pet = 0;
+            PlayerPrefs.SetInt("WHAT_PET", Pet);
+            PlayerPrefs.Save();
+            Debug.Log("選択したペットは" + Pet);
         }
-        else if (pet == 1)
-        {
-            image_pet3.sprite = Sprite_dog1;
-        }
-        else if (pet == 2)
-        {
-            image_pet3.sprite = Sprite_dog2;
-        }
-        else if (pet == 3)
-        {
-            image_pet3.sprite = Sprite_dog3;
-        }
-        else if (pet == 4)
-        {
-            image_pet3.sprite = Sprite_dog4;
-        }
-        else if (pet == 5)
-        {
-            image_pet3.sprite = Sprite_dog5;
-        }
-        else if (pet == 6)
+        else if (whatpet == 1)
         {
             image_pet3.sprite = Sprite_cat;
+
+            Pet = 6;
+            PlayerPrefs.SetInt("WHAT_PET", Pet);
+            PlayerPrefs.Save();
+            Debug.Log("選択したペットは" + Pet);
         }
-        else if (pet == 7)
-        {
-            image_pet3.sprite = Sprite_cat1;
-        }
-        else if (pet == 8)
-        {
-            image_pet3.sprite = Sprite_cat2;
-        }
-        else if (pet == 9)
-        {
-            image_pet3.sprite = Sprite_cat3;
-        }
-        else if (pet == 10)
-        {
-            image_pet3.sprite = Sprite_cat4;
-        }
-        else if (pet == 11)
-        {
-            image_pet3.sprite = Sprite_cat5;
-        }
-        else if (pet == 12)
+        else if (whatpet == 2)
         {
             image_pet3.sprite = Sprite_bird;
+            Pet = 12;
+            PlayerPrefs.SetInt("WHAT_PET", Pet);
+            PlayerPrefs.Save();
+            Debug.Log("選択したペットは" + Pet);
         }
-        else if (pet == 13)
-        {
-            image_pet3.sprite = Sprite_bird1;
-        }
-        else if (pet == 14)
-        {
-            image_pet3.sprite = Sprite_bird2;
-        }
-        else if (pet == 15)
-        {
-            image_pet3.sprite = Sprite_bird3;
-        }
-        else if (pet == 16)
-        {
-            image_pet3.sprite = Sprite_bird4;
-        }
-        else if (pet == 17)
-        {
-            image_pet3.sprite = Sprite_bird5;
-        }
-        else if (pet == 18)
+        else if (whatpet == 3)
         {
             image_pet3.sprite = Sprite_rabbit;
-        }
-        else if (pet == 19)
-        {
-            image_pet3.sprite = Sprite_rabbit1;
-        }
-        else if (pet == 20)
-        {
-            image_pet3.sprite = Sprite_rabbit2;
-        }
-        else if (pet == 21)
-        {
-            image_pet3.sprite = Sprite_rabbit3;
-        }
-        else if (pet == 22)
-        {
-            image_pet3.sprite = Sprite_rabbit4;
-        }
-        else if (pet == 23)
-        {
-            image_pet3.sprite = Sprite_rabbit5;
+
+            Pet = 18;
+            PlayerPrefs.SetInt("WHAT_PET", Pet);
+            PlayerPrefs.Save();
+            Debug.Log("選択したペットは" + Pet);
         }
     }
 }

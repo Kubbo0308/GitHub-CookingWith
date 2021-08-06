@@ -47,7 +47,9 @@ public class CatController : MonoBehaviour
 
         int petPoint = PlayerPrefs.GetInt("WHAT_PET");
 
-        if (petPoint == 6 || petPoint == 17 || petPoint == 8 || petPoint == 9 || petPoint == 10 || petPoint == 11)
+        int Point = PlayerPrefs.GetInt("POINT");
+
+        if (petPoint == 6 || petPoint == 7)
         {
             //現在の日付取得
             DateTime TodayNow = DateTime.Now;
@@ -74,25 +76,25 @@ public class CatController : MonoBehaviour
             }
 
             //肉中心の時
-            if ((score >= 5) && (meatCat > 20.0f))
+            if ((Point >= 5) && (meatCat > 20.0f))
             {
                 petPoint = 8;
                 PlayerPrefs.SetInt("WHAT_PET", petPoint);
                 PlayerPrefs.Save();
             }
-            else if ((score >= 5) && (vegetableCat > 20.0f))
+            else if ((Point >= 5) && (vegetableCat > 20.0f))
             { //野菜中心の時
                 petPoint = 9;
                 PlayerPrefs.SetInt("WHAT_PET", petPoint);
                 PlayerPrefs.Save();
             }
-            else if ((score >= 5) && (carboCat > 20.0f))
+            else if ((Point >= 5) && (carboCat > 20.0f))
             { //炭水化物中心の時
                 petPoint = 10;
                 PlayerPrefs.SetInt("WHAT_PET", petPoint);
                 PlayerPrefs.Save();
             }
-            else if (score >= 5)
+            else if (Point >= 5)
             { //バランスが良い時
                 petPoint = 11;
                 PlayerPrefs.SetInt("WHAT_PET", petPoint);
