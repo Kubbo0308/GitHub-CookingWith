@@ -156,7 +156,6 @@ public class RabbitController : MonoBehaviour
                 petPoint = 23;
                 PlayerPrefs.SetInt("WHAT_PET", petPoint);
                 PlayerPrefs.Save();
-                Debug.Log("バランス良いねトリ");
             }
         }
     }

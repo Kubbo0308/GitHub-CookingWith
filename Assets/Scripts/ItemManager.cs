@@ -982,7 +982,7 @@ public class ItemManager : MonoBehaviour
         switch (number2)
         {
             case 0:
-                if (Accessory_b != 0)
+                if (Accessory_b == 1)
                 {
                     ItemPanel_a1.SetActive(true);
                     drbutton_a1.SetActive(false);
@@ -997,7 +997,7 @@ public class ItemManager : MonoBehaviour
                 }
                 break;
             case 1:
-                if (Accessory_k != 0)
+                if (Accessory_k == 1)
                 {
                     ItemPanel_a2.SetActive(true);
                     drbutton_a2.SetActive(false);
@@ -1012,7 +1012,7 @@ public class ItemManager : MonoBehaviour
                 }
                 break;
             case 2:
-                if (Accessory_m != 0)
+                if (Accessory_m == 1)
                 {
                     ItemPanel_a3.SetActive(true);
                     drbutton_a3.SetActive(false);
@@ -1027,7 +1027,7 @@ public class ItemManager : MonoBehaviour
                 }
                 break;
             case 3:
-                if (Accessory_b != 0)
+                if (Accessory_b == 2)
                 {
                     ItemPanel_a4.SetActive(true);
                     drbutton_a4.SetActive(false);
@@ -1042,7 +1042,7 @@ public class ItemManager : MonoBehaviour
                 }
                 break;
             case 4:
-                if (Accessory_k != 0)
+                if (Accessory_k == 2)
                 {
                     ItemPanel_a5.SetActive(true);
                     drbutton_a5.SetActive(false);
@@ -1057,7 +1057,7 @@ public class ItemManager : MonoBehaviour
                 }
                 break;
             case 5:
-                if (Accessory_m != 0)
+                if (Accessory_m == 2)
                 {
                     ItemPanel_a6.SetActive(true);
                     drbutton_a6.SetActive(false);
@@ -1072,7 +1072,7 @@ public class ItemManager : MonoBehaviour
                 }
                 break;
             case 6:
-                if (Accessory_b != 0)
+                if (Accessory_b == 3)
                 {
                     ItemPanel_a7.SetActive(true);
                     drbutton_a7.SetActive(false);
@@ -1087,7 +1087,7 @@ public class ItemManager : MonoBehaviour
                 }
                 break;
             case 7:
-                if (Accessory_k != 0)
+                if (Accessory_k == 3)
                 {
                     ItemPanel_a8.SetActive(true);
                     drbutton_a8.SetActive(false);
@@ -1102,7 +1102,7 @@ public class ItemManager : MonoBehaviour
                 }
                 break;
             case 8:
-                if (Accessory_m != 0)
+                if (Accessory_m == 3)
                 {
                     ItemPanel_a9.SetActive(true);
                     drbutton_a9.SetActive(false);

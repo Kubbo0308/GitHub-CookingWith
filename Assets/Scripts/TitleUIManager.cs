@@ -39,10 +39,29 @@ public class TitleUIManager : MonoBehaviour
     //スタートボタンを押したとき
     public void PushStart()
     {
+        //「START」というキーで保存されているInt値を読み込み
         int StartPoint = PlayerPrefs.GetInt("START");
-        StartPoint++; //ここを変えると(StartPoint = 1とか)テストできる
-        PlayerPrefs.SetInt("START", StartPoint);
-        PlayerPrefs.Save();
+        //「DECISION」というキーで保存されているInt値を読み込み
+        int decision = PlayerPrefs.GetInt("DECISION");
+
+        //初めてスタートボタンを押した場合
+        if (StartPoint == 0)
+        {
+            StartPoint++; //ここを変えると(StartPoint = 1とか)テストできる
+            PlayerPrefs.SetInt("START", StartPoint);
+            PlayerPrefs.Save();
+
+            //最初はdecisionを0に設定しておく
+            decision = 0;
+            PlayerPrefs.SetInt("DECISION", decision);
+            PlayerPrefs.Save();
+        }
+        if (decision != 0)
+        {
+            StartPoint++;
+            PlayerPrefs.SetInt("START", StartPoint);
+            PlayerPrefs.Save();
+        }
     }
 
 }
