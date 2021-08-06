@@ -49,7 +49,7 @@ public class RabbitController : MonoBehaviour
 
         int Point = PlayerPrefs.GetInt("POINT");
 
-        if (petPoint == 18 || petPoint == 19 || petPoint == 20 || petPoint == 21 || petPoint == 22 || petPoint == 23)
+        if (petPoint == 18 || petPoint == 19)
         {
             //現在の日付取得
             DateTime TodayNow = DateTime.Now;

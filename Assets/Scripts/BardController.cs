@@ -46,7 +46,7 @@ public class BardController : MonoBehaviour
 
         int Point = PlayerPrefs.GetInt("POINT");
 
-        if (petPoint == 12 || petPoint == 13 || petPoint == 14 || petPoint == 15 || petPoint == 16 || petPoint == 17)
+        if (petPoint == 12 || petPoint == 13)
         {
             //現在の日付取得
             DateTime TodayNow = DateTime.Now;

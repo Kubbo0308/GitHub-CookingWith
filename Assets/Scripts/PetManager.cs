@@ -38,6 +38,8 @@ public class PetManager : MonoBehaviour
     public GameObject SelectButton_left2;
     public GameObject DecisionButton;
 
+    public GameObject buttonSelect; //ペット交換ボタン
+
     public Text petText;
     public Text petText2;
 
@@ -46,6 +48,7 @@ public class PetManager : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
+        buttonSelect.SetActive(false); //最初は非表示
         SelectPetPanel.SetActive(false); //最初は非表示
         SelectPetPanel2.SetActive(false); //最初は非表示
         NamePetPanel.SetActive(false); //最初は非表示
@@ -73,8 +76,7 @@ public class PetManager : MonoBehaviour
         //成長しきった場合
         if (pet == 2 || pet == 3 || pet == 4 || pet == 5 || pet == 8 || pet == 9 || pet == 10 || pet == 11 || pet == 14 || pet == 15 || pet == 16 || pet == 17 || pet == 20 || pet == 21 || pet == 22 || pet == 23)
         {
-            SelectPetPanel2.SetActive(true); //表示
-            SelectButton_left2.SetActive(false); //最初は非表示
+            buttonSelect.SetActive(true);
         }
 
         if (pet == 0)
@@ -248,6 +250,11 @@ public class PetManager : MonoBehaviour
     void Update()
     {
 
+    }
+    public void SelectPet()
+    {
+        SelectPetPanel2.SetActive(true); //表示
+        SelectButton_left2.SetActive(false); //最初は非表示
     }
 
     //三角ボタン(右)が押されたとき
@@ -481,6 +488,8 @@ public class PetManager : MonoBehaviour
 
         int Pet = PlayerPrefs.GetInt("WHAT_PET");
 
+        buttonSelect.SetActive(false);
+
         if (whatpet == 0)
         {
             // SpriteRenderのspriteを設定済みの他のspriteに変更
@@ -489,6 +498,7 @@ public class PetManager : MonoBehaviour
             Pet = 0;
             PlayerPrefs.SetInt("WHAT_PET", Pet);
             PlayerPrefs.Save();
+            Debug.Log("選択したペットは" + Pet);
         }
         else if (whatpet == 1)
         {
@@ -497,6 +507,7 @@ public class PetManager : MonoBehaviour
             Pet = 6;
             PlayerPrefs.SetInt("WHAT_PET", Pet);
             PlayerPrefs.Save();
+            Debug.Log("選択したペットは" + Pet);
         }
         else if (whatpet == 2)
         {
@@ -504,6 +515,7 @@ public class PetManager : MonoBehaviour
             Pet = 12;
             PlayerPrefs.SetInt("WHAT_PET", Pet);
             PlayerPrefs.Save();
+            Debug.Log("選択したペットは" + Pet);
         }
         else if (whatpet == 3)
         {
@@ -512,6 +524,7 @@ public class PetManager : MonoBehaviour
             Pet = 18;
             PlayerPrefs.SetInt("WHAT_PET", Pet);
             PlayerPrefs.Save();
+            Debug.Log("選択したペットは" + Pet);
         }
     }
 }

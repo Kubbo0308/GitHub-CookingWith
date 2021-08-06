@@ -308,7 +308,7 @@ public class PetIconManager : MonoBehaviour
                 {
                     ItemPanel_f2.SetActive(true);
                     bkbutton_f2.SetActive(true);
-                    drbutton_f2.SetActive(true);
+                    drbutton_f2.SetActive(false);
                 }
                 break;
             case 2:
@@ -316,7 +316,7 @@ public class PetIconManager : MonoBehaviour
                 {
                     ItemPanel_f3.SetActive(true);
                     bkbutton_f3.SetActive(true);
-                    drbutton_f3.SetActive(false);
+                    drbutton_f3.SetActive(true);
                 }
                 break;
             case 3:
@@ -356,7 +356,7 @@ public class PetIconManager : MonoBehaviour
                 {
                     ItemPanel_f8.SetActive(true);
                     bkbutton_f8.SetActive(true);
-                    drbutton_f8.SetActive(true);
+                    drbutton_f8.SetActive(false);
                 }
                 break;
             case 8:
@@ -364,7 +364,7 @@ public class PetIconManager : MonoBehaviour
                 {
                     ItemPanel_f9.SetActive(true);
                     bkbutton_f9.SetActive(true);
-                    drbutton_f9.SetActive(false);
+                    drbutton_f9.SetActive(true);
                 }
                 break;
             case 9:
@@ -404,7 +404,7 @@ public class PetIconManager : MonoBehaviour
                 {
                     ItemPanel_f14.SetActive(true);
                     bkbutton_f14.SetActive(true);
-                    drbutton_f14.SetActive(true);
+                    drbutton_f14.SetActive(false);
                 }
                 break;
             case 14:
@@ -412,7 +412,7 @@ public class PetIconManager : MonoBehaviour
                 {
                     ItemPanel_f15.SetActive(true);
                     bkbutton_f15.SetActive(true);
-                    drbutton_f15.SetActive(false);
+                    drbutton_f15.SetActive(true);
                 }
                 break;
             case 15:
@@ -452,7 +452,7 @@ public class PetIconManager : MonoBehaviour
                 {
                     ItemPanel_f20.SetActive(true);
                     bkbutton_f20.SetActive(true);
-                    drbutton_f20.SetActive(true);
+                    drbutton_f20.SetActive(false);
                 }
                 break;
             case 20:
@@ -460,7 +460,7 @@ public class PetIconManager : MonoBehaviour
                 {
                     ItemPanel_f21.SetActive(true);
                     bkbutton_f21.SetActive(true);
-                    drbutton_f21.SetActive(false);
+                    drbutton_f21.SetActive(true);
                 }
                 break;
             case 21:
@@ -526,100 +526,84 @@ public class PetIconManager : MonoBehaviour
         //ホーム画面に配置できるのは育成完了後のペットのみ(通常・衰弱除く)
         switch (drnumber)
         {
-            case 1:
-                PetPoint = 0;
-                Debug.Log(PetPoint);
-                PlayerPrefs.SetInt("pet", PetPoint);
+            case 2:
+                PetPoint = 2;
+                PlayerPrefs.SetInt("WHAT_PET", PetPoint);
                 PlayerPrefs.Save();
                 break;
             case 3:
-                PetPoint = 1;
-                Debug.Log(PetPoint);
-                PlayerPrefs.SetInt("pet", PetPoint);
+                PetPoint = 3;
+                PlayerPrefs.SetInt("WHAT_PET", PetPoint);
                 PlayerPrefs.Save();
                 break;
             case 4:
-                PetPoint = 2;
-                Debug.Log(PetPoint);
-                PlayerPrefs.SetInt("pet", PetPoint);
+                PetPoint = 4;
+                PlayerPrefs.SetInt("WHAT_PET", PetPoint);
                 PlayerPrefs.Save();
                 break;
             case 5:
-                PetPoint = 3;
-                Debug.Log(PetPoint);
-                PlayerPrefs.SetInt("pet", PetPoint);
+                PetPoint = 5;
+                PlayerPrefs.SetInt("WHAT_PET", PetPoint);
                 PlayerPrefs.Save();
                 break;
-            case 7:
-                PetPoint = 4;
-                Debug.Log(PetPoint);
-                PlayerPrefs.SetInt("pet", PetPoint);
+            case 8:
+                PetPoint = 8;
+                PlayerPrefs.SetInt("WHAT_PET", PetPoint);
                 PlayerPrefs.Save();
                 break;
             case 9:
-                PetPoint = 5;
-                Debug.Log(PetPoint);
-                PlayerPrefs.SetInt("pet", PetPoint);
+                PetPoint = 9;
+                PlayerPrefs.SetInt("WHAT_PET", PetPoint);
                 PlayerPrefs.Save();
                 break;
             case 10:
-                PetPoint = 6;
-                Debug.Log(PetPoint);
-                PlayerPrefs.SetInt("pet", PetPoint);
+                PetPoint = 10;
+                PlayerPrefs.SetInt("WHAT_PET", PetPoint);
                 PlayerPrefs.Save();
                 break;
             case 11:
-                PetPoint = 7;
-                Debug.Log(PetPoint);
-                PlayerPrefs.SetInt("pet", PetPoint);
+                PetPoint = 11;
+                PlayerPrefs.SetInt("WHAT_PET", PetPoint);
                 PlayerPrefs.Save();
                 break;
-            case 13:
-                PetPoint = 8;
-                Debug.Log(PetPoint);
-                PlayerPrefs.SetInt("pet", PetPoint);
+            case 14:
+                PetPoint = 14;
+                PlayerPrefs.SetInt("WHAT_PET", PetPoint);
                 PlayerPrefs.Save();
                 break;
             case 15:
-                PetPoint = 9;
-                Debug.Log(PetPoint);
-                PlayerPrefs.SetInt("pet", PetPoint);
+                PetPoint = 15;
+                PlayerPrefs.SetInt("WHAT_PET", PetPoint);
                 PlayerPrefs.Save();
                 break;
             case 16:
-                PetPoint = 10;
-                Debug.Log(PetPoint);
-                PlayerPrefs.SetInt("pet", PetPoint);
+                PetPoint = 16;
+                PlayerPrefs.SetInt("WHAT_PET", PetPoint);
                 PlayerPrefs.Save();
                 break;
             case 17:
-                PetPoint = 11;
-                Debug.Log(PetPoint);
-                PlayerPrefs.SetInt("pet", PetPoint);
+                PetPoint = 17;
+                PlayerPrefs.SetInt("WHAT_PET", PetPoint);
                 PlayerPrefs.Save();
                 break;
-            case 19:
-                PetPoint =12;
-                Debug.Log(PetPoint);
-                PlayerPrefs.SetInt("pet", PetPoint);
+            case 20:
+                PetPoint =20;
+                PlayerPrefs.SetInt("WHAT_PET", PetPoint);
                 PlayerPrefs.Save();
                 break;
             case 21:
-                PetPoint = 13;
-                Debug.Log(PetPoint);
-                PlayerPrefs.SetInt("pet", PetPoint);
+                PetPoint = 21;
+                PlayerPrefs.SetInt("WHAT_PET", PetPoint);
                 PlayerPrefs.Save();
                 break;
             case 22:
-                PetPoint = 14;
-                Debug.Log(PetPoint);
-                PlayerPrefs.SetInt("pet", PetPoint);
+                PetPoint = 22;
+                PlayerPrefs.SetInt("WHAT_PET", PetPoint);
                 PlayerPrefs.Save();
                 break;
             case 23:
-                PetPoint = 15;
-                Debug.Log(PetPoint);
-                PlayerPrefs.SetInt("pet", PetPoint);
+                PetPoint = 23;
+                PlayerPrefs.SetInt("WHAT_PET", PetPoint);
                 PlayerPrefs.Save();
                 break;
         }

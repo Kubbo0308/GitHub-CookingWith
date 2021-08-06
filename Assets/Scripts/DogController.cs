@@ -50,7 +50,7 @@ public class DogController : MonoBehaviour
 
         int Point = PlayerPrefs.GetInt("POINT");
 
-        if (petPoint == 0 || petPoint == 1 || petPoint == 2 || petPoint == 3 || petPoint == 4 || petPoint == 5) {
+        if (petPoint == 0 || petPoint == 1) {
             //現在の日付取得
             DateTime TodayNow = DateTime.Now;
             nowDay = TodayNow.Day.ToString();

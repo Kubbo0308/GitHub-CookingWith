@@ -49,7 +49,7 @@ public class CatController : MonoBehaviour
 
         int Point = PlayerPrefs.GetInt("POINT");
 
-        if (petPoint == 6 || petPoint == 17 || petPoint == 8 || petPoint == 9 || petPoint == 10 || petPoint == 11)
+        if (petPoint == 6 || petPoint == 7)
         {
             //現在の日付取得
             DateTime TodayNow = DateTime.Now;
