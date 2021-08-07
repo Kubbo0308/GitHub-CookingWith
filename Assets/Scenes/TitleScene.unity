@@ -5783,7 +5783,7 @@ MonoBehaviour:
       m_Calls:
       - m_Target: {fileID: 1106299976}
         m_TargetAssemblyTypeName: PetManager, Assembly-CSharp
-        m_MethodName: NameText
+        m_MethodName: decision_pet
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
